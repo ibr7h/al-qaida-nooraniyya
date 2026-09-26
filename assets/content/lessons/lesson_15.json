@@ -1,0 +1,197 @@
+{
+  "id": 15,
+  "title_ar": "الدَّرْسُ الخَامِسَ عَشَرَ",
+  "title_en": "Lesson 15",
+  "description": "الشَّدَّةُ مَعَ الشَّدَّةِ",
+  "description_en": "Shadda with Shadda",
+  "titles": {
+    "ar": "الدَّرْسُ الخَامِسَ عَشَرَ",
+    "en": "Lesson 15",
+    "ur": "پندرہواں سبق",
+    "fa": "درس پانزدهم",
+    "tr": "15. Ders",
+    "fr": "Leçon 15",
+    "de": "Lektion 15",
+    "es": "Lección 15",
+    "ru": "Урок 15",
+    "id": "Pelajaran 15",
+    "ms": "Pelajaran 15",
+    "bn": "১৫শ পাঠ",
+    "hi": "पंद्रहवां सबक़",
+    "sw": "Somo la 15",
+    "zh": "第十五课"
+  },
+  "descriptions": {
+    "ar": "الشَّدَّةُ مَعَ الشَّدَّةِ",
+    "en": "Shadda with Shadda",
+    "ur": "مد کی مشق",
+    "fa": "تمرینات مد",
+    "tr": "Med Alıştırmaları",
+    "fr": "Exercices sur le Madd",
+    "de": "Übungen zu Madd",
+    "es": "Ejercicios sobre el Madd",
+    "ru": "Упражнения на мадд",
+    "id": "Latihan Mad",
+    "ms": "Latihan Mad",
+    "bn": "মাদ্দের অনুশীলন",
+    "hi": "मद का अभ्यास",
+    "sw": "Mazoezi ya Madd",
+    "zh": "长音符练习"
+  },
+  "page_image": "lesson_15.jpg",
+  "page_images": [
+    "lesson_15.jpg",
+    "lesson_15a.jpg"
+  ],
+  "grid_config": {
+    "columns": 3,
+    "top_offset_ratio": 0.851,
+    "side_margin_ratio": 0.111,
+    "cell_height_ratio": 0.07
+  },
+  "items": [
+    {
+      "id": 101,
+      "type": "custom",
+      "text": "يَزَّكَّىٰ",
+      "audio": "f15-02.mp3",
+      "position": {
+        "left": 0.3081,
+        "top": 0.8336,
+        "width": 0.1304,
+        "height": 0.0844
+      },
+      "page": 0
+    },
+    {
+      "id": 102,
+      "type": "custom",
+      "text": "يَذَّكَّرُ",
+      "audio": "f15-03.mp3",
+      "position": {
+        "left": 0.111,
+        "top": 0.8333,
+        "width": 0.2039,
+        "height": 0.0842
+      },
+      "page": 0
+    },
+    {
+      "id": 100,
+      "type": "title",
+      "text": "الدَّرْسُ الخَامِسَ عَشَرَ",
+      "audio": "f15-01.mp3",
+      "position": {
+        "left": 0.4366,
+        "top": 0.8323,
+        "width": 0.4638,
+        "height": 0.0831
+      },
+      "page": 0
+    },
+    {
+      "id": 200,
+      "type": "custom",
+      "text": "الْمُدَّثِّرُ",
+      "audio": "f15-04.mp3",
+      "position": {
+        "left": 0.6668,
+        "top": 0.0849,
+        "width": 0.2128,
+        "height": 0.0804
+      },
+      "page": 1
+    },
+    {
+      "id": 201,
+      "type": "custom",
+      "text": "الْمُزَّمِّلُ",
+      "audio": "f15-05.mp3",
+      "position": {
+        "left": 0.4872,
+        "top": 0.0834,
+        "width": 0.1888,
+        "height": 0.0817
+      },
+      "page": 1
+    },
+    {
+      "id": 202,
+      "type": "custom",
+      "text": "عِلِّيِّينَ",
+      "audio": "f15-06.mp3",
+      "position": {
+        "left": 0.3011,
+        "top": 0.0824,
+        "width": 0.1887,
+        "height": 0.0833
+      },
+      "page": 1
+    },
+    {
+      "id": 203,
+      "type": "custom",
+      "text": "عِلِّيُّونَ",
+      "audio": "f15-07.mp3",
+      "position": {
+        "left": 0.1138,
+        "top": 0.083,
+        "width": 0.1918,
+        "height": 0.0842
+      },
+      "page": 1
+    },
+    {
+      "id": 204,
+      "type": "custom",
+      "text": "إِنَّ الَّذِينَ",
+      "audio": "f15-08.mp3",
+      "position": {
+        "left": 0.5365,
+        "top": 0.1646,
+        "width": 0.3487,
+        "height": 0.0851
+      },
+      "page": 1
+    },
+    {
+      "id": 205,
+      "type": "custom",
+      "text": "إِلَّا الَّذِينَ",
+      "audio": "f15-09.mp3",
+      "position": {
+        "left": 0.2232,
+        "top": 0.1677,
+        "width": 0.3128,
+        "height": 0.0818
+      },
+      "page": 1
+    },
+    {
+      "id": 206,
+      "type": "custom",
+      "text": "مِنْ شَرِّ النَّفَّٰثَٰتِ",
+      "audio": "f15-10.mp3",
+      "position": {
+        "left": 0.567,
+        "top": 0.248,
+        "width": 0.3255,
+        "height": 0.0845
+      },
+      "page": 1
+    },
+    {
+      "id": 207,
+      "type": "custom",
+      "text": "فَعَّالٌ لِّمَا يُرِيدُ",
+      "audio": "f15-11.mp3",
+      "position": {
+        "left": 0.116,
+        "top": 0.248,
+        "width": 0.4424,
+        "height": 0.0838
+      },
+      "page": 1
+    }
+  ]
+}

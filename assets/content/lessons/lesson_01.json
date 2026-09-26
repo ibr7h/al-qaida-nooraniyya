@@ -1,0 +1,531 @@
+{
+  "id": 1,
+  "title_ar": "الدَّرْسُ الأَوَّلُ",
+  "title_en": "Lesson 1",
+  "description": "حُرُوفُ الهِجَاءِ المُفْرَدَةِ",
+  "description_en": "Individual Arabic Letters",
+  "titles": {
+    "ar": "الدَّرْسُ الأَوَّلُ",
+    "en": "Lesson 1",
+    "ur": "پہلا سبق",
+    "fa": "درس اول",
+    "tr": "1. Ders",
+    "fr": "Leçon 1",
+    "de": "Lektion 1",
+    "es": "Lección 1",
+    "ru": "Урок 1",
+    "id": "Pelajaran 1",
+    "ms": "Pelajaran 1",
+    "bn": "১ম পাঠ",
+    "hi": "पहला सबक़",
+    "sw": "Somo la 1",
+    "zh": "第一课"
+  },
+  "descriptions": {
+    "ar": "حُرُوفُ الهِجَاءِ المُفْرَدَةِ",
+    "en": "Individual Arabic Letters",
+    "ur": "حروفِ مفردات",
+    "fa": "حروف الفبای مفرد",
+    "tr": "Müfred Harfler",
+    "fr": "Les Lettres Arabes Simples",
+    "de": "Einzelne Arabische Buchstaben",
+    "es": "Las Letras Árabes Individuales",
+    "ru": "Отдельные арабские буквы",
+    "id": "Huruf Hijaiyah Tunggal",
+    "ms": "Huruf Hijaiyah Tunggal",
+    "bn": "পৃথক বর্ণমালা",
+    "hi": "अलग अरबी अक्षर",
+    "sw": "Individual Arabic Letters",
+    "zh": "阿拉伯语单字母"
+  },
+  "page_image": "lesson_01.jpg",
+  "page_images": [
+    "lesson_01.jpg"
+  ],
+  "grid_config": {
+    "columns": 5,
+    "top_offset_ratio": 0.288,
+    "side_margin_ratio": 0.115,
+    "cell_height_ratio": 0.105
+  },
+  "items": [
+    {
+      "id": 0,
+      "type": "header",
+      "text": "بسم الله الرحمن الرحيم",
+      "audio": "f1-01.mp3",
+      "position": {
+        "left": 0.1445,
+        "top": 0.0816,
+        "width": 0.7206,
+        "height": 0.129
+      }
+    },
+    {
+      "id": 1,
+      "type": "title",
+      "text": "الدَّرْسُ الأَوَّلُ - حُرُوفُ الهِجَاءِ المُفْرَدَةِ",
+      "audio": "f1-02.mp3",
+      "audio_files": [
+        "f1-02.mp3",
+        "f1-03.mp3"
+      ],
+      "position": {
+        "left": 0.1092,
+        "top": 0.2148,
+        "width": 0.7816,
+        "height": 0.081
+      }
+    },
+    {
+      "id": 10,
+      "type": "letter",
+      "row": 0,
+      "col": 0,
+      "text": "ا",
+      "name": "أَلِف",
+      "audio": "f1-04.mp3",
+      "position": {
+        "left": 0.7406,
+        "top": 0.2963,
+        "width": 0.1598,
+        "height": 0.103
+      }
+    },
+    {
+      "id": 11,
+      "type": "letter",
+      "row": 0,
+      "col": 1,
+      "text": "ب",
+      "name": "بَا",
+      "audio": "f1-05.mp3",
+      "position": {
+        "left": 0.5815,
+        "top": 0.2981,
+        "width": 0.1592,
+        "height": 0.1016
+      }
+    },
+    {
+      "id": 12,
+      "type": "letter",
+      "row": 0,
+      "col": 2,
+      "text": "ت",
+      "name": "تَا",
+      "audio": "f1-06.mp3",
+      "position": {
+        "left": 0.4224,
+        "top": 0.2992,
+        "width": 0.1578,
+        "height": 0.0984
+      }
+    },
+    {
+      "id": 13,
+      "type": "letter",
+      "row": 0,
+      "col": 3,
+      "text": "ث",
+      "name": "ثَا",
+      "audio": "f1-07.mp3",
+      "position": {
+        "left": 0.2637,
+        "top": 0.2979,
+        "width": 0.1597,
+        "height": 0.0986
+      }
+    },
+    {
+      "id": 14,
+      "type": "letter",
+      "row": 0,
+      "col": 4,
+      "text": "ج",
+      "name": "جِيم",
+      "audio": "f1-08.mp3",
+      "position": {
+        "left": 0.1013,
+        "top": 0.2972,
+        "width": 0.1601,
+        "height": 0.1019
+      }
+    },
+    {
+      "id": 15,
+      "type": "letter",
+      "row": 1,
+      "col": 0,
+      "text": "ح",
+      "name": "حَا",
+      "audio": "f1-09.mp3",
+      "position": {
+        "left": 0.7433,
+        "top": 0.3997,
+        "width": 0.1532,
+        "height": 0.1014
+      }
+    },
+    {
+      "id": 16,
+      "type": "letter",
+      "row": 1,
+      "col": 1,
+      "text": "خ",
+      "name": "خَا",
+      "audio": "f1-10.mp3",
+      "position": {
+        "left": 0.5817,
+        "top": 0.3989,
+        "width": 0.1605,
+        "height": 0.1019
+      }
+    },
+    {
+      "id": 17,
+      "type": "letter",
+      "row": 1,
+      "col": 2,
+      "text": "د",
+      "name": "دَال",
+      "audio": "f1-11.mp3",
+      "position": {
+        "left": 0.4236,
+        "top": 0.3988,
+        "width": 0.159,
+        "height": 0.1025
+      }
+    },
+    {
+      "id": 18,
+      "type": "letter",
+      "row": 1,
+      "col": 3,
+      "text": "ذ",
+      "name": "ذَال",
+      "audio": "f1-12.mp3",
+      "position": {
+        "left": 0.2634,
+        "top": 0.3983,
+        "width": 0.1586,
+        "height": 0.1035
+      }
+    },
+    {
+      "id": 19,
+      "type": "letter",
+      "row": 1,
+      "col": 4,
+      "text": "ر",
+      "name": "رَا",
+      "audio": "f1-13.mp3",
+      "position": {
+        "left": 0.1002,
+        "top": 0.398,
+        "width": 0.1614,
+        "height": 0.1024
+      }
+    },
+    {
+      "id": 20,
+      "type": "letter",
+      "row": 2,
+      "col": 0,
+      "text": "ز",
+      "name": "زَاي",
+      "audio": "f1-14.mp3",
+      "position": {
+        "left": 0.7427,
+        "top": 0.5025,
+        "width": 0.1558,
+        "height": 0.1005
+      }
+    },
+    {
+      "id": 21,
+      "type": "letter",
+      "row": 2,
+      "col": 1,
+      "text": "س",
+      "name": "سِين",
+      "audio": "f1-15.mp3",
+      "position": {
+        "left": 0.5816,
+        "top": 0.5026,
+        "width": 0.1593,
+        "height": 0.1009
+      }
+    },
+    {
+      "id": 22,
+      "type": "letter",
+      "row": 2,
+      "col": 2,
+      "text": "ش",
+      "name": "شِين",
+      "audio": "f1-16.mp3",
+      "position": {
+        "left": 0.4217,
+        "top": 0.5013,
+        "width": 0.1596,
+        "height": 0.1033
+      }
+    },
+    {
+      "id": 23,
+      "type": "letter",
+      "row": 2,
+      "col": 3,
+      "text": "ص",
+      "name": "صَاد",
+      "audio": "f1-17.mp3",
+      "position": {
+        "left": 0.2632,
+        "top": 0.5017,
+        "width": 0.1582,
+        "height": 0.1036
+      }
+    },
+    {
+      "id": 24,
+      "type": "letter",
+      "row": 2,
+      "col": 4,
+      "text": "ض",
+      "name": "ضَاد",
+      "audio": "f1-18.mp3",
+      "position": {
+        "left": 0.1022,
+        "top": 0.5008,
+        "width": 0.1611,
+        "height": 0.1027
+      }
+    },
+    {
+      "id": 25,
+      "type": "letter",
+      "row": 3,
+      "col": 0,
+      "text": "ط",
+      "name": "طَا",
+      "audio": "f1-19.mp3",
+      "position": {
+        "left": 0.7415,
+        "top": 0.605,
+        "width": 0.1574,
+        "height": 0.1027
+      }
+    },
+    {
+      "id": 26,
+      "type": "letter",
+      "row": 3,
+      "col": 1,
+      "text": "ظ",
+      "name": "ظَا",
+      "audio": "f1-20.mp3",
+      "position": {
+        "left": 0.5822,
+        "top": 0.6032,
+        "width": 0.1585,
+        "height": 0.1041
+      }
+    },
+    {
+      "id": 27,
+      "type": "letter",
+      "row": 3,
+      "col": 2,
+      "text": "ع",
+      "name": "عَيْن",
+      "audio": "f1-21.mp3",
+      "position": {
+        "left": 0.4227,
+        "top": 0.6036,
+        "width": 0.1601,
+        "height": 0.1037
+      }
+    },
+    {
+      "id": 28,
+      "type": "letter",
+      "row": 3,
+      "col": 3,
+      "text": "غ",
+      "name": "غَيْن",
+      "audio": "f1-22.mp3",
+      "position": {
+        "left": 0.2637,
+        "top": 0.6069,
+        "width": 0.1579,
+        "height": 0.1004
+      }
+    },
+    {
+      "id": 29,
+      "type": "letter",
+      "row": 3,
+      "col": 4,
+      "text": "ف",
+      "name": "فَا",
+      "audio": "f1-23.mp3",
+      "position": {
+        "left": 0.1023,
+        "top": 0.6045,
+        "width": 0.1609,
+        "height": 0.1023
+      }
+    },
+    {
+      "id": 30,
+      "type": "letter",
+      "row": 4,
+      "col": 0,
+      "text": "ق",
+      "name": "قَاف",
+      "audio": "f1-24.mp3",
+      "position": {
+        "left": 0.7403,
+        "top": 0.7075,
+        "width": 0.1592,
+        "height": 0.1045
+      }
+    },
+    {
+      "id": 31,
+      "type": "letter",
+      "row": 4,
+      "col": 1,
+      "text": "ك",
+      "name": "كَاف",
+      "audio": "f1-25.mp3",
+      "position": {
+        "left": 0.5797,
+        "top": 0.708,
+        "width": 0.1626,
+        "height": 0.105
+      }
+    },
+    {
+      "id": 32,
+      "type": "letter",
+      "row": 4,
+      "col": 2,
+      "text": "ل",
+      "name": "لَام",
+      "audio": "f1-26.mp3",
+      "position": {
+        "left": 0.4229,
+        "top": 0.708,
+        "width": 0.1591,
+        "height": 0.105
+      }
+    },
+    {
+      "id": 33,
+      "type": "letter",
+      "row": 4,
+      "col": 3,
+      "text": "م",
+      "name": "مِيم",
+      "audio": "f1-27.mp3",
+      "position": {
+        "left": 0.2625,
+        "top": 0.708,
+        "width": 0.1593,
+        "height": 0.105
+      }
+    },
+    {
+      "id": 34,
+      "type": "letter",
+      "row": 4,
+      "col": 4,
+      "text": "ن",
+      "name": "نُون",
+      "audio": "f1-28.mp3",
+      "position": {
+        "left": 0.1015,
+        "top": 0.708,
+        "width": 0.1601,
+        "height": 0.105
+      }
+    },
+    {
+      "id": 35,
+      "type": "letter",
+      "row": 5,
+      "col": 0,
+      "text": "و",
+      "name": "وَاو",
+      "audio": "f1-29.mp3",
+      "position": {
+        "left": 0.7401,
+        "top": 0.813,
+        "width": 0.1581,
+        "height": 0.105
+      }
+    },
+    {
+      "id": 36,
+      "type": "letter",
+      "row": 5,
+      "col": 1,
+      "text": "هـ",
+      "name": "هَا",
+      "audio": "f1-30.mp3",
+      "position": {
+        "left": 0.5814,
+        "top": 0.813,
+        "width": 0.1618,
+        "height": 0.105
+      }
+    },
+    {
+      "id": 37,
+      "type": "letter",
+      "row": 5,
+      "col": 2,
+      "text": "ء",
+      "name": "هَمْزَة",
+      "audio": "f1-31.mp3",
+      "position": {
+        "left": 0.4241,
+        "top": 0.813,
+        "width": 0.1593,
+        "height": 0.105
+      }
+    },
+    {
+      "id": 38,
+      "type": "letter",
+      "row": 5,
+      "col": 3,
+      "text": "ي",
+      "name": "يَا",
+      "audio": "f1-32.mp3",
+      "position": {
+        "left": 0.2615,
+        "top": 0.813,
+        "width": 0.1618,
+        "height": 0.105
+      }
+    },
+    {
+      "id": 39,
+      "type": "letter",
+      "row": 5,
+      "col": 4,
+      "text": "ي",
+      "name": "يَاء",
+      "audio": "f1-33.mp3",
+      "position": {
+        "left": 0.1,
+        "top": 0.813,
+        "width": 0.1611,
+        "height": 0.105
+      }
+    }
+  ]
+}

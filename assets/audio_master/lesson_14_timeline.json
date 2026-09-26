@@ -1,0 +1,697 @@
+{
+ "lessonId": 14,
+ "masterFile": "lesson_14_master.m4a",
+ "masterVersion": "de2d0aa1d83e2358",
+ "generatedAt": "2026-08-15T04:31:35.564795+00:00",
+ "sampleRateHz": 22050,
+ "bitrate": "32k",
+ "gapMs": 400,
+ "itemCount": 25,
+ "entries": [
+  {
+   "lessonId": 14,
+   "itemId": 100,
+   "sourceAudio": [
+    "f14-01.mp3"
+   ],
+   "startMs": 0.0,
+   "audioEndMs": 6134.6,
+   "segmentEndMs": 6534.6,
+   "page": 0,
+   "section": "title",
+   "text": "الدَّرْسُ الرَّابِعَ عَشَرَ"
+  },
+  {
+   "lessonId": 14,
+   "itemId": 101,
+   "sourceAudio": [
+    "f14-02.mp3"
+   ],
+   "startMs": 6534.6,
+   "audioEndMs": 14177.3,
+   "segmentEndMs": 14577.3,
+   "page": 0,
+   "section": "custom",
+   "text": "مَرُّوْا",
+   "fullWord": {
+    "fullWordStartMs": 12885.4,
+    "fullWordEndMs": 14177.3,
+    "confidence": "MEDIUM",
+    "signals": {
+     "clearFinalGap": true,
+     "plausibleDuration": true,
+     "trailingSilenceDetected": false,
+     "unambiguousLastGap": false
+    },
+    "sourceStartMs": 6276.7,
+    "sourceEndMs": 7632.8,
+    "source": "HUMAN",
+    "usableForClipping": true
+   }
+  },
+  {
+   "lessonId": 14,
+   "itemId": 102,
+   "sourceAudio": [
+    "f14-03.mp3"
+   ],
+   "startMs": 14577.3,
+   "audioEndMs": 21239.7,
+   "segmentEndMs": 21639.7,
+   "page": 0,
+   "section": "custom",
+   "text": "رَبِّى",
+   "fullWord": {
+    "fullWordStartMs": 20464.5,
+    "fullWordEndMs": 21239.7,
+    "confidence": "MEDIUM",
+    "signals": {
+     "clearFinalGap": false,
+     "plausibleDuration": true,
+     "trailingSilenceDetected": false,
+     "unambiguousLastGap": true
+    },
+    "sourceStartMs": 5350.0,
+    "sourceEndMs": 6652.4,
+    "source": "HUMAN",
+    "usableForClipping": true
+   }
+  },
+  {
+   "lessonId": 14,
+   "itemId": 103,
+   "sourceAudio": [
+    "f14-04.mp3"
+   ],
+   "startMs": 21639.7,
+   "audioEndMs": 27883.4,
+   "segmentEndMs": 28283.4,
+   "page": 0,
+   "section": "custom",
+   "text": "مُدَّتْ",
+   "fullWord": {
+    "fullWordStartMs": 27505.5,
+    "fullWordEndMs": 27883.4,
+    "confidence": "MEDIUM",
+    "signals": {
+     "clearFinalGap": false,
+     "plausibleDuration": true,
+     "trailingSilenceDetected": false,
+     "unambiguousLastGap": true
+    },
+    "sourceStartMs": 5363.3,
+    "sourceEndMs": 6243.7,
+    "source": "HUMAN",
+    "usableForClipping": true
+   }
+  },
+  {
+   "lessonId": 14,
+   "itemId": 104,
+   "sourceAudio": [
+    "f14-05.mp3"
+   ],
+   "startMs": 28283.4,
+   "audioEndMs": 34644.3,
+   "segmentEndMs": 35044.3,
+   "page": 0,
+   "section": "custom",
+   "text": "حُقَّتْ",
+   "fullWord": {
+    "fullWordStartMs": 34221.8,
+    "fullWordEndMs": 34644.3,
+    "confidence": "MEDIUM",
+    "signals": {
+     "clearFinalGap": true,
+     "plausibleDuration": true,
+     "trailingSilenceDetected": false,
+     "unambiguousLastGap": false
+    },
+    "sourceStartMs": 5376.7,
+    "sourceEndMs": 6290.9,
+    "source": "HUMAN",
+    "usableForClipping": true
+   }
+  },
+  {
+   "lessonId": 14,
+   "itemId": 105,
+   "sourceAudio": [
+    "f14-06.mp3"
+   ],
+   "startMs": 35044.3,
+   "audioEndMs": 41352.9,
+   "segmentEndMs": 41752.9,
+   "page": 0,
+   "section": "custom",
+   "text": "خَفَّتْ",
+   "fullWord": {
+    "fullWordStartMs": 40861.3,
+    "fullWordEndMs": 41176.4,
+    "confidence": "MEDIUM",
+    "signals": {
+     "clearFinalGap": true,
+     "plausibleDuration": true,
+     "trailingSilenceDetected": true,
+     "unambiguousLastGap": false
+    },
+    "sourceStartMs": 5283.3,
+    "sourceEndMs": 6178.7,
+    "source": "HUMAN",
+    "usableForClipping": true
+   }
+  },
+  {
+   "lessonId": 14,
+   "itemId": 106,
+   "sourceAudio": [
+    "f14-07.mp3"
+   ],
+   "startMs": 41752.9,
+   "audioEndMs": 48094.7,
+   "segmentEndMs": 48494.7,
+   "page": 0,
+   "section": "custom",
+   "text": "تَبَّتْ",
+   "fullWord": {
+    "fullWordStartMs": 47712.1,
+    "fullWordEndMs": 48094.7,
+    "confidence": "MEDIUM",
+    "signals": {
+     "clearFinalGap": true,
+     "plausibleDuration": true,
+     "trailingSilenceDetected": false,
+     "unambiguousLastGap": true
+    },
+    "sourceStartMs": 5356.7,
+    "sourceEndMs": 6331.8,
+    "source": "HUMAN",
+    "usableForClipping": true
+   }
+  },
+  {
+   "lessonId": 14,
+   "itemId": 107,
+   "sourceAudio": [
+    "f14-08.mp3"
+   ],
+   "startMs": 48494.7,
+   "audioEndMs": 57421.9,
+   "segmentEndMs": 57821.9,
+   "page": 0,
+   "section": "custom",
+   "text": "تَخَلَّتْ",
+   "fullWord": {
+    "fullWordStartMs": 56357.3,
+    "fullWordEndMs": 57421.9,
+    "confidence": "MEDIUM",
+    "signals": {
+     "clearFinalGap": true,
+     "plausibleDuration": true,
+     "trailingSilenceDetected": false,
+     "unambiguousLastGap": true
+    },
+    "sourceStartMs": 7790.0,
+    "sourceEndMs": 8897.3,
+    "source": "HUMAN",
+    "usableForClipping": true
+   }
+  },
+  {
+   "lessonId": 14,
+   "itemId": 108,
+   "sourceAudio": [
+    "f14-09.mp3"
+   ],
+   "startMs": 57821.9,
+   "audioEndMs": 67591.6,
+   "segmentEndMs": 67991.6,
+   "page": 0,
+   "section": "custom",
+   "text": "قَدَّمَتْ",
+   "fullWord": {
+    "fullWordStartMs": 66720.0,
+    "fullWordEndMs": 67591.5,
+    "confidence": "MEDIUM",
+    "signals": {
+     "clearFinalGap": true,
+     "plausibleDuration": true,
+     "trailingSilenceDetected": false,
+     "unambiguousLastGap": true
+    },
+    "sourceStartMs": 8430.0,
+    "sourceEndMs": 9769.7,
+    "source": "HUMAN",
+    "usableForClipping": true
+   }
+  },
+  {
+   "lessonId": 14,
+   "itemId": 109,
+   "sourceAudio": [
+    "f14-10.mp3"
+   ],
+   "startMs": 67991.6,
+   "audioEndMs": 76820.6,
+   "segmentEndMs": 77220.6,
+   "page": 0,
+   "section": "custom",
+   "text": "وَالصُّبْحِ",
+   "fullWord": {
+    "fullWordStartMs": 75968.3,
+    "fullWordEndMs": 76820.6,
+    "confidence": "MEDIUM",
+    "signals": {
+     "clearFinalGap": true,
+     "plausibleDuration": true,
+     "trailingSilenceDetected": false,
+     "unambiguousLastGap": true
+    },
+    "sourceStartMs": 7396.7,
+    "sourceEndMs": 8779.0,
+    "source": "HUMAN",
+    "usableForClipping": true
+   }
+  },
+  {
+   "lessonId": 14,
+   "itemId": 110,
+   "sourceAudio": [
+    "f14-11.mp3"
+   ],
+   "startMs": 77220.6,
+   "audioEndMs": 87293.8,
+   "segmentEndMs": 87693.8,
+   "page": 0,
+   "section": "custom",
+   "text": "وَالشَّمْسِ",
+   "fullWord": {
+    "fullWordStartMs": 86183.4,
+    "fullWordEndMs": 87293.8,
+    "confidence": "LOW",
+    "signals": {
+     "clearFinalGap": false,
+     "plausibleDuration": true,
+     "trailingSilenceDetected": false,
+     "unambiguousLastGap": false
+    },
+    "sourceStartMs": 8563.3,
+    "sourceEndMs": 10003.3,
+    "source": "HUMAN",
+    "usableForClipping": true
+   }
+  },
+  {
+   "lessonId": 14,
+   "itemId": 111,
+   "sourceAudio": [
+    "f14-12.mp3"
+   ],
+   "startMs": 87693.8,
+   "audioEndMs": 97294.2,
+   "segmentEndMs": 97694.2,
+   "page": 0,
+   "section": "custom",
+   "text": "وَالشَّفْعِ",
+   "fullWord": {
+    "fullWordStartMs": 96688.0,
+    "fullWordEndMs": 97113.8,
+    "confidence": "MEDIUM",
+    "signals": {
+     "clearFinalGap": true,
+     "plausibleDuration": true,
+     "trailingSilenceDetected": true,
+     "unambiguousLastGap": false
+    },
+    "sourceStartMs": 7970.0,
+    "sourceEndMs": 9470.4,
+    "source": "HUMAN",
+    "usableForClipping": true
+   }
+  },
+  {
+   "lessonId": 14,
+   "itemId": 112,
+   "sourceAudio": [
+    "f14-13.mp3"
+   ],
+   "startMs": 97694.2,
+   "audioEndMs": 107026.7,
+   "segmentEndMs": 107426.7,
+   "page": 0,
+   "section": "custom",
+   "text": "بِالصَّبْرِ",
+   "fullWord": {
+    "fullWordStartMs": 106178.3,
+    "fullWordEndMs": 107026.7,
+    "confidence": "MEDIUM",
+    "signals": {
+     "clearFinalGap": true,
+     "plausibleDuration": true,
+     "trailingSilenceDetected": false,
+     "unambiguousLastGap": true
+    },
+    "sourceStartMs": 7863.3,
+    "sourceEndMs": 9282.5,
+    "source": "HUMAN",
+    "usableForClipping": true
+   }
+  },
+  {
+   "lessonId": 14,
+   "itemId": 113,
+   "sourceAudio": [
+    "f14-14.mp3"
+   ],
+   "startMs": 107426.7,
+   "audioEndMs": 116246.3,
+   "segmentEndMs": 116646.3,
+   "page": 0,
+   "section": "custom",
+   "text": "وَالصَّيْفِ",
+   "fullWord": {
+    "fullWordStartMs": 115378.6,
+    "fullWordEndMs": 116246.3,
+    "confidence": "MEDIUM",
+    "signals": {
+     "clearFinalGap": true,
+     "plausibleDuration": true,
+     "trailingSilenceDetected": false,
+     "unambiguousLastGap": false
+    },
+    "sourceStartMs": 7363.3,
+    "sourceEndMs": 8789.6,
+    "source": "HUMAN",
+    "usableForClipping": true
+   }
+  },
+  {
+   "lessonId": 14,
+   "itemId": 114,
+   "sourceAudio": [
+    "f14-15.mp3"
+   ],
+   "startMs": 116646.3,
+   "audioEndMs": 126132.3,
+   "segmentEndMs": 126532.3,
+   "page": 0,
+   "section": "custom",
+   "text": "وَاللَّيْلِ",
+   "fullWord": {
+    "fullWordStartMs": 124669.9,
+    "fullWordEndMs": 126132.3,
+    "confidence": "MEDIUM",
+    "signals": {
+     "clearFinalGap": true,
+     "plausibleDuration": true,
+     "trailingSilenceDetected": false,
+     "unambiguousLastGap": false
+    },
+    "sourceStartMs": 7923.3,
+    "sourceEndMs": 9416.0,
+    "source": "HUMAN",
+    "usableForClipping": true
+   }
+  },
+  {
+   "lessonId": 14,
+   "itemId": 115,
+   "sourceAudio": [
+    "f14-16.mp3"
+   ],
+   "startMs": 126532.3,
+   "audioEndMs": 158647.8,
+   "segmentEndMs": 159047.8,
+   "page": 0,
+   "section": "custom",
+   "text": "وَالتِّينِ وَالزَّيْتُونِ",
+   "fullWord": {
+    "fullWordStartMs": 156555.8,
+    "fullWordEndMs": 158001.2,
+    "confidence": "HIGH",
+    "signals": {
+     "clearFinalGap": true,
+     "plausibleDuration": true,
+     "trailingSilenceDetected": true,
+     "unambiguousLastGap": true
+    },
+    "sourceStartMs": 28176.7,
+    "sourceEndMs": 31505.5,
+    "source": "HUMAN",
+    "usableForClipping": true
+   }
+  },
+  {
+   "lessonId": 14,
+   "itemId": 116,
+   "sourceAudio": [
+    "f14-17.mp3"
+   ],
+   "startMs": 159047.8,
+   "audioEndMs": 171120.6,
+   "segmentEndMs": 171520.6,
+   "page": 0,
+   "section": "custom",
+   "text": "سِجِّيلٍ",
+   "fullWord": {
+    "fullWordStartMs": 169904.9,
+    "fullWordEndMs": 170778.2,
+    "confidence": "MEDIUM",
+    "signals": {
+     "clearFinalGap": true,
+     "plausibleDuration": true,
+     "trailingSilenceDetected": true,
+     "unambiguousLastGap": false
+    },
+    "sourceStartMs": 10316.7,
+    "sourceEndMs": 11762.8,
+    "source": "HUMAN",
+    "usableForClipping": true
+   }
+  },
+  {
+   "lessonId": 14,
+   "itemId": 117,
+   "sourceAudio": [
+    "f14-18.mp3"
+   ],
+   "startMs": 171520.6,
+   "audioEndMs": 181010.4,
+   "segmentEndMs": 181410.4,
+   "page": 0,
+   "section": "custom",
+   "text": "سِجِّينٌ",
+   "fullWord": {
+    "fullWordStartMs": 179946.4,
+    "fullWordEndMs": 180852.1,
+    "confidence": "HIGH",
+    "signals": {
+     "clearFinalGap": true,
+     "plausibleDuration": true,
+     "trailingSilenceDetected": true,
+     "unambiguousLastGap": true
+    },
+    "sourceStartMs": 7916.7,
+    "sourceEndMs": 9379.9,
+    "source": "HUMAN",
+    "usableForClipping": true
+   }
+  },
+  {
+   "lessonId": 14,
+   "itemId": 118,
+   "sourceAudio": [
+    "f14-19.mp3"
+   ],
+   "startMs": 181410.4,
+   "audioEndMs": 194531.1,
+   "segmentEndMs": 194931.1,
+   "page": 0,
+   "section": "custom",
+   "text": "مُنْفَكِّينَ",
+   "fullWord": {
+    "fullWordStartMs": 193668.9,
+    "fullWordEndMs": 194531.0,
+    "confidence": "MEDIUM",
+    "signals": {
+     "clearFinalGap": true,
+     "plausibleDuration": true,
+     "trailingSilenceDetected": false,
+     "unambiguousLastGap": true
+    },
+    "sourceStartMs": 10170.0,
+    "sourceEndMs": 13070.6,
+    "source": "HUMAN",
+    "usableForClipping": true
+   }
+  },
+  {
+   "lessonId": 14,
+   "itemId": 119,
+   "sourceAudio": [
+    "f14-20.mp3"
+   ],
+   "startMs": 194931.1,
+   "audioEndMs": 214400.3,
+   "segmentEndMs": 214800.3,
+   "page": 0,
+   "section": "custom",
+   "text": "فَإِنَّ الْجَنَّةَ",
+   "fullWord": {
+    "fullWordStartMs": 211031.1,
+    "fullWordEndMs": 214400.3,
+    "confidence": "MEDIUM",
+    "signals": {
+     "clearFinalGap": true,
+     "plausibleDuration": false,
+     "trailingSilenceDetected": false,
+     "unambiguousLastGap": true
+    },
+    "sourceStartMs": 16003.3,
+    "sourceEndMs": 19439.3,
+    "source": "HUMAN",
+    "usableForClipping": true
+   }
+  },
+  {
+   "lessonId": 14,
+   "itemId": 120,
+   "sourceAudio": [
+    "f14-21.mp3"
+   ],
+   "startMs": 214800.3,
+   "audioEndMs": 230069.2,
+   "segmentEndMs": 230469.2,
+   "page": 0,
+   "section": "custom",
+   "text": "لَحُبِّ الْخَيْرِ",
+   "fullWord": {
+    "fullWordStartMs": 228649.2,
+    "fullWordEndMs": 230069.2,
+    "confidence": "MEDIUM",
+    "signals": {
+     "clearFinalGap": true,
+     "plausibleDuration": true,
+     "trailingSilenceDetected": false,
+     "unambiguousLastGap": true
+    },
+    "sourceStartMs": 13090.0,
+    "sourceEndMs": 15258.9,
+    "source": "HUMAN",
+    "usableForClipping": true
+   }
+  },
+  {
+   "lessonId": 14,
+   "itemId": 121,
+   "sourceAudio": [
+    "f14-22.mp3"
+   ],
+   "startMs": 230469.2,
+   "audioEndMs": 261740.4,
+   "segmentEndMs": 262140.4,
+   "page": 0,
+   "section": "custom",
+   "text": "إِذَا السَّمَاءُ انْشَقَّتْ",
+   "fullWord": {
+    "fullWordStartMs": 261169.0,
+    "fullWordEndMs": 261478.1,
+    "confidence": "HIGH",
+    "signals": {
+     "clearFinalGap": true,
+     "plausibleDuration": true,
+     "trailingSilenceDetected": true,
+     "unambiguousLastGap": true
+    },
+    "sourceStartMs": 26103.3,
+    "sourceEndMs": 31061.3,
+    "source": "HUMAN",
+    "usableForClipping": true
+   }
+  },
+  {
+   "lessonId": 14,
+   "itemId": 122,
+   "sourceAudio": [
+    "f14-23.mp3"
+   ],
+   "startMs": 262140.4,
+   "audioEndMs": 299156.4,
+   "segmentEndMs": 299556.4,
+   "page": 0,
+   "section": "custom",
+   "text": "مَا الطَّارِقُ النَّجْمُ الثَّاقِبُ",
+   "fullWord": {
+    "fullWordStartMs": 297681.4,
+    "fullWordEndMs": 298727.5,
+    "confidence": "HIGH",
+    "signals": {
+     "clearFinalGap": true,
+     "plausibleDuration": true,
+     "trailingSilenceDetected": true,
+     "unambiguousLastGap": true
+    },
+    "sourceStartMs": 32130.3,
+    "sourceEndMs": 36809.3,
+    "source": "HUMAN",
+    "usableForClipping": true
+   }
+  },
+  {
+   "lessonId": 14,
+   "itemId": 123,
+   "sourceAudio": [
+    "f14-23.mp3"
+   ],
+   "startMs": 299556.4,
+   "audioEndMs": 336572.4,
+   "segmentEndMs": 336972.4,
+   "page": 0,
+   "section": "custom",
+   "text": "الثَّاقِبُ",
+   "fullWord": {
+    "fullWordStartMs": 335097.4,
+    "fullWordEndMs": 336143.5,
+    "confidence": "HIGH",
+    "signals": {
+     "clearFinalGap": true,
+     "plausibleDuration": true,
+     "trailingSilenceDetected": true,
+     "unambiguousLastGap": true
+    },
+    "sourceStartMs": 35541.0,
+    "sourceEndMs": 36587.1,
+    "source": "AUTO",
+    "usableForClipping": true
+   }
+  },
+  {
+   "lessonId": 14,
+   "itemId": 124,
+   "sourceAudio": [
+    "f14-24.mp3"
+   ],
+   "startMs": 336972.4,
+   "audioEndMs": 379522.3,
+   "segmentEndMs": 379522.3,
+   "page": 0,
+   "section": "custom",
+   "text": "مِنْ شَرِّ الْوَسْوَاسِ الْخَنَّاسِ",
+   "fullWord": {
+    "fullWordStartMs": 376324.2,
+    "fullWordEndMs": 379239.9,
+    "confidence": "HIGH",
+    "signals": {
+     "clearFinalGap": true,
+     "plausibleDuration": true,
+     "trailingSilenceDetected": true,
+     "unambiguousLastGap": true
+    },
+    "sourceStartMs": 36803.3,
+    "sourceEndMs": 42319.9,
+    "source": "HUMAN",
+    "usableForClipping": true
+   }
+  }
+ ]
+}

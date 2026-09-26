@@ -1,0 +1,2112 @@
+{
+ "lessonId": 5,
+ "masterFile": "lesson_05_master.m4a",
+ "masterVersion": "9d98998cd4b2fc8b",
+ "generatedAt": "2026-08-14T23:34:55.487825+00:00",
+ "sampleRateHz": 22050,
+ "bitrate": "32k",
+ "gapMs": 400,
+ "itemCount": 141,
+ "entries": [
+  {
+   "lessonId": 5,
+   "itemId": 100,
+   "sourceAudio": [
+    "f5-01.mp3"
+   ],
+   "startMs": 0.0,
+   "audioEndMs": 10442.8,
+   "segmentEndMs": 10842.8,
+   "page": 0,
+   "section": "custom",
+   "text": "1",
+   "fullWord": {
+    "fullWordStartMs": 9235.6,
+    "fullWordEndMs": 10442.8,
+    "confidence": "MEDIUM",
+    "signals": {
+     "clearFinalGap": true,
+     "plausibleDuration": true,
+     "trailingSilenceDetected": false,
+     "unambiguousLastGap": true
+    },
+    "sourceStartMs": 9235.6,
+    "sourceEndMs": 10442.8,
+    "source": "AUTO",
+    "usableForClipping": false
+   }
+  },
+  {
+   "lessonId": 5,
+   "itemId": 101,
+   "sourceAudio": [
+    "f5-02.mp3"
+   ],
+   "startMs": 10842.8,
+   "audioEndMs": 13112.8,
+   "segmentEndMs": 13512.8,
+   "page": 0,
+   "section": "custom",
+   "text": "مًا",
+   "fullWord": {
+    "confidence": "NOT_APPLICABLE"
+   }
+  },
+  {
+   "lessonId": 5,
+   "itemId": 102,
+   "sourceAudio": [
+    "f5-03.mp3"
+   ],
+   "startMs": 13512.8,
+   "audioEndMs": 15752.8,
+   "segmentEndMs": 16152.8,
+   "page": 0,
+   "section": "custom",
+   "text": "مٍ",
+   "fullWord": {
+    "confidence": "NOT_APPLICABLE"
+   }
+  },
+  {
+   "lessonId": 5,
+   "itemId": 2000,
+   "sourceAudio": [
+    "f5-04.mp3"
+   ],
+   "startMs": 16152.8,
+   "audioEndMs": 17304.3,
+   "segmentEndMs": 17704.3,
+   "page": 0,
+   "section": "combined",
+   "text": "مًا مٍ"
+  },
+  {
+   "lessonId": 5,
+   "itemId": 103,
+   "sourceAudio": [
+    "f5-05.mp3"
+   ],
+   "startMs": 17704.3,
+   "audioEndMs": 20044.3,
+   "segmentEndMs": 20444.3,
+   "page": 0,
+   "section": "custom",
+   "text": "مٌ",
+   "fullWord": {
+    "confidence": "NOT_APPLICABLE"
+   }
+  },
+  {
+   "lessonId": 5,
+   "itemId": 2001,
+   "sourceAudio": [
+    "f5-06.mp3"
+   ],
+   "startMs": 20444.3,
+   "audioEndMs": 22094.3,
+   "segmentEndMs": 22494.3,
+   "page": 0,
+   "section": "combined",
+   "text": "مًا مٍ مٌ"
+  },
+  {
+   "lessonId": 5,
+   "itemId": 104,
+   "sourceAudio": [
+    "f5-07.mp3"
+   ],
+   "startMs": 22494.3,
+   "audioEndMs": 24925.8,
+   "segmentEndMs": 25325.8,
+   "page": 0,
+   "section": "custom",
+   "text": "بًا",
+   "fullWord": {
+    "confidence": "NOT_APPLICABLE"
+   }
+  },
+  {
+   "lessonId": 5,
+   "itemId": 105,
+   "sourceAudio": [
+    "f5-08.mp3"
+   ],
+   "startMs": 25325.8,
+   "audioEndMs": 27705.8,
+   "segmentEndMs": 28105.8,
+   "page": 0,
+   "section": "custom",
+   "text": "بٍ",
+   "fullWord": {
+    "confidence": "NOT_APPLICABLE"
+   }
+  },
+  {
+   "lessonId": 5,
+   "itemId": 2002,
+   "sourceAudio": [
+    "f5-09.mp3"
+   ],
+   "startMs": 28105.8,
+   "audioEndMs": 29257.4,
+   "segmentEndMs": 29657.4,
+   "page": 0,
+   "section": "combined",
+   "text": "بًا بٍ"
+  },
+  {
+   "lessonId": 5,
+   "itemId": 106,
+   "sourceAudio": [
+    "f5-10.mp3"
+   ],
+   "startMs": 29657.4,
+   "audioEndMs": 32177.4,
+   "segmentEndMs": 32577.4,
+   "page": 0,
+   "section": "custom",
+   "text": "بٌ",
+   "fullWord": {
+    "confidence": "NOT_APPLICABLE"
+   }
+  },
+  {
+   "lessonId": 5,
+   "itemId": 2003,
+   "sourceAudio": [
+    "f5-11.mp3"
+   ],
+   "startMs": 32577.4,
+   "audioEndMs": 34317.4,
+   "segmentEndMs": 34717.4,
+   "page": 0,
+   "section": "combined",
+   "text": "بًا بٍ بٌ"
+  },
+  {
+   "lessonId": 5,
+   "itemId": 107,
+   "sourceAudio": [
+    "f5-12.mp3"
+   ],
+   "startMs": 34717.4,
+   "audioEndMs": 37387.4,
+   "segmentEndMs": 37787.4,
+   "page": 0,
+   "section": "custom",
+   "text": "وًا",
+   "fullWord": {
+    "confidence": "NOT_APPLICABLE"
+   }
+  },
+  {
+   "lessonId": 5,
+   "itemId": 108,
+   "sourceAudio": [
+    "f5-13.mp3"
+   ],
+   "startMs": 37787.4,
+   "audioEndMs": 40267.4,
+   "segmentEndMs": 40667.4,
+   "page": 0,
+   "section": "custom",
+   "text": "وٍ",
+   "fullWord": {
+    "confidence": "NOT_APPLICABLE"
+   }
+  },
+  {
+   "lessonId": 5,
+   "itemId": 2004,
+   "sourceAudio": [
+    "f5-14.mp3"
+   ],
+   "startMs": 40667.4,
+   "audioEndMs": 41857.4,
+   "segmentEndMs": 42257.4,
+   "page": 0,
+   "section": "combined",
+   "text": "وًا وٍ"
+  },
+  {
+   "lessonId": 5,
+   "itemId": 109,
+   "sourceAudio": [
+    "f5-15.mp3"
+   ],
+   "startMs": 42257.4,
+   "audioEndMs": 44887.4,
+   "segmentEndMs": 45287.4,
+   "page": 0,
+   "section": "custom",
+   "text": "وٌ",
+   "fullWord": {
+    "confidence": "NOT_APPLICABLE"
+   }
+  },
+  {
+   "lessonId": 5,
+   "itemId": 2005,
+   "sourceAudio": [
+    "f5-16.mp3"
+   ],
+   "startMs": 45287.4,
+   "audioEndMs": 47187.4,
+   "segmentEndMs": 47587.4,
+   "page": 0,
+   "section": "combined",
+   "text": "وًا وٍ وٌ"
+  },
+  {
+   "lessonId": 5,
+   "itemId": 110,
+   "sourceAudio": [
+    "f5-17.mp3"
+   ],
+   "startMs": 47587.4,
+   "audioEndMs": 50007.4,
+   "segmentEndMs": 50407.4,
+   "page": 0,
+   "section": "custom",
+   "text": "فًا",
+   "fullWord": {
+    "confidence": "NOT_APPLICABLE"
+   }
+  },
+  {
+   "lessonId": 5,
+   "itemId": 111,
+   "sourceAudio": [
+    "f5-18.mp3"
+   ],
+   "startMs": 50407.4,
+   "audioEndMs": 52827.4,
+   "segmentEndMs": 53227.4,
+   "page": 0,
+   "section": "custom",
+   "text": "فٍ",
+   "fullWord": {
+    "confidence": "NOT_APPLICABLE"
+   }
+  },
+  {
+   "lessonId": 5,
+   "itemId": 2006,
+   "sourceAudio": [
+    "f5-19.mp3"
+   ],
+   "startMs": 53227.4,
+   "audioEndMs": 54497.4,
+   "segmentEndMs": 54897.4,
+   "page": 0,
+   "section": "combined",
+   "text": "فًا فٍ"
+  },
+  {
+   "lessonId": 5,
+   "itemId": 112,
+   "sourceAudio": [
+    "f5-20.mp3"
+   ],
+   "startMs": 54897.4,
+   "audioEndMs": 57277.4,
+   "segmentEndMs": 57677.4,
+   "page": 0,
+   "section": "custom",
+   "text": "فٌ",
+   "fullWord": {
+    "confidence": "NOT_APPLICABLE"
+   }
+  },
+  {
+   "lessonId": 5,
+   "itemId": 2007,
+   "sourceAudio": [
+    "f5-21.mp3"
+   ],
+   "startMs": 57677.4,
+   "audioEndMs": 59527.5,
+   "segmentEndMs": 59927.5,
+   "page": 0,
+   "section": "combined",
+   "text": "فًا فٍ فٌ"
+  },
+  {
+   "lessonId": 5,
+   "itemId": 113,
+   "sourceAudio": [
+    "f5-22.mp3"
+   ],
+   "startMs": 59927.5,
+   "audioEndMs": 62407.5,
+   "segmentEndMs": 62807.5,
+   "page": 0,
+   "section": "custom",
+   "text": "ثًا",
+   "fullWord": {
+    "confidence": "NOT_APPLICABLE"
+   }
+  },
+  {
+   "lessonId": 5,
+   "itemId": 114,
+   "sourceAudio": [
+    "f5-23.mp3"
+   ],
+   "startMs": 62807.5,
+   "audioEndMs": 65417.5,
+   "segmentEndMs": 65817.5,
+   "page": 0,
+   "section": "custom",
+   "text": "ثٍ",
+   "fullWord": {
+    "confidence": "NOT_APPLICABLE"
+   }
+  },
+  {
+   "lessonId": 5,
+   "itemId": 2008,
+   "sourceAudio": [
+    "f5-24.mp3"
+   ],
+   "startMs": 65817.5,
+   "audioEndMs": 67127.5,
+   "segmentEndMs": 67527.5,
+   "page": 0,
+   "section": "combined",
+   "text": "ثًا ثٍ"
+  },
+  {
+   "lessonId": 5,
+   "itemId": 115,
+   "sourceAudio": [
+    "f5-25.mp3"
+   ],
+   "startMs": 67527.5,
+   "audioEndMs": 70027.5,
+   "segmentEndMs": 70427.5,
+   "page": 0,
+   "section": "custom",
+   "text": "ثٌ",
+   "fullWord": {
+    "confidence": "NOT_APPLICABLE"
+   }
+  },
+  {
+   "lessonId": 5,
+   "itemId": 2009,
+   "sourceAudio": [
+    "f5-26.mp3"
+   ],
+   "startMs": 70427.5,
+   "audioEndMs": 72357.5,
+   "segmentEndMs": 72757.5,
+   "page": 0,
+   "section": "combined",
+   "text": "ثًا ثٍ ثٌ"
+  },
+  {
+   "lessonId": 5,
+   "itemId": 116,
+   "sourceAudio": [
+    "f5-27.mp3"
+   ],
+   "startMs": 72757.5,
+   "audioEndMs": 75327.6,
+   "segmentEndMs": 75727.6,
+   "page": 0,
+   "section": "custom",
+   "text": "ذًى",
+   "fullWord": {
+    "confidence": "NOT_APPLICABLE"
+   }
+  },
+  {
+   "lessonId": 5,
+   "itemId": 117,
+   "sourceAudio": [
+    "f5-28.mp3"
+   ],
+   "startMs": 75727.6,
+   "audioEndMs": 78207.6,
+   "segmentEndMs": 78607.6,
+   "page": 0,
+   "section": "custom",
+   "text": "ذٍ",
+   "fullWord": {
+    "confidence": "NOT_APPLICABLE"
+   }
+  },
+  {
+   "lessonId": 5,
+   "itemId": 2010,
+   "sourceAudio": [
+    "f5-29.mp3"
+   ],
+   "startMs": 78607.6,
+   "audioEndMs": 79968.1,
+   "segmentEndMs": 80368.1,
+   "page": 0,
+   "section": "combined",
+   "text": "ذًى ذٍ"
+  },
+  {
+   "lessonId": 5,
+   "itemId": 118,
+   "sourceAudio": [
+    "f5-30.mp3"
+   ],
+   "startMs": 80368.1,
+   "audioEndMs": 83058.1,
+   "segmentEndMs": 83458.1,
+   "page": 0,
+   "section": "custom",
+   "text": "ذٌ",
+   "fullWord": {
+    "confidence": "NOT_APPLICABLE"
+   }
+  },
+  {
+   "lessonId": 5,
+   "itemId": 2011,
+   "sourceAudio": [
+    "f5-31.mp3"
+   ],
+   "startMs": 83458.1,
+   "audioEndMs": 85428.1,
+   "segmentEndMs": 85828.1,
+   "page": 0,
+   "section": "combined",
+   "text": "ذًى ذٍ ذٌ"
+  },
+  {
+   "lessonId": 5,
+   "itemId": 119,
+   "sourceAudio": [
+    "f5-32.mp3"
+   ],
+   "startMs": 85828.1,
+   "audioEndMs": 88478.1,
+   "segmentEndMs": 88878.1,
+   "page": 0,
+   "section": "custom",
+   "text": "ظًا",
+   "fullWord": {
+    "confidence": "NOT_APPLICABLE"
+   }
+  },
+  {
+   "lessonId": 5,
+   "itemId": 120,
+   "sourceAudio": [
+    "f5-33.mp3"
+   ],
+   "startMs": 88878.1,
+   "audioEndMs": 91438.1,
+   "segmentEndMs": 91838.1,
+   "page": 0,
+   "section": "custom",
+   "text": "ظٍ",
+   "fullWord": {
+    "confidence": "NOT_APPLICABLE"
+   }
+  },
+  {
+   "lessonId": 5,
+   "itemId": 2012,
+   "sourceAudio": [
+    "f5-34.mp3"
+   ],
+   "startMs": 91838.1,
+   "audioEndMs": 93038.1,
+   "segmentEndMs": 93438.1,
+   "page": 0,
+   "section": "combined",
+   "text": "ظًا ظٍ"
+  },
+  {
+   "lessonId": 5,
+   "itemId": 121,
+   "sourceAudio": [
+    "f5-35.mp3"
+   ],
+   "startMs": 93438.1,
+   "audioEndMs": 96078.6,
+   "segmentEndMs": 96478.6,
+   "page": 0,
+   "section": "custom",
+   "text": "ظٌ",
+   "fullWord": {
+    "confidence": "NOT_APPLICABLE"
+   }
+  },
+  {
+   "lessonId": 5,
+   "itemId": 2013,
+   "sourceAudio": [
+    "f5-36.mp3"
+   ],
+   "startMs": 96478.6,
+   "audioEndMs": 98398.6,
+   "segmentEndMs": 98798.6,
+   "page": 0,
+   "section": "combined",
+   "text": "ظًا ظٍ ظٌ"
+  },
+  {
+   "lessonId": 5,
+   "itemId": 122,
+   "sourceAudio": [
+    "f5-37.mp3"
+   ],
+   "startMs": 98798.6,
+   "audioEndMs": 101428.7,
+   "segmentEndMs": 101828.7,
+   "page": 0,
+   "section": "custom",
+   "text": "زًا",
+   "fullWord": {
+    "confidence": "NOT_APPLICABLE"
+   }
+  },
+  {
+   "lessonId": 5,
+   "itemId": 123,
+   "sourceAudio": [
+    "f5-38.mp3"
+   ],
+   "startMs": 101828.7,
+   "audioEndMs": 104338.7,
+   "segmentEndMs": 104738.7,
+   "page": 0,
+   "section": "custom",
+   "text": "زٍ",
+   "fullWord": {
+    "confidence": "NOT_APPLICABLE"
+   }
+  },
+  {
+   "lessonId": 5,
+   "itemId": 2014,
+   "sourceAudio": [
+    "f5-39.mp3"
+   ],
+   "startMs": 104738.7,
+   "audioEndMs": 105988.7,
+   "segmentEndMs": 106388.7,
+   "page": 0,
+   "section": "combined",
+   "text": "زًا زٍ"
+  },
+  {
+   "lessonId": 5,
+   "itemId": 124,
+   "sourceAudio": [
+    "f5-40.mp3"
+   ],
+   "startMs": 106388.7,
+   "audioEndMs": 108958.7,
+   "segmentEndMs": 109358.7,
+   "page": 0,
+   "section": "custom",
+   "text": "زٌ",
+   "fullWord": {
+    "confidence": "NOT_APPLICABLE"
+   }
+  },
+  {
+   "lessonId": 5,
+   "itemId": 2015,
+   "sourceAudio": [
+    "f5-41.mp3"
+   ],
+   "startMs": 109358.7,
+   "audioEndMs": 111268.7,
+   "segmentEndMs": 111668.7,
+   "page": 0,
+   "section": "combined",
+   "text": "زًا زٍ زٌ"
+  },
+  {
+   "lessonId": 5,
+   "itemId": 125,
+   "sourceAudio": [
+    "f5-42.mp3"
+   ],
+   "startMs": 111668.7,
+   "audioEndMs": 114238.8,
+   "segmentEndMs": 114638.8,
+   "page": 0,
+   "section": "custom",
+   "text": "سًا",
+   "fullWord": {
+    "confidence": "NOT_APPLICABLE"
+   }
+  },
+  {
+   "lessonId": 5,
+   "itemId": 126,
+   "sourceAudio": [
+    "f5-43.mp3"
+   ],
+   "startMs": 114638.8,
+   "audioEndMs": 117098.8,
+   "segmentEndMs": 117498.8,
+   "page": 0,
+   "section": "custom",
+   "text": "سٍ",
+   "fullWord": {
+    "confidence": "NOT_APPLICABLE"
+   }
+  },
+  {
+   "lessonId": 5,
+   "itemId": 2016,
+   "sourceAudio": [
+    "f5-44.mp3"
+   ],
+   "startMs": 117498.8,
+   "audioEndMs": 118668.8,
+   "segmentEndMs": 119068.8,
+   "page": 0,
+   "section": "combined",
+   "text": "سًا سٍ"
+  },
+  {
+   "lessonId": 5,
+   "itemId": 127,
+   "sourceAudio": [
+    "f5-45.mp3"
+   ],
+   "startMs": 119068.8,
+   "audioEndMs": 121808.8,
+   "segmentEndMs": 122208.8,
+   "page": 0,
+   "section": "custom",
+   "text": "سٌ",
+   "fullWord": {
+    "confidence": "NOT_APPLICABLE"
+   }
+  },
+  {
+   "lessonId": 5,
+   "itemId": 2017,
+   "sourceAudio": [
+    "f5-46.mp3"
+   ],
+   "startMs": 122208.8,
+   "audioEndMs": 123938.8,
+   "segmentEndMs": 124338.8,
+   "page": 0,
+   "section": "combined",
+   "text": "سًا سٍ سٌ"
+  },
+  {
+   "lessonId": 5,
+   "itemId": 128,
+   "sourceAudio": [
+    "f5-47.mp3"
+   ],
+   "startMs": 124338.8,
+   "audioEndMs": 126818.8,
+   "segmentEndMs": 127218.8,
+   "page": 0,
+   "section": "custom",
+   "text": "صًا",
+   "fullWord": {
+    "confidence": "NOT_APPLICABLE"
+   }
+  },
+  {
+   "lessonId": 5,
+   "itemId": 129,
+   "sourceAudio": [
+    "f5-48.mp3"
+   ],
+   "startMs": 127218.8,
+   "audioEndMs": 129598.8,
+   "segmentEndMs": 129998.8,
+   "page": 0,
+   "section": "custom",
+   "text": "صٍ",
+   "fullWord": {
+    "confidence": "NOT_APPLICABLE"
+   }
+  },
+  {
+   "lessonId": 5,
+   "itemId": 2018,
+   "sourceAudio": [
+    "f5-49.mp3"
+   ],
+   "startMs": 129998.8,
+   "audioEndMs": 131298.8,
+   "segmentEndMs": 131698.8,
+   "page": 0,
+   "section": "combined",
+   "text": "صًا صٍ"
+  },
+  {
+   "lessonId": 5,
+   "itemId": 130,
+   "sourceAudio": [
+    "f5-50.mp3"
+   ],
+   "startMs": 131698.8,
+   "audioEndMs": 134278.8,
+   "segmentEndMs": 134678.8,
+   "page": 0,
+   "section": "custom",
+   "text": "صٌ",
+   "fullWord": {
+    "confidence": "NOT_APPLICABLE"
+   }
+  },
+  {
+   "lessonId": 5,
+   "itemId": 2019,
+   "sourceAudio": [
+    "f5-51.mp3"
+   ],
+   "startMs": 134678.8,
+   "audioEndMs": 136678.8,
+   "segmentEndMs": 137078.8,
+   "page": 0,
+   "section": "combined",
+   "text": "صًا صٍ صٌ"
+  },
+  {
+   "lessonId": 5,
+   "itemId": 131,
+   "sourceAudio": [
+    "f5-52.mp3"
+   ],
+   "startMs": 137078.8,
+   "audioEndMs": 139358.8,
+   "segmentEndMs": 139758.8,
+   "page": 0,
+   "section": "custom",
+   "text": "ةً",
+   "fullWord": {
+    "confidence": "NOT_APPLICABLE"
+   }
+  },
+  {
+   "lessonId": 5,
+   "itemId": 132,
+   "sourceAudio": [
+    "f5-53.mp3"
+   ],
+   "startMs": 139758.8,
+   "audioEndMs": 142018.8,
+   "segmentEndMs": 142418.8,
+   "page": 0,
+   "section": "custom",
+   "text": "ةٍ",
+   "fullWord": {
+    "confidence": "NOT_APPLICABLE"
+   }
+  },
+  {
+   "lessonId": 5,
+   "itemId": 2020,
+   "sourceAudio": [
+    "f5-54.mp3"
+   ],
+   "startMs": 142418.8,
+   "audioEndMs": 143598.8,
+   "segmentEndMs": 143998.8,
+   "page": 0,
+   "section": "combined",
+   "text": "ةً ةٍ"
+  },
+  {
+   "lessonId": 5,
+   "itemId": 133,
+   "sourceAudio": [
+    "f5-55.mp3"
+   ],
+   "startMs": 143998.8,
+   "audioEndMs": 146558.8,
+   "segmentEndMs": 146958.8,
+   "page": 0,
+   "section": "custom",
+   "text": "ةٌ",
+   "fullWord": {
+    "confidence": "NOT_APPLICABLE"
+   }
+  },
+  {
+   "lessonId": 5,
+   "itemId": 2021,
+   "sourceAudio": [
+    "f5-56.mp3"
+   ],
+   "startMs": 146958.8,
+   "audioEndMs": 148758.8,
+   "segmentEndMs": 149158.8,
+   "page": 0,
+   "section": "combined",
+   "text": "ةً ةٍ ةٌ"
+  },
+  {
+   "lessonId": 5,
+   "itemId": 134,
+   "sourceAudio": [
+    "f5-57.mp3"
+   ],
+   "startMs": 149158.8,
+   "audioEndMs": 151658.8,
+   "segmentEndMs": 152058.8,
+   "page": 0,
+   "section": "custom",
+   "text": "دًى",
+   "fullWord": {
+    "confidence": "NOT_APPLICABLE"
+   }
+  },
+  {
+   "lessonId": 5,
+   "itemId": 135,
+   "sourceAudio": [
+    "f5-58.mp3"
+   ],
+   "startMs": 152058.8,
+   "audioEndMs": 154558.8,
+   "segmentEndMs": 154958.8,
+   "page": 0,
+   "section": "custom",
+   "text": "دٍ",
+   "fullWord": {
+    "confidence": "NOT_APPLICABLE"
+   }
+  },
+  {
+   "lessonId": 5,
+   "itemId": 2022,
+   "sourceAudio": [
+    "f5-59.mp3"
+   ],
+   "startMs": 154958.8,
+   "audioEndMs": 156158.8,
+   "segmentEndMs": 156558.8,
+   "page": 0,
+   "section": "combined",
+   "text": "دًى دٍ"
+  },
+  {
+   "lessonId": 5,
+   "itemId": 136,
+   "sourceAudio": [
+    "f5-60.mp3"
+   ],
+   "startMs": 156558.8,
+   "audioEndMs": 159098.8,
+   "segmentEndMs": 159498.8,
+   "page": 0,
+   "section": "custom",
+   "text": "دٌ",
+   "fullWord": {
+    "confidence": "NOT_APPLICABLE"
+   }
+  },
+  {
+   "lessonId": 5,
+   "itemId": 2023,
+   "sourceAudio": [
+    "f5-61.mp3"
+   ],
+   "startMs": 159498.8,
+   "audioEndMs": 161308.8,
+   "segmentEndMs": 161708.8,
+   "page": 0,
+   "section": "combined",
+   "text": "دًى دٍ دٌ"
+  },
+  {
+   "lessonId": 5,
+   "itemId": 137,
+   "sourceAudio": [
+    "f5-62.mp3"
+   ],
+   "startMs": 161708.8,
+   "audioEndMs": 164009.7,
+   "segmentEndMs": 164409.7,
+   "page": 0,
+   "section": "custom",
+   "text": "طًا",
+   "fullWord": {
+    "confidence": "NOT_APPLICABLE"
+   }
+  },
+  {
+   "lessonId": 5,
+   "itemId": 138,
+   "sourceAudio": [
+    "f5-63.mp3"
+   ],
+   "startMs": 164409.7,
+   "audioEndMs": 166719.8,
+   "segmentEndMs": 167119.8,
+   "page": 0,
+   "section": "custom",
+   "text": "طٍ",
+   "fullWord": {
+    "confidence": "NOT_APPLICABLE"
+   }
+  },
+  {
+   "lessonId": 5,
+   "itemId": 2024,
+   "sourceAudio": [
+    "f5-64.mp3"
+   ],
+   "startMs": 167119.8,
+   "audioEndMs": 168259.8,
+   "segmentEndMs": 168659.8,
+   "page": 0,
+   "section": "combined",
+   "text": "طًا طٍ"
+  },
+  {
+   "lessonId": 5,
+   "itemId": 139,
+   "sourceAudio": [
+    "f5-65.mp3"
+   ],
+   "startMs": 168659.8,
+   "audioEndMs": 171069.8,
+   "segmentEndMs": 171469.8,
+   "page": 0,
+   "section": "custom",
+   "text": "طٌ",
+   "fullWord": {
+    "confidence": "NOT_APPLICABLE"
+   }
+  },
+  {
+   "lessonId": 5,
+   "itemId": 2025,
+   "sourceAudio": [
+    "f5-66.mp3"
+   ],
+   "startMs": 171469.8,
+   "audioEndMs": 173219.8,
+   "segmentEndMs": 173619.8,
+   "page": 0,
+   "section": "combined",
+   "text": "طًا طٍ طٌ"
+  },
+  {
+   "lessonId": 5,
+   "itemId": 140,
+   "sourceAudio": [
+    "f5-67.mp3"
+   ],
+   "startMs": 173619.8,
+   "audioEndMs": 176079.8,
+   "segmentEndMs": 176479.8,
+   "page": 0,
+   "section": "custom",
+   "text": "رًا",
+   "fullWord": {
+    "confidence": "NOT_APPLICABLE"
+   }
+  },
+  {
+   "lessonId": 5,
+   "itemId": 141,
+   "sourceAudio": [
+    "f5-68.mp3"
+   ],
+   "startMs": 176479.8,
+   "audioEndMs": 178949.8,
+   "segmentEndMs": 179349.8,
+   "page": 0,
+   "section": "custom",
+   "text": "رٍ",
+   "fullWord": {
+    "confidence": "NOT_APPLICABLE"
+   }
+  },
+  {
+   "lessonId": 5,
+   "itemId": 2026,
+   "sourceAudio": [
+    "f5-69.mp3"
+   ],
+   "startMs": 179349.8,
+   "audioEndMs": 180519.9,
+   "segmentEndMs": 180919.9,
+   "page": 0,
+   "section": "combined",
+   "text": "رًا رٍ"
+  },
+  {
+   "lessonId": 5,
+   "itemId": 142,
+   "sourceAudio": [
+    "f5-70.mp3"
+   ],
+   "startMs": 180919.9,
+   "audioEndMs": 183499.9,
+   "segmentEndMs": 183899.9,
+   "page": 0,
+   "section": "custom",
+   "text": "رٌ",
+   "fullWord": {
+    "confidence": "NOT_APPLICABLE"
+   }
+  },
+  {
+   "lessonId": 5,
+   "itemId": 2027,
+   "sourceAudio": [
+    "f5-71.mp3"
+   ],
+   "startMs": 183899.9,
+   "audioEndMs": 185819.9,
+   "segmentEndMs": 186219.9,
+   "page": 0,
+   "section": "combined",
+   "text": "رًا رٍ رٌ"
+  },
+  {
+   "lessonId": 5,
+   "itemId": 143,
+   "sourceAudio": [
+    "f5-72.mp3"
+   ],
+   "startMs": 186219.9,
+   "audioEndMs": 188739.9,
+   "segmentEndMs": 189139.9,
+   "page": 0,
+   "section": "custom",
+   "text": "نًا",
+   "fullWord": {
+    "confidence": "NOT_APPLICABLE"
+   }
+  },
+  {
+   "lessonId": 5,
+   "itemId": 144,
+   "sourceAudio": [
+    "f5-73.mp3"
+   ],
+   "startMs": 189139.9,
+   "audioEndMs": 191609.9,
+   "segmentEndMs": 192009.9,
+   "page": 0,
+   "section": "custom",
+   "text": "نٍ",
+   "fullWord": {
+    "confidence": "NOT_APPLICABLE"
+   }
+  },
+  {
+   "lessonId": 5,
+   "itemId": 2028,
+   "sourceAudio": [
+    "f5-74.mp3"
+   ],
+   "startMs": 192009.9,
+   "audioEndMs": 193339.9,
+   "segmentEndMs": 193739.9,
+   "page": 0,
+   "section": "combined",
+   "text": "نًا نٍ"
+  },
+  {
+   "lessonId": 5,
+   "itemId": 145,
+   "sourceAudio": [
+    "f5-75.mp3"
+   ],
+   "startMs": 193739.9,
+   "audioEndMs": 196469.9,
+   "segmentEndMs": 196869.9,
+   "page": 0,
+   "section": "custom",
+   "text": "نٌ",
+   "fullWord": {
+    "confidence": "NOT_APPLICABLE"
+   }
+  },
+  {
+   "lessonId": 5,
+   "itemId": 2029,
+   "sourceAudio": [
+    "f5-76.mp3"
+   ],
+   "startMs": 196869.9,
+   "audioEndMs": 198559.9,
+   "segmentEndMs": 198959.9,
+   "page": 0,
+   "section": "combined",
+   "text": "نًا نٍ نٌ"
+  },
+  {
+   "lessonId": 5,
+   "itemId": 146,
+   "sourceAudio": [
+    "f5-77.mp3"
+   ],
+   "startMs": 198959.9,
+   "audioEndMs": 201539.9,
+   "segmentEndMs": 201939.9,
+   "page": 0,
+   "section": "custom",
+   "text": "لًا",
+   "fullWord": {
+    "confidence": "NOT_APPLICABLE"
+   }
+  },
+  {
+   "lessonId": 5,
+   "itemId": 147,
+   "sourceAudio": [
+    "f5-78.mp3"
+   ],
+   "startMs": 201939.9,
+   "audioEndMs": 204519.9,
+   "segmentEndMs": 204919.9,
+   "page": 0,
+   "section": "custom",
+   "text": "لٍ",
+   "fullWord": {
+    "confidence": "NOT_APPLICABLE"
+   }
+  },
+  {
+   "lessonId": 5,
+   "itemId": 2030,
+   "sourceAudio": [
+    "f5-79.mp3"
+   ],
+   "startMs": 204919.9,
+   "audioEndMs": 206179.9,
+   "segmentEndMs": 206579.9,
+   "page": 0,
+   "section": "combined",
+   "text": "لًا لٍ"
+  },
+  {
+   "lessonId": 5,
+   "itemId": 148,
+   "sourceAudio": [
+    "f5-80.mp3"
+   ],
+   "startMs": 206579.9,
+   "audioEndMs": 209159.9,
+   "segmentEndMs": 209559.9,
+   "page": 0,
+   "section": "custom",
+   "text": "لٌ",
+   "fullWord": {
+    "confidence": "NOT_APPLICABLE"
+   }
+  },
+  {
+   "lessonId": 5,
+   "itemId": 2031,
+   "sourceAudio": [
+    "f5-81.mp3"
+   ],
+   "startMs": 209559.9,
+   "audioEndMs": 211570.0,
+   "segmentEndMs": 211970.0,
+   "page": 0,
+   "section": "combined",
+   "text": "لًا لٍ لٌ"
+  },
+  {
+   "lessonId": 5,
+   "itemId": 149,
+   "sourceAudio": [
+    "f5-82.mp3"
+   ],
+   "startMs": 211970.0,
+   "audioEndMs": 214530.0,
+   "segmentEndMs": 214930.0,
+   "page": 0,
+   "section": "custom",
+   "text": "ضًا",
+   "fullWord": {
+    "confidence": "NOT_APPLICABLE"
+   }
+  },
+  {
+   "lessonId": 5,
+   "itemId": 150,
+   "sourceAudio": [
+    "f5-83.mp3"
+   ],
+   "startMs": 214930.0,
+   "audioEndMs": 217550.0,
+   "segmentEndMs": 217950.0,
+   "page": 0,
+   "section": "custom",
+   "text": "ضٍ",
+   "fullWord": {
+    "confidence": "NOT_APPLICABLE"
+   }
+  },
+  {
+   "lessonId": 5,
+   "itemId": 2032,
+   "sourceAudio": [
+    "f5-84.mp3"
+   ],
+   "startMs": 217950.0,
+   "audioEndMs": 219400.0,
+   "segmentEndMs": 219800.0,
+   "page": 0,
+   "section": "combined",
+   "text": "ضًا ضٍ"
+  },
+  {
+   "lessonId": 5,
+   "itemId": 151,
+   "sourceAudio": [
+    "f5-85.mp3"
+   ],
+   "startMs": 219800.0,
+   "audioEndMs": 222390.0,
+   "segmentEndMs": 222790.0,
+   "page": 0,
+   "section": "custom",
+   "text": "ضٌ",
+   "fullWord": {
+    "confidence": "NOT_APPLICABLE"
+   }
+  },
+  {
+   "lessonId": 5,
+   "itemId": 2033,
+   "sourceAudio": [
+    "f5-86.mp3"
+   ],
+   "startMs": 222790.0,
+   "audioEndMs": 224720.0,
+   "segmentEndMs": 225120.0,
+   "page": 0,
+   "section": "combined",
+   "text": "ضًا ضٍ ضٌ"
+  },
+  {
+   "lessonId": 5,
+   "itemId": 152,
+   "sourceAudio": [
+    "f5-87.mp3"
+   ],
+   "startMs": 225120.0,
+   "audioEndMs": 227551.6,
+   "segmentEndMs": 227951.6,
+   "page": 0,
+   "section": "custom",
+   "text": "يًا",
+   "fullWord": {
+    "confidence": "NOT_APPLICABLE"
+   }
+  },
+  {
+   "lessonId": 5,
+   "itemId": 153,
+   "sourceAudio": [
+    "f5-88.mp3"
+   ],
+   "startMs": 227951.6,
+   "audioEndMs": 230421.6,
+   "segmentEndMs": 230821.6,
+   "page": 0,
+   "section": "custom",
+   "text": "يٍ",
+   "fullWord": {
+    "confidence": "NOT_APPLICABLE"
+   }
+  },
+  {
+   "lessonId": 5,
+   "itemId": 2034,
+   "sourceAudio": [
+    "f5-89.mp3"
+   ],
+   "startMs": 230821.6,
+   "audioEndMs": 232161.6,
+   "segmentEndMs": 232561.6,
+   "page": 0,
+   "section": "combined",
+   "text": "يًا يٍ"
+  },
+  {
+   "lessonId": 5,
+   "itemId": 154,
+   "sourceAudio": [
+    "f5-90.mp3"
+   ],
+   "startMs": 232561.6,
+   "audioEndMs": 235241.6,
+   "segmentEndMs": 235641.6,
+   "page": 0,
+   "section": "custom",
+   "text": "يٌ",
+   "fullWord": {
+    "confidence": "NOT_APPLICABLE"
+   }
+  },
+  {
+   "lessonId": 5,
+   "itemId": 2035,
+   "sourceAudio": [
+    "f5-91.mp3"
+   ],
+   "startMs": 235641.6,
+   "audioEndMs": 237511.6,
+   "segmentEndMs": 237911.6,
+   "page": 0,
+   "section": "combined",
+   "text": "يًا يٍ يٌ"
+  },
+  {
+   "lessonId": 5,
+   "itemId": 155,
+   "sourceAudio": [
+    "f5-92.mp3"
+   ],
+   "startMs": 237911.6,
+   "audioEndMs": 240411.6,
+   "segmentEndMs": 240811.6,
+   "page": 0,
+   "section": "custom",
+   "text": "شًا",
+   "fullWord": {
+    "confidence": "NOT_APPLICABLE"
+   }
+  },
+  {
+   "lessonId": 5,
+   "itemId": 156,
+   "sourceAudio": [
+    "f5-93.mp3"
+   ],
+   "startMs": 240811.6,
+   "audioEndMs": 243161.6,
+   "segmentEndMs": 243561.6,
+   "page": 0,
+   "section": "custom",
+   "text": "شٍ",
+   "fullWord": {
+    "confidence": "NOT_APPLICABLE"
+   }
+  },
+  {
+   "lessonId": 5,
+   "itemId": 2036,
+   "sourceAudio": [
+    "f5-94.mp3"
+   ],
+   "startMs": 243561.6,
+   "audioEndMs": 244713.1,
+   "segmentEndMs": 245113.1,
+   "page": 0,
+   "section": "combined",
+   "text": "شًا شٍ"
+  },
+  {
+   "lessonId": 5,
+   "itemId": 157,
+   "sourceAudio": [
+    "f5-95.mp3"
+   ],
+   "startMs": 245113.1,
+   "audioEndMs": 247493.1,
+   "segmentEndMs": 247893.1,
+   "page": 0,
+   "section": "custom",
+   "text": "شٌ",
+   "fullWord": {
+    "confidence": "NOT_APPLICABLE"
+   }
+  },
+  {
+   "lessonId": 5,
+   "itemId": 2037,
+   "sourceAudio": [
+    "f5-96.mp3"
+   ],
+   "startMs": 247893.1,
+   "audioEndMs": 249603.2,
+   "segmentEndMs": 250003.2,
+   "page": 0,
+   "section": "combined",
+   "text": "شًا شٍ شٌ"
+  },
+  {
+   "lessonId": 5,
+   "itemId": 158,
+   "sourceAudio": [
+    "f5-97.mp3"
+   ],
+   "startMs": 250003.2,
+   "audioEndMs": 252483.2,
+   "segmentEndMs": 252883.2,
+   "page": 0,
+   "section": "custom",
+   "text": "جًا",
+   "fullWord": {
+    "confidence": "NOT_APPLICABLE"
+   }
+  },
+  {
+   "lessonId": 5,
+   "itemId": 159,
+   "sourceAudio": [
+    "f5-98.mp3"
+   ],
+   "startMs": 252883.2,
+   "audioEndMs": 255223.2,
+   "segmentEndMs": 255623.2,
+   "page": 0,
+   "section": "custom",
+   "text": "جٍ",
+   "fullWord": {
+    "confidence": "NOT_APPLICABLE"
+   }
+  },
+  {
+   "lessonId": 5,
+   "itemId": 2038,
+   "sourceAudio": [
+    "f5-99.mp3"
+   ],
+   "startMs": 255623.2,
+   "audioEndMs": 256863.2,
+   "segmentEndMs": 257263.2,
+   "page": 0,
+   "section": "combined",
+   "text": "جًا جٍ"
+  },
+  {
+   "lessonId": 5,
+   "itemId": 160,
+   "sourceAudio": [
+    "f5-100.mp3"
+   ],
+   "startMs": 257263.2,
+   "audioEndMs": 259783.2,
+   "segmentEndMs": 260183.2,
+   "page": 0,
+   "section": "custom",
+   "text": "جٌ",
+   "fullWord": {
+    "confidence": "NOT_APPLICABLE"
+   }
+  },
+  {
+   "lessonId": 5,
+   "itemId": 2039,
+   "sourceAudio": [
+    "f5-101.mp3"
+   ],
+   "startMs": 260183.2,
+   "audioEndMs": 262053.2,
+   "segmentEndMs": 262453.2,
+   "page": 0,
+   "section": "combined",
+   "text": "جًا جٍ جٌ"
+  },
+  {
+   "lessonId": 5,
+   "itemId": 161,
+   "sourceAudio": [
+    "f5-102.mp3"
+   ],
+   "startMs": 262453.2,
+   "audioEndMs": 264723.2,
+   "segmentEndMs": 265123.2,
+   "page": 0,
+   "section": "custom",
+   "text": "كًا",
+   "fullWord": {
+    "confidence": "NOT_APPLICABLE"
+   }
+  },
+  {
+   "lessonId": 5,
+   "itemId": 162,
+   "sourceAudio": [
+    "f5-103.mp3"
+   ],
+   "startMs": 265123.2,
+   "audioEndMs": 267483.2,
+   "segmentEndMs": 267883.2,
+   "page": 0,
+   "section": "custom",
+   "text": "كٍ",
+   "fullWord": {
+    "confidence": "NOT_APPLICABLE"
+   }
+  },
+  {
+   "lessonId": 5,
+   "itemId": 2040,
+   "sourceAudio": [
+    "f5-104.mp3"
+   ],
+   "startMs": 267883.2,
+   "audioEndMs": 269083.2,
+   "segmentEndMs": 269483.2,
+   "page": 0,
+   "section": "combined",
+   "text": "كًا كٍ"
+  },
+  {
+   "lessonId": 5,
+   "itemId": 163,
+   "sourceAudio": [
+    "f5-105.mp3"
+   ],
+   "startMs": 269483.2,
+   "audioEndMs": 271943.2,
+   "segmentEndMs": 272343.2,
+   "page": 0,
+   "section": "custom",
+   "text": "كٌ",
+   "fullWord": {
+    "confidence": "NOT_APPLICABLE"
+   }
+  },
+  {
+   "lessonId": 5,
+   "itemId": 2041,
+   "sourceAudio": [
+    "f5-106.mp3"
+   ],
+   "startMs": 272343.2,
+   "audioEndMs": 274133.2,
+   "segmentEndMs": 274533.2,
+   "page": 0,
+   "section": "combined",
+   "text": "كًا كٍ كٌ"
+  },
+  {
+   "lessonId": 5,
+   "itemId": 164,
+   "sourceAudio": [
+    "f5-107.mp3"
+   ],
+   "startMs": 274533.2,
+   "audioEndMs": 276964.8,
+   "segmentEndMs": 277364.8,
+   "page": 0,
+   "section": "custom",
+   "text": "قًا",
+   "fullWord": {
+    "confidence": "NOT_APPLICABLE"
+   }
+  },
+  {
+   "lessonId": 5,
+   "itemId": 200,
+   "sourceAudio": [
+    "f5-108.mp3"
+   ],
+   "startMs": 277364.8,
+   "audioEndMs": 279934.8,
+   "segmentEndMs": 280334.8,
+   "page": 1,
+   "section": "custom",
+   "text": "قٍ",
+   "fullWord": {
+    "confidence": "NOT_APPLICABLE"
+   }
+  },
+  {
+   "lessonId": 5,
+   "itemId": 4000,
+   "sourceAudio": [
+    "f5-109.mp3"
+   ],
+   "startMs": 280334.8,
+   "audioEndMs": 281384.8,
+   "segmentEndMs": 281784.8,
+   "page": 1,
+   "section": "combined",
+   "text": "قًا قٍ"
+  },
+  {
+   "lessonId": 5,
+   "itemId": 201,
+   "sourceAudio": [
+    "f5-110.mp3"
+   ],
+   "startMs": 281784.8,
+   "audioEndMs": 284344.8,
+   "segmentEndMs": 284744.8,
+   "page": 1,
+   "section": "custom",
+   "text": "قٌ",
+   "fullWord": {
+    "confidence": "NOT_APPLICABLE"
+   }
+  },
+  {
+   "lessonId": 5,
+   "itemId": 4001,
+   "sourceAudio": [
+    "f5-111.mp3"
+   ],
+   "startMs": 284744.8,
+   "audioEndMs": 286614.8,
+   "segmentEndMs": 287014.8,
+   "page": 1,
+   "section": "combined",
+   "text": "قًا قٍ قٌ"
+  },
+  {
+   "lessonId": 5,
+   "itemId": 202,
+   "sourceAudio": [
+    "f5-112.mp3"
+   ],
+   "startMs": 287014.8,
+   "audioEndMs": 289564.8,
+   "segmentEndMs": 289964.8,
+   "page": 1,
+   "section": "custom",
+   "text": "خًا",
+   "fullWord": {
+    "confidence": "NOT_APPLICABLE"
+   }
+  },
+  {
+   "lessonId": 5,
+   "itemId": 203,
+   "sourceAudio": [
+    "f5-113.mp3"
+   ],
+   "startMs": 289964.8,
+   "audioEndMs": 292554.9,
+   "segmentEndMs": 292954.9,
+   "page": 1,
+   "section": "custom",
+   "text": "خٍ",
+   "fullWord": {
+    "confidence": "NOT_APPLICABLE"
+   }
+  },
+  {
+   "lessonId": 5,
+   "itemId": 4002,
+   "sourceAudio": [
+    "f5-114.mp3"
+   ],
+   "startMs": 292954.9,
+   "audioEndMs": 294244.9,
+   "segmentEndMs": 294644.9,
+   "page": 1,
+   "section": "combined",
+   "text": "خًا خٍ"
+  },
+  {
+   "lessonId": 5,
+   "itemId": 204,
+   "sourceAudio": [
+    "f5-115.mp3"
+   ],
+   "startMs": 294644.9,
+   "audioEndMs": 297194.9,
+   "segmentEndMs": 297594.9,
+   "page": 1,
+   "section": "custom",
+   "text": "خٌ",
+   "fullWord": {
+    "confidence": "NOT_APPLICABLE"
+   }
+  },
+  {
+   "lessonId": 5,
+   "itemId": 4003,
+   "sourceAudio": [
+    "f5-116.mp3"
+   ],
+   "startMs": 297594.9,
+   "audioEndMs": 299544.9,
+   "segmentEndMs": 299944.9,
+   "page": 1,
+   "section": "combined",
+   "text": "خًا خٍ خٌ"
+  },
+  {
+   "lessonId": 5,
+   "itemId": 205,
+   "sourceAudio": [
+    "f5-117.mp3"
+   ],
+   "startMs": 299944.9,
+   "audioEndMs": 302555.0,
+   "segmentEndMs": 302955.0,
+   "page": 1,
+   "section": "custom",
+   "text": "غًا",
+   "fullWord": {
+    "confidence": "NOT_APPLICABLE"
+   }
+  },
+  {
+   "lessonId": 5,
+   "itemId": 206,
+   "sourceAudio": [
+    "f5-118.mp3"
+   ],
+   "startMs": 302955.0,
+   "audioEndMs": 305395.0,
+   "segmentEndMs": 305795.0,
+   "page": 1,
+   "section": "custom",
+   "text": "غٍ",
+   "fullWord": {
+    "confidence": "NOT_APPLICABLE"
+   }
+  },
+  {
+   "lessonId": 5,
+   "itemId": 4004,
+   "sourceAudio": [
+    "f5-119.mp3"
+   ],
+   "startMs": 305795.0,
+   "audioEndMs": 307095.0,
+   "segmentEndMs": 307495.0,
+   "page": 1,
+   "section": "combined",
+   "text": "غًا غٍ"
+  },
+  {
+   "lessonId": 5,
+   "itemId": 207,
+   "sourceAudio": [
+    "f5-120.mp3"
+   ],
+   "startMs": 307495.0,
+   "audioEndMs": 310015.0,
+   "segmentEndMs": 310415.0,
+   "page": 1,
+   "section": "custom",
+   "text": "غٌ",
+   "fullWord": {
+    "confidence": "NOT_APPLICABLE"
+   }
+  },
+  {
+   "lessonId": 5,
+   "itemId": 4005,
+   "sourceAudio": [
+    "f5-121.mp3"
+   ],
+   "startMs": 310415.0,
+   "audioEndMs": 312245.7,
+   "segmentEndMs": 312645.7,
+   "page": 1,
+   "section": "combined",
+   "text": "غًا غٍ غٌ"
+  },
+  {
+   "lessonId": 5,
+   "itemId": 208,
+   "sourceAudio": [
+    "f5-122.mp3"
+   ],
+   "startMs": 312645.7,
+   "audioEndMs": 315115.7,
+   "segmentEndMs": 315515.7,
+   "page": 1,
+   "section": "custom",
+   "text": "حًا",
+   "fullWord": {
+    "confidence": "NOT_APPLICABLE"
+   }
+  },
+  {
+   "lessonId": 5,
+   "itemId": 209,
+   "sourceAudio": [
+    "f5-123.mp3"
+   ],
+   "startMs": 315515.7,
+   "audioEndMs": 318045.7,
+   "segmentEndMs": 318445.7,
+   "page": 1,
+   "section": "custom",
+   "text": "حٍ",
+   "fullWord": {
+    "confidence": "NOT_APPLICABLE"
+   }
+  },
+  {
+   "lessonId": 5,
+   "itemId": 4006,
+   "sourceAudio": [
+    "f5-124.mp3"
+   ],
+   "startMs": 318445.7,
+   "audioEndMs": 319655.7,
+   "segmentEndMs": 320055.7,
+   "page": 1,
+   "section": "combined",
+   "text": "حًا حٍ"
+  },
+  {
+   "lessonId": 5,
+   "itemId": 210,
+   "sourceAudio": [
+    "f5-125.mp3"
+   ],
+   "startMs": 320055.7,
+   "audioEndMs": 322705.8,
+   "segmentEndMs": 323105.8,
+   "page": 1,
+   "section": "custom",
+   "text": "حٌ",
+   "fullWord": {
+    "confidence": "NOT_APPLICABLE"
+   }
+  },
+  {
+   "lessonId": 5,
+   "itemId": 4007,
+   "sourceAudio": [
+    "f5-126.mp3"
+   ],
+   "startMs": 323105.8,
+   "audioEndMs": 324936.5,
+   "segmentEndMs": 325336.5,
+   "page": 1,
+   "section": "combined",
+   "text": "حًا حٍ حٌ"
+  },
+  {
+   "lessonId": 5,
+   "itemId": 211,
+   "sourceAudio": [
+    "f5-127.mp3"
+   ],
+   "startMs": 325336.5,
+   "audioEndMs": 327986.5,
+   "segmentEndMs": 328386.5,
+   "page": 1,
+   "section": "custom",
+   "text": "عًا",
+   "fullWord": {
+    "confidence": "NOT_APPLICABLE"
+   }
+  },
+  {
+   "lessonId": 5,
+   "itemId": 212,
+   "sourceAudio": [
+    "f5-128.mp3"
+   ],
+   "startMs": 328386.5,
+   "audioEndMs": 330926.5,
+   "segmentEndMs": 331326.5,
+   "page": 1,
+   "section": "custom",
+   "text": "عٍ",
+   "fullWord": {
+    "confidence": "NOT_APPLICABLE"
+   }
+  },
+  {
+   "lessonId": 5,
+   "itemId": 4008,
+   "sourceAudio": [
+    "f5-129.mp3"
+   ],
+   "startMs": 331326.5,
+   "audioEndMs": 332636.5,
+   "segmentEndMs": 333036.5,
+   "page": 1,
+   "section": "combined",
+   "text": "عًا عٍ"
+  },
+  {
+   "lessonId": 5,
+   "itemId": 213,
+   "sourceAudio": [
+    "f5-130.mp3"
+   ],
+   "startMs": 333036.5,
+   "audioEndMs": 335506.5,
+   "segmentEndMs": 335906.5,
+   "page": 1,
+   "section": "custom",
+   "text": "عٌ",
+   "fullWord": {
+    "confidence": "NOT_APPLICABLE"
+   }
+  },
+  {
+   "lessonId": 5,
+   "itemId": 4009,
+   "sourceAudio": [
+    "f5-131.mp3"
+   ],
+   "startMs": 335906.5,
+   "audioEndMs": 337806.5,
+   "segmentEndMs": 338206.5,
+   "page": 1,
+   "section": "combined",
+   "text": "عًا عٍ عٌ"
+  },
+  {
+   "lessonId": 5,
+   "itemId": 214,
+   "sourceAudio": [
+    "f5-132.mp3"
+   ],
+   "startMs": 338206.5,
+   "audioEndMs": 340638.1,
+   "segmentEndMs": 341038.1,
+   "page": 1,
+   "section": "custom",
+   "text": "هًا",
+   "fullWord": {
+    "confidence": "NOT_APPLICABLE"
+   }
+  },
+  {
+   "lessonId": 5,
+   "itemId": 215,
+   "sourceAudio": [
+    "f5-133.mp3"
+   ],
+   "startMs": 341038.1,
+   "audioEndMs": 343578.1,
+   "segmentEndMs": 343978.1,
+   "page": 1,
+   "section": "custom",
+   "text": "هٍ",
+   "fullWord": {
+    "confidence": "NOT_APPLICABLE"
+   }
+  },
+  {
+   "lessonId": 5,
+   "itemId": 4010,
+   "sourceAudio": [
+    "f5-134.mp3"
+   ],
+   "startMs": 343978.1,
+   "audioEndMs": 345068.1,
+   "segmentEndMs": 345468.1,
+   "page": 1,
+   "section": "combined",
+   "text": "هًا هٍ"
+  },
+  {
+   "lessonId": 5,
+   "itemId": 216,
+   "sourceAudio": [
+    "f5-135.mp3"
+   ],
+   "startMs": 345468.1,
+   "audioEndMs": 347988.1,
+   "segmentEndMs": 348388.1,
+   "page": 1,
+   "section": "custom",
+   "text": "هٌ",
+   "fullWord": {
+    "confidence": "NOT_APPLICABLE"
+   }
+  },
+  {
+   "lessonId": 5,
+   "itemId": 4011,
+   "sourceAudio": [
+    "f5-136.mp3"
+   ],
+   "startMs": 348388.1,
+   "audioEndMs": 350128.1,
+   "segmentEndMs": 350528.1,
+   "page": 1,
+   "section": "combined",
+   "text": "هًا هٍ هٌ"
+  },
+  {
+   "lessonId": 5,
+   "itemId": 217,
+   "sourceAudio": [
+    "f5-137.mp3"
+   ],
+   "startMs": 350528.1,
+   "audioEndMs": 352818.1,
+   "segmentEndMs": 353218.1,
+   "page": 1,
+   "section": "custom",
+   "text": "ءًا",
+   "fullWord": {
+    "confidence": "NOT_APPLICABLE"
+   }
+  },
+  {
+   "lessonId": 5,
+   "itemId": 218,
+   "sourceAudio": [
+    "f5-138.mp3"
+   ],
+   "startMs": 353218.1,
+   "audioEndMs": 355508.1,
+   "segmentEndMs": 355908.1,
+   "page": 1,
+   "section": "custom",
+   "text": "ءٍ",
+   "fullWord": {
+    "confidence": "NOT_APPLICABLE"
+   }
+  },
+  {
+   "lessonId": 5,
+   "itemId": 4012,
+   "sourceAudio": [
+    "f5-139.mp3"
+   ],
+   "startMs": 355908.1,
+   "audioEndMs": 356948.1,
+   "segmentEndMs": 357348.1,
+   "page": 1,
+   "section": "combined",
+   "text": "ءًا ءٍ"
+  },
+  {
+   "lessonId": 5,
+   "itemId": 219,
+   "sourceAudio": [
+    "f5-140.mp3"
+   ],
+   "startMs": 357348.1,
+   "audioEndMs": 359678.1,
+   "segmentEndMs": 360078.1,
+   "page": 1,
+   "section": "custom",
+   "text": "ءٌ",
+   "fullWord": {
+    "confidence": "NOT_APPLICABLE"
+   }
+  },
+  {
+   "lessonId": 5,
+   "itemId": 4013,
+   "sourceAudio": [
+    "f5-141.mp3"
+   ],
+   "startMs": 360078.1,
+   "audioEndMs": 361868.2,
+   "segmentEndMs": 361868.2,
+   "page": 1,
+   "section": "combined",
+   "text": "ءًا ءٍ ءٌ"
+  }
+ ]
+}

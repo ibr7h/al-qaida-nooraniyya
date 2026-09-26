@@ -1,0 +1,429 @@
+{
+  "lessonId": 1,
+  "masterFile": "lesson_01_master.m4a",
+  "masterVersion": "a97feafcfcc3bc48",
+  "generatedAt": "2026-08-14T23:34:34.296110+00:00",
+  "sampleRateHz": 22050,
+  "bitrate": "32k",
+  "gapMs": 400,
+  "itemCount": 32,
+  "entries": [
+    {
+      "lessonId": 1,
+      "itemId": 0,
+      "sourceAudio": [
+        "f1-01.mp3"
+      ],
+      "startMs": 0.0,
+      "audioEndMs": 3090.0,
+      "segmentEndMs": 3490.0,
+      "page": 0,
+      "section": "header",
+      "text": "بسم الله الرحمن الرحيم"
+    },
+    {
+      "lessonId": 1,
+      "itemId": 1,
+      "sourceAudio": [
+        "f1-02.mp3",
+        "f1-03.mp3"
+      ],
+      "startMs": 3490.0,
+      "audioEndMs": 8070.1,
+      "segmentEndMs": 8470.1,
+      "page": 0,
+      "section": "title",
+      "text": "الدَّرْسُ الأَوَّلُ - حُرُوفُ الهِجَاءِ المُفْرَدَةِ"
+    },
+    {
+      "lessonId": 1,
+      "itemId": 10,
+      "sourceAudio": [
+        "f1-04.mp3"
+      ],
+      "startMs": 8470.1,
+      "audioEndMs": 9100.1,
+      "segmentEndMs": 9500.1,
+      "page": 0,
+      "section": "letter",
+      "text": "ا"
+    },
+    {
+      "lessonId": 1,
+      "itemId": 11,
+      "sourceAudio": [
+        "f1-05.mp3"
+      ],
+      "startMs": 9500.1,
+      "audioEndMs": 10530.1,
+      "segmentEndMs": 10930.1,
+      "page": 0,
+      "section": "letter",
+      "text": "ب"
+    },
+    {
+      "lessonId": 1,
+      "itemId": 12,
+      "sourceAudio": [
+        "f1-06.mp3"
+      ],
+      "startMs": 10930.1,
+      "audioEndMs": 11870.1,
+      "segmentEndMs": 12270.1,
+      "page": 0,
+      "section": "letter",
+      "text": "ت"
+    },
+    {
+      "lessonId": 1,
+      "itemId": 13,
+      "sourceAudio": [
+        "f1-07.mp3"
+      ],
+      "startMs": 12270.1,
+      "audioEndMs": 13330.1,
+      "segmentEndMs": 13730.1,
+      "page": 0,
+      "section": "letter",
+      "text": "ث"
+    },
+    {
+      "lessonId": 1,
+      "itemId": 14,
+      "sourceAudio": [
+        "f1-08.mp3"
+      ],
+      "startMs": 13730.1,
+      "audioEndMs": 14790.1,
+      "segmentEndMs": 15190.1,
+      "page": 0,
+      "section": "letter",
+      "text": "ج"
+    },
+    {
+      "lessonId": 1,
+      "itemId": 15,
+      "sourceAudio": [
+        "f1-09.mp3"
+      ],
+      "startMs": 15190.1,
+      "audioEndMs": 16360.1,
+      "segmentEndMs": 16760.1,
+      "page": 0,
+      "section": "letter",
+      "text": "ح"
+    },
+    {
+      "lessonId": 1,
+      "itemId": 16,
+      "sourceAudio": [
+        "f1-10.mp3"
+      ],
+      "startMs": 16760.1,
+      "audioEndMs": 17940.1,
+      "segmentEndMs": 18340.1,
+      "page": 0,
+      "section": "letter",
+      "text": "خ"
+    },
+    {
+      "lessonId": 1,
+      "itemId": 17,
+      "sourceAudio": [
+        "f1-11.mp3"
+      ],
+      "startMs": 18340.1,
+      "audioEndMs": 19610.2,
+      "segmentEndMs": 20010.2,
+      "page": 0,
+      "section": "letter",
+      "text": "د"
+    },
+    {
+      "lessonId": 1,
+      "itemId": 18,
+      "sourceAudio": [
+        "f1-12.mp3"
+      ],
+      "startMs": 20010.2,
+      "audioEndMs": 21460.2,
+      "segmentEndMs": 21860.2,
+      "page": 0,
+      "section": "letter",
+      "text": "ذ"
+    },
+    {
+      "lessonId": 1,
+      "itemId": 19,
+      "sourceAudio": [
+        "f1-13.mp3"
+      ],
+      "startMs": 21860.2,
+      "audioEndMs": 23120.2,
+      "segmentEndMs": 23520.2,
+      "page": 0,
+      "section": "letter",
+      "text": "ر"
+    },
+    {
+      "lessonId": 1,
+      "itemId": 20,
+      "sourceAudio": [
+        "f1-14.mp3"
+      ],
+      "startMs": 23520.2,
+      "audioEndMs": 24930.2,
+      "segmentEndMs": 25330.2,
+      "page": 0,
+      "section": "letter",
+      "text": "ز"
+    },
+    {
+      "lessonId": 1,
+      "itemId": 21,
+      "sourceAudio": [
+        "f1-15.mp3"
+      ],
+      "startMs": 25330.2,
+      "audioEndMs": 26520.2,
+      "segmentEndMs": 26920.2,
+      "page": 0,
+      "section": "letter",
+      "text": "س"
+    },
+    {
+      "lessonId": 1,
+      "itemId": 22,
+      "sourceAudio": [
+        "f1-16.mp3"
+      ],
+      "startMs": 26920.2,
+      "audioEndMs": 28210.3,
+      "segmentEndMs": 28610.3,
+      "page": 0,
+      "section": "letter",
+      "text": "ش"
+    },
+    {
+      "lessonId": 1,
+      "itemId": 23,
+      "sourceAudio": [
+        "f1-17.mp3"
+      ],
+      "startMs": 28610.3,
+      "audioEndMs": 30240.3,
+      "segmentEndMs": 30640.3,
+      "page": 0,
+      "section": "letter",
+      "text": "ص"
+    },
+    {
+      "lessonId": 1,
+      "itemId": 24,
+      "sourceAudio": [
+        "f1-18.mp3"
+      ],
+      "startMs": 30640.3,
+      "audioEndMs": 32262.0,
+      "segmentEndMs": 32662.0,
+      "page": 0,
+      "section": "letter",
+      "text": "ض"
+    },
+    {
+      "lessonId": 1,
+      "itemId": 25,
+      "sourceAudio": [
+        "f1-19.mp3"
+      ],
+      "startMs": 32662.0,
+      "audioEndMs": 33892.0,
+      "segmentEndMs": 34292.0,
+      "page": 0,
+      "section": "letter",
+      "text": "ط"
+    },
+    {
+      "lessonId": 1,
+      "itemId": 26,
+      "sourceAudio": [
+        "f1-20.mp3"
+      ],
+      "startMs": 34292.0,
+      "audioEndMs": 35512.0,
+      "segmentEndMs": 35912.0,
+      "page": 0,
+      "section": "letter",
+      "text": "ظ"
+    },
+    {
+      "lessonId": 1,
+      "itemId": 27,
+      "sourceAudio": [
+        "f1-21.mp3"
+      ],
+      "startMs": 35912.0,
+      "audioEndMs": 37052.0,
+      "segmentEndMs": 37452.0,
+      "page": 0,
+      "section": "letter",
+      "text": "ع"
+    },
+    {
+      "lessonId": 1,
+      "itemId": 28,
+      "sourceAudio": [
+        "f1-22.mp3"
+      ],
+      "startMs": 37452.0,
+      "audioEndMs": 38642.0,
+      "segmentEndMs": 39042.0,
+      "page": 0,
+      "section": "letter",
+      "text": "غ"
+    },
+    {
+      "lessonId": 1,
+      "itemId": 29,
+      "sourceAudio": [
+        "f1-23.mp3"
+      ],
+      "startMs": 39042.0,
+      "audioEndMs": 40422.0,
+      "segmentEndMs": 40822.0,
+      "page": 0,
+      "section": "letter",
+      "text": "ف"
+    },
+    {
+      "lessonId": 1,
+      "itemId": 30,
+      "sourceAudio": [
+        "f1-24.mp3"
+      ],
+      "startMs": 40822.0,
+      "audioEndMs": 41922.0,
+      "segmentEndMs": 42322.0,
+      "page": 0,
+      "section": "letter",
+      "text": "ق"
+    },
+    {
+      "lessonId": 1,
+      "itemId": 31,
+      "sourceAudio": [
+        "f1-25.mp3"
+      ],
+      "startMs": 42322.0,
+      "audioEndMs": 43602.0,
+      "segmentEndMs": 44002.0,
+      "page": 0,
+      "section": "letter",
+      "text": "ك"
+    },
+    {
+      "lessonId": 1,
+      "itemId": 32,
+      "sourceAudio": [
+        "f1-26.mp3"
+      ],
+      "startMs": 44002.0,
+      "audioEndMs": 45422.0,
+      "segmentEndMs": 45822.0,
+      "page": 0,
+      "section": "letter",
+      "text": "ل"
+    },
+    {
+      "lessonId": 1,
+      "itemId": 33,
+      "sourceAudio": [
+        "f1-27.mp3"
+      ],
+      "startMs": 45822.0,
+      "audioEndMs": 47012.1,
+      "segmentEndMs": 47412.1,
+      "page": 0,
+      "section": "letter",
+      "text": "م"
+    },
+    {
+      "lessonId": 1,
+      "itemId": 34,
+      "sourceAudio": [
+        "f1-28.mp3"
+      ],
+      "startMs": 47412.1,
+      "audioEndMs": 48632.1,
+      "segmentEndMs": 49032.1,
+      "page": 0,
+      "section": "letter",
+      "text": "ن"
+    },
+    {
+      "lessonId": 1,
+      "itemId": 35,
+      "sourceAudio": [
+        "f1-29.mp3"
+      ],
+      "startMs": 49032.1,
+      "audioEndMs": 50512.1,
+      "segmentEndMs": 50912.1,
+      "page": 0,
+      "section": "letter",
+      "text": "و"
+    },
+    {
+      "lessonId": 1,
+      "itemId": 36,
+      "sourceAudio": [
+        "f1-30.mp3"
+      ],
+      "startMs": 50912.1,
+      "audioEndMs": 52222.1,
+      "segmentEndMs": 52622.1,
+      "page": 0,
+      "section": "letter",
+      "text": "هـ"
+    },
+    {
+      "lessonId": 1,
+      "itemId": 37,
+      "sourceAudio": [
+        "f1-31.mp3"
+      ],
+      "startMs": 52622.1,
+      "audioEndMs": 53662.1,
+      "segmentEndMs": 54062.1,
+      "page": 0,
+      "section": "letter",
+      "text": "ء"
+    },
+    {
+      "lessonId": 1,
+      "itemId": 38,
+      "sourceAudio": [
+        "f1-32.mp3"
+      ],
+      "startMs": 54062.1,
+      "audioEndMs": 55182.1,
+      "segmentEndMs": 55582.1,
+      "page": 0,
+      "section": "letter",
+      "text": "ي"
+    },
+    {
+      "lessonId": 1,
+      "itemId": 39,
+      "sourceAudio": [
+        "f1-33.mp3"
+      ],
+      "startMs": 55582.1,
+      "audioEndMs": 56622.1,
+      "segmentEndMs": 56622.1,
+      "page": 0,
+      "section": "letter",
+      "text": "ي"
+    }
+  ]
+}

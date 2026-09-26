@@ -1,0 +1,964 @@
+{
+  "id": 12,
+  "title_ar": "الدَّرْسُ الثَّانِي عَشَرَ",
+  "title_en": "Lesson 12",
+  "description": "الشَّدَّةُ",
+  "description_en": "Shadda (Emphasis)",
+  "titles": {
+    "ar": "الدَّرْسُ الثَّانِي عَشَرَ",
+    "en": "Lesson 12",
+    "ur": "بارہواں سبق",
+    "fa": "درس دوازدهم",
+    "tr": "12. Ders",
+    "fr": "Leçon 12",
+    "de": "Lektion 12",
+    "es": "Lección 12",
+    "ru": "Урок 12",
+    "id": "Pelajaran 12",
+    "ms": "Pelajaran 12",
+    "bn": "১২শ পাঠ",
+    "hi": "बारहवां सबक़",
+    "sw": "Somo la 12",
+    "zh": "第十二课"
+  },
+  "descriptions": {
+    "ar": "الشَّدَّةُ",
+    "en": "Shadda (Emphasis)",
+    "ur": "تشدید",
+    "fa": "تشدید",
+    "tr": "Şedde",
+    "fr": "La Chadda",
+    "de": "Schadda",
+    "es": "La Shadda",
+    "ru": "Шадда",
+    "id": "Tasydid",
+    "ms": "Syaddah",
+    "bn": "তাশদীদ",
+    "hi": "तशदीद",
+    "sw": "Ash-Shaddah",
+    "zh": "叠音符"
+  },
+  "page_image": "lesson_12.jpg",
+  "page_images": [
+    "lesson_12.jpg",
+    "lesson_12a.jpg"
+  ],
+  "grid_config": {
+    "columns": 7,
+    "top_offset_ratio": 0.592,
+    "side_margin_ratio": 0.1,
+    "cell_height_ratio": 0.08
+  },
+  "items": [
+    {
+      "id": 100,
+      "type": "title",
+      "text": "الدَّرْسُ الثَّانِي عَشَرَ",
+      "audio": "f12-01.mp3",
+      "position": {
+        "left": 0.1012,
+        "top": 0.5833,
+        "width": 0.7982,
+        "height": 0.0828
+      },
+      "page": 0
+    },
+    {
+      "id": 101,
+      "type": "custom",
+      "text": "أَبَّ",
+      "audio": "f12-02.mp3",
+      "position": {
+        "left": 0.7911,
+        "top": 0.6665,
+        "width": 0.0991,
+        "height": 0.081
+      },
+      "page": 0
+    },
+    {
+      "id": 102,
+      "type": "custom",
+      "text": "أَبِّ",
+      "audio": "f12-03.mp3",
+      "position": {
+        "left": 0.6798,
+        "top": 0.6665,
+        "width": 0.1003,
+        "height": 0.0811
+      },
+      "page": 0
+    },
+    {
+      "id": 103,
+      "type": "custom",
+      "text": "أَبُّ",
+      "audio": "f12-04.mp3",
+      "position": {
+        "left": 0.5629,
+        "top": 0.6687,
+        "width": 0.1059,
+        "height": 0.078
+      },
+      "page": 0
+    },
+    {
+      "id": 104,
+      "type": "custom",
+      "text": "إِبَّ",
+      "audio": "f12-05.mp3",
+      "position": {
+        "left": 0.4481,
+        "top": 0.6694,
+        "width": 0.1051,
+        "height": 0.081
+      },
+      "page": 0
+    },
+    {
+      "id": 105,
+      "type": "custom",
+      "text": "إِبِّ",
+      "audio": "f12-06.mp3",
+      "position": {
+        "left": 0.3273,
+        "top": 0.6695,
+        "width": 0.1101,
+        "height": 0.078
+      },
+      "page": 0
+    },
+    {
+      "id": 106,
+      "type": "custom",
+      "text": "إِبُّ",
+      "audio": "f12-07.mp3",
+      "position": {
+        "left": 0.2184,
+        "top": 0.6681,
+        "width": 0.1056,
+        "height": 0.0804
+      },
+      "page": 0
+    },
+    {
+      "id": 107,
+      "type": "custom",
+      "text": "أُبَّ",
+      "audio": "f12-08.mp3",
+      "position": {
+        "left": 0.1043,
+        "top": 0.6677,
+        "width": 0.1065,
+        "height": 0.0802
+      },
+      "page": 0
+    },
+    {
+      "id": 108,
+      "type": "custom",
+      "text": "أُبِّ",
+      "audio": "f12-09.mp3",
+      "position": {
+        "left": 0.7903,
+        "top": 0.7493,
+        "width": 0.1053,
+        "height": 0.081
+      },
+      "page": 0
+    },
+    {
+      "id": 109,
+      "type": "custom",
+      "text": "أُبُّ",
+      "audio": "f12-10.mp3",
+      "position": {
+        "left": 0.6801,
+        "top": 0.7505,
+        "width": 0.1051,
+        "height": 0.082
+      },
+      "page": 0
+    },
+    {
+      "id": 110,
+      "type": "custom",
+      "text": "أَبًّا",
+      "audio": "f12-11.mp3",
+      "position": {
+        "left": 0.5666,
+        "top": 0.7499,
+        "width": 0.0996,
+        "height": 0.079
+      },
+      "page": 0
+    },
+    {
+      "id": 111,
+      "type": "custom",
+      "text": "أَبٍّ",
+      "audio": "f12-12.mp3",
+      "position": {
+        "left": 0.4479,
+        "top": 0.7505,
+        "width": 0.1069,
+        "height": 0.079
+      },
+      "page": 0
+    },
+    {
+      "id": 112,
+      "type": "custom",
+      "text": "أَبٌّ",
+      "audio": "f12-13.mp3",
+      "position": {
+        "left": 0.3374,
+        "top": 0.7498,
+        "width": 0.1054,
+        "height": 0.082
+      },
+      "page": 0
+    },
+    {
+      "id": 113,
+      "type": "custom",
+      "text": "إِبًّا",
+      "audio": "f12-14.mp3",
+      "position": {
+        "left": 0.2237,
+        "top": 0.7483,
+        "width": 0.1009,
+        "height": 0.0847
+      },
+      "page": 0
+    },
+    {
+      "id": 114,
+      "type": "custom",
+      "text": "إِبٍّ",
+      "audio": "f12-15.mp3",
+      "position": {
+        "left": 0.1043,
+        "top": 0.7555,
+        "width": 0.1053,
+        "height": 0.077
+      },
+      "page": 0
+    },
+    {
+      "id": 115,
+      "type": "custom",
+      "text": "إِبٌّ",
+      "audio": "f12-16.mp3",
+      "position": {
+        "left": 0.7935,
+        "top": 0.8356,
+        "width": 0.1067,
+        "height": 0.0802
+      },
+      "page": 0
+    },
+    {
+      "id": 116,
+      "type": "custom",
+      "text": "أُبًّا",
+      "audio": "f12-17.mp3",
+      "position": {
+        "left": 0.6735,
+        "top": 0.8321,
+        "width": 0.1155,
+        "height": 0.0828
+      },
+      "page": 0
+    },
+    {
+      "id": 117,
+      "type": "custom",
+      "text": "أُبٍّ",
+      "audio": "f12-18.mp3",
+      "position": {
+        "left": 0.5593,
+        "top": 0.8343,
+        "width": 0.1055,
+        "height": 0.0808
+      },
+      "page": 0
+    },
+    {
+      "id": 118,
+      "type": "custom",
+      "text": "أُبٌّ",
+      "audio": "f12-19.mp3",
+      "position": {
+        "left": 0.4478,
+        "top": 0.8333,
+        "width": 0.1038,
+        "height": 0.0815
+      },
+      "page": 0
+    },
+    {
+      "id": 119,
+      "type": "custom",
+      "text": "أَتَّ",
+      "audio": "f12-20.mp3",
+      "position": {
+        "left": 0.3327,
+        "top": 0.8318,
+        "width": 0.1081,
+        "height": 0.0801
+      },
+      "page": 0
+    },
+    {
+      "id": 120,
+      "type": "custom",
+      "text": "أَتِّ",
+      "audio": "f12-21.mp3",
+      "position": {
+        "left": 0.2181,
+        "top": 0.8344,
+        "width": 0.1041,
+        "height": 0.0804
+      },
+      "page": 0
+    },
+    {
+      "id": 121,
+      "type": "custom",
+      "text": "أَتُّ",
+      "audio": "f12-22.mp3",
+      "position": {
+        "left": 0.106,
+        "top": 0.834,
+        "width": 0.102,
+        "height": 0.08
+      },
+      "page": 0
+    },
+    {
+      "id": 200,
+      "type": "custom",
+      "text": "إِتَّ",
+      "audio": "f12-23.mp3",
+      "position": {
+        "left": 0.7938,
+        "top": 0.0811,
+        "width": 0.0978,
+        "height": 0.082
+      },
+      "page": 1
+    },
+    {
+      "id": 201,
+      "type": "custom",
+      "text": "إِتِّ",
+      "audio": "f12-24.mp3",
+      "position": {
+        "left": 0.6765,
+        "top": 0.0838,
+        "width": 0.1107,
+        "height": 0.0822
+      },
+      "page": 1
+    },
+    {
+      "id": 202,
+      "type": "custom",
+      "text": "إِتُّ",
+      "audio": "f12-25.mp3",
+      "position": {
+        "left": 0.5609,
+        "top": 0.0818,
+        "width": 0.1099,
+        "height": 0.0838
+      },
+      "page": 1
+    },
+    {
+      "id": 203,
+      "type": "custom",
+      "text": "أُتَّ",
+      "audio": "f12-26.mp3",
+      "position": {
+        "left": 0.4477,
+        "top": 0.0814,
+        "width": 0.1047,
+        "height": 0.084
+      },
+      "page": 1
+    },
+    {
+      "id": 204,
+      "type": "custom",
+      "text": "أُتِّ",
+      "audio": "f12-27.mp3",
+      "position": {
+        "left": 0.3358,
+        "top": 0.0842,
+        "width": 0.1026,
+        "height": 0.0799
+      },
+      "page": 1
+    },
+    {
+      "id": 205,
+      "type": "custom",
+      "text": "أُتُّ",
+      "audio": "f12-28.mp3",
+      "position": {
+        "left": 0.2231,
+        "top": 0.0842,
+        "width": 0.0971,
+        "height": 0.08
+      },
+      "page": 1
+    },
+    {
+      "id": 206,
+      "type": "custom",
+      "text": "أَتًّا",
+      "audio": "f12-29.mp3",
+      "position": {
+        "left": 0.1107,
+        "top": 0.0855,
+        "width": 0.0937,
+        "height": 0.079
+      },
+      "page": 1
+    },
+    {
+      "id": 207,
+      "type": "custom",
+      "text": "أَتٍّ",
+      "audio": "f12-30.mp3",
+      "position": {
+        "left": 0.7906,
+        "top": 0.1685,
+        "width": 0.1036,
+        "height": 0.079
+      },
+      "page": 1
+    },
+    {
+      "id": 208,
+      "type": "custom",
+      "text": "أَتٌّ",
+      "audio": "f12-31.mp3",
+      "position": {
+        "left": 0.6791,
+        "top": 0.1679,
+        "width": 0.1001,
+        "height": 0.081
+      },
+      "page": 1
+    },
+    {
+      "id": 209,
+      "type": "custom",
+      "text": "إِتًّا",
+      "audio": "f12-32.mp3",
+      "position": {
+        "left": 0.5711,
+        "top": 0.1666,
+        "width": 0.0901,
+        "height": 0.082
+      },
+      "page": 1
+    },
+    {
+      "id": 210,
+      "type": "custom",
+      "text": "إِتٍّ",
+      "audio": "f12-33.mp3",
+      "position": {
+        "left": 0.456,
+        "top": 0.169,
+        "width": 0.094,
+        "height": 0.08
+      },
+      "page": 1
+    },
+    {
+      "id": 211,
+      "type": "custom",
+      "text": "إِتٌّ",
+      "audio": "f12-34.mp3",
+      "position": {
+        "left": 0.3353,
+        "top": 0.1678,
+        "width": 0.1051,
+        "height": 0.08
+      },
+      "page": 1
+    },
+    {
+      "id": 212,
+      "type": "custom",
+      "text": "أُتًّا",
+      "audio": "f12-35.mp3",
+      "position": {
+        "left": 0.2221,
+        "top": 0.1667,
+        "width": 0.0991,
+        "height": 0.078
+      },
+      "page": 1
+    },
+    {
+      "id": 213,
+      "type": "custom",
+      "text": "أُتٍّ",
+      "audio": "f12-36.mp3",
+      "position": {
+        "left": 0.1085,
+        "top": 0.167,
+        "width": 0.0975,
+        "height": 0.081
+      },
+      "page": 1
+    },
+    {
+      "id": 214,
+      "type": "custom",
+      "text": "أُتٌّ",
+      "audio": "f12-37.mp3",
+      "position": {
+        "left": 0.7934,
+        "top": 0.2483,
+        "width": 0.0994,
+        "height": 0.08
+      },
+      "page": 1
+    },
+    {
+      "id": 215,
+      "type": "custom",
+      "text": "أَثَّ",
+      "audio": "f12-38.mp3",
+      "position": {
+        "left": 0.6772,
+        "top": 0.2507,
+        "width": 0.0962,
+        "height": 0.081
+      },
+      "page": 1
+    },
+    {
+      "id": 216,
+      "type": "custom",
+      "text": "أَثِّ",
+      "audio": "f12-39.mp3",
+      "position": {
+        "left": 0.5636,
+        "top": 0.2505,
+        "width": 0.1026,
+        "height": 0.08
+      },
+      "page": 1
+    },
+    {
+      "id": 217,
+      "type": "custom",
+      "text": "أَثُّ",
+      "audio": "f12-40.mp3",
+      "position": {
+        "left": 0.4497,
+        "top": 0.2516,
+        "width": 0.0987,
+        "height": 0.077
+      },
+      "page": 1
+    },
+    {
+      "id": 218,
+      "type": "custom",
+      "text": "إِثَّ",
+      "audio": "f12-41.mp3",
+      "position": {
+        "left": 0.3352,
+        "top": 0.2514,
+        "width": 0.1062,
+        "height": 0.0814
+      },
+      "page": 1
+    },
+    {
+      "id": 219,
+      "type": "custom",
+      "text": "إِثِّ",
+      "audio": "f12-42.mp3",
+      "position": {
+        "left": 0.2168,
+        "top": 0.254,
+        "width": 0.1062,
+        "height": 0.079
+      },
+      "page": 1
+    },
+    {
+      "id": 220,
+      "type": "custom",
+      "text": "إِثُّ",
+      "audio": "f12-43.mp3",
+      "position": {
+        "left": 0.1107,
+        "top": 0.2525,
+        "width": 0.0997,
+        "height": 0.08
+      },
+      "page": 1
+    },
+    {
+      "id": 221,
+      "type": "custom",
+      "text": "أُثَّ",
+      "audio": "f12-44.mp3",
+      "position": {
+        "left": 0.7915,
+        "top": 0.334,
+        "width": 0.1025,
+        "height": 0.0773
+      },
+      "page": 1
+    },
+    {
+      "id": 222,
+      "type": "custom",
+      "text": "أُثِّ",
+      "audio": "f12-45.mp3",
+      "position": {
+        "left": 0.6764,
+        "top": 0.3344,
+        "width": 0.1014,
+        "height": 0.0812
+      },
+      "page": 1
+    },
+    {
+      "id": 223,
+      "type": "custom",
+      "text": "أُثُّ",
+      "audio": "f12-46.mp3",
+      "position": {
+        "left": 0.562,
+        "top": 0.332,
+        "width": 0.1046,
+        "height": 0.0826
+      },
+      "page": 1
+    },
+    {
+      "id": 224,
+      "type": "custom",
+      "text": "أَثًّا",
+      "audio": "f12-47.mp3",
+      "position": {
+        "left": 0.4463,
+        "top": 0.3341,
+        "width": 0.1057,
+        "height": 0.08
+      },
+      "page": 1
+    },
+    {
+      "id": 225,
+      "type": "custom",
+      "text": "أَثٍّ",
+      "audio": "f12-48.mp3",
+      "position": {
+        "left": 0.334,
+        "top": 0.332,
+        "width": 0.102,
+        "height": 0.0861
+      },
+      "page": 1
+    },
+    {
+      "id": 226,
+      "type": "custom",
+      "text": "أَثٌّ",
+      "audio": "f12-49.mp3",
+      "position": {
+        "left": 0.222,
+        "top": 0.33,
+        "width": 0.1048,
+        "height": 0.0868
+      },
+      "page": 1
+    },
+    {
+      "id": 227,
+      "type": "custom",
+      "text": "إِثًّا",
+      "audio": "f12-50.mp3",
+      "position": {
+        "left": 0.114,
+        "top": 0.332,
+        "width": 0.0958,
+        "height": 0.084
+      },
+      "page": 1
+    },
+    {
+      "id": 228,
+      "type": "custom",
+      "text": "إِثٍّ",
+      "audio": "f12-51.mp3",
+      "position": {
+        "left": 0.7893,
+        "top": 0.418,
+        "width": 0.1037,
+        "height": 0.0828
+      },
+      "page": 1
+    },
+    {
+      "id": 229,
+      "type": "custom",
+      "text": "إِثٌّ",
+      "audio": "f12-52.mp3",
+      "position": {
+        "left": 0.678,
+        "top": 0.413,
+        "width": 0.1084,
+        "height": 0.0872
+      },
+      "page": 1
+    },
+    {
+      "id": 230,
+      "type": "custom",
+      "text": "أُثًّا",
+      "audio": "f12-53.mp3",
+      "position": {
+        "left": 0.567,
+        "top": 0.416,
+        "width": 0.0978,
+        "height": 0.083
+      },
+      "page": 1
+    },
+    {
+      "id": 231,
+      "type": "custom",
+      "text": "أُثٍّ",
+      "audio": "f12-54.mp3",
+      "position": {
+        "left": 0.4545,
+        "top": 0.4159,
+        "width": 0.0925,
+        "height": 0.083
+      },
+      "page": 1
+    },
+    {
+      "id": 232,
+      "type": "custom",
+      "text": "أُثٌّ",
+      "audio": "f12-55.mp3",
+      "position": {
+        "left": 0.3372,
+        "top": 0.4167,
+        "width": 0.0951,
+        "height": 0.0814
+      },
+      "page": 1
+    },
+    {
+      "id": 233,
+      "type": "custom",
+      "text": "أَجَّ",
+      "audio": "f12-56.mp3",
+      "position": {
+        "left": 0.2126,
+        "top": 0.418,
+        "width": 0.1064,
+        "height": 0.0813
+      },
+      "page": 1
+    },
+    {
+      "id": 234,
+      "type": "custom",
+      "text": "أَجِّ",
+      "audio": "f12-57.mp3",
+      "position": {
+        "left": 0.111,
+        "top": 0.416,
+        "width": 0.101,
+        "height": 0.0827
+      },
+      "page": 1
+    },
+    {
+      "id": 235,
+      "type": "custom",
+      "text": "أَجُّ",
+      "audio": "f12-58.mp3",
+      "position": {
+        "left": 0.792,
+        "top": 0.503,
+        "width": 0.105,
+        "height": 0.078
+      },
+      "page": 1
+    },
+    {
+      "id": 236,
+      "type": "custom",
+      "text": "إِجَّ",
+      "audio": "f12-59.mp3",
+      "position": {
+        "left": 0.681,
+        "top": 0.5002,
+        "width": 0.1002,
+        "height": 0.0808
+      },
+      "page": 1
+    },
+    {
+      "id": 237,
+      "type": "custom",
+      "text": "إِجِّ",
+      "audio": "f12-60.mp3",
+      "position": {
+        "left": 0.572,
+        "top": 0.5004,
+        "width": 0.0957,
+        "height": 0.0836
+      },
+      "page": 1
+    },
+    {
+      "id": 238,
+      "type": "custom",
+      "text": "إِجُّ",
+      "audio": "f12-61.mp3",
+      "position": {
+        "left": 0.453,
+        "top": 0.504,
+        "width": 0.099,
+        "height": 0.079
+      },
+      "page": 1
+    },
+    {
+      "id": 239,
+      "type": "custom",
+      "text": "أُجَّ",
+      "audio": "f12-62.mp3",
+      "position": {
+        "left": 0.337,
+        "top": 0.4995,
+        "width": 0.1021,
+        "height": 0.0825
+      },
+      "page": 1
+    },
+    {
+      "id": 240,
+      "type": "custom",
+      "text": "أُجِّ",
+      "audio": "f12-63.mp3",
+      "position": {
+        "left": 0.221,
+        "top": 0.5012,
+        "width": 0.102,
+        "height": 0.0848
+      },
+      "page": 1
+    },
+    {
+      "id": 241,
+      "type": "custom",
+      "text": "أُجُّ",
+      "audio": "f12-64.mp3",
+      "position": {
+        "left": 0.104,
+        "top": 0.4983,
+        "width": 0.1095,
+        "height": 0.0807
+      },
+      "page": 1
+    },
+    {
+      "id": 242,
+      "type": "custom",
+      "text": "أَجًّا",
+      "audio": "f12-65.mp3",
+      "position": {
+        "left": 0.7921,
+        "top": 0.5856,
+        "width": 0.1001,
+        "height": 0.078
+      },
+      "page": 1
+    },
+    {
+      "id": 243,
+      "type": "custom",
+      "text": "أَجٍّ",
+      "audio": "f12-66.mp3",
+      "position": {
+        "left": 0.6749,
+        "top": 0.5855,
+        "width": 0.1069,
+        "height": 0.079
+      },
+      "page": 1
+    },
+    {
+      "id": 244,
+      "type": "custom",
+      "text": "أَجٌّ",
+      "audio": "f12-67.mp3",
+      "position": {
+        "left": 0.565,
+        "top": 0.5855,
+        "width": 0.099,
+        "height": 0.076
+      },
+      "page": 1
+    },
+    {
+      "id": 245,
+      "type": "custom",
+      "text": "إِجًّا",
+      "audio": "f12-68.mp3",
+      "position": {
+        "left": 0.4516,
+        "top": 0.586,
+        "width": 0.1026,
+        "height": 0.078
+      },
+      "page": 1
+    },
+    {
+      "id": 246,
+      "type": "custom",
+      "text": "إِجٍّ",
+      "audio": "f12-69.mp3",
+      "position": {
+        "left": 0.3351,
+        "top": 0.5852,
+        "width": 0.1029,
+        "height": 0.079
+      },
+      "page": 1
+    },
+    {
+      "id": 247,
+      "type": "custom",
+      "text": "إِجٌّ",
+      "audio": "f12-70.mp3",
+      "position": {
+        "left": 0.218,
+        "top": 0.5835,
+        "width": 0.1075,
+        "height": 0.0812
+      },
+      "page": 1
+    }
+  ]
+}

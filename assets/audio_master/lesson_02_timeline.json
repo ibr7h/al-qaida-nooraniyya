@@ -1,0 +1,2056 @@
+{
+ "lessonId": 2,
+ "masterFile": "lesson_02_master.m4a",
+ "masterVersion": "6b8fb047458a8feb",
+ "generatedAt": "2026-08-14T23:34:40.745693+00:00",
+ "sampleRateHz": 22050,
+ "bitrate": "32k",
+ "gapMs": 400,
+ "itemCount": 127,
+ "entries": [
+  {
+   "lessonId": 2,
+   "itemId": 100,
+   "sourceAudio": [
+    "f2-03.mp3"
+   ],
+   "startMs": 0.0,
+   "audioEndMs": 430.0,
+   "segmentEndMs": 830.0,
+   "page": 0,
+   "section": "custom",
+   "text": "ا",
+   "fullWord": {
+    "confidence": "NOT_APPLICABLE"
+   }
+  },
+  {
+   "lessonId": 2,
+   "itemId": 101,
+   "sourceAudio": [
+    "f2-04.mp3"
+   ],
+   "startMs": 830.0,
+   "audioEndMs": 1910.0,
+   "segmentEndMs": 2310.0,
+   "page": 0,
+   "section": "custom",
+   "text": "لا",
+   "fullWord": {
+    "confidence": "NOT_APPLICABLE"
+   }
+  },
+  {
+   "lessonId": 2,
+   "itemId": 102,
+   "sourceAudio": [
+    "f2-05.mp3"
+   ],
+   "startMs": 2310.0,
+   "audioEndMs": 3230.0,
+   "segmentEndMs": 3630.0,
+   "page": 0,
+   "section": "custom",
+   "text": "لا",
+   "fullWord": {
+    "confidence": "NOT_APPLICABLE"
+   }
+  },
+  {
+   "lessonId": 2,
+   "itemId": 103,
+   "sourceAudio": [
+    "f2-06.mp3"
+   ],
+   "startMs": 3630.0,
+   "audioEndMs": 4530.0,
+   "segmentEndMs": 4930.0,
+   "page": 0,
+   "section": "custom",
+   "text": "با",
+   "fullWord": {
+    "confidence": "NOT_APPLICABLE"
+   }
+  },
+  {
+   "lessonId": 2,
+   "itemId": 104,
+   "sourceAudio": [
+    "f2-07.mp3"
+   ],
+   "startMs": 4930.0,
+   "audioEndMs": 5940.0,
+   "segmentEndMs": 6340.0,
+   "page": 0,
+   "section": "custom",
+   "text": "لا",
+   "fullWord": {
+    "confidence": "NOT_APPLICABLE"
+   }
+  },
+  {
+   "lessonId": 2,
+   "itemId": 105,
+   "sourceAudio": [
+    "f2-08.mp3"
+   ],
+   "startMs": 6340.0,
+   "audioEndMs": 7230.3,
+   "segmentEndMs": 7630.3,
+   "page": 0,
+   "section": "custom",
+   "text": "ل",
+   "fullWord": {
+    "confidence": "NOT_APPLICABLE"
+   }
+  },
+  {
+   "lessonId": 2,
+   "itemId": 106,
+   "sourceAudio": [
+    "f2-09.mp3"
+   ],
+   "startMs": 7630.3,
+   "audioEndMs": 8600.4,
+   "segmentEndMs": 9000.4,
+   "page": 0,
+   "section": "custom",
+   "text": "لا",
+   "fullWord": {
+    "confidence": "NOT_APPLICABLE"
+   }
+  },
+  {
+   "lessonId": 2,
+   "itemId": 107,
+   "sourceAudio": [
+    "f2-10.mp3"
+   ],
+   "startMs": 9000.4,
+   "audioEndMs": 10640.4,
+   "segmentEndMs": 11040.4,
+   "page": 0,
+   "section": "custom",
+   "text": "لح",
+   "fullWord": {
+    "confidence": "NOT_APPLICABLE"
+   }
+  },
+  {
+   "lessonId": 2,
+   "itemId": 108,
+   "sourceAudio": [
+    "f2-11.mp3"
+   ],
+   "startMs": 11040.4,
+   "audioEndMs": 11940.4,
+   "segmentEndMs": 12340.4,
+   "page": 0,
+   "section": "custom",
+   "text": "لا",
+   "fullWord": {
+    "confidence": "NOT_APPLICABLE"
+   }
+  },
+  {
+   "lessonId": 2,
+   "itemId": 109,
+   "sourceAudio": [
+    "f2-12.mp3"
+   ],
+   "startMs": 12340.4,
+   "audioEndMs": 14750.4,
+   "segmentEndMs": 15150.4,
+   "page": 0,
+   "section": "custom",
+   "text": "بلب",
+   "fullWord": {
+    "confidence": "NOT_APPLICABLE"
+   }
+  },
+  {
+   "lessonId": 2,
+   "itemId": 110,
+   "sourceAudio": [
+    "f2-13.mp3"
+   ],
+   "startMs": 15150.4,
+   "audioEndMs": 16130.4,
+   "segmentEndMs": 16530.4,
+   "page": 0,
+   "section": "custom",
+   "text": "ك",
+   "fullWord": {
+    "confidence": "NOT_APPLICABLE"
+   }
+  },
+  {
+   "lessonId": 2,
+   "itemId": 111,
+   "sourceAudio": [
+    "f2-14.mp3"
+   ],
+   "startMs": 16530.4,
+   "audioEndMs": 17460.4,
+   "segmentEndMs": 17860.4,
+   "page": 0,
+   "section": "custom",
+   "text": "ك",
+   "fullWord": {
+    "confidence": "NOT_APPLICABLE"
+   }
+  },
+  {
+   "lessonId": 2,
+   "itemId": 112,
+   "sourceAudio": [
+    "f2-15.mp3"
+   ],
+   "startMs": 17860.4,
+   "audioEndMs": 19370.4,
+   "segmentEndMs": 19770.4,
+   "page": 0,
+   "section": "custom",
+   "text": "كب",
+   "fullWord": {
+    "confidence": "NOT_APPLICABLE"
+   }
+  },
+  {
+   "lessonId": 2,
+   "itemId": 113,
+   "sourceAudio": [
+    "f2-16.mp3"
+   ],
+   "startMs": 19770.4,
+   "audioEndMs": 21200.5,
+   "segmentEndMs": 21600.5,
+   "page": 0,
+   "section": "custom",
+   "text": "كب",
+   "fullWord": {
+    "confidence": "NOT_APPLICABLE"
+   }
+  },
+  {
+   "lessonId": 2,
+   "itemId": 114,
+   "sourceAudio": [
+    "f2-17.mp3"
+   ],
+   "startMs": 21600.5,
+   "audioEndMs": 22450.5,
+   "segmentEndMs": 22850.5,
+   "page": 0,
+   "section": "custom",
+   "text": "كا",
+   "fullWord": {
+    "confidence": "NOT_APPLICABLE"
+   }
+  },
+  {
+   "lessonId": 2,
+   "itemId": 115,
+   "sourceAudio": [
+    "f2-18.mp3"
+   ],
+   "startMs": 22850.5,
+   "audioEndMs": 23690.5,
+   "segmentEndMs": 24090.5,
+   "page": 0,
+   "section": "custom",
+   "text": "كا",
+   "fullWord": {
+    "confidence": "NOT_APPLICABLE"
+   }
+  },
+  {
+   "lessonId": 2,
+   "itemId": 116,
+   "sourceAudio": [
+    "f2-19.mp3"
+   ],
+   "startMs": 24090.5,
+   "audioEndMs": 26440.5,
+   "segmentEndMs": 26840.5,
+   "page": 0,
+   "section": "custom",
+   "text": "بكت",
+   "fullWord": {
+    "fullWordStartMs": 25360.6,
+    "fullWordEndMs": 26440.5,
+    "confidence": "MEDIUM",
+    "signals": {
+     "clearFinalGap": true,
+     "plausibleDuration": true,
+     "trailingSilenceDetected": false,
+     "unambiguousLastGap": true
+    },
+    "sourceStartMs": 1270.1,
+    "sourceEndMs": 2350.0,
+    "source": "AUTO",
+    "usableForClipping": false
+   }
+  },
+  {
+   "lessonId": 2,
+   "itemId": 117,
+   "sourceAudio": [
+    "f2-20.mp3"
+   ],
+   "startMs": 26840.5,
+   "audioEndMs": 28940.5,
+   "segmentEndMs": 29340.5,
+   "page": 0,
+   "section": "custom",
+   "text": "تكث",
+   "fullWord": {
+    "confidence": "NOT_APPLICABLE"
+   }
+  },
+  {
+   "lessonId": 2,
+   "itemId": 118,
+   "sourceAudio": [
+    "f2-21.mp3"
+   ],
+   "startMs": 29340.5,
+   "audioEndMs": 30130.5,
+   "segmentEndMs": 30530.5,
+   "page": 0,
+   "section": "custom",
+   "text": "ب",
+   "fullWord": {
+    "confidence": "NOT_APPLICABLE"
+   }
+  },
+  {
+   "lessonId": 2,
+   "itemId": 119,
+   "sourceAudio": [
+    "f2-22.mp3"
+   ],
+   "startMs": 30530.5,
+   "audioEndMs": 31230.5,
+   "segmentEndMs": 31630.5,
+   "page": 0,
+   "section": "custom",
+   "text": "ت",
+   "fullWord": {
+    "confidence": "NOT_APPLICABLE"
+   }
+  },
+  {
+   "lessonId": 2,
+   "itemId": 120,
+   "sourceAudio": [
+    "f2-23.mp3"
+   ],
+   "startMs": 31630.5,
+   "audioEndMs": 32450.5,
+   "segmentEndMs": 32850.5,
+   "page": 0,
+   "section": "custom",
+   "text": "ث",
+   "fullWord": {
+    "confidence": "NOT_APPLICABLE"
+   }
+  },
+  {
+   "lessonId": 2,
+   "itemId": 121,
+   "sourceAudio": [
+    "f2-24.mp3"
+   ],
+   "startMs": 32850.5,
+   "audioEndMs": 33871.4,
+   "segmentEndMs": 34271.4,
+   "page": 0,
+   "section": "custom",
+   "text": "ن",
+   "fullWord": {
+    "confidence": "NOT_APPLICABLE"
+   }
+  },
+  {
+   "lessonId": 2,
+   "itemId": 122,
+   "sourceAudio": [
+    "f2-25.mp3"
+   ],
+   "startMs": 34271.4,
+   "audioEndMs": 35121.5,
+   "segmentEndMs": 35521.5,
+   "page": 0,
+   "section": "custom",
+   "text": "ي",
+   "fullWord": {
+    "confidence": "NOT_APPLICABLE"
+   }
+  },
+  {
+   "lessonId": 2,
+   "itemId": 123,
+   "sourceAudio": [
+    "f2-26.mp3"
+   ],
+   "startMs": 35521.5,
+   "audioEndMs": 36561.5,
+   "segmentEndMs": 36961.5,
+   "page": 0,
+   "section": "custom",
+   "text": "با",
+   "fullWord": {
+    "confidence": "NOT_APPLICABLE"
+   }
+  },
+  {
+   "lessonId": 2,
+   "itemId": 124,
+   "sourceAudio": [
+    "f2-27.mp3"
+   ],
+   "startMs": 36961.5,
+   "audioEndMs": 37891.5,
+   "segmentEndMs": 38291.5,
+   "page": 0,
+   "section": "custom",
+   "text": "نا",
+   "fullWord": {
+    "confidence": "NOT_APPLICABLE"
+   }
+  },
+  {
+   "lessonId": 2,
+   "itemId": 125,
+   "sourceAudio": [
+    "f2-28.mp3"
+   ],
+   "startMs": 38291.5,
+   "audioEndMs": 39121.5,
+   "segmentEndMs": 39521.5,
+   "page": 0,
+   "section": "custom",
+   "text": "تا",
+   "fullWord": {
+    "confidence": "NOT_APPLICABLE"
+   }
+  },
+  {
+   "lessonId": 2,
+   "itemId": 126,
+   "sourceAudio": [
+    "f2-29.mp3"
+   ],
+   "startMs": 39521.5,
+   "audioEndMs": 40401.5,
+   "segmentEndMs": 40801.5,
+   "page": 0,
+   "section": "custom",
+   "text": "يا",
+   "fullWord": {
+    "confidence": "NOT_APPLICABLE"
+   }
+  },
+  {
+   "lessonId": 2,
+   "itemId": 127,
+   "sourceAudio": [
+    "f2-30.mp3"
+   ],
+   "startMs": 40801.5,
+   "audioEndMs": 41681.5,
+   "segmentEndMs": 42081.5,
+   "page": 0,
+   "section": "custom",
+   "text": "ثا",
+   "fullWord": {
+    "confidence": "NOT_APPLICABLE"
+   }
+  },
+  {
+   "lessonId": 2,
+   "itemId": 128,
+   "sourceAudio": [
+    "f2-31.mp3"
+   ],
+   "startMs": 42081.5,
+   "audioEndMs": 43671.5,
+   "segmentEndMs": 44071.5,
+   "page": 0,
+   "section": "custom",
+   "text": "بس",
+   "fullWord": {
+    "confidence": "NOT_APPLICABLE"
+   }
+  },
+  {
+   "lessonId": 2,
+   "itemId": 129,
+   "sourceAudio": [
+    "f2-32.mp3"
+   ],
+   "startMs": 44071.5,
+   "audioEndMs": 45541.5,
+   "segmentEndMs": 45941.5,
+   "page": 0,
+   "section": "custom",
+   "text": "يس",
+   "fullWord": {
+    "confidence": "NOT_APPLICABLE"
+   }
+  },
+  {
+   "lessonId": 2,
+   "itemId": 130,
+   "sourceAudio": [
+    "f2-33.mp3"
+   ],
+   "startMs": 45941.5,
+   "audioEndMs": 47432.7,
+   "segmentEndMs": 47832.7,
+   "page": 0,
+   "section": "custom",
+   "text": "نس",
+   "fullWord": {
+    "confidence": "NOT_APPLICABLE"
+   }
+  },
+  {
+   "lessonId": 2,
+   "itemId": 131,
+   "sourceAudio": [
+    "f2-34.mp3"
+   ],
+   "startMs": 47832.7,
+   "audioEndMs": 49222.7,
+   "segmentEndMs": 49622.7,
+   "page": 0,
+   "section": "custom",
+   "text": "تس",
+   "fullWord": {
+    "confidence": "NOT_APPLICABLE"
+   }
+  },
+  {
+   "lessonId": 2,
+   "itemId": 132,
+   "sourceAudio": [
+    "f2-35.mp3"
+   ],
+   "startMs": 49622.7,
+   "audioEndMs": 51032.7,
+   "segmentEndMs": 51432.7,
+   "page": 0,
+   "section": "custom",
+   "text": "ثس",
+   "fullWord": {
+    "confidence": "NOT_APPLICABLE"
+   }
+  },
+  {
+   "lessonId": 2,
+   "itemId": 133,
+   "sourceAudio": [
+    "f2-36.mp3"
+   ],
+   "startMs": 51432.7,
+   "audioEndMs": 52902.7,
+   "segmentEndMs": 53302.7,
+   "page": 0,
+   "section": "custom",
+   "text": "ش",
+   "fullWord": {
+    "confidence": "NOT_APPLICABLE"
+   }
+  },
+  {
+   "lessonId": 2,
+   "itemId": 134,
+   "sourceAudio": [
+    "f2-37.mp3"
+   ],
+   "startMs": 53302.7,
+   "audioEndMs": 54572.8,
+   "segmentEndMs": 54972.8,
+   "page": 0,
+   "section": "custom",
+   "text": "تح",
+   "fullWord": {
+    "confidence": "NOT_APPLICABLE"
+   }
+  },
+  {
+   "lessonId": 2,
+   "itemId": 135,
+   "sourceAudio": [
+    "f2-38.mp3"
+   ],
+   "startMs": 54972.8,
+   "audioEndMs": 56492.8,
+   "segmentEndMs": 56892.8,
+   "page": 0,
+   "section": "custom",
+   "text": "نخ",
+   "fullWord": {
+    "confidence": "NOT_APPLICABLE"
+   }
+  },
+  {
+   "lessonId": 2,
+   "itemId": 136,
+   "sourceAudio": [
+    "f2-39.mp3"
+   ],
+   "startMs": 56892.8,
+   "audioEndMs": 58302.8,
+   "segmentEndMs": 58702.8,
+   "page": 0,
+   "section": "custom",
+   "text": "يح",
+   "fullWord": {
+    "confidence": "NOT_APPLICABLE"
+   }
+  },
+  {
+   "lessonId": 2,
+   "itemId": 137,
+   "sourceAudio": [
+    "f2-40.mp3"
+   ],
+   "startMs": 58702.8,
+   "audioEndMs": 60112.8,
+   "segmentEndMs": 60512.8,
+   "page": 0,
+   "section": "custom",
+   "text": "بج",
+   "fullWord": {
+    "confidence": "NOT_APPLICABLE"
+   }
+  },
+  {
+   "lessonId": 2,
+   "itemId": 138,
+   "sourceAudio": [
+    "f2-41.mp3"
+   ],
+   "startMs": 60512.8,
+   "audioEndMs": 62042.8,
+   "segmentEndMs": 62442.8,
+   "page": 0,
+   "section": "custom",
+   "text": "يم",
+   "fullWord": {
+    "confidence": "NOT_APPLICABLE"
+   }
+  },
+  {
+   "lessonId": 2,
+   "itemId": 139,
+   "sourceAudio": [
+    "f2-42.mp3"
+   ],
+   "startMs": 62442.8,
+   "audioEndMs": 63852.8,
+   "segmentEndMs": 64252.8,
+   "page": 0,
+   "section": "custom",
+   "text": "بم",
+   "fullWord": {
+    "confidence": "NOT_APPLICABLE"
+   }
+  },
+  {
+   "lessonId": 2,
+   "itemId": 140,
+   "sourceAudio": [
+    "f2-43.mp3"
+   ],
+   "startMs": 64252.8,
+   "audioEndMs": 65682.9,
+   "segmentEndMs": 66082.9,
+   "page": 0,
+   "section": "custom",
+   "text": "نم",
+   "fullWord": {
+    "confidence": "NOT_APPLICABLE"
+   }
+  },
+  {
+   "lessonId": 2,
+   "itemId": 141,
+   "sourceAudio": [
+    "f2-44.mp3"
+   ],
+   "startMs": 66082.9,
+   "audioEndMs": 67412.9,
+   "segmentEndMs": 67812.9,
+   "page": 0,
+   "section": "custom",
+   "text": "تم",
+   "fullWord": {
+    "confidence": "NOT_APPLICABLE"
+   }
+  },
+  {
+   "lessonId": 2,
+   "itemId": 142,
+   "sourceAudio": [
+    "f2-45.mp3"
+   ],
+   "startMs": 67812.9,
+   "audioEndMs": 69242.9,
+   "segmentEndMs": 69642.9,
+   "page": 0,
+   "section": "custom",
+   "text": "ثـم",
+   "fullWord": {
+    "confidence": "NOT_APPLICABLE"
+   }
+  },
+  {
+   "lessonId": 2,
+   "itemId": 143,
+   "sourceAudio": [
+    "f2-46.mp3"
+   ],
+   "startMs": 69642.9,
+   "audioEndMs": 70972.9,
+   "segmentEndMs": 71372.9,
+   "page": 0,
+   "section": "custom",
+   "text": "بي",
+   "fullWord": {
+    "confidence": "NOT_APPLICABLE"
+   }
+  },
+  {
+   "lessonId": 2,
+   "itemId": 144,
+   "sourceAudio": [
+    "f2-47.mp3"
+   ],
+   "startMs": 71372.9,
+   "audioEndMs": 72743.0,
+   "segmentEndMs": 73143.0,
+   "page": 0,
+   "section": "custom",
+   "text": "يي",
+   "fullWord": {
+    "confidence": "NOT_APPLICABLE"
+   }
+  },
+  {
+   "lessonId": 2,
+   "itemId": 145,
+   "sourceAudio": [
+    "f2-48.mp3"
+   ],
+   "startMs": 73143.0,
+   "audioEndMs": 74593.0,
+   "segmentEndMs": 74993.0,
+   "page": 0,
+   "section": "custom",
+   "text": "ني",
+   "fullWord": {
+    "confidence": "NOT_APPLICABLE"
+   }
+  },
+  {
+   "lessonId": 2,
+   "itemId": 146,
+   "sourceAudio": [
+    "f2-49.mp3"
+   ],
+   "startMs": 74993.0,
+   "audioEndMs": 76293.0,
+   "segmentEndMs": 76693.0,
+   "page": 0,
+   "section": "custom",
+   "text": "تي",
+   "fullWord": {
+    "confidence": "NOT_APPLICABLE"
+   }
+  },
+  {
+   "lessonId": 2,
+   "itemId": 147,
+   "sourceAudio": [
+    "f2-50.mp3"
+   ],
+   "startMs": 76693.0,
+   "audioEndMs": 78023.0,
+   "segmentEndMs": 78423.0,
+   "page": 0,
+   "section": "custom",
+   "text": "ثي",
+   "fullWord": {
+    "confidence": "NOT_APPLICABLE"
+   }
+  },
+  {
+   "lessonId": 2,
+   "itemId": 148,
+   "sourceAudio": [
+    "f2-51.mp3"
+   ],
+   "startMs": 78423.0,
+   "audioEndMs": 80673.0,
+   "segmentEndMs": 81073.0,
+   "page": 0,
+   "section": "custom",
+   "text": "نبل",
+   "fullWord": {
+    "confidence": "NOT_APPLICABLE"
+   }
+  },
+  {
+   "lessonId": 2,
+   "itemId": 149,
+   "sourceAudio": [
+    "f2-52.mp3"
+   ],
+   "startMs": 81073.0,
+   "audioEndMs": 83093.0,
+   "segmentEndMs": 83493.0,
+   "page": 0,
+   "section": "custom",
+   "text": "تنل",
+   "fullWord": {
+    "confidence": "NOT_APPLICABLE"
+   }
+  },
+  {
+   "lessonId": 2,
+   "itemId": 150,
+   "sourceAudio": [
+    "f2-53.mp3"
+   ],
+   "startMs": 83493.0,
+   "audioEndMs": 85585.0,
+   "segmentEndMs": 85985.0,
+   "page": 0,
+   "section": "custom",
+   "text": "بيل",
+   "fullWord": {
+    "confidence": "NOT_APPLICABLE"
+   }
+  },
+  {
+   "lessonId": 2,
+   "itemId": 151,
+   "sourceAudio": [
+    "f2-54.mp3"
+   ],
+   "startMs": 85985.0,
+   "audioEndMs": 88035.0,
+   "segmentEndMs": 88435.0,
+   "page": 0,
+   "section": "custom",
+   "text": "يتل",
+   "fullWord": {
+    "confidence": "NOT_APPLICABLE"
+   }
+  },
+  {
+   "lessonId": 2,
+   "itemId": 152,
+   "sourceAudio": [
+    "f2-55.mp3"
+   ],
+   "startMs": 88435.0,
+   "audioEndMs": 90435.0,
+   "segmentEndMs": 90835.0,
+   "page": 0,
+   "section": "custom",
+   "text": "ثثل",
+   "fullWord": {
+    "confidence": "NOT_APPLICABLE"
+   }
+  },
+  {
+   "lessonId": 2,
+   "itemId": 153,
+   "sourceAudio": [
+    "f2-56.mp3"
+   ],
+   "startMs": 90835.0,
+   "audioEndMs": 92765.0,
+   "segmentEndMs": 93165.0,
+   "page": 0,
+   "section": "custom",
+   "text": "نبن",
+   "fullWord": {
+    "confidence": "NOT_APPLICABLE"
+   }
+  },
+  {
+   "lessonId": 2,
+   "itemId": 154,
+   "sourceAudio": [
+    "f2-57.mp3"
+   ],
+   "startMs": 93165.0,
+   "audioEndMs": 95195.0,
+   "segmentEndMs": 95595.0,
+   "page": 1,
+   "section": "custom",
+   "text": "بنن",
+   "fullWord": {
+    "confidence": "NOT_APPLICABLE"
+   }
+  },
+  {
+   "lessonId": 2,
+   "itemId": 155,
+   "sourceAudio": [
+    "f2-58.mp3"
+   ],
+   "startMs": 95595.0,
+   "audioEndMs": 97495.0,
+   "segmentEndMs": 97895.0,
+   "page": 1,
+   "section": "custom",
+   "text": "تين",
+   "fullWord": {
+    "confidence": "NOT_APPLICABLE"
+   }
+  },
+  {
+   "lessonId": 2,
+   "itemId": 156,
+   "sourceAudio": [
+    "f2-59.mp3"
+   ],
+   "startMs": 97895.0,
+   "audioEndMs": 99825.0,
+   "segmentEndMs": 100225.0,
+   "page": 1,
+   "section": "custom",
+   "text": "يتن",
+   "fullWord": {
+    "confidence": "NOT_APPLICABLE"
+   }
+  },
+  {
+   "lessonId": 2,
+   "itemId": 157,
+   "sourceAudio": [
+    "f2-60.mp3"
+   ],
+   "startMs": 100225.0,
+   "audioEndMs": 102085.0,
+   "segmentEndMs": 102485.0,
+   "page": 1,
+   "section": "custom",
+   "text": "ثثن",
+   "fullWord": {
+    "confidence": "NOT_APPLICABLE"
+   }
+  },
+  {
+   "lessonId": 2,
+   "itemId": 158,
+   "sourceAudio": [
+    "f2-61.mp3"
+   ],
+   "startMs": 102485.0,
+   "audioEndMs": 103615.1,
+   "segmentEndMs": 104015.1,
+   "page": 1,
+   "section": "custom",
+   "text": "ج",
+   "fullWord": {
+    "confidence": "NOT_APPLICABLE"
+   }
+  },
+  {
+   "lessonId": 2,
+   "itemId": 159,
+   "sourceAudio": [
+    "f2-62.mp3"
+   ],
+   "startMs": 104015.1,
+   "audioEndMs": 104865.1,
+   "segmentEndMs": 105265.1,
+   "page": 1,
+   "section": "custom",
+   "text": "ح",
+   "fullWord": {
+    "confidence": "NOT_APPLICABLE"
+   }
+  },
+  {
+   "lessonId": 2,
+   "itemId": 160,
+   "sourceAudio": [
+    "f2-63.mp3"
+   ],
+   "startMs": 105265.1,
+   "audioEndMs": 106195.1,
+   "segmentEndMs": 106595.1,
+   "page": 1,
+   "section": "custom",
+   "text": "خ",
+   "fullWord": {
+    "confidence": "NOT_APPLICABLE"
+   }
+  },
+  {
+   "lessonId": 2,
+   "itemId": 161,
+   "sourceAudio": [
+    "f2-64.mp3"
+   ],
+   "startMs": 106595.1,
+   "audioEndMs": 108045.1,
+   "segmentEndMs": 108445.1,
+   "page": 1,
+   "section": "custom",
+   "text": "حث",
+   "fullWord": {
+    "confidence": "NOT_APPLICABLE"
+   }
+  },
+  {
+   "lessonId": 2,
+   "itemId": 162,
+   "sourceAudio": [
+    "f2-65.mp3"
+   ],
+   "startMs": 108445.1,
+   "audioEndMs": 109945.1,
+   "segmentEndMs": 110345.1,
+   "page": 1,
+   "section": "custom",
+   "text": "خب",
+   "fullWord": {
+    "confidence": "NOT_APPLICABLE"
+   }
+  },
+  {
+   "lessonId": 2,
+   "itemId": 163,
+   "sourceAudio": [
+    "f2-66.mp3"
+   ],
+   "startMs": 110345.1,
+   "audioEndMs": 111885.1,
+   "segmentEndMs": 112285.1,
+   "page": 1,
+   "section": "custom",
+   "text": "جت",
+   "fullWord": {
+    "confidence": "NOT_APPLICABLE"
+   }
+  },
+  {
+   "lessonId": 2,
+   "itemId": 164,
+   "sourceAudio": [
+    "f2-67.mp3"
+   ],
+   "startMs": 112285.1,
+   "audioEndMs": 114125.1,
+   "segmentEndMs": 114525.1,
+   "page": 1,
+   "section": "custom",
+   "text": "تحت",
+   "fullWord": {
+    "confidence": "NOT_APPLICABLE"
+   }
+  },
+  {
+   "lessonId": 2,
+   "itemId": 165,
+   "sourceAudio": [
+    "f2-68.mp3"
+   ],
+   "startMs": 114525.1,
+   "audioEndMs": 116645.1,
+   "segmentEndMs": 117045.1,
+   "page": 1,
+   "section": "custom",
+   "text": "يجب",
+   "fullWord": {
+    "confidence": "NOT_APPLICABLE"
+   }
+  },
+  {
+   "lessonId": 2,
+   "itemId": 166,
+   "sourceAudio": [
+    "f2-69.mp3"
+   ],
+   "startMs": 117045.1,
+   "audioEndMs": 119405.1,
+   "segmentEndMs": 119805.1,
+   "page": 1,
+   "section": "custom",
+   "text": "بخت",
+   "fullWord": {
+    "confidence": "NOT_APPLICABLE"
+   }
+  },
+  {
+   "lessonId": 2,
+   "itemId": 167,
+   "sourceAudio": [
+    "f2-70.mp3"
+   ],
+   "startMs": 119805.1,
+   "audioEndMs": 120486.5,
+   "segmentEndMs": 120886.5,
+   "page": 1,
+   "section": "custom",
+   "text": "ة",
+   "fullWord": {
+    "confidence": "NOT_APPLICABLE"
+   }
+  },
+  {
+   "lessonId": 2,
+   "itemId": 168,
+   "sourceAudio": [
+    "f2-71.mp3"
+   ],
+   "startMs": 120886.5,
+   "audioEndMs": 121716.5,
+   "segmentEndMs": 122116.5,
+   "page": 1,
+   "section": "custom",
+   "text": "ه",
+   "fullWord": {
+    "confidence": "NOT_APPLICABLE"
+   }
+  },
+  {
+   "lessonId": 2,
+   "itemId": 169,
+   "sourceAudio": [
+    "f2-72.mp3"
+   ],
+   "startMs": 122116.5,
+   "audioEndMs": 123456.5,
+   "segmentEndMs": 123856.5,
+   "page": 1,
+   "section": "custom",
+   "text": "بة",
+   "fullWord": {
+    "confidence": "NOT_APPLICABLE"
+   }
+  },
+  {
+   "lessonId": 2,
+   "itemId": 170,
+   "sourceAudio": [
+    "f2-73.mp3"
+   ],
+   "startMs": 123856.5,
+   "audioEndMs": 125336.5,
+   "segmentEndMs": 125736.5,
+   "page": 1,
+   "section": "custom",
+   "text": "يه",
+   "fullWord": {
+    "confidence": "NOT_APPLICABLE"
+   }
+  },
+  {
+   "lessonId": 2,
+   "itemId": 171,
+   "sourceAudio": [
+    "f2-74.mp3"
+   ],
+   "startMs": 125736.5,
+   "audioEndMs": 127116.5,
+   "segmentEndMs": 127516.5,
+   "page": 1,
+   "section": "custom",
+   "text": "ته",
+   "fullWord": {
+    "confidence": "NOT_APPLICABLE"
+   }
+  },
+  {
+   "lessonId": 2,
+   "itemId": 172,
+   "sourceAudio": [
+    "f2-75.mp3"
+   ],
+   "startMs": 127516.5,
+   "audioEndMs": 129076.5,
+   "segmentEndMs": 129476.5,
+   "page": 1,
+   "section": "custom",
+   "text": "نة",
+   "fullWord": {
+    "confidence": "NOT_APPLICABLE"
+   }
+  },
+  {
+   "lessonId": 2,
+   "itemId": 173,
+   "sourceAudio": [
+    "f2-76.mp3"
+   ],
+   "startMs": 129476.5,
+   "audioEndMs": 130346.5,
+   "segmentEndMs": 130746.5,
+   "page": 1,
+   "section": "custom",
+   "text": "ه",
+   "fullWord": {
+    "confidence": "NOT_APPLICABLE"
+   }
+  },
+  {
+   "lessonId": 2,
+   "itemId": 174,
+   "sourceAudio": [
+    "f2-77.mp3"
+   ],
+   "startMs": 130746.5,
+   "audioEndMs": 132838.4,
+   "segmentEndMs": 133238.4,
+   "page": 1,
+   "section": "custom",
+   "text": "يهب",
+   "fullWord": {
+    "confidence": "NOT_APPLICABLE"
+   }
+  },
+  {
+   "lessonId": 2,
+   "itemId": 175,
+   "sourceAudio": [
+    "f2-78.mp3"
+   ],
+   "startMs": 133238.4,
+   "audioEndMs": 134738.4,
+   "segmentEndMs": 135138.4,
+   "page": 1,
+   "section": "custom",
+   "text": "بها",
+   "fullWord": {
+    "confidence": "NOT_APPLICABLE"
+   }
+  },
+  {
+   "lessonId": 2,
+   "itemId": 176,
+   "sourceAudio": [
+    "f2-79.mp3"
+   ],
+   "startMs": 135138.4,
+   "audioEndMs": 137038.4,
+   "segmentEndMs": 137438.4,
+   "page": 1,
+   "section": "custom",
+   "text": "بهم",
+   "fullWord": {
+    "confidence": "NOT_APPLICABLE"
+   }
+  },
+  {
+   "lessonId": 2,
+   "itemId": 177,
+   "sourceAudio": [
+    "f2-80.mp3"
+   ],
+   "startMs": 137438.4,
+   "audioEndMs": 138448.4,
+   "segmentEndMs": 138848.4,
+   "page": 1,
+   "section": "custom",
+   "text": "د",
+   "fullWord": {
+    "confidence": "NOT_APPLICABLE"
+   }
+  },
+  {
+   "lessonId": 2,
+   "itemId": 178,
+   "sourceAudio": [
+    "f2-81.mp3"
+   ],
+   "startMs": 138848.4,
+   "audioEndMs": 139978.5,
+   "segmentEndMs": 140378.5,
+   "page": 1,
+   "section": "custom",
+   "text": "ذ",
+   "fullWord": {
+    "confidence": "NOT_APPLICABLE"
+   }
+  },
+  {
+   "lessonId": 2,
+   "itemId": 179,
+   "sourceAudio": [
+    "f2-82.mp3"
+   ],
+   "startMs": 140378.5,
+   "audioEndMs": 142098.5,
+   "segmentEndMs": 142498.5,
+   "page": 1,
+   "section": "custom",
+   "text": "جد",
+   "fullWord": {
+    "confidence": "NOT_APPLICABLE"
+   }
+  },
+  {
+   "lessonId": 2,
+   "itemId": 180,
+   "sourceAudio": [
+    "f2-83.mp3"
+   ],
+   "startMs": 142498.5,
+   "audioEndMs": 144188.5,
+   "segmentEndMs": 144588.5,
+   "page": 1,
+   "section": "custom",
+   "text": "خذ",
+   "fullWord": {
+    "confidence": "NOT_APPLICABLE"
+   }
+  },
+  {
+   "lessonId": 2,
+   "itemId": 181,
+   "sourceAudio": [
+    "f2-84.mp3"
+   ],
+   "startMs": 144588.5,
+   "audioEndMs": 145568.5,
+   "segmentEndMs": 145968.5,
+   "page": 1,
+   "section": "custom",
+   "text": "ر",
+   "fullWord": {
+    "confidence": "NOT_APPLICABLE"
+   }
+  },
+  {
+   "lessonId": 2,
+   "itemId": 182,
+   "sourceAudio": [
+    "f2-85.mp3"
+   ],
+   "startMs": 145968.5,
+   "audioEndMs": 146938.5,
+   "segmentEndMs": 147338.5,
+   "page": 1,
+   "section": "custom",
+   "text": "ز",
+   "fullWord": {
+    "confidence": "NOT_APPLICABLE"
+   }
+  },
+  {
+   "lessonId": 2,
+   "itemId": 183,
+   "sourceAudio": [
+    "f2-86.mp3"
+   ],
+   "startMs": 147338.5,
+   "audioEndMs": 148878.5,
+   "segmentEndMs": 149278.5,
+   "page": 1,
+   "section": "custom",
+   "text": "جر",
+   "fullWord": {
+    "confidence": "NOT_APPLICABLE"
+   }
+  },
+  {
+   "lessonId": 2,
+   "itemId": 184,
+   "sourceAudio": [
+    "f2-87.mp3"
+   ],
+   "startMs": 149278.5,
+   "audioEndMs": 150848.5,
+   "segmentEndMs": 151248.5,
+   "page": 1,
+   "section": "custom",
+   "text": "خز",
+   "fullWord": {
+    "confidence": "NOT_APPLICABLE"
+   }
+  },
+  {
+   "lessonId": 2,
+   "itemId": 185,
+   "sourceAudio": [
+    "f2-88.mp3"
+   ],
+   "startMs": 151248.5,
+   "audioEndMs": 152218.6,
+   "segmentEndMs": 152618.6,
+   "page": 1,
+   "section": "custom",
+   "text": "ر",
+   "fullWord": {
+    "confidence": "NOT_APPLICABLE"
+   }
+  },
+  {
+   "lessonId": 2,
+   "itemId": 186,
+   "sourceAudio": [
+    "f2-89.mp3"
+   ],
+   "startMs": 152618.6,
+   "audioEndMs": 153598.6,
+   "segmentEndMs": 153998.6,
+   "page": 1,
+   "section": "custom",
+   "text": "ز",
+   "fullWord": {
+    "confidence": "NOT_APPLICABLE"
+   }
+  },
+  {
+   "lessonId": 2,
+   "itemId": 187,
+   "sourceAudio": [
+    "f2-90.mp3"
+   ],
+   "startMs": 153998.6,
+   "audioEndMs": 155648.6,
+   "segmentEndMs": 156048.6,
+   "page": 1,
+   "section": "custom",
+   "text": "ير",
+   "fullWord": {
+    "confidence": "NOT_APPLICABLE"
+   }
+  },
+  {
+   "lessonId": 2,
+   "itemId": 188,
+   "sourceAudio": [
+    "f2-91.mp3"
+   ],
+   "startMs": 156048.6,
+   "audioEndMs": 157548.6,
+   "segmentEndMs": 157948.6,
+   "page": 1,
+   "section": "custom",
+   "text": "تز",
+   "fullWord": {
+    "confidence": "NOT_APPLICABLE"
+   }
+  },
+  {
+   "lessonId": 2,
+   "itemId": 189,
+   "sourceAudio": [
+    "f2-92.mp3"
+   ],
+   "startMs": 157948.6,
+   "audioEndMs": 159068.6,
+   "segmentEndMs": 159468.6,
+   "page": 1,
+   "section": "custom",
+   "text": "س",
+   "fullWord": {
+    "confidence": "NOT_APPLICABLE"
+   }
+  },
+  {
+   "lessonId": 2,
+   "itemId": 190,
+   "sourceAudio": [
+    "f2-93.mp3"
+   ],
+   "startMs": 159468.6,
+   "audioEndMs": 160648.6,
+   "segmentEndMs": 161048.6,
+   "page": 1,
+   "section": "custom",
+   "text": "ش",
+   "fullWord": {
+    "confidence": "NOT_APPLICABLE"
+   }
+  },
+  {
+   "lessonId": 2,
+   "itemId": 191,
+   "sourceAudio": [
+    "f2-94.mp3"
+   ],
+   "startMs": 161048.6,
+   "audioEndMs": 162808.6,
+   "segmentEndMs": 163208.6,
+   "page": 1,
+   "section": "custom",
+   "text": "سل",
+   "fullWord": {
+    "confidence": "NOT_APPLICABLE"
+   }
+  },
+  {
+   "lessonId": 2,
+   "itemId": 192,
+   "sourceAudio": [
+    "f2-95.mp3"
+   ],
+   "startMs": 163208.6,
+   "audioEndMs": 165008.6,
+   "segmentEndMs": 165408.6,
+   "page": 1,
+   "section": "custom",
+   "text": "شل",
+   "fullWord": {
+    "confidence": "NOT_APPLICABLE"
+   }
+  },
+  {
+   "lessonId": 2,
+   "itemId": 193,
+   "sourceAudio": [
+    "f2-96.mp3"
+   ],
+   "startMs": 165408.6,
+   "audioEndMs": 166928.6,
+   "segmentEndMs": 167328.6,
+   "page": 1,
+   "section": "custom",
+   "text": "ص",
+   "fullWord": {
+    "confidence": "NOT_APPLICABLE"
+   }
+  },
+  {
+   "lessonId": 2,
+   "itemId": 194,
+   "sourceAudio": [
+    "f2-97.mp3"
+   ],
+   "startMs": 167328.6,
+   "audioEndMs": 168908.6,
+   "segmentEndMs": 169308.6,
+   "page": 1,
+   "section": "custom",
+   "text": "ض",
+   "fullWord": {
+    "confidence": "NOT_APPLICABLE"
+   }
+  },
+  {
+   "lessonId": 2,
+   "itemId": 195,
+   "sourceAudio": [
+    "f2-98.mp3"
+   ],
+   "startMs": 169308.6,
+   "audioEndMs": 170128.6,
+   "segmentEndMs": 170528.6,
+   "page": 1,
+   "section": "custom",
+   "text": "ط",
+   "fullWord": {
+    "confidence": "NOT_APPLICABLE"
+   }
+  },
+  {
+   "lessonId": 2,
+   "itemId": 196,
+   "sourceAudio": [
+    "f2-99.mp3"
+   ],
+   "startMs": 170528.6,
+   "audioEndMs": 171498.6,
+   "segmentEndMs": 171898.6,
+   "page": 1,
+   "section": "custom",
+   "text": "ظ",
+   "fullWord": {
+    "confidence": "NOT_APPLICABLE"
+   }
+  },
+  {
+   "lessonId": 2,
+   "itemId": 197,
+   "sourceAudio": [
+    "f2-100.mp3"
+   ],
+   "startMs": 171898.6,
+   "audioEndMs": 173538.6,
+   "segmentEndMs": 173938.6,
+   "page": 1,
+   "section": "custom",
+   "text": "صب",
+   "fullWord": {
+    "confidence": "NOT_APPLICABLE"
+   }
+  },
+  {
+   "lessonId": 2,
+   "itemId": 198,
+   "sourceAudio": [
+    "f2-101.mp3"
+   ],
+   "startMs": 173938.6,
+   "audioEndMs": 175468.6,
+   "segmentEndMs": 175868.6,
+   "page": 1,
+   "section": "custom",
+   "text": "طب",
+   "fullWord": {
+    "confidence": "NOT_APPLICABLE"
+   }
+  },
+  {
+   "lessonId": 2,
+   "itemId": 199,
+   "sourceAudio": [
+    "f2-102.mp3"
+   ],
+   "startMs": 175868.6,
+   "audioEndMs": 177098.7,
+   "segmentEndMs": 177498.7,
+   "page": 1,
+   "section": "custom",
+   "text": "ضا",
+   "fullWord": {
+    "confidence": "NOT_APPLICABLE"
+   }
+  },
+  {
+   "lessonId": 2,
+   "itemId": 200,
+   "sourceAudio": [
+    "f2-103.mp3"
+   ],
+   "startMs": 177498.7,
+   "audioEndMs": 178638.7,
+   "segmentEndMs": 179038.7,
+   "page": 1,
+   "section": "custom",
+   "text": "ظا",
+   "fullWord": {
+    "confidence": "NOT_APPLICABLE"
+   }
+  },
+  {
+   "lessonId": 2,
+   "itemId": 201,
+   "sourceAudio": [
+    "f2-104.mp3"
+   ],
+   "startMs": 179038.7,
+   "audioEndMs": 180048.7,
+   "segmentEndMs": 180448.7,
+   "page": 1,
+   "section": "custom",
+   "text": "ع",
+   "fullWord": {
+    "confidence": "NOT_APPLICABLE"
+   }
+  },
+  {
+   "lessonId": 2,
+   "itemId": 202,
+   "sourceAudio": [
+    "f2-105.mp3"
+   ],
+   "startMs": 180448.7,
+   "audioEndMs": 181478.7,
+   "segmentEndMs": 181878.7,
+   "page": 1,
+   "section": "custom",
+   "text": "غ",
+   "fullWord": {
+    "confidence": "NOT_APPLICABLE"
+   }
+  },
+  {
+   "lessonId": 2,
+   "itemId": 203,
+   "sourceAudio": [
+    "f2-106.mp3"
+   ],
+   "startMs": 181878.7,
+   "audioEndMs": 182668.7,
+   "segmentEndMs": 183068.7,
+   "page": 1,
+   "section": "custom",
+   "text": "ء",
+   "fullWord": {
+    "confidence": "NOT_APPLICABLE"
+   }
+  },
+  {
+   "lessonId": 2,
+   "itemId": 204,
+   "sourceAudio": [
+    "f2-107.mp3"
+   ],
+   "startMs": 183068.7,
+   "audioEndMs": 184608.7,
+   "segmentEndMs": 185008.7,
+   "page": 1,
+   "section": "custom",
+   "text": "عز",
+   "fullWord": {
+    "confidence": "NOT_APPLICABLE"
+   }
+  },
+  {
+   "lessonId": 2,
+   "itemId": 205,
+   "sourceAudio": [
+    "f2-108.mp3"
+   ],
+   "startMs": 185008.7,
+   "audioEndMs": 186828.7,
+   "segmentEndMs": 187228.7,
+   "page": 1,
+   "section": "custom",
+   "text": "غر",
+   "fullWord": {
+    "confidence": "NOT_APPLICABLE"
+   }
+  },
+  {
+   "lessonId": 2,
+   "itemId": 206,
+   "sourceAudio": [
+    "f2-109.mp3"
+   ],
+   "startMs": 187228.7,
+   "audioEndMs": 188888.7,
+   "segmentEndMs": 189288.7,
+   "page": 1,
+   "section": "custom",
+   "text": "صع",
+   "fullWord": {
+    "confidence": "NOT_APPLICABLE"
+   }
+  },
+  {
+   "lessonId": 2,
+   "itemId": 207,
+   "sourceAudio": [
+    "f2-110.mp3"
+   ],
+   "startMs": 189288.7,
+   "audioEndMs": 191128.7,
+   "segmentEndMs": 191528.7,
+   "page": 1,
+   "section": "custom",
+   "text": "ضغ",
+   "fullWord": {
+    "confidence": "NOT_APPLICABLE"
+   }
+  },
+  {
+   "lessonId": 2,
+   "itemId": 208,
+   "sourceAudio": [
+    "f2-111.mp3"
+   ],
+   "startMs": 191528.7,
+   "audioEndMs": 194028.7,
+   "segmentEndMs": 194428.7,
+   "page": 1,
+   "section": "custom",
+   "text": "بعد",
+   "fullWord": {
+    "confidence": "NOT_APPLICABLE"
+   }
+  },
+  {
+   "lessonId": 2,
+   "itemId": 209,
+   "sourceAudio": [
+    "f2-112.mp3"
+   ],
+   "startMs": 194428.7,
+   "audioEndMs": 196878.7,
+   "segmentEndMs": 197278.7,
+   "page": 1,
+   "section": "custom",
+   "text": "تغذ",
+   "fullWord": {
+    "confidence": "NOT_APPLICABLE"
+   }
+  },
+  {
+   "lessonId": 2,
+   "itemId": 210,
+   "sourceAudio": [
+    "f2-113.mp3"
+   ],
+   "startMs": 197278.7,
+   "audioEndMs": 198018.7,
+   "segmentEndMs": 198418.7,
+   "page": 1,
+   "section": "custom",
+   "text": "أ",
+   "fullWord": {
+    "confidence": "NOT_APPLICABLE"
+   }
+  },
+  {
+   "lessonId": 2,
+   "itemId": 211,
+   "sourceAudio": [
+    "f2-114.mp3"
+   ],
+   "startMs": 198418.7,
+   "audioEndMs": 199158.7,
+   "segmentEndMs": 199558.7,
+   "page": 1,
+   "section": "custom",
+   "text": "ؤ",
+   "fullWord": {
+    "confidence": "NOT_APPLICABLE"
+   }
+  },
+  {
+   "lessonId": 2,
+   "itemId": 212,
+   "sourceAudio": [
+    "f2-115.mp3"
+   ],
+   "startMs": 199558.7,
+   "audioEndMs": 200248.8,
+   "segmentEndMs": 200648.8,
+   "page": 1,
+   "section": "custom",
+   "text": "ئـى",
+   "fullWord": {
+    "confidence": "NOT_APPLICABLE"
+   }
+  },
+  {
+   "lessonId": 2,
+   "itemId": 213,
+   "sourceAudio": [
+    "f2-116.mp3"
+   ],
+   "startMs": 200648.8,
+   "audioEndMs": 201548.8,
+   "segmentEndMs": 201948.8,
+   "page": 1,
+   "section": "custom",
+   "text": "ف",
+   "fullWord": {
+    "confidence": "NOT_APPLICABLE"
+   }
+  },
+  {
+   "lessonId": 2,
+   "itemId": 214,
+   "sourceAudio": [
+    "f2-117.mp3"
+   ],
+   "startMs": 201948.8,
+   "audioEndMs": 202978.8,
+   "segmentEndMs": 203378.8,
+   "page": 2,
+   "section": "custom",
+   "text": "ق",
+   "fullWord": {
+    "confidence": "NOT_APPLICABLE"
+   }
+  },
+  {
+   "lessonId": 2,
+   "itemId": 215,
+   "sourceAudio": [
+    "f2-118.mp3"
+   ],
+   "startMs": 203378.8,
+   "audioEndMs": 204438.8,
+   "segmentEndMs": 204838.8,
+   "page": 2,
+   "section": "custom",
+   "text": "و",
+   "fullWord": {
+    "confidence": "NOT_APPLICABLE"
+   }
+  },
+  {
+   "lessonId": 2,
+   "itemId": 216,
+   "sourceAudio": [
+    "f2-119.mp3"
+   ],
+   "startMs": 204838.8,
+   "audioEndMs": 206508.8,
+   "segmentEndMs": 206908.8,
+   "page": 2,
+   "section": "custom",
+   "text": "قو",
+   "fullWord": {
+    "confidence": "NOT_APPLICABLE"
+   }
+  },
+  {
+   "lessonId": 2,
+   "itemId": 217,
+   "sourceAudio": [
+    "f2-120.mp3"
+   ],
+   "startMs": 206908.8,
+   "audioEndMs": 208668.8,
+   "segmentEndMs": 209068.8,
+   "page": 2,
+   "section": "custom",
+   "text": "فو",
+   "fullWord": {
+    "confidence": "NOT_APPLICABLE"
+   }
+  },
+  {
+   "lessonId": 2,
+   "itemId": 218,
+   "sourceAudio": [
+    "f2-121.mp3"
+   ],
+   "startMs": 209068.8,
+   "audioEndMs": 211678.8,
+   "segmentEndMs": 212078.8,
+   "page": 2,
+   "section": "custom",
+   "text": "فقل",
+   "fullWord": {
+    "confidence": "NOT_APPLICABLE"
+   }
+  },
+  {
+   "lessonId": 2,
+   "itemId": 219,
+   "sourceAudio": [
+    "f2-122.mp3"
+   ],
+   "startMs": 212078.8,
+   "audioEndMs": 214368.9,
+   "segmentEndMs": 214768.9,
+   "page": 2,
+   "section": "custom",
+   "text": "قفل",
+   "fullWord": {
+    "confidence": "NOT_APPLICABLE"
+   }
+  },
+  {
+   "lessonId": 2,
+   "itemId": 220,
+   "sourceAudio": [
+    "f2-123.mp3"
+   ],
+   "startMs": 214768.9,
+   "audioEndMs": 216278.9,
+   "segmentEndMs": 216678.9,
+   "page": 2,
+   "section": "custom",
+   "text": "يف",
+   "fullWord": {
+    "confidence": "NOT_APPLICABLE"
+   }
+  },
+  {
+   "lessonId": 2,
+   "itemId": 221,
+   "sourceAudio": [
+    "f2-124.mp3"
+   ],
+   "startMs": 216678.9,
+   "audioEndMs": 217798.9,
+   "segmentEndMs": 218198.9,
+   "page": 2,
+   "section": "custom",
+   "text": "م",
+   "fullWord": {
+    "confidence": "NOT_APPLICABLE"
+   }
+  },
+  {
+   "lessonId": 2,
+   "itemId": 222,
+   "sourceAudio": [
+    "f2-125.mp3"
+   ],
+   "startMs": 218198.9,
+   "audioEndMs": 219388.9,
+   "segmentEndMs": 219788.9,
+   "page": 2,
+   "section": "custom",
+   "text": "ه",
+   "fullWord": {
+    "confidence": "NOT_APPLICABLE"
+   }
+  },
+  {
+   "lessonId": 2,
+   "itemId": 223,
+   "sourceAudio": [
+    "f2-126.mp3"
+   ],
+   "startMs": 219788.9,
+   "audioEndMs": 221558.9,
+   "segmentEndMs": 221958.9,
+   "page": 2,
+   "section": "custom",
+   "text": "حم",
+   "fullWord": {
+    "confidence": "NOT_APPLICABLE"
+   }
+  },
+  {
+   "lessonId": 2,
+   "itemId": 224,
+   "sourceAudio": [
+    "f2-127.mp3"
+   ],
+   "startMs": 221958.9,
+   "audioEndMs": 223709.0,
+   "segmentEndMs": 224109.0,
+   "page": 2,
+   "section": "custom",
+   "text": "لم",
+   "fullWord": {
+    "confidence": "NOT_APPLICABLE"
+   }
+  },
+  {
+   "lessonId": 2,
+   "itemId": 225,
+   "sourceAudio": [
+    "f2-128.mp3"
+   ],
+   "startMs": 224109.0,
+   "audioEndMs": 225789.0,
+   "segmentEndMs": 226189.0,
+   "page": 2,
+   "section": "custom",
+   "text": "تم",
+   "fullWord": {
+    "confidence": "NOT_APPLICABLE"
+   }
+  },
+  {
+   "lessonId": 2,
+   "itemId": 226,
+   "sourceAudio": [
+    "f2-129.mp3"
+   ],
+   "startMs": 226189.0,
+   "audioEndMs": 228339.0,
+   "segmentEndMs": 228339.0,
+   "page": 2,
+   "section": "custom",
+   "text": "تمت",
+   "fullWord": {
+    "confidence": "NOT_APPLICABLE"
+   }
+  }
+ ]
+}

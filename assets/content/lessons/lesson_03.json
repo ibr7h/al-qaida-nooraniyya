@@ -1,0 +1,265 @@
+{
+  "id": 3,
+  "title_ar": "الدَّرْسُ الثَّالِثُ",
+  "title_en": "Lesson 3",
+  "description": "الحُرُوفُ المُقَطَّعَةِ",
+  "description_en": "Disconnected Letters",
+  "titles": {
+    "ar": "الدَّرْسُ الثَّالِثُ",
+    "en": "Lesson 3",
+    "ur": "تیسرا سبق",
+    "fa": "درس سوم",
+    "tr": "3. Ders",
+    "fr": "Leçon 3",
+    "de": "Lektion 3",
+    "es": "Lección 3",
+    "ru": "Урок 3",
+    "id": "Pelajaran 3",
+    "ms": "Pelajaran 3",
+    "bn": "৩য় পাঠ",
+    "hi": "तीसरा सबक़",
+    "sw": "Somo la 3",
+    "zh": "第三课"
+  },
+  "descriptions": {
+    "ar": "الحُرُوفُ المُقَطَّعَةِ",
+    "en": "Disconnected Letters",
+    "ur": "حروفِ مقطعات",
+    "fa": "حروف مقطعه",
+    "tr": "Huruful Mukattaa",
+    "fr": "Les Lettres Muqatta\\'at",
+    "de": "Huruful Muqatta\\'at (Abgekürzte Buchstaben)",
+    "es": "Las Letras Muqatta\\'at",
+    "ru": "Раздельные буквы (Хуруфуль Мукатта\\'ат)",
+    "id": "Huruf Muqatta\\'ah",
+    "ms": "Huruf Muqatta\\'ah",
+    "bn": "হরুফে মুকাত্তাআত",
+    "hi": "अलग-अलग पढ़े जाने वाले अक्षर",
+    "sw": "Disjointed Letters",
+    "zh": "缩写字母"
+  },
+  "page_image": "lesson_03.jpg",
+  "page_images": [
+    "lesson_03.jpg"
+  ],
+  "grid_config": {
+    "columns": 5,
+    "top_offset_ratio": 0.3,
+    "side_margin_ratio": 0.1,
+    "cell_height_ratio": 0.1
+  },
+  "items": [
+    {
+      "id": 100,
+      "type": "title",
+      "text": "الدَّرْسُ الثَّالِثُ - الحُرُوفُ المُقَطَّعَةِ",
+      "audio": "f3-01.mp3",
+      "audio_files": [
+        "f3-01.mp3",
+        "f3-02.mp3"
+      ],
+      "position": {
+        "left": 0.0989,
+        "top": 0.3327,
+        "width": 0.8007,
+        "height": 0.0811
+      },
+      "page": 0
+    },
+    {
+      "id": 101,
+      "type": "custom",
+      "text": "الٓمٓ",
+      "audio": "f3-03.mp3",
+      "position": {
+        "left": 0.709,
+        "top": 0.414,
+        "width": 0.18,
+        "height": 0.0833
+      },
+      "page": 0
+    },
+    {
+      "id": 102,
+      "type": "custom",
+      "text": "الٓمٓصٓ",
+      "audio": "f3-04.mp3",
+      "position": {
+        "left": 0.506,
+        "top": 0.413,
+        "width": 0.181,
+        "height": 0.0845
+      },
+      "page": 0
+    },
+    {
+      "id": 103,
+      "type": "custom",
+      "text": "الٓر",
+      "audio": "f3-05.mp3",
+      "position": {
+        "left": 0.316,
+        "top": 0.414,
+        "width": 0.165,
+        "height": 0.084
+      },
+      "page": 0
+    },
+    {
+      "id": 104,
+      "type": "custom",
+      "text": "الٓمٓر",
+      "audio": "f3-06.mp3",
+      "position": {
+        "left": 0.119,
+        "top": 0.415,
+        "width": 0.16,
+        "height": 0.0826
+      },
+      "page": 0
+    },
+    {
+      "id": 105,
+      "type": "custom",
+      "text": "كٓهيعٓصٓ",
+      "audio": "f3-07.mp3",
+      "position": {
+        "left": 0.518,
+        "top": 0.5008,
+        "width": 0.368,
+        "height": 0.0822
+      },
+      "page": 0
+    },
+    {
+      "id": 106,
+      "type": "custom",
+      "text": "طه",
+      "audio": "f3-08.mp3",
+      "position": {
+        "left": 0.312,
+        "top": 0.4998,
+        "width": 0.1708,
+        "height": 0.0822
+      },
+      "page": 0
+    },
+    {
+      "id": 107,
+      "type": "custom",
+      "text": "طسٓمٓ",
+      "audio": "f3-09.mp3",
+      "position": {
+        "left": 0.108,
+        "top": 0.5015,
+        "width": 0.186,
+        "height": 0.0815
+      },
+      "page": 0
+    },
+    {
+      "id": 108,
+      "type": "custom",
+      "text": "طسٓ",
+      "audio": "f3-10.mp3",
+      "position": {
+        "left": 0.706,
+        "top": 0.5844,
+        "width": 0.1828,
+        "height": 0.0836
+      },
+      "page": 0
+    },
+    {
+      "id": 109,
+      "type": "custom",
+      "text": "يسٓ",
+      "audio": "f3-11.mp3",
+      "position": {
+        "left": 0.508,
+        "top": 0.5841,
+        "width": 0.184,
+        "height": 0.0789
+      },
+      "page": 0
+    },
+    {
+      "id": 110,
+      "type": "custom",
+      "text": "صٓ",
+      "audio": "f3-12.mp3",
+      "position": {
+        "left": 0.316,
+        "top": 0.5842,
+        "width": 0.165,
+        "height": 0.0828
+      },
+      "page": 0
+    },
+    {
+      "id": 111,
+      "type": "custom",
+      "text": "حمٓ",
+      "audio": "f3-13.mp3",
+      "position": {
+        "left": 0.113,
+        "top": 0.5838,
+        "width": 0.166,
+        "height": 0.0832
+      },
+      "page": 0
+    },
+    {
+      "id": 112,
+      "type": "custom",
+      "text": "حمٓ",
+      "audio": "f3-14.mp3",
+      "position": {
+        "left": 0.732,
+        "top": 0.668,
+        "width": 0.146,
+        "height": 0.083
+      },
+      "page": 0
+    },
+    {
+      "id": 113,
+      "type": "custom",
+      "text": "عٓسٓقٓ",
+      "audio": "f3-15.mp3",
+      "position": {
+        "left": 0.5238,
+        "top": 0.6669,
+        "width": 0.2039,
+        "height": 0.0813
+      },
+      "page": 0
+    },
+    {
+      "id": 114,
+      "type": "custom",
+      "text": "قٓ",
+      "audio": "f3-16.mp3",
+      "position": {
+        "left": 0.3138,
+        "top": 0.667,
+        "width": 0.1652,
+        "height": 0.0823
+      },
+      "page": 0
+    },
+    {
+      "id": 115,
+      "type": "custom",
+      "text": "نٓ",
+      "audio": "f3-17.mp3",
+      "position": {
+        "left": 0.121,
+        "top": 0.6663,
+        "width": 0.156,
+        "height": 0.082
+      },
+      "page": 0
+    }
+  ]
+}

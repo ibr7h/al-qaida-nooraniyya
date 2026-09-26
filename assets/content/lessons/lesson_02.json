@@ -1,0 +1,1706 @@
+{
+  "id": 2,
+  "title_ar": "الدَّرْسُ الثَّانِي",
+  "title_en": "Lesson 2",
+  "description": "الحُرُوفُ المُرَكَّبَةِ",
+  "description_en": "Compound Letters",
+  "titles": {
+    "ar": "الدَّرْسُ الثَّانِي",
+    "en": "Lesson 2",
+    "ur": "دوسرا سبق",
+    "fa": "درس دوم",
+    "tr": "2. Ders",
+    "fr": "Leçon 2",
+    "de": "Lektion 2",
+    "es": "Lección 2",
+    "ru": "Урок 2",
+    "id": "Pelajaran 2",
+    "ms": "Pelajaran 2",
+    "bn": "২য় পাঠ",
+    "hi": "दूसरा सबक़",
+    "sw": "Somo la 2",
+    "zh": "第二课"
+  },
+  "descriptions": {
+    "ar": "الحُرُوفُ المُرَكَّبَةِ",
+    "en": "Compound Letters",
+    "ur": "حروفِ مرکبات",
+    "fa": "حروف مرکب",
+    "tr": "Mürekkeb Harfler",
+    "fr": "Les Lettres Composées",
+    "de": "Zusammengesetzte Buchstaben",
+    "es": "Las Letras Compuestas",
+    "ru": "Составные буквы",
+    "id": "Huruf Bersambung",
+    "ms": "Huruf Bersambung",
+    "bn": "সংযুক্ত বর্ণমালা",
+    "hi": "मिले हुए अक्षर",
+    "sw": "Herufi Zilizounganishwa (Al-Huroof Al-Murakkabah)",
+    "zh": "复合字母"
+  },
+  "page_image": "lesson_02.jpg",
+  "page_images": [
+    "lesson_02.jpg",
+    "lesson_02a.jpg",
+    "lesson_02b.jpg"
+  ],
+  "grid_config": {
+    "columns": 5,
+    "top_offset_ratio": 0.3,
+    "side_margin_ratio": 0.1,
+    "cell_height_ratio": 0.1
+  },
+  "items": [
+    {
+      "id": 100,
+      "type": "custom",
+      "text": "ا",
+      "audio": "f2-03.mp3",
+      "position": {
+        "left": 0.7666,
+        "top": 0.1673,
+        "width": 0.1282,
+        "height": 0.0803
+      },
+      "page": 0
+    },
+    {
+      "id": 101,
+      "type": "custom",
+      "text": "لا",
+      "audio": "f2-04.mp3",
+      "position": {
+        "left": 0.6331,
+        "top": 0.1662,
+        "width": 0.1356,
+        "height": 0.0806
+      },
+      "page": 0
+    },
+    {
+      "id": 102,
+      "type": "custom",
+      "text": "لا",
+      "audio": "f2-05.mp3",
+      "position": {
+        "left": 0.4996,
+        "top": 0.1661,
+        "width": 0.1321,
+        "height": 0.0807
+      },
+      "page": 0
+    },
+    {
+      "id": 103,
+      "type": "custom",
+      "text": "با",
+      "audio": "f2-06.mp3",
+      "position": {
+        "left": 0.3665,
+        "top": 0.1661,
+        "width": 0.1342,
+        "height": 0.082
+      },
+      "page": 0
+    },
+    {
+      "id": 104,
+      "type": "custom",
+      "text": "لا",
+      "audio": "f2-07.mp3",
+      "position": {
+        "left": 0.2331,
+        "top": 0.1642,
+        "width": 0.1351,
+        "height": 0.0843
+      },
+      "page": 0
+    },
+    {
+      "id": 105,
+      "type": "custom",
+      "text": "ل",
+      "audio": "f2-08.mp3",
+      "position": {
+        "left": 0.1007,
+        "top": 0.1666,
+        "width": 0.1313,
+        "height": 0.0825
+      },
+      "page": 0
+    },
+    {
+      "id": 106,
+      "type": "custom",
+      "text": "لا",
+      "audio": "f2-09.mp3",
+      "position": {
+        "left": 0.7671,
+        "top": 0.2496,
+        "width": 0.1292,
+        "height": 0.0819
+      },
+      "page": 0
+    },
+    {
+      "id": 107,
+      "type": "custom",
+      "text": "لح",
+      "audio": "f2-10.mp3",
+      "position": {
+        "left": 0.6333,
+        "top": 0.2493,
+        "width": 0.1339,
+        "height": 0.0811
+      },
+      "page": 0
+    },
+    {
+      "id": 108,
+      "type": "custom",
+      "text": "لا",
+      "audio": "f2-11.mp3",
+      "position": {
+        "left": 0.4997,
+        "top": 0.2503,
+        "width": 0.1313,
+        "height": 0.0818
+      },
+      "page": 0
+    },
+    {
+      "id": 109,
+      "type": "custom",
+      "text": "بلب",
+      "audio": "f2-12.mp3",
+      "position": {
+        "left": 0.3671,
+        "top": 0.2501,
+        "width": 0.1316,
+        "height": 0.0803
+      },
+      "page": 0
+    },
+    {
+      "id": 110,
+      "type": "custom",
+      "text": "ك",
+      "audio": "f2-13.mp3",
+      "position": {
+        "left": 0.2345,
+        "top": 0.249,
+        "width": 0.1322,
+        "height": 0.0822
+      },
+      "page": 0
+    },
+    {
+      "id": 111,
+      "type": "custom",
+      "text": "ك",
+      "audio": "f2-14.mp3",
+      "position": {
+        "left": 0.101,
+        "top": 0.2505,
+        "width": 0.1303,
+        "height": 0.0809
+      },
+      "page": 0
+    },
+    {
+      "id": 112,
+      "type": "custom",
+      "text": "كب",
+      "audio": "f2-15.mp3",
+      "position": {
+        "left": 0.7676,
+        "top": 0.3334,
+        "width": 0.1314,
+        "height": 0.0813
+      },
+      "page": 0
+    },
+    {
+      "id": 113,
+      "type": "custom",
+      "text": "كب",
+      "audio": "f2-16.mp3",
+      "position": {
+        "left": 0.6322,
+        "top": 0.3335,
+        "width": 0.1341,
+        "height": 0.0812
+      },
+      "page": 0
+    },
+    {
+      "id": 114,
+      "type": "custom",
+      "text": "كا",
+      "audio": "f2-17.mp3",
+      "position": {
+        "left": 0.5017,
+        "top": 0.3327,
+        "width": 0.1318,
+        "height": 0.0804
+      },
+      "page": 0
+    },
+    {
+      "id": 115,
+      "type": "custom",
+      "text": "كا",
+      "audio": "f2-18.mp3",
+      "position": {
+        "left": 0.3667,
+        "top": 0.3333,
+        "width": 0.1343,
+        "height": 0.082
+      },
+      "page": 0
+    },
+    {
+      "id": 116,
+      "type": "custom",
+      "text": "بكت",
+      "audio": "f2-19.mp3",
+      "position": {
+        "left": 0.2335,
+        "top": 0.3343,
+        "width": 0.1312,
+        "height": 0.0803
+      },
+      "page": 0
+    },
+    {
+      "id": 117,
+      "type": "custom",
+      "text": "تكث",
+      "audio": "f2-20.mp3",
+      "position": {
+        "left": 0.101,
+        "top": 0.3308,
+        "width": 0.1318,
+        "height": 0.0838
+      },
+      "page": 0
+    },
+    {
+      "id": 118,
+      "type": "custom",
+      "text": "ب",
+      "audio": "f2-21.mp3",
+      "position": {
+        "left": 0.7684,
+        "top": 0.4168,
+        "width": 0.1305,
+        "height": 0.0798
+      },
+      "page": 0
+    },
+    {
+      "id": 119,
+      "type": "custom",
+      "text": "ت",
+      "audio": "f2-22.mp3",
+      "position": {
+        "left": 0.6349,
+        "top": 0.417,
+        "width": 0.1294,
+        "height": 0.0804
+      },
+      "page": 0
+    },
+    {
+      "id": 120,
+      "type": "custom",
+      "text": "ث",
+      "audio": "f2-23.mp3",
+      "position": {
+        "left": 0.5025,
+        "top": 0.4172,
+        "width": 0.1297,
+        "height": 0.0799
+      },
+      "page": 0
+    },
+    {
+      "id": 121,
+      "type": "custom",
+      "text": "ن",
+      "audio": "f2-24.mp3",
+      "position": {
+        "left": 0.3677,
+        "top": 0.4166,
+        "width": 0.1299,
+        "height": 0.0803
+      },
+      "page": 0
+    },
+    {
+      "id": 122,
+      "type": "custom",
+      "text": "ي",
+      "audio": "f2-25.mp3",
+      "position": {
+        "left": 0.2353,
+        "top": 0.4174,
+        "width": 0.1286,
+        "height": 0.0799
+      },
+      "page": 0
+    },
+    {
+      "id": 123,
+      "type": "custom",
+      "text": "با",
+      "audio": "f2-26.mp3",
+      "position": {
+        "left": 0.1022,
+        "top": 0.418,
+        "width": 0.129,
+        "height": 0.079
+      },
+      "page": 0
+    },
+    {
+      "id": 124,
+      "type": "custom",
+      "text": "نا",
+      "audio": "f2-27.mp3",
+      "position": {
+        "left": 0.7673,
+        "top": 0.4999,
+        "width": 0.1303,
+        "height": 0.0813
+      },
+      "page": 0
+    },
+    {
+      "id": 125,
+      "type": "custom",
+      "text": "تا",
+      "audio": "f2-28.mp3",
+      "position": {
+        "left": 0.6364,
+        "top": 0.5004,
+        "width": 0.1296,
+        "height": 0.0803
+      },
+      "page": 0
+    },
+    {
+      "id": 126,
+      "type": "custom",
+      "text": "يا",
+      "audio": "f2-29.mp3",
+      "position": {
+        "left": 0.5008,
+        "top": 0.5008,
+        "width": 0.1312,
+        "height": 0.0815
+      },
+      "page": 0
+    },
+    {
+      "id": 127,
+      "type": "custom",
+      "text": "ثا",
+      "audio": "f2-30.mp3",
+      "position": {
+        "left": 0.3682,
+        "top": 0.5003,
+        "width": 0.1318,
+        "height": 0.0792
+      },
+      "page": 0
+    },
+    {
+      "id": 128,
+      "type": "custom",
+      "text": "بس",
+      "audio": "f2-31.mp3",
+      "position": {
+        "left": 0.2354,
+        "top": 0.5019,
+        "width": 0.1287,
+        "height": 0.0801
+      },
+      "page": 0
+    },
+    {
+      "id": 129,
+      "type": "custom",
+      "text": "يس",
+      "audio": "f2-32.mp3",
+      "position": {
+        "left": 0.1017,
+        "top": 0.5003,
+        "width": 0.1291,
+        "height": 0.0801
+      },
+      "page": 0
+    },
+    {
+      "id": 130,
+      "type": "custom",
+      "text": "نس",
+      "audio": "f2-33.mp3",
+      "position": {
+        "left": 0.7684,
+        "top": 0.5818,
+        "width": 0.1275,
+        "height": 0.0822
+      },
+      "page": 0
+    },
+    {
+      "id": 131,
+      "type": "custom",
+      "text": "تس",
+      "audio": "f2-34.mp3",
+      "position": {
+        "left": 0.6346,
+        "top": 0.5843,
+        "width": 0.1311,
+        "height": 0.0789
+      },
+      "page": 0
+    },
+    {
+      "id": 132,
+      "type": "custom",
+      "text": "ثس",
+      "audio": "f2-35.mp3",
+      "position": {
+        "left": 0.5023,
+        "top": 0.5842,
+        "width": 0.1295,
+        "height": 0.0799
+      },
+      "page": 0
+    },
+    {
+      "id": 133,
+      "type": "custom",
+      "text": "ثج",
+      "audio": "f2-36.mp3",
+      "position": {
+        "left": 0.3684,
+        "top": 0.5835,
+        "width": 0.1297,
+        "height": 0.0815
+      },
+      "page": 0
+    },
+    {
+      "id": 134,
+      "type": "custom",
+      "text": "تح",
+      "audio": "f2-37.mp3",
+      "position": {
+        "left": 0.2362,
+        "top": 0.584,
+        "width": 0.1295,
+        "height": 0.0806
+      },
+      "page": 0
+    },
+    {
+      "id": 135,
+      "type": "custom",
+      "text": "نخ",
+      "audio": "f2-38.mp3",
+      "position": {
+        "left": 0.1022,
+        "top": 0.582,
+        "width": 0.1314,
+        "height": 0.0824
+      },
+      "page": 0
+    },
+    {
+      "id": 136,
+      "type": "custom",
+      "text": "يح",
+      "audio": "f2-39.mp3",
+      "position": {
+        "left": 0.7684,
+        "top": 0.6669,
+        "width": 0.1274,
+        "height": 0.0803
+      },
+      "page": 0
+    },
+    {
+      "id": 137,
+      "type": "custom",
+      "text": "بج",
+      "audio": "f2-40.mp3",
+      "position": {
+        "left": 0.6342,
+        "top": 0.667,
+        "width": 0.1291,
+        "height": 0.0827
+      },
+      "page": 0
+    },
+    {
+      "id": 138,
+      "type": "custom",
+      "text": "يم",
+      "audio": "f2-41.mp3",
+      "position": {
+        "left": 0.5016,
+        "top": 0.6673,
+        "width": 0.13,
+        "height": 0.0829
+      },
+      "page": 0
+    },
+    {
+      "id": 139,
+      "type": "custom",
+      "text": "بم",
+      "audio": "f2-42.mp3",
+      "position": {
+        "left": 0.3666,
+        "top": 0.6662,
+        "width": 0.1305,
+        "height": 0.083
+      },
+      "page": 0
+    },
+    {
+      "id": 140,
+      "type": "custom",
+      "text": "نم",
+      "audio": "f2-43.mp3",
+      "position": {
+        "left": 0.2351,
+        "top": 0.6677,
+        "width": 0.129,
+        "height": 0.0803
+      },
+      "page": 0
+    },
+    {
+      "id": 141,
+      "type": "custom",
+      "text": "تم",
+      "audio": "f2-44.mp3",
+      "position": {
+        "left": 0.1017,
+        "top": 0.6666,
+        "width": 0.1305,
+        "height": 0.0813
+      },
+      "page": 0
+    },
+    {
+      "id": 142,
+      "type": "custom",
+      "text": "ثـم",
+      "audio": "f2-45.mp3",
+      "position": {
+        "left": 0.7673,
+        "top": 0.7497,
+        "width": 0.1302,
+        "height": 0.0825
+      },
+      "page": 0
+    },
+    {
+      "id": 143,
+      "type": "custom",
+      "text": "بي",
+      "audio": "f2-46.mp3",
+      "position": {
+        "left": 0.6339,
+        "top": 0.7502,
+        "width": 0.1314,
+        "height": 0.0825
+      },
+      "page": 0
+    },
+    {
+      "id": 144,
+      "type": "custom",
+      "text": "يي",
+      "audio": "f2-47.mp3",
+      "position": {
+        "left": 0.4994,
+        "top": 0.7503,
+        "width": 0.1335,
+        "height": 0.0811
+      },
+      "page": 0
+    },
+    {
+      "id": 145,
+      "type": "custom",
+      "text": "ني",
+      "audio": "f2-48.mp3",
+      "position": {
+        "left": 0.367,
+        "top": 0.7509,
+        "width": 0.1315,
+        "height": 0.0796
+      },
+      "page": 0
+    },
+    {
+      "id": 146,
+      "type": "custom",
+      "text": "تي",
+      "audio": "f2-49.mp3",
+      "position": {
+        "left": 0.2357,
+        "top": 0.75,
+        "width": 0.1303,
+        "height": 0.0805
+      },
+      "page": 0
+    },
+    {
+      "id": 147,
+      "type": "custom",
+      "text": "ثي",
+      "audio": "f2-50.mp3",
+      "position": {
+        "left": 0.1023,
+        "top": 0.7507,
+        "width": 0.1281,
+        "height": 0.0813
+      },
+      "page": 0
+    },
+    {
+      "id": 148,
+      "type": "custom",
+      "text": "نبل",
+      "audio": "f2-51.mp3",
+      "position": {
+        "left": 0.768,
+        "top": 0.8332,
+        "width": 0.1276,
+        "height": 0.0828
+      },
+      "page": 0
+    },
+    {
+      "id": 149,
+      "type": "custom",
+      "text": "تنل",
+      "audio": "f2-52.mp3",
+      "position": {
+        "left": 0.6356,
+        "top": 0.8337,
+        "width": 0.1321,
+        "height": 0.0807
+      },
+      "page": 0
+    },
+    {
+      "id": 150,
+      "type": "custom",
+      "text": "بيل",
+      "audio": "f2-53.mp3",
+      "position": {
+        "left": 0.5022,
+        "top": 0.834,
+        "width": 0.13,
+        "height": 0.0799
+      },
+      "page": 0
+    },
+    {
+      "id": 151,
+      "type": "custom",
+      "text": "يتل",
+      "audio": "f2-54.mp3",
+      "position": {
+        "left": 0.3685,
+        "top": 0.8331,
+        "width": 0.1281,
+        "height": 0.0816
+      },
+      "page": 0
+    },
+    {
+      "id": 152,
+      "type": "custom",
+      "text": "ثثل",
+      "audio": "f2-55.mp3",
+      "position": {
+        "left": 0.2337,
+        "top": 0.8326,
+        "width": 0.1307,
+        "height": 0.0821
+      },
+      "page": 0
+    },
+    {
+      "id": 153,
+      "type": "custom",
+      "text": "نبن",
+      "audio": "f2-56.mp3",
+      "position": {
+        "left": 0.1006,
+        "top": 0.8334,
+        "width": 0.1312,
+        "height": 0.0808
+      },
+      "page": 0
+    },
+    {
+      "id": 154,
+      "type": "custom",
+      "text": "بنن",
+      "audio": "f2-57.mp3",
+      "position": {
+        "left": 0.7581,
+        "top": 0.0809,
+        "width": 0.1386,
+        "height": 0.0856
+      },
+      "page": 1
+    },
+    {
+      "id": 155,
+      "type": "custom",
+      "text": "تين",
+      "audio": "f2-58.mp3",
+      "position": {
+        "left": 0.6284,
+        "top": 0.0813,
+        "width": 0.1316,
+        "height": 0.0844
+      },
+      "page": 1
+    },
+    {
+      "id": 156,
+      "type": "custom",
+      "text": "يتن",
+      "audio": "f2-59.mp3",
+      "position": {
+        "left": 0.4976,
+        "top": 0.0844,
+        "width": 0.1296,
+        "height": 0.0813
+      },
+      "page": 1
+    },
+    {
+      "id": 157,
+      "type": "custom",
+      "text": "ثثن",
+      "audio": "f2-60.mp3",
+      "position": {
+        "left": 0.3655,
+        "top": 0.0832,
+        "width": 0.1317,
+        "height": 0.0835
+      },
+      "page": 1
+    },
+    {
+      "id": 158,
+      "type": "custom",
+      "text": "ج",
+      "audio": "f2-61.mp3",
+      "position": {
+        "left": 0.2351,
+        "top": 0.0828,
+        "width": 0.129,
+        "height": 0.0826
+      },
+      "page": 1
+    },
+    {
+      "id": 159,
+      "type": "custom",
+      "text": "ح",
+      "audio": "f2-62.mp3",
+      "position": {
+        "left": 0.1006,
+        "top": 0.0825,
+        "width": 0.1313,
+        "height": 0.0831
+      },
+      "page": 1
+    },
+    {
+      "id": 160,
+      "type": "custom",
+      "text": "خ",
+      "audio": "f2-63.mp3",
+      "position": {
+        "left": 0.7591,
+        "top": 0.1663,
+        "width": 0.1399,
+        "height": 0.0827
+      },
+      "page": 1
+    },
+    {
+      "id": 161,
+      "type": "custom",
+      "text": "حث",
+      "audio": "f2-64.mp3",
+      "position": {
+        "left": 0.6279,
+        "top": 0.1673,
+        "width": 0.1307,
+        "height": 0.0818
+      },
+      "page": 1
+    },
+    {
+      "id": 162,
+      "type": "custom",
+      "text": "خب",
+      "audio": "f2-65.mp3",
+      "position": {
+        "left": 0.4984,
+        "top": 0.1659,
+        "width": 0.1291,
+        "height": 0.0821
+      },
+      "page": 1
+    },
+    {
+      "id": 163,
+      "type": "custom",
+      "text": "جت",
+      "audio": "f2-66.mp3",
+      "position": {
+        "left": 0.3667,
+        "top": 0.1663,
+        "width": 0.1295,
+        "height": 0.0836
+      },
+      "page": 1
+    },
+    {
+      "id": 164,
+      "type": "custom",
+      "text": "تحت",
+      "audio": "f2-67.mp3",
+      "position": {
+        "left": 0.2339,
+        "top": 0.1672,
+        "width": 0.1287,
+        "height": 0.083
+      },
+      "page": 1
+    },
+    {
+      "id": 165,
+      "type": "custom",
+      "text": "يجب",
+      "audio": "f2-68.mp3",
+      "position": {
+        "left": 0.1011,
+        "top": 0.168,
+        "width": 0.1301,
+        "height": 0.0813
+      },
+      "page": 1
+    },
+    {
+      "id": 166,
+      "type": "custom",
+      "text": "بخت",
+      "audio": "f2-69.mp3",
+      "position": {
+        "left": 0.7604,
+        "top": 0.2522,
+        "width": 0.137,
+        "height": 0.081
+      },
+      "page": 1
+    },
+    {
+      "id": 167,
+      "type": "custom",
+      "text": "ة",
+      "audio": "f2-70.mp3",
+      "position": {
+        "left": 0.6291,
+        "top": 0.2516,
+        "width": 0.1304,
+        "height": 0.0791
+      },
+      "page": 1
+    },
+    {
+      "id": 168,
+      "type": "custom",
+      "text": "ه",
+      "audio": "f2-71.mp3",
+      "position": {
+        "left": 0.4987,
+        "top": 0.2507,
+        "width": 0.1305,
+        "height": 0.0822
+      },
+      "page": 1
+    },
+    {
+      "id": 169,
+      "type": "custom",
+      "text": "بة",
+      "audio": "f2-72.mp3",
+      "position": {
+        "left": 0.3664,
+        "top": 0.2498,
+        "width": 0.1303,
+        "height": 0.0826
+      },
+      "page": 1
+    },
+    {
+      "id": 170,
+      "type": "custom",
+      "text": "يه",
+      "audio": "f2-73.mp3",
+      "position": {
+        "left": 0.2361,
+        "top": 0.25,
+        "width": 0.1271,
+        "height": 0.0818
+      },
+      "page": 1
+    },
+    {
+      "id": 171,
+      "type": "custom",
+      "text": "ته",
+      "audio": "f2-74.mp3",
+      "position": {
+        "left": 0.1009,
+        "top": 0.2501,
+        "width": 0.1308,
+        "height": 0.0829
+      },
+      "page": 1
+    },
+    {
+      "id": 172,
+      "type": "custom",
+      "text": "نة",
+      "audio": "f2-75.mp3",
+      "position": {
+        "left": 0.7618,
+        "top": 0.3351,
+        "width": 0.1352,
+        "height": 0.08
+      },
+      "page": 1
+    },
+    {
+      "id": 173,
+      "type": "custom",
+      "text": "هـ",
+      "audio": "f2-76.mp3",
+      "position": {
+        "left": 0.6291,
+        "top": 0.3341,
+        "width": 0.13,
+        "height": 0.0803
+      },
+      "page": 1
+    },
+    {
+      "id": 174,
+      "type": "custom",
+      "text": "يهب",
+      "audio": "f2-77.mp3",
+      "position": {
+        "left": 0.4972,
+        "top": 0.335,
+        "width": 0.1286,
+        "height": 0.0811
+      },
+      "page": 1
+    },
+    {
+      "id": 175,
+      "type": "custom",
+      "text": "بها",
+      "audio": "f2-78.mp3",
+      "position": {
+        "left": 0.3639,
+        "top": 0.3341,
+        "width": 0.1299,
+        "height": 0.0827
+      },
+      "page": 1
+    },
+    {
+      "id": 176,
+      "type": "custom",
+      "text": "بهم",
+      "audio": "f2-79.mp3",
+      "position": {
+        "left": 0.2355,
+        "top": 0.3336,
+        "width": 0.1282,
+        "height": 0.0826
+      },
+      "page": 1
+    },
+    {
+      "id": 177,
+      "type": "custom",
+      "text": "د",
+      "audio": "f2-80.mp3",
+      "position": {
+        "left": 0.1013,
+        "top": 0.333,
+        "width": 0.1328,
+        "height": 0.0819
+      },
+      "page": 1
+    },
+    {
+      "id": 178,
+      "type": "custom",
+      "text": "ذ",
+      "audio": "f2-81.mp3",
+      "position": {
+        "left": 0.7586,
+        "top": 0.4166,
+        "width": 0.1387,
+        "height": 0.0826
+      },
+      "page": 1
+    },
+    {
+      "id": 179,
+      "type": "custom",
+      "text": "جد",
+      "audio": "f2-82.mp3",
+      "position": {
+        "left": 0.6276,
+        "top": 0.4165,
+        "width": 0.1309,
+        "height": 0.0821
+      },
+      "page": 1
+    },
+    {
+      "id": 180,
+      "type": "custom",
+      "text": "خذ",
+      "audio": "f2-83.mp3",
+      "position": {
+        "left": 0.4984,
+        "top": 0.418,
+        "width": 0.1273,
+        "height": 0.0798
+      },
+      "page": 1
+    },
+    {
+      "id": 181,
+      "type": "custom",
+      "text": "ر",
+      "audio": "f2-84.mp3",
+      "position": {
+        "left": 0.3667,
+        "top": 0.419,
+        "width": 0.1289,
+        "height": 0.0793
+      },
+      "page": 1
+    },
+    {
+      "id": 182,
+      "type": "custom",
+      "text": "ز",
+      "audio": "f2-85.mp3",
+      "position": {
+        "left": 0.2361,
+        "top": 0.4189,
+        "width": 0.1284,
+        "height": 0.0791
+      },
+      "page": 1
+    },
+    {
+      "id": 183,
+      "type": "custom",
+      "text": "جر",
+      "audio": "f2-86.mp3",
+      "position": {
+        "left": 0.1031,
+        "top": 0.419,
+        "width": 0.1276,
+        "height": 0.0797
+      },
+      "page": 1
+    },
+    {
+      "id": 184,
+      "type": "custom",
+      "text": "خز",
+      "audio": "f2-87.mp3",
+      "position": {
+        "left": 0.7588,
+        "top": 0.5012,
+        "width": 0.139,
+        "height": 0.0824
+      },
+      "page": 1
+    },
+    {
+      "id": 185,
+      "type": "custom",
+      "text": "ر",
+      "audio": "f2-88.mp3",
+      "position": {
+        "left": 0.6289,
+        "top": 0.5014,
+        "width": 0.1277,
+        "height": 0.0796
+      },
+      "page": 1
+    },
+    {
+      "id": 186,
+      "type": "custom",
+      "text": "ز",
+      "audio": "f2-89.mp3",
+      "position": {
+        "left": 0.498,
+        "top": 0.4998,
+        "width": 0.1285,
+        "height": 0.082
+      },
+      "page": 1
+    },
+    {
+      "id": 187,
+      "type": "custom",
+      "text": "ير",
+      "audio": "f2-90.mp3",
+      "position": {
+        "left": 0.3657,
+        "top": 0.4989,
+        "width": 0.1309,
+        "height": 0.0837
+      },
+      "page": 1
+    },
+    {
+      "id": 188,
+      "type": "custom",
+      "text": "تز",
+      "audio": "f2-91.mp3",
+      "position": {
+        "left": 0.2357,
+        "top": 0.5019,
+        "width": 0.1269,
+        "height": 0.0794
+      },
+      "page": 1
+    },
+    {
+      "id": 189,
+      "type": "custom",
+      "text": "س",
+      "audio": "f2-92.mp3",
+      "position": {
+        "left": 0.1017,
+        "top": 0.5018,
+        "width": 0.1289,
+        "height": 0.0792
+      },
+      "page": 1
+    },
+    {
+      "id": 190,
+      "type": "custom",
+      "text": "ش",
+      "audio": "f2-93.mp3",
+      "position": {
+        "left": 0.7607,
+        "top": 0.5837,
+        "width": 0.1359,
+        "height": 0.0805
+      },
+      "page": 1
+    },
+    {
+      "id": 191,
+      "type": "custom",
+      "text": "سل",
+      "audio": "f2-94.mp3",
+      "position": {
+        "left": 0.6306,
+        "top": 0.5847,
+        "width": 0.1281,
+        "height": 0.0797
+      },
+      "page": 1
+    },
+    {
+      "id": 192,
+      "type": "custom",
+      "text": "شل",
+      "audio": "f2-95.mp3",
+      "position": {
+        "left": 0.4965,
+        "top": 0.5846,
+        "width": 0.1299,
+        "height": 0.0804
+      },
+      "page": 1
+    },
+    {
+      "id": 193,
+      "type": "custom",
+      "text": "ص",
+      "audio": "f2-96.mp3",
+      "position": {
+        "left": 0.3662,
+        "top": 0.5846,
+        "width": 0.1277,
+        "height": 0.0812
+      },
+      "page": 1
+    },
+    {
+      "id": 194,
+      "type": "custom",
+      "text": "ض",
+      "audio": "f2-97.mp3",
+      "position": {
+        "left": 0.2342,
+        "top": 0.5846,
+        "width": 0.1287,
+        "height": 0.0806
+      },
+      "page": 1
+    },
+    {
+      "id": 195,
+      "type": "custom",
+      "text": "ط",
+      "audio": "f2-98.mp3",
+      "position": {
+        "left": 0.101,
+        "top": 0.585,
+        "width": 0.1301,
+        "height": 0.0793
+      },
+      "page": 1
+    },
+    {
+      "id": 196,
+      "type": "custom",
+      "text": "ظ",
+      "audio": "f2-99.mp3",
+      "position": {
+        "left": 0.7614,
+        "top": 0.6676,
+        "width": 0.1358,
+        "height": 0.0809
+      },
+      "page": 1
+    },
+    {
+      "id": 197,
+      "type": "custom",
+      "text": "صب",
+      "audio": "f2-100.mp3",
+      "position": {
+        "left": 0.6307,
+        "top": 0.6673,
+        "width": 0.1275,
+        "height": 0.0816
+      },
+      "page": 1
+    },
+    {
+      "id": 198,
+      "type": "custom",
+      "text": "طب",
+      "audio": "f2-101.mp3",
+      "position": {
+        "left": 0.4981,
+        "top": 0.6672,
+        "width": 0.1273,
+        "height": 0.08
+      },
+      "page": 1
+    },
+    {
+      "id": 199,
+      "type": "custom",
+      "text": "ضا",
+      "audio": "f2-102.mp3",
+      "position": {
+        "left": 0.3672,
+        "top": 0.667,
+        "width": 0.1305,
+        "height": 0.0813
+      },
+      "page": 1
+    },
+    {
+      "id": 200,
+      "type": "custom",
+      "text": "ظا",
+      "audio": "f2-103.mp3",
+      "position": {
+        "left": 0.2363,
+        "top": 0.6678,
+        "width": 0.1262,
+        "height": 0.0803
+      },
+      "page": 1
+    },
+    {
+      "id": 201,
+      "type": "custom",
+      "text": "ع",
+      "audio": "f2-104.mp3",
+      "position": {
+        "left": 0.1031,
+        "top": 0.6685,
+        "width": 0.1286,
+        "height": 0.0802
+      },
+      "page": 1
+    },
+    {
+      "id": 202,
+      "type": "custom",
+      "text": "غ",
+      "audio": "f2-105.mp3",
+      "position": {
+        "left": 0.7597,
+        "top": 0.7505,
+        "width": 0.1379,
+        "height": 0.0815
+      },
+      "page": 1
+    },
+    {
+      "id": 203,
+      "type": "custom",
+      "text": "ء",
+      "audio": "f2-106.mp3",
+      "position": {
+        "left": 0.6289,
+        "top": 0.7511,
+        "width": 0.1276,
+        "height": 0.0792
+      },
+      "page": 1
+    },
+    {
+      "id": 204,
+      "type": "custom",
+      "text": "عز",
+      "audio": "f2-107.mp3",
+      "position": {
+        "left": 0.4977,
+        "top": 0.7507,
+        "width": 0.1272,
+        "height": 0.0806
+      },
+      "page": 1
+    },
+    {
+      "id": 205,
+      "type": "custom",
+      "text": "غر",
+      "audio": "f2-108.mp3",
+      "position": {
+        "left": 0.3663,
+        "top": 0.7515,
+        "width": 0.1277,
+        "height": 0.079
+      },
+      "page": 1
+    },
+    {
+      "id": 206,
+      "type": "custom",
+      "text": "صع",
+      "audio": "f2-109.mp3",
+      "position": {
+        "left": 0.2334,
+        "top": 0.7513,
+        "width": 0.1296,
+        "height": 0.0816
+      },
+      "page": 1
+    },
+    {
+      "id": 207,
+      "type": "custom",
+      "text": "ضغ",
+      "audio": "f2-110.mp3",
+      "position": {
+        "left": 0.1016,
+        "top": 0.7503,
+        "width": 0.1301,
+        "height": 0.0821
+      },
+      "page": 1
+    },
+    {
+      "id": 208,
+      "type": "custom",
+      "text": "بعد",
+      "audio": "f2-111.mp3",
+      "position": {
+        "left": 0.7615,
+        "top": 0.8336,
+        "width": 0.1338,
+        "height": 0.0802
+      },
+      "page": 1
+    },
+    {
+      "id": 209,
+      "type": "custom",
+      "text": "تغذ",
+      "audio": "f2-112.mp3",
+      "position": {
+        "left": 0.6306,
+        "top": 0.8338,
+        "width": 0.1251,
+        "height": 0.0787
+      },
+      "page": 1
+    },
+    {
+      "id": 210,
+      "type": "custom",
+      "text": "أ",
+      "audio": "f2-113.mp3",
+      "position": {
+        "left": 0.4987,
+        "top": 0.8349,
+        "width": 0.1271,
+        "height": 0.0797
+      },
+      "page": 1
+    },
+    {
+      "id": 211,
+      "type": "custom",
+      "text": "ؤ",
+      "audio": "f2-114.mp3",
+      "position": {
+        "left": 0.3667,
+        "top": 0.8328,
+        "width": 0.1284,
+        "height": 0.0818
+      },
+      "page": 1
+    },
+    {
+      "id": 212,
+      "type": "custom",
+      "text": "ئ",
+      "audio": "f2-115.mp3",
+      "position": {
+        "left": 0.2356,
+        "top": 0.8332,
+        "width": 0.1284,
+        "height": 0.0807
+      },
+      "page": 1
+    },
+    {
+      "id": 213,
+      "type": "custom",
+      "text": "ف",
+      "audio": "f2-116.mp3",
+      "position": {
+        "left": 0.1036,
+        "top": 0.8336,
+        "width": 0.1277,
+        "height": 0.0774
+      },
+      "page": 1
+    },
+    {
+      "id": 214,
+      "type": "custom",
+      "text": "ق",
+      "audio": "f2-117.mp3",
+      "position": {
+        "left": 0.7419,
+        "top": 0.0828,
+        "width": 0.156,
+        "height": 0.0802
+      },
+      "page": 2
+    },
+    {
+      "id": 215,
+      "type": "custom",
+      "text": "و",
+      "audio": "f2-118.mp3",
+      "position": {
+        "left": 0.5844,
+        "top": 0.0817,
+        "width": 0.155,
+        "height": 0.083
+      },
+      "page": 2
+    },
+    {
+      "id": 216,
+      "type": "custom",
+      "text": "قو",
+      "audio": "f2-119.mp3",
+      "position": {
+        "left": 0.4217,
+        "top": 0.083,
+        "width": 0.1587,
+        "height": 0.0816
+      },
+      "page": 2
+    },
+    {
+      "id": 217,
+      "type": "custom",
+      "text": "فو",
+      "audio": "f2-120.mp3",
+      "position": {
+        "left": 0.2611,
+        "top": 0.0823,
+        "width": 0.1588,
+        "height": 0.0815
+      },
+      "page": 2
+    },
+    {
+      "id": 218,
+      "type": "custom",
+      "text": "فقل",
+      "audio": "f2-121.mp3",
+      "position": {
+        "left": 0.101,
+        "top": 0.0813,
+        "width": 0.1597,
+        "height": 0.083
+      },
+      "page": 2
+    },
+    {
+      "id": 219,
+      "type": "custom",
+      "text": "قفل",
+      "audio": "f2-122.mp3",
+      "position": {
+        "left": 0.7414,
+        "top": 0.1674,
+        "width": 0.1548,
+        "height": 0.081
+      },
+      "page": 2
+    },
+    {
+      "id": 220,
+      "type": "custom",
+      "text": "يف",
+      "audio": "f2-123.mp3",
+      "position": {
+        "left": 0.5816,
+        "top": 0.1671,
+        "width": 0.1573,
+        "height": 0.0812
+      },
+      "page": 2
+    },
+    {
+      "id": 221,
+      "type": "custom",
+      "text": "م",
+      "audio": "f2-124.mp3",
+      "position": {
+        "left": 0.4199,
+        "top": 0.167,
+        "width": 0.1583,
+        "height": 0.0806
+      },
+      "page": 2
+    },
+    {
+      "id": 222,
+      "type": "custom",
+      "text": "ـم",
+      "audio": "f2-125.mp3",
+      "position": {
+        "left": 0.263,
+        "top": 0.166,
+        "width": 0.1561,
+        "height": 0.0818
+      },
+      "page": 2
+    },
+    {
+      "id": 223,
+      "type": "custom",
+      "text": "حم",
+      "audio": "f2-126.mp3",
+      "position": {
+        "left": 0.1015,
+        "top": 0.1654,
+        "width": 0.1585,
+        "height": 0.0823
+      },
+      "page": 2
+    },
+    {
+      "id": 224,
+      "type": "custom",
+      "text": "لم",
+      "audio": "f2-127.mp3",
+      "position": {
+        "left": 0.6337,
+        "top": 0.2507,
+        "width": 0.2639,
+        "height": 0.0797
+      },
+      "page": 2
+    },
+    {
+      "id": 225,
+      "type": "custom",
+      "text": "تم",
+      "audio": "f2-128.mp3",
+      "position": {
+        "left": 0.365,
+        "top": 0.252,
+        "width": 0.2643,
+        "height": 0.0802
+      },
+      "page": 2
+    },
+    {
+      "id": 226,
+      "type": "custom",
+      "text": "تمت",
+      "audio": "f2-129.mp3",
+      "position": {
+        "left": 0.1031,
+        "top": 0.2516,
+        "width": 0.2581,
+        "height": 0.0795
+      },
+      "page": 2
+    }
+  ]
+}

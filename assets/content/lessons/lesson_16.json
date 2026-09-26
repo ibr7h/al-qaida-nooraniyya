@@ -1,0 +1,222 @@
+{
+  "id": 16,
+  "title_ar": "الدَّرْسُ السَّادِسَ عَشَرَ",
+  "title_en": "Lesson 16",
+  "description": "الشَّدَّةُ بَعْدَ حَرْفِ المَدِّ",
+  "description_en": "Shadda after Madd",
+  "titles": {
+    "ar": "الدَّرْسُ السَّادِسَ عَشَرَ",
+    "en": "Lesson 16",
+    "ur": "سولہواں سبق",
+    "fa": "درس شانزدهم",
+    "tr": "16. Ders",
+    "fr": "Leçon 16",
+    "de": "Lektion 16",
+    "es": "Lección 16",
+    "ru": "Урок 16",
+    "id": "Pelajaran 16",
+    "ms": "Pelajaran 16",
+    "bn": "১৬শ পাঠ",
+    "hi": "सोलहवां सबक़",
+    "sw": "Somo la 16",
+    "zh": "第十六课"
+  },
+  "descriptions": {
+    "ar": "الشَّدَّةُ بَعْدَ حَرْفِ المَدِّ",
+    "en": "Shadda after Madd",
+    "ur": "مد متصل اور منفصل",
+    "fa": "مد متصل و منفصل",
+    "tr": "Medd-i Muttasıl ve Munfasıl",
+    "fr": "Madd Al-Muttasil et Al-Munfasil",
+    "de": "Verbundenes und Getrenntes Madd",
+    "es": "Madd Al-Muttasil y Al-Munfasil",
+    "ru": "Мадд Муттасыль и Мунфасыль",
+    "id": "Mad Wajib Mutthasil & Mad Jaiz Munfasil",
+    "ms": "Mad Wajib Muttasil & Mad Jaiz Munfasil",
+    "bn": "মাদ্দে মুত্তাসিল ও মুনফাসিল",
+    "hi": "मद मुत्तसिल और मुनफ़सिल",
+    "sw": "Connected & Separated Madd",
+    "zh": "连读与分读长音"
+  },
+  "page_image": "lesson_16.jpg",
+  "page_images": [
+    "lesson_16.jpg"
+  ],
+  "grid_config": {
+    "columns": 4,
+    "top_offset_ratio": 0.332,
+    "side_margin_ratio": 0.1,
+    "cell_height_ratio": 0.07
+  },
+  "items": [
+    {
+      "id": 100,
+      "type": "title",
+      "text": "الدَّرْسُ السَّادِسَ عَشَرَ",
+      "audio": "f16-01.mp3",
+      "position": {
+        "left": 0.1065,
+        "top": 0.3323,
+        "width": 0.7937,
+        "height": 0.0829
+      },
+      "page": 0
+    },
+    {
+      "id": 101,
+      "type": "custom",
+      "text": "ضَآلًّا",
+      "audio": "f16-02.mp3",
+      "position": {
+        "left": 0.6901,
+        "top": 0.4169,
+        "width": 0.1861,
+        "height": 0.079
+      },
+      "page": 0
+    },
+    {
+      "id": 102,
+      "type": "custom",
+      "text": "دَآبَّةٍ",
+      "audio": "f16-03.mp3",
+      "position": {
+        "left": 0.509,
+        "top": 0.417,
+        "width": 0.179,
+        "height": 0.0808
+      },
+      "page": 0
+    },
+    {
+      "id": 103,
+      "type": "custom",
+      "text": "حَآجَّكَ",
+      "audio": "f16-04.mp3",
+      "position": {
+        "left": 0.3064,
+        "top": 0.418,
+        "width": 0.2006,
+        "height": 0.0781
+      },
+      "page": 0
+    },
+    {
+      "id": 104,
+      "type": "custom",
+      "text": "حَآجُّوكَ",
+      "audio": "f16-05.mp3",
+      "position": {
+        "left": 0.115,
+        "top": 0.418,
+        "width": 0.1901,
+        "height": 0.0788
+      },
+      "page": 0
+    },
+    {
+      "id": 105,
+      "type": "custom",
+      "text": "لَضَآلُّونَ",
+      "audio": "f16-06.mp3",
+      "position": {
+        "left": 0.6511,
+        "top": 0.4995,
+        "width": 0.2279,
+        "height": 0.0813
+      },
+      "page": 0
+    },
+    {
+      "id": 106,
+      "type": "custom",
+      "text": "وَلَا الضَّآلِّينَ",
+      "audio": "f16-07.mp3",
+      "position": {
+        "left": 0.3529,
+        "top": 0.5012,
+        "width": 0.3057,
+        "height": 0.0817
+      },
+      "page": 0
+    },
+    {
+      "id": 107,
+      "type": "custom",
+      "text": "أَتُحَآجُّوٓنِّى",
+      "audio": "f16-08.mp3",
+      "position": {
+        "left": 0.1169,
+        "top": 0.4988,
+        "width": 0.2476,
+        "height": 0.0827
+      },
+      "page": 0
+    },
+    {
+      "id": 108,
+      "type": "custom",
+      "text": "وَلَا تَحَآضُّونَ",
+      "audio": "f16-09.mp3",
+      "position": {
+        "left": 0.541,
+        "top": 0.5818,
+        "width": 0.3455,
+        "height": 0.0862
+      },
+      "page": 0
+    },
+    {
+      "id": 109,
+      "type": "custom",
+      "text": "وَالصَّٰٓفَّٰتِ",
+      "audio": "f16-10.mp3",
+      "position": {
+        "left": 0.294,
+        "top": 0.5823,
+        "width": 0.2495,
+        "height": 0.0857
+      },
+      "page": 0
+    },
+    {
+      "id": 110,
+      "type": "custom",
+      "text": "جَآءَتِ",
+      "audio": "f16-11.mp3",
+      "position": {
+        "left": 0.109,
+        "top": 0.5823,
+        "width": 0.1902,
+        "height": 0.0837
+      },
+      "page": 0
+    },
+    {
+      "id": 111,
+      "type": "custom",
+      "text": "جَآءَتِ الصَّآخَّةُ",
+      "audio": "f16-11.mp3",
+      "position": {
+        "left": 0.6653,
+        "top": 0.6663,
+        "width": 0.2307,
+        "height": 0.0819
+      },
+      "page": 0
+    },
+    {
+      "id": 112,
+      "type": "custom",
+      "text": "فَإِذَا جَآءَتِ الطَّآمَّةُ الْكُبْرَىٰ",
+      "audio": "f16-12.mp3",
+      "position": {
+        "left": 0.1055,
+        "top": 0.6667,
+        "width": 0.5592,
+        "height": 0.083
+      },
+      "page": 0
+    }
+  ]
+}

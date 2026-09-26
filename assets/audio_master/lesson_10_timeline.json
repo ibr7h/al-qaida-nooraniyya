@@ -1,0 +1,1785 @@
+{
+ "lessonId": 10,
+ "masterFile": "lesson_10_master.m4a",
+ "masterVersion": "2bd601852e067260",
+ "generatedAt": "2026-08-14T23:35:23.893309+00:00",
+ "sampleRateHz": 22050,
+ "bitrate": "32k",
+ "gapMs": 400,
+ "itemCount": 81,
+ "entries": [
+  {
+   "lessonId": 10,
+   "itemId": 100,
+   "sourceAudio": [
+    "f10-01.mp3"
+   ],
+   "startMs": 0.0,
+   "audioEndMs": 4609.5,
+   "segmentEndMs": 5009.5,
+   "page": 0,
+   "section": "title",
+   "text": "الدَّرْسُ العَاشِرُ"
+  },
+  {
+   "lessonId": 10,
+   "itemId": 101,
+   "sourceAudio": [
+    "f10-02.mp3"
+   ],
+   "startMs": 5009.5,
+   "audioEndMs": 7629.5,
+   "segmentEndMs": 8029.5,
+   "page": 0,
+   "section": "custom",
+   "text": "أَبْ",
+   "fullWord": {
+    "fullWordStartMs": 6506.7,
+    "fullWordEndMs": 7629.5,
+    "confidence": "MEDIUM",
+    "signals": {
+     "clearFinalGap": true,
+     "plausibleDuration": true,
+     "trailingSilenceDetected": false,
+     "unambiguousLastGap": true
+    },
+    "sourceStartMs": 1497.2,
+    "sourceEndMs": 2620.0,
+    "source": "AUTO",
+    "usableForClipping": false
+   }
+  },
+  {
+   "lessonId": 10,
+   "itemId": 102,
+   "sourceAudio": [
+    "f10-03.mp3"
+   ],
+   "startMs": 8029.5,
+   "audioEndMs": 10509.5,
+   "segmentEndMs": 10909.5,
+   "page": 0,
+   "section": "custom",
+   "text": "إِبْ",
+   "fullWord": {
+    "fullWordStartMs": 10006.5,
+    "fullWordEndMs": 10509.5,
+    "confidence": "MEDIUM",
+    "signals": {
+     "clearFinalGap": false,
+     "plausibleDuration": true,
+     "trailingSilenceDetected": false,
+     "unambiguousLastGap": true
+    },
+    "sourceStartMs": 1977.0,
+    "sourceEndMs": 2480.0,
+    "source": "AUTO",
+    "usableForClipping": false
+   }
+  },
+  {
+   "lessonId": 10,
+   "itemId": 1001,
+   "sourceAudio": [
+    "f10-04.mp3"
+   ],
+   "startMs": 10909.5,
+   "audioEndMs": 11769.5,
+   "segmentEndMs": 12169.5,
+   "page": 0,
+   "section": "combined",
+   "text": "أَبْ إِبْ"
+  },
+  {
+   "lessonId": 10,
+   "itemId": 103,
+   "sourceAudio": [
+    "f10-05.mp3"
+   ],
+   "startMs": 12169.5,
+   "audioEndMs": 14779.5,
+   "segmentEndMs": 15179.5,
+   "page": 0,
+   "section": "custom",
+   "text": "أُبْ",
+   "fullWord": {
+    "fullWordStartMs": 14191.2,
+    "fullWordEndMs": 14779.5,
+    "confidence": "MEDIUM",
+    "signals": {
+     "clearFinalGap": false,
+     "plausibleDuration": true,
+     "trailingSilenceDetected": false,
+     "unambiguousLastGap": true
+    },
+    "sourceStartMs": 2021.7,
+    "sourceEndMs": 2610.0,
+    "source": "AUTO",
+    "usableForClipping": false
+   }
+  },
+  {
+   "lessonId": 10,
+   "itemId": 1002,
+   "sourceAudio": [
+    "f10-06.mp3"
+   ],
+   "startMs": 15179.5,
+   "audioEndMs": 16839.5,
+   "segmentEndMs": 17239.5,
+   "page": 0,
+   "section": "combined",
+   "text": "أَبْ إِبْ أُبْ"
+  },
+  {
+   "lessonId": 10,
+   "itemId": 104,
+   "sourceAudio": [
+    "f10-07.mp3"
+   ],
+   "startMs": 17239.5,
+   "audioEndMs": 19839.5,
+   "segmentEndMs": 20239.5,
+   "page": 0,
+   "section": "custom",
+   "text": "أَتْ",
+   "fullWord": {
+    "fullWordStartMs": 18827.5,
+    "fullWordEndMs": 19649.3,
+    "confidence": "HIGH",
+    "signals": {
+     "clearFinalGap": true,
+     "plausibleDuration": true,
+     "trailingSilenceDetected": true,
+     "unambiguousLastGap": true
+    },
+    "sourceStartMs": 1588.0,
+    "sourceEndMs": 2409.8,
+    "source": "AUTO",
+    "usableForClipping": false
+   }
+  },
+  {
+   "lessonId": 10,
+   "itemId": 105,
+   "sourceAudio": [
+    "f10-08.mp3"
+   ],
+   "startMs": 20239.5,
+   "audioEndMs": 22689.5,
+   "segmentEndMs": 23089.5,
+   "page": 0,
+   "section": "custom",
+   "text": "إِتْ",
+   "fullWord": {
+    "fullWordStartMs": 21720.4,
+    "fullWordEndMs": 22517.4,
+    "confidence": "HIGH",
+    "signals": {
+     "clearFinalGap": true,
+     "plausibleDuration": true,
+     "trailingSilenceDetected": true,
+     "unambiguousLastGap": true
+    },
+    "sourceStartMs": 1480.9,
+    "sourceEndMs": 2277.9,
+    "source": "AUTO",
+    "usableForClipping": false
+   }
+  },
+  {
+   "lessonId": 10,
+   "itemId": 1003,
+   "sourceAudio": [
+    "f10-09.mp3"
+   ],
+   "startMs": 23089.5,
+   "audioEndMs": 24110.4,
+   "segmentEndMs": 24510.4,
+   "page": 0,
+   "section": "combined",
+   "text": "أَتْ إِتْ"
+  },
+  {
+   "lessonId": 10,
+   "itemId": 106,
+   "sourceAudio": [
+    "f10-10.mp3"
+   ],
+   "startMs": 24510.4,
+   "audioEndMs": 27160.5,
+   "segmentEndMs": 27560.5,
+   "page": 0,
+   "section": "custom",
+   "text": "أُتْ",
+   "fullWord": {
+    "fullWordStartMs": 26561.9,
+    "fullWordEndMs": 26873.3,
+    "confidence": "MEDIUM",
+    "signals": {
+     "clearFinalGap": false,
+     "plausibleDuration": true,
+     "trailingSilenceDetected": true,
+     "unambiguousLastGap": false
+    },
+    "sourceStartMs": 2051.5,
+    "sourceEndMs": 2362.9,
+    "source": "AUTO",
+    "usableForClipping": false
+   }
+  },
+  {
+   "lessonId": 10,
+   "itemId": 1004,
+   "sourceAudio": [
+    "f10-11.mp3"
+   ],
+   "startMs": 27560.5,
+   "audioEndMs": 29664.4,
+   "segmentEndMs": 30064.4,
+   "page": 0,
+   "section": "combined",
+   "text": "أَتْ إِتْ أُتْ"
+  },
+  {
+   "lessonId": 10,
+   "itemId": 107,
+   "sourceAudio": [
+    "f10-12.mp3"
+   ],
+   "startMs": 30064.4,
+   "audioEndMs": 32584.4,
+   "segmentEndMs": 32984.4,
+   "page": 0,
+   "section": "custom",
+   "text": "أَثْ",
+   "fullWord": {
+    "fullWordStartMs": 31492.2,
+    "fullWordEndMs": 32266.0,
+    "confidence": "MEDIUM",
+    "signals": {
+     "clearFinalGap": false,
+     "plausibleDuration": true,
+     "trailingSilenceDetected": true,
+     "unambiguousLastGap": true
+    },
+    "sourceStartMs": 1427.8,
+    "sourceEndMs": 2201.6,
+    "source": "AUTO",
+    "usableForClipping": false
+   }
+  },
+  {
+   "lessonId": 10,
+   "itemId": 108,
+   "sourceAudio": [
+    "f10-13.mp3"
+   ],
+   "startMs": 32984.4,
+   "audioEndMs": 35574.4,
+   "segmentEndMs": 35974.4,
+   "page": 0,
+   "section": "custom",
+   "text": "إِثْ",
+   "fullWord": {
+    "fullWordStartMs": 34907.4,
+    "fullWordEndMs": 35245.3,
+    "confidence": "MEDIUM",
+    "signals": {
+     "clearFinalGap": false,
+     "plausibleDuration": true,
+     "trailingSilenceDetected": true,
+     "unambiguousLastGap": false
+    },
+    "sourceStartMs": 1923.0,
+    "sourceEndMs": 2260.9,
+    "source": "AUTO",
+    "usableForClipping": false
+   }
+  },
+  {
+   "lessonId": 10,
+   "itemId": 1005,
+   "sourceAudio": [
+    "f10-14.mp3"
+   ],
+   "startMs": 35974.4,
+   "audioEndMs": 37264.4,
+   "segmentEndMs": 37664.4,
+   "page": 0,
+   "section": "combined",
+   "text": "أَثْ إِثْ"
+  },
+  {
+   "lessonId": 10,
+   "itemId": 109,
+   "sourceAudio": [
+    "f10-15.mp3"
+   ],
+   "startMs": 37664.4,
+   "audioEndMs": 40294.5,
+   "segmentEndMs": 40694.5,
+   "page": 0,
+   "section": "custom",
+   "text": "أُثْ",
+   "fullWord": {
+    "fullWordStartMs": 39268.4,
+    "fullWordEndMs": 40010.0,
+    "confidence": "HIGH",
+    "signals": {
+     "clearFinalGap": true,
+     "plausibleDuration": true,
+     "trailingSilenceDetected": true,
+     "unambiguousLastGap": true
+    },
+    "sourceStartMs": 1604.0,
+    "sourceEndMs": 2345.6,
+    "source": "AUTO",
+    "usableForClipping": false
+   }
+  },
+  {
+   "lessonId": 10,
+   "itemId": 1006,
+   "sourceAudio": [
+    "f10-16.mp3"
+   ],
+   "startMs": 40694.5,
+   "audioEndMs": 42874.5,
+   "segmentEndMs": 43274.5,
+   "page": 0,
+   "section": "combined",
+   "text": "أَثْ إِثْ أُثْ"
+  },
+  {
+   "lessonId": 10,
+   "itemId": 110,
+   "sourceAudio": [
+    "f10-17.mp3"
+   ],
+   "startMs": 43274.5,
+   "audioEndMs": 45824.5,
+   "segmentEndMs": 46224.5,
+   "page": 0,
+   "section": "custom",
+   "text": "أَجْ",
+   "fullWord": {
+    "fullWordStartMs": 45251.6,
+    "fullWordEndMs": 45824.5,
+    "confidence": "MEDIUM",
+    "signals": {
+     "clearFinalGap": false,
+     "plausibleDuration": true,
+     "trailingSilenceDetected": false,
+     "unambiguousLastGap": true
+    },
+    "sourceStartMs": 1977.1,
+    "sourceEndMs": 2550.0,
+    "source": "AUTO",
+    "usableForClipping": false
+   }
+  },
+  {
+   "lessonId": 10,
+   "itemId": 111,
+   "sourceAudio": [
+    "f10-18.mp3"
+   ],
+   "startMs": 46224.5,
+   "audioEndMs": 48684.5,
+   "segmentEndMs": 49084.5,
+   "page": 0,
+   "section": "custom",
+   "text": "إِجْ",
+   "fullWord": {
+    "fullWordStartMs": 48188.0,
+    "fullWordEndMs": 48684.5,
+    "confidence": "MEDIUM",
+    "signals": {
+     "clearFinalGap": false,
+     "plausibleDuration": true,
+     "trailingSilenceDetected": false,
+     "unambiguousLastGap": true
+    },
+    "sourceStartMs": 1963.5,
+    "sourceEndMs": 2460.0,
+    "source": "AUTO",
+    "usableForClipping": false
+   }
+  },
+  {
+   "lessonId": 10,
+   "itemId": 1007,
+   "sourceAudio": [
+    "f10-19.mp3"
+   ],
+   "startMs": 49084.5,
+   "audioEndMs": 50254.5,
+   "segmentEndMs": 50654.5,
+   "page": 0,
+   "section": "combined",
+   "text": "أَجْ إِجْ"
+  },
+  {
+   "lessonId": 10,
+   "itemId": 112,
+   "sourceAudio": [
+    "f10-20.mp3"
+   ],
+   "startMs": 50654.5,
+   "audioEndMs": 53224.5,
+   "segmentEndMs": 53624.5,
+   "page": 0,
+   "section": "custom",
+   "text": "أُجْ",
+   "fullWord": {
+    "fullWordStartMs": 52709.9,
+    "fullWordEndMs": 53224.5,
+    "confidence": "MEDIUM",
+    "signals": {
+     "clearFinalGap": false,
+     "plausibleDuration": true,
+     "trailingSilenceDetected": false,
+     "unambiguousLastGap": true
+    },
+    "sourceStartMs": 2055.4,
+    "sourceEndMs": 2570.0,
+    "source": "AUTO",
+    "usableForClipping": false
+   }
+  },
+  {
+   "lessonId": 10,
+   "itemId": 1008,
+   "sourceAudio": [
+    "f10-21.mp3"
+   ],
+   "startMs": 53624.5,
+   "audioEndMs": 55534.6,
+   "segmentEndMs": 55934.6,
+   "page": 0,
+   "section": "combined",
+   "text": "أَجْ إِجْ أُجْ"
+  },
+  {
+   "lessonId": 10,
+   "itemId": 113,
+   "sourceAudio": [
+    "f10-22.mp3"
+   ],
+   "startMs": 55934.6,
+   "audioEndMs": 58724.6,
+   "segmentEndMs": 59124.6,
+   "page": 0,
+   "section": "custom",
+   "text": "أَحْ",
+   "fullWord": {
+    "fullWordStartMs": 57521.7,
+    "fullWordEndMs": 58724.6,
+    "confidence": "MEDIUM",
+    "signals": {
+     "clearFinalGap": true,
+     "plausibleDuration": true,
+     "trailingSilenceDetected": false,
+     "unambiguousLastGap": true
+    },
+    "sourceStartMs": 1587.1,
+    "sourceEndMs": 2790.0,
+    "source": "AUTO",
+    "usableForClipping": false
+   }
+  },
+  {
+   "lessonId": 10,
+   "itemId": 114,
+   "sourceAudio": [
+    "f10-23.mp3"
+   ],
+   "startMs": 59124.6,
+   "audioEndMs": 61774.6,
+   "segmentEndMs": 62174.6,
+   "page": 0,
+   "section": "custom",
+   "text": "إِحْ",
+   "fullWord": {
+    "fullWordStartMs": 60613.1,
+    "fullWordEndMs": 61618.8,
+    "confidence": "MEDIUM",
+    "signals": {
+     "clearFinalGap": false,
+     "plausibleDuration": true,
+     "trailingSilenceDetected": true,
+     "unambiguousLastGap": true
+    },
+    "sourceStartMs": 1488.5,
+    "sourceEndMs": 2494.2,
+    "source": "AUTO",
+    "usableForClipping": false
+   }
+  },
+  {
+   "lessonId": 10,
+   "itemId": 1009,
+   "sourceAudio": [
+    "f10-24.mp3"
+   ],
+   "startMs": 62174.6,
+   "audioEndMs": 63738.8,
+   "segmentEndMs": 64138.8,
+   "page": 0,
+   "section": "combined",
+   "text": "أَحْ إِحْ"
+  },
+  {
+   "lessonId": 10,
+   "itemId": 115,
+   "sourceAudio": [
+    "f10-25.mp3"
+   ],
+   "startMs": 64138.8,
+   "audioEndMs": 66828.8,
+   "segmentEndMs": 67228.8,
+   "page": 0,
+   "section": "custom",
+   "text": "أُحْ",
+   "fullWord": {
+    "fullWordStartMs": 65643.8,
+    "fullWordEndMs": 66459.6,
+    "confidence": "HIGH",
+    "signals": {
+     "clearFinalGap": true,
+     "plausibleDuration": true,
+     "trailingSilenceDetected": true,
+     "unambiguousLastGap": true
+    },
+    "sourceStartMs": 1505.0,
+    "sourceEndMs": 2320.8,
+    "source": "AUTO",
+    "usableForClipping": false
+   }
+  },
+  {
+   "lessonId": 10,
+   "itemId": 1010,
+   "sourceAudio": [
+    "f10-26.mp3"
+   ],
+   "startMs": 67228.8,
+   "audioEndMs": 69917.9,
+   "segmentEndMs": 70317.9,
+   "page": 0,
+   "section": "combined",
+   "text": "أَحْ إِحْ أُحْ"
+  },
+  {
+   "lessonId": 10,
+   "itemId": 116,
+   "sourceAudio": [
+    "f10-27.mp3"
+   ],
+   "startMs": 70317.9,
+   "audioEndMs": 73067.9,
+   "segmentEndMs": 73467.9,
+   "page": 0,
+   "section": "custom",
+   "text": "أَخْ",
+   "fullWord": {
+    "fullWordStartMs": 71908.7,
+    "fullWordEndMs": 73067.9,
+    "confidence": "MEDIUM",
+    "signals": {
+     "clearFinalGap": false,
+     "plausibleDuration": true,
+     "trailingSilenceDetected": false,
+     "unambiguousLastGap": true
+    },
+    "sourceStartMs": 1590.8,
+    "sourceEndMs": 2750.0,
+    "source": "AUTO",
+    "usableForClipping": false
+   }
+  },
+  {
+   "lessonId": 10,
+   "itemId": 117,
+   "sourceAudio": [
+    "f10-28.mp3"
+   ],
+   "startMs": 73467.9,
+   "audioEndMs": 76087.9,
+   "segmentEndMs": 76487.9,
+   "page": 0,
+   "section": "custom",
+   "text": "إِخْ",
+   "fullWord": {
+    "fullWordStartMs": 74998.6,
+    "fullWordEndMs": 76087.9,
+    "confidence": "MEDIUM",
+    "signals": {
+     "clearFinalGap": false,
+     "plausibleDuration": true,
+     "trailingSilenceDetected": false,
+     "unambiguousLastGap": true
+    },
+    "sourceStartMs": 1530.7,
+    "sourceEndMs": 2620.0,
+    "source": "AUTO",
+    "usableForClipping": false
+   }
+  },
+  {
+   "lessonId": 10,
+   "itemId": 1011,
+   "sourceAudio": [
+    "f10-29.mp3"
+   ],
+   "startMs": 76487.9,
+   "audioEndMs": 77567.9,
+   "segmentEndMs": 77967.9,
+   "page": 0,
+   "section": "combined",
+   "text": "أَخْ إِخْ"
+  },
+  {
+   "lessonId": 10,
+   "itemId": 118,
+   "sourceAudio": [
+    "f10-30.mp3"
+   ],
+   "startMs": 77967.9,
+   "audioEndMs": 80647.9,
+   "segmentEndMs": 81047.9,
+   "page": 0,
+   "section": "custom",
+   "text": "أُخْ",
+   "fullWord": {
+    "fullWordStartMs": 79502.4,
+    "fullWordEndMs": 80495.4,
+    "confidence": "HIGH",
+    "signals": {
+     "clearFinalGap": true,
+     "plausibleDuration": true,
+     "trailingSilenceDetected": true,
+     "unambiguousLastGap": true
+    },
+    "sourceStartMs": 1534.5,
+    "sourceEndMs": 2527.5,
+    "source": "AUTO",
+    "usableForClipping": false
+   }
+  },
+  {
+   "lessonId": 10,
+   "itemId": 1012,
+   "sourceAudio": [
+    "f10-31.mp3"
+   ],
+   "startMs": 81047.9,
+   "audioEndMs": 83078.0,
+   "segmentEndMs": 83478.0,
+   "page": 0,
+   "section": "combined",
+   "text": "أَخْ إِخْ أُخْ"
+  },
+  {
+   "lessonId": 10,
+   "itemId": 119,
+   "sourceAudio": [
+    "f10-32.mp3"
+   ],
+   "startMs": 83478.0,
+   "audioEndMs": 85978.0,
+   "segmentEndMs": 86378.0,
+   "page": 0,
+   "section": "custom",
+   "text": "أَدْ",
+   "fullWord": {
+    "fullWordStartMs": 84917.7,
+    "fullWordEndMs": 85978.0,
+    "confidence": "MEDIUM",
+    "signals": {
+     "clearFinalGap": false,
+     "plausibleDuration": true,
+     "trailingSilenceDetected": false,
+     "unambiguousLastGap": true
+    },
+    "sourceStartMs": 1439.7,
+    "sourceEndMs": 2500.0,
+    "source": "AUTO",
+    "usableForClipping": false
+   }
+  },
+  {
+   "lessonId": 10,
+   "itemId": 120,
+   "sourceAudio": [
+    "f10-33.mp3"
+   ],
+   "startMs": 86378.0,
+   "audioEndMs": 88888.0,
+   "segmentEndMs": 89288.0,
+   "page": 0,
+   "section": "custom",
+   "text": "إِدْ",
+   "fullWord": {
+    "fullWordStartMs": 87853.0,
+    "fullWordEndMs": 88888.0,
+    "confidence": "MEDIUM",
+    "signals": {
+     "clearFinalGap": true,
+     "plausibleDuration": true,
+     "trailingSilenceDetected": false,
+     "unambiguousLastGap": true
+    },
+    "sourceStartMs": 1475.0,
+    "sourceEndMs": 2510.0,
+    "source": "AUTO",
+    "usableForClipping": false
+   }
+  },
+  {
+   "lessonId": 10,
+   "itemId": 1013,
+   "sourceAudio": [
+    "f10-34.mp3"
+   ],
+   "startMs": 89288.0,
+   "audioEndMs": 90338.0,
+   "segmentEndMs": 90738.0,
+   "page": 0,
+   "section": "combined",
+   "text": "أَدْ إِدْ"
+  },
+  {
+   "lessonId": 10,
+   "itemId": 121,
+   "sourceAudio": [
+    "f10-35.mp3"
+   ],
+   "startMs": 90738.0,
+   "audioEndMs": 93268.0,
+   "segmentEndMs": 93668.0,
+   "page": 0,
+   "section": "custom",
+   "text": "أُدْ",
+   "fullWord": {
+    "fullWordStartMs": 92236.7,
+    "fullWordEndMs": 93268.0,
+    "confidence": "MEDIUM",
+    "signals": {
+     "clearFinalGap": false,
+     "plausibleDuration": true,
+     "trailingSilenceDetected": false,
+     "unambiguousLastGap": true
+    },
+    "sourceStartMs": 1498.7,
+    "sourceEndMs": 2530.0,
+    "source": "AUTO",
+    "usableForClipping": false
+   }
+  },
+  {
+   "lessonId": 10,
+   "itemId": 1014,
+   "sourceAudio": [
+    "f10-36.mp3"
+   ],
+   "startMs": 93668.0,
+   "audioEndMs": 95258.1,
+   "segmentEndMs": 95658.1,
+   "page": 0,
+   "section": "combined",
+   "text": "أَدْ إِدْ أُدْ"
+  },
+  {
+   "lessonId": 10,
+   "itemId": 122,
+   "sourceAudio": [
+    "f10-37.mp3"
+   ],
+   "startMs": 95658.1,
+   "audioEndMs": 98358.1,
+   "segmentEndMs": 98758.1,
+   "page": 0,
+   "section": "custom",
+   "text": "أَذْ",
+   "fullWord": {
+    "fullWordStartMs": 97203.6,
+    "fullWordEndMs": 98358.1,
+    "confidence": "MEDIUM",
+    "signals": {
+     "clearFinalGap": false,
+     "plausibleDuration": true,
+     "trailingSilenceDetected": false,
+     "unambiguousLastGap": true
+    },
+    "sourceStartMs": 1545.5,
+    "sourceEndMs": 2700.0,
+    "source": "AUTO",
+    "usableForClipping": false
+   }
+  },
+  {
+   "lessonId": 10,
+   "itemId": 123,
+   "sourceAudio": [
+    "f10-38.mp3"
+   ],
+   "startMs": 98758.1,
+   "audioEndMs": 101358.1,
+   "segmentEndMs": 101758.1,
+   "page": 0,
+   "section": "custom",
+   "text": "إِذْ",
+   "fullWord": {
+    "fullWordStartMs": 100775.9,
+    "fullWordEndMs": 101358.1,
+    "confidence": "MEDIUM",
+    "signals": {
+     "clearFinalGap": false,
+     "plausibleDuration": true,
+     "trailingSilenceDetected": false,
+     "unambiguousLastGap": true
+    },
+    "sourceStartMs": 2017.8,
+    "sourceEndMs": 2600.0,
+    "source": "AUTO",
+    "usableForClipping": false
+   }
+  },
+  {
+   "lessonId": 10,
+   "itemId": 1015,
+   "sourceAudio": [
+    "f10-39.mp3"
+   ],
+   "startMs": 101758.1,
+   "audioEndMs": 102988.1,
+   "segmentEndMs": 103388.1,
+   "page": 0,
+   "section": "combined",
+   "text": "أَذْ إِذْ"
+  },
+  {
+   "lessonId": 10,
+   "itemId": 124,
+   "sourceAudio": [
+    "f10-40.mp3"
+   ],
+   "startMs": 103388.1,
+   "audioEndMs": 106058.1,
+   "segmentEndMs": 106458.1,
+   "page": 0,
+   "section": "custom",
+   "text": "أُذْ",
+   "fullWord": {
+    "fullWordStartMs": 104911.7,
+    "fullWordEndMs": 106058.1,
+    "confidence": "MEDIUM",
+    "signals": {
+     "clearFinalGap": true,
+     "plausibleDuration": true,
+     "trailingSilenceDetected": false,
+     "unambiguousLastGap": true
+    },
+    "sourceStartMs": 1523.6,
+    "sourceEndMs": 2670.0,
+    "source": "AUTO",
+    "usableForClipping": false
+   }
+  },
+  {
+   "lessonId": 10,
+   "itemId": 1016,
+   "sourceAudio": [
+    "f10-41.mp3"
+   ],
+   "startMs": 106458.1,
+   "audioEndMs": 108598.1,
+   "segmentEndMs": 108998.1,
+   "page": 0,
+   "section": "combined",
+   "text": "أَذْ إِذْ أُذْ"
+  },
+  {
+   "lessonId": 10,
+   "itemId": 125,
+   "sourceAudio": [
+    "f10-42.mp3"
+   ],
+   "startMs": 108998.1,
+   "audioEndMs": 111408.1,
+   "segmentEndMs": 111808.1,
+   "page": 0,
+   "section": "custom",
+   "text": "أَرْ",
+   "fullWord": {
+    "fullWordStartMs": 110358.6,
+    "fullWordEndMs": 111408.1,
+    "confidence": "MEDIUM",
+    "signals": {
+     "clearFinalGap": false,
+     "plausibleDuration": true,
+     "trailingSilenceDetected": false,
+     "unambiguousLastGap": true
+    },
+    "sourceStartMs": 1360.5,
+    "sourceEndMs": 2410.0,
+    "source": "AUTO",
+    "usableForClipping": false
+   }
+  },
+  {
+   "lessonId": 10,
+   "itemId": 126,
+   "sourceAudio": [
+    "f10-43.mp3"
+   ],
+   "startMs": 111808.1,
+   "audioEndMs": 114218.1,
+   "segmentEndMs": 114618.1,
+   "page": 0,
+   "section": "custom",
+   "text": "إِرْ",
+   "fullWord": {
+    "fullWordStartMs": 113734.3,
+    "fullWordEndMs": 114218.1,
+    "confidence": "MEDIUM",
+    "signals": {
+     "clearFinalGap": false,
+     "plausibleDuration": true,
+     "trailingSilenceDetected": false,
+     "unambiguousLastGap": true
+    },
+    "sourceStartMs": 1926.2,
+    "sourceEndMs": 2410.0,
+    "source": "AUTO",
+    "usableForClipping": false
+   }
+  },
+  {
+   "lessonId": 10,
+   "itemId": 1017,
+   "sourceAudio": [
+    "f10-44.mp3"
+   ],
+   "startMs": 114618.1,
+   "audioEndMs": 115848.2,
+   "segmentEndMs": 116248.2,
+   "page": 0,
+   "section": "combined",
+   "text": "أَرْ إِرْ"
+  },
+  {
+   "lessonId": 10,
+   "itemId": 127,
+   "sourceAudio": [
+    "f10-45.mp3"
+   ],
+   "startMs": 116248.2,
+   "audioEndMs": 118718.2,
+   "segmentEndMs": 119118.2,
+   "page": 0,
+   "section": "custom",
+   "text": "أُرْ",
+   "fullWord": {
+    "fullWordStartMs": 118121.7,
+    "fullWordEndMs": 118718.2,
+    "confidence": "MEDIUM",
+    "signals": {
+     "clearFinalGap": false,
+     "plausibleDuration": true,
+     "trailingSilenceDetected": false,
+     "unambiguousLastGap": true
+    },
+    "sourceStartMs": 1873.5,
+    "sourceEndMs": 2470.0,
+    "source": "AUTO",
+    "usableForClipping": false
+   }
+  },
+  {
+   "lessonId": 10,
+   "itemId": 1018,
+   "sourceAudio": [
+    "f10-46.mp3"
+   ],
+   "startMs": 119118.2,
+   "audioEndMs": 121632.8,
+   "segmentEndMs": 122032.8,
+   "page": 0,
+   "section": "combined",
+   "text": "أَرْ إِرْ أُرْ"
+  },
+  {
+   "lessonId": 10,
+   "itemId": 128,
+   "sourceAudio": [
+    "f10-47.mp3"
+   ],
+   "startMs": 122032.8,
+   "audioEndMs": 124762.9,
+   "segmentEndMs": 125162.9,
+   "page": 0,
+   "section": "custom",
+   "text": "أَزْ",
+   "fullWord": {
+    "fullWordStartMs": 123563.5,
+    "fullWordEndMs": 124762.8,
+    "confidence": "MEDIUM",
+    "signals": {
+     "clearFinalGap": true,
+     "plausibleDuration": true,
+     "trailingSilenceDetected": false,
+     "unambiguousLastGap": true
+    },
+    "sourceStartMs": 1530.7,
+    "sourceEndMs": 2730.0,
+    "source": "AUTO",
+    "usableForClipping": false
+   }
+  },
+  {
+   "lessonId": 10,
+   "itemId": 129,
+   "sourceAudio": [
+    "f10-48.mp3"
+   ],
+   "startMs": 125162.9,
+   "audioEndMs": 127812.9,
+   "segmentEndMs": 128212.9,
+   "page": 0,
+   "section": "custom",
+   "text": "إِزْ",
+   "fullWord": {
+    "fullWordStartMs": 126647.9,
+    "fullWordEndMs": 127812.9,
+    "confidence": "MEDIUM",
+    "signals": {
+     "clearFinalGap": true,
+     "plausibleDuration": true,
+     "trailingSilenceDetected": false,
+     "unambiguousLastGap": true
+    },
+    "sourceStartMs": 1485.0,
+    "sourceEndMs": 2650.0,
+    "source": "AUTO",
+    "usableForClipping": false
+   }
+  },
+  {
+   "lessonId": 10,
+   "itemId": 1019,
+   "sourceAudio": [
+    "f10-49.mp3"
+   ],
+   "startMs": 128212.9,
+   "audioEndMs": 129512.9,
+   "segmentEndMs": 129912.9,
+   "page": 0,
+   "section": "combined",
+   "text": "أَزْ إِزْ"
+  },
+  {
+   "lessonId": 10,
+   "itemId": 130,
+   "sourceAudio": [
+    "f10-50.mp3"
+   ],
+   "startMs": 129912.9,
+   "audioEndMs": 132582.9,
+   "segmentEndMs": 132982.9,
+   "page": 0,
+   "section": "custom",
+   "text": "أُزْ",
+   "fullWord": {
+    "fullWordStartMs": 131930.5,
+    "fullWordEndMs": 132582.9,
+    "confidence": "MEDIUM",
+    "signals": {
+     "clearFinalGap": false,
+     "plausibleDuration": true,
+     "trailingSilenceDetected": false,
+     "unambiguousLastGap": true
+    },
+    "sourceStartMs": 2017.6,
+    "sourceEndMs": 2670.0,
+    "source": "AUTO",
+    "usableForClipping": false
+   }
+  },
+  {
+   "lessonId": 10,
+   "itemId": 1020,
+   "sourceAudio": [
+    "f10-51.mp3"
+   ],
+   "startMs": 132982.9,
+   "audioEndMs": 135232.9,
+   "segmentEndMs": 135632.9,
+   "page": 0,
+   "section": "combined",
+   "text": "أَزْ إِزْ أُزْ"
+  },
+  {
+   "lessonId": 10,
+   "itemId": 131,
+   "sourceAudio": [
+    "f10-52.mp3"
+   ],
+   "startMs": 135632.9,
+   "audioEndMs": 138343.0,
+   "segmentEndMs": 138743.0,
+   "page": 0,
+   "section": "custom",
+   "text": "أَسْ",
+   "fullWord": {
+    "fullWordStartMs": 137151.2,
+    "fullWordEndMs": 137969.7,
+    "confidence": "MEDIUM",
+    "signals": {
+     "clearFinalGap": false,
+     "plausibleDuration": true,
+     "trailingSilenceDetected": true,
+     "unambiguousLastGap": true
+    },
+    "sourceStartMs": 1518.3,
+    "sourceEndMs": 2336.8,
+    "source": "AUTO",
+    "usableForClipping": false
+   }
+  },
+  {
+   "lessonId": 10,
+   "itemId": 132,
+   "sourceAudio": [
+    "f10-53.mp3"
+   ],
+   "startMs": 138743.0,
+   "audioEndMs": 141363.0,
+   "segmentEndMs": 141763.0,
+   "page": 0,
+   "section": "custom",
+   "text": "إِسْ",
+   "fullWord": {
+    "fullWordStartMs": 140662.6,
+    "fullWordEndMs": 141012.1,
+    "confidence": "MEDIUM",
+    "signals": {
+     "clearFinalGap": false,
+     "plausibleDuration": true,
+     "trailingSilenceDetected": true,
+     "unambiguousLastGap": false
+    },
+    "sourceStartMs": 1919.6,
+    "sourceEndMs": 2269.1,
+    "source": "AUTO",
+    "usableForClipping": false
+   }
+  },
+  {
+   "lessonId": 10,
+   "itemId": 1021,
+   "sourceAudio": [
+    "f10-54.mp3"
+   ],
+   "startMs": 141763.0,
+   "audioEndMs": 142973.0,
+   "segmentEndMs": 143373.0,
+   "page": 0,
+   "section": "combined",
+   "text": "أَسْ إِسْ"
+  },
+  {
+   "lessonId": 10,
+   "itemId": 133,
+   "sourceAudio": [
+    "f10-55.mp3"
+   ],
+   "startMs": 143373.0,
+   "audioEndMs": 146103.0,
+   "segmentEndMs": 146503.0,
+   "page": 0,
+   "section": "custom",
+   "text": "أُسْ",
+   "fullWord": {
+    "fullWordStartMs": 144921.9,
+    "fullWordEndMs": 145738.1,
+    "confidence": "HIGH",
+    "signals": {
+     "clearFinalGap": true,
+     "plausibleDuration": true,
+     "trailingSilenceDetected": true,
+     "unambiguousLastGap": true
+    },
+    "sourceStartMs": 1548.9,
+    "sourceEndMs": 2365.1,
+    "source": "AUTO",
+    "usableForClipping": false
+   }
+  },
+  {
+   "lessonId": 10,
+   "itemId": 1022,
+   "sourceAudio": [
+    "f10-56.mp3"
+   ],
+   "startMs": 146503.0,
+   "audioEndMs": 148623.0,
+   "segmentEndMs": 149023.0,
+   "page": 0,
+   "section": "combined",
+   "text": "أَسْ إِسْ أُسْ"
+  },
+  {
+   "lessonId": 10,
+   "itemId": 134,
+   "sourceAudio": [
+    "f10-57.mp3"
+   ],
+   "startMs": 149023.0,
+   "audioEndMs": 151673.0,
+   "segmentEndMs": 152073.0,
+   "page": 0,
+   "section": "custom",
+   "text": "أَشْ",
+   "fullWord": {
+    "fullWordStartMs": 150488.7,
+    "fullWordEndMs": 151673.0,
+    "confidence": "MEDIUM",
+    "signals": {
+     "clearFinalGap": true,
+     "plausibleDuration": true,
+     "trailingSilenceDetected": false,
+     "unambiguousLastGap": true
+    },
+    "sourceStartMs": 1465.7,
+    "sourceEndMs": 2650.0,
+    "source": "AUTO",
+    "usableForClipping": false
+   }
+  },
+  {
+   "lessonId": 10,
+   "itemId": 135,
+   "sourceAudio": [
+    "f10-58.mp3"
+   ],
+   "startMs": 152073.0,
+   "audioEndMs": 154713.5,
+   "segmentEndMs": 155113.5,
+   "page": 0,
+   "section": "custom",
+   "text": "إِشْ",
+   "fullWord": {
+    "fullWordStartMs": 153508.5,
+    "fullWordEndMs": 154713.5,
+    "confidence": "MEDIUM",
+    "signals": {
+     "clearFinalGap": true,
+     "plausibleDuration": true,
+     "trailingSilenceDetected": false,
+     "unambiguousLastGap": true
+    },
+    "sourceStartMs": 1435.5,
+    "sourceEndMs": 2640.5,
+    "source": "AUTO",
+    "usableForClipping": false
+   }
+  },
+  {
+   "lessonId": 10,
+   "itemId": 1023,
+   "sourceAudio": [
+    "f10-59.mp3"
+   ],
+   "startMs": 155113.5,
+   "audioEndMs": 156474.0,
+   "segmentEndMs": 156874.0,
+   "page": 0,
+   "section": "combined",
+   "text": "أَشْ إِشْ"
+  },
+  {
+   "lessonId": 10,
+   "itemId": 136,
+   "sourceAudio": [
+    "f10-60.mp3"
+   ],
+   "startMs": 156874.0,
+   "audioEndMs": 159604.0,
+   "segmentEndMs": 160004.0,
+   "page": 0,
+   "section": "custom",
+   "text": "أُشْ",
+   "fullWord": {
+    "fullWordStartMs": 158343.6,
+    "fullWordEndMs": 159604.0,
+    "confidence": "MEDIUM",
+    "signals": {
+     "clearFinalGap": false,
+     "plausibleDuration": true,
+     "trailingSilenceDetected": false,
+     "unambiguousLastGap": true
+    },
+    "sourceStartMs": 1469.6,
+    "sourceEndMs": 2730.0,
+    "source": "AUTO",
+    "usableForClipping": false
+   }
+  },
+  {
+   "lessonId": 10,
+   "itemId": 1024,
+   "sourceAudio": [
+    "f10-61.mp3"
+   ],
+   "startMs": 160004.0,
+   "audioEndMs": 162504.0,
+   "segmentEndMs": 162904.0,
+   "page": 0,
+   "section": "combined",
+   "text": "أَشْ إِشْ أُشْ"
+  },
+  {
+   "lessonId": 10,
+   "itemId": 137,
+   "sourceAudio": [
+    "f10-62.mp3"
+   ],
+   "startMs": 162904.0,
+   "audioEndMs": 165774.1,
+   "segmentEndMs": 166174.1,
+   "page": 0,
+   "section": "custom",
+   "text": "أَصْ",
+   "fullWord": {
+    "fullWordStartMs": 164929.5,
+    "fullWordEndMs": 165314.4,
+    "confidence": "MEDIUM",
+    "signals": {
+     "clearFinalGap": false,
+     "plausibleDuration": true,
+     "trailingSilenceDetected": true,
+     "unambiguousLastGap": false
+    },
+    "sourceStartMs": 2025.5,
+    "sourceEndMs": 2410.4,
+    "source": "AUTO",
+    "usableForClipping": false
+   }
+  },
+  {
+   "lessonId": 10,
+   "itemId": 138,
+   "sourceAudio": [
+    "f10-63.mp3"
+   ],
+   "startMs": 166174.1,
+   "audioEndMs": 169224.1,
+   "segmentEndMs": 169624.1,
+   "page": 0,
+   "section": "custom",
+   "text": "إِصْ",
+   "fullWord": {
+    "fullWordStartMs": 168410.3,
+    "fullWordEndMs": 168940.0,
+    "confidence": "MEDIUM",
+    "signals": {
+     "clearFinalGap": false,
+     "plausibleDuration": true,
+     "trailingSilenceDetected": true,
+     "unambiguousLastGap": true
+    },
+    "sourceStartMs": 2236.2,
+    "sourceEndMs": 2765.9,
+    "source": "AUTO",
+    "usableForClipping": false
+   }
+  },
+  {
+   "lessonId": 10,
+   "itemId": 1025,
+   "sourceAudio": [
+    "f10-64.mp3"
+   ],
+   "startMs": 169624.1,
+   "audioEndMs": 171174.1,
+   "segmentEndMs": 171574.1,
+   "page": 0,
+   "section": "combined",
+   "text": "أَصْ إِصْ"
+  },
+  {
+   "lessonId": 10,
+   "itemId": 139,
+   "sourceAudio": [
+    "f10-65.mp3"
+   ],
+   "startMs": 171574.1,
+   "audioEndMs": 174534.1,
+   "segmentEndMs": 174934.1,
+   "page": 0,
+   "section": "custom",
+   "text": "أُصْ",
+   "fullWord": {
+    "fullWordStartMs": 173746.8,
+    "fullWordEndMs": 174113.0,
+    "confidence": "MEDIUM",
+    "signals": {
+     "clearFinalGap": false,
+     "plausibleDuration": true,
+     "trailingSilenceDetected": true,
+     "unambiguousLastGap": false
+    },
+    "sourceStartMs": 2172.7,
+    "sourceEndMs": 2538.9,
+    "source": "AUTO",
+    "usableForClipping": false
+   }
+  },
+  {
+   "lessonId": 10,
+   "itemId": 1026,
+   "sourceAudio": [
+    "f10-66.mp3"
+   ],
+   "startMs": 174934.1,
+   "audioEndMs": 177524.1,
+   "segmentEndMs": 177924.1,
+   "page": 0,
+   "section": "combined",
+   "text": "أَصْ إِصْ أُصْ"
+  },
+  {
+   "lessonId": 10,
+   "itemId": 140,
+   "sourceAudio": [
+    "f10-67.mp3"
+   ],
+   "startMs": 177924.1,
+   "audioEndMs": 180904.2,
+   "segmentEndMs": 181304.2,
+   "page": 0,
+   "section": "custom",
+   "text": "أَضْ",
+   "fullWord": {
+    "fullWordStartMs": 179665.3,
+    "fullWordEndMs": 180904.2,
+    "confidence": "MEDIUM",
+    "signals": {
+     "clearFinalGap": true,
+     "plausibleDuration": true,
+     "trailingSilenceDetected": false,
+     "unambiguousLastGap": true
+    },
+    "sourceStartMs": 1741.2,
+    "sourceEndMs": 2980.1,
+    "source": "AUTO",
+    "usableForClipping": false
+   }
+  },
+  {
+   "lessonId": 10,
+   "itemId": 141,
+   "sourceAudio": [
+    "f10-68.mp3"
+   ],
+   "startMs": 181304.2,
+   "audioEndMs": 184284.3,
+   "segmentEndMs": 184684.3,
+   "page": 0,
+   "section": "custom",
+   "text": "إِضْ",
+   "fullWord": {
+    "fullWordStartMs": 183551.2,
+    "fullWordEndMs": 184284.3,
+    "confidence": "MEDIUM",
+    "signals": {
+     "clearFinalGap": false,
+     "plausibleDuration": true,
+     "trailingSilenceDetected": false,
+     "unambiguousLastGap": true
+    },
+    "sourceStartMs": 2247.0,
+    "sourceEndMs": 2980.1,
+    "source": "AUTO",
+    "usableForClipping": false
+   }
+  },
+  {
+   "lessonId": 10,
+   "itemId": 1027,
+   "sourceAudio": [
+    "f10-69.mp3"
+   ],
+   "startMs": 184684.3,
+   "audioEndMs": 186602.2,
+   "segmentEndMs": 187002.2,
+   "page": 0,
+   "section": "combined",
+   "text": "أَضْ إِضْ"
+  },
+  {
+   "lessonId": 10,
+   "itemId": 142,
+   "sourceAudio": [
+    "f10-70.mp3"
+   ],
+   "startMs": 187002.2,
+   "audioEndMs": 190162.2,
+   "segmentEndMs": 190562.2,
+   "page": 0,
+   "section": "custom",
+   "text": "أُضْ",
+   "fullWord": {
+    "fullWordStartMs": 189475.5,
+    "fullWordEndMs": 190162.2,
+    "confidence": "MEDIUM",
+    "signals": {
+     "clearFinalGap": true,
+     "plausibleDuration": true,
+     "trailingSilenceDetected": false,
+     "unambiguousLastGap": true
+    },
+    "sourceStartMs": 2473.3,
+    "sourceEndMs": 3160.0,
+    "source": "AUTO",
+    "usableForClipping": false
+   }
+  },
+  {
+   "lessonId": 10,
+   "itemId": 1028,
+   "sourceAudio": [
+    "f10-71.mp3"
+   ],
+   "startMs": 190562.2,
+   "audioEndMs": 192752.3,
+   "segmentEndMs": 193152.3,
+   "page": 0,
+   "section": "combined",
+   "text": "أَضْ إِضْ أُضْ"
+  },
+  {
+   "lessonId": 10,
+   "itemId": 143,
+   "sourceAudio": [
+    "f10-72.mp3"
+   ],
+   "startMs": 193152.3,
+   "audioEndMs": 195752.3,
+   "segmentEndMs": 196152.3,
+   "page": 0,
+   "section": "custom",
+   "text": "أَطْ",
+   "fullWord": {
+    "fullWordStartMs": 194670.2,
+    "fullWordEndMs": 195752.3,
+    "confidence": "MEDIUM",
+    "signals": {
+     "clearFinalGap": true,
+     "plausibleDuration": true,
+     "trailingSilenceDetected": false,
+     "unambiguousLastGap": true
+    },
+    "sourceStartMs": 1517.9,
+    "sourceEndMs": 2600.0,
+    "source": "AUTO",
+    "usableForClipping": false
+   }
+  },
+  {
+   "lessonId": 10,
+   "itemId": 144,
+   "sourceAudio": [
+    "f10-73.mp3"
+   ],
+   "startMs": 196152.3,
+   "audioEndMs": 198692.3,
+   "segmentEndMs": 199092.3,
+   "page": 0,
+   "section": "custom",
+   "text": "إِطْ",
+   "fullWord": {
+    "fullWordStartMs": 198150.6,
+    "fullWordEndMs": 198692.3,
+    "confidence": "MEDIUM",
+    "signals": {
+     "clearFinalGap": false,
+     "plausibleDuration": true,
+     "trailingSilenceDetected": false,
+     "unambiguousLastGap": true
+    },
+    "sourceStartMs": 1998.3,
+    "sourceEndMs": 2540.0,
+    "source": "AUTO",
+    "usableForClipping": false
+   }
+  },
+  {
+   "lessonId": 10,
+   "itemId": 1029,
+   "sourceAudio": [
+    "f10-74.mp3"
+   ],
+   "startMs": 199092.3,
+   "audioEndMs": 200192.3,
+   "segmentEndMs": 200592.3,
+   "page": 0,
+   "section": "combined",
+   "text": "أَطْ إِطْ"
+  },
+  {
+   "lessonId": 10,
+   "itemId": 145,
+   "sourceAudio": [
+    "f10-75.mp3"
+   ],
+   "startMs": 200592.3,
+   "audioEndMs": 203262.3,
+   "segmentEndMs": 203662.3,
+   "page": 0,
+   "section": "custom",
+   "text": "أُطْ",
+   "fullWord": {
+    "fullWordStartMs": 202709.8,
+    "fullWordEndMs": 203262.3,
+    "confidence": "MEDIUM",
+    "signals": {
+     "clearFinalGap": false,
+     "plausibleDuration": true,
+     "trailingSilenceDetected": false,
+     "unambiguousLastGap": true
+    },
+    "sourceStartMs": 2117.5,
+    "sourceEndMs": 2670.0,
+    "source": "AUTO",
+    "usableForClipping": false
+   }
+  },
+  {
+   "lessonId": 10,
+   "itemId": 1030,
+   "sourceAudio": [
+    "f10-76.mp3"
+   ],
+   "startMs": 203662.3,
+   "audioEndMs": 205493.0,
+   "segmentEndMs": 205893.0,
+   "page": 0,
+   "section": "combined",
+   "text": "أَطْ إِطْ أُطْ"
+  },
+  {
+   "lessonId": 10,
+   "itemId": 146,
+   "sourceAudio": [
+    "f10-77.mp3"
+   ],
+   "startMs": 205893.0,
+   "audioEndMs": 208813.0,
+   "segmentEndMs": 209213.0,
+   "page": 0,
+   "section": "custom",
+   "text": "أَظْ",
+   "fullWord": {
+    "fullWordStartMs": 207525.5,
+    "fullWordEndMs": 208813.0,
+    "confidence": "MEDIUM",
+    "signals": {
+     "clearFinalGap": true,
+     "plausibleDuration": true,
+     "trailingSilenceDetected": false,
+     "unambiguousLastGap": true
+    },
+    "sourceStartMs": 1632.5,
+    "sourceEndMs": 2920.0,
+    "source": "AUTO",
+    "usableForClipping": false
+   }
+  },
+  {
+   "lessonId": 10,
+   "itemId": 147,
+   "sourceAudio": [
+    "f10-78.mp3"
+   ],
+   "startMs": 209213.0,
+   "audioEndMs": 212253.0,
+   "segmentEndMs": 212653.0,
+   "page": 0,
+   "section": "custom",
+   "text": "إِظْ",
+   "fullWord": {
+    "fullWordStartMs": 211506.6,
+    "fullWordEndMs": 212253.0,
+    "confidence": "MEDIUM",
+    "signals": {
+     "clearFinalGap": false,
+     "plausibleDuration": true,
+     "trailingSilenceDetected": false,
+     "unambiguousLastGap": true
+    },
+    "sourceStartMs": 2293.6,
+    "sourceEndMs": 3040.0,
+    "source": "AUTO",
+    "usableForClipping": false
+   }
+  },
+  {
+   "lessonId": 10,
+   "itemId": 1031,
+   "sourceAudio": [
+    "f10-79.mp3"
+   ],
+   "startMs": 212653.0,
+   "audioEndMs": 214103.0,
+   "segmentEndMs": 214503.0,
+   "page": 0,
+   "section": "combined",
+   "text": "أَظْ إِظْ"
+  },
+  {
+   "lessonId": 10,
+   "itemId": 148,
+   "sourceAudio": [
+    "f10-80.mp3"
+   ],
+   "startMs": 214503.0,
+   "audioEndMs": 217243.0,
+   "segmentEndMs": 217643.0,
+   "page": 0,
+   "section": "custom",
+   "text": "أُظْ",
+   "fullWord": {
+    "fullWordStartMs": 216571.2,
+    "fullWordEndMs": 217243.0,
+    "confidence": "MEDIUM",
+    "signals": {
+     "clearFinalGap": false,
+     "plausibleDuration": true,
+     "trailingSilenceDetected": false,
+     "unambiguousLastGap": true
+    },
+    "sourceStartMs": 2068.2,
+    "sourceEndMs": 2740.0,
+    "source": "AUTO",
+    "usableForClipping": false
+   }
+  },
+  {
+   "lessonId": 10,
+   "itemId": 1032,
+   "sourceAudio": [
+    "f10-81.mp3"
+   ],
+   "startMs": 217643.0,
+   "audioEndMs": 220003.0,
+   "segmentEndMs": 220003.0,
+   "page": 0,
+   "section": "combined",
+   "text": "أَظْ إِظْ أُظْ"
+  }
+ ]
+}
