@@ -1,0 +1,28 @@
+{
+  "name": "القاعدة النورانية للأطفال",
+  "short_name": "النورانية",
+  "description": "تطبيق تفاعلي لتعليم القاعدة النورانية وأصوات الحروف العربية مع دعم الاستخدام دون اتصال.",
+  "lang": "ar",
+  "dir": "rtl",
+  "id": "./",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#FFFDF9",
+  "theme_color": "#FF8E53",
+  "icons": [
+    {
+      "src": "assets/images/lesson_list_icon.webp",
+      "sizes": "any",
+      "type": "image/webp",
+      "purpose": "any"
+    },
+    {
+      "src": "assets/images/icon_option_1.webp",
+      "sizes": "any",
+      "type": "image/webp",
+      "purpose": "maskable"
+    }
+  ]
+}
