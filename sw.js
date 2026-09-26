@@ -1,7 +1,7 @@
-// release 1.0.0-alpha.4 mobile-phone-layout
+// release 1.0.0-alpha.5 android-audio-and-install-fix
 importScripts('./version.js');
 
-const VERSION=self.APP_VERSION||'1.0.0-alpha.4';
+const VERSION=self.APP_VERSION||'1.0.0-alpha.5';
 const SHELL_CACHE='nooraniyya-shell-v'+VERSION;
 const AUDIO_CACHE='nooraniyya-audio-v1';
 const MEDIA_CACHE='nooraniyya-media-v1';
@@ -16,7 +16,10 @@ const SHELL_ASSETS=[
   './lesson_explanations_ar.json',
   './assets/all_lessons_data.json',
   './assets/images/lesson_list_icon.webp',
-  './assets/images/icon_option_1.webp'
+  './assets/images/icon_option_1.webp',
+  './icons/icon-192.png',
+  './icons/icon-512.png',
+  './icons/icon-512-maskable.png'
 ];
 
 async function broadcastUpdate(payload){
@@ -150,8 +153,66 @@ async function cacheFirst(request,cacheName){
   if(cached)return cached;
 
   const response=await fetch(request);
-  if(response.ok)await cache.put(request,response.clone());
+  if(response.ok&&response.status===200)await cache.put(request,response.clone());
   return response;
+}
+
+// Android/Chromium frequently requests MP3 data with a Range header.
+// CacheStorage cannot safely store 206 Partial Content as the canonical asset,
+// so cache the complete MP3 once and synthesize 206 responses from it.
+async function audioWithRangeSupport(request){
+  const cache=await caches.open(AUDIO_CACHE);
+  const url=request.url;
+  let full=await cache.match(url);
+
+  if(!full){
+    const fullRequest=new Request(url,{
+      method:'GET',
+      headers:{'Accept':'audio/mpeg,audio/*;q=0.9,*/*;q=0.8'},
+      credentials:'same-origin',
+      cache:'no-cache'
+    });
+    const network=await fetch(fullRequest);
+    if(!network.ok)return network;
+    if(network.status===200){
+      await cache.put(url,network.clone());
+      full=network;
+    }else{
+      return network;
+    }
+  }
+
+  const range=request.headers.get('range');
+  if(!range)return full;
+
+  const match=/bytes=(\d*)-(\d*)/.exec(range);
+  if(!match)return full;
+
+  const buffer=await full.clone().arrayBuffer();
+  const size=buffer.byteLength;
+  let start=match[1]?Number(match[1]):0;
+  let end=match[2]?Number(match[2]):size-1;
+
+  if(!match[1]&&match[2]){
+    const suffix=Number(match[2]);
+    start=Math.max(0,size-suffix);
+    end=size-1;
+  }
+
+  start=Math.max(0,Math.min(start,size-1));
+  end=Math.max(start,Math.min(end,size-1));
+
+  const headers=new Headers(full.headers);
+  headers.set('Accept-Ranges','bytes');
+  headers.set('Content-Range',`bytes ${start}-${end}/${size}`);
+  headers.set('Content-Length',String(end-start+1));
+  if(!headers.get('Content-Type'))headers.set('Content-Type','audio/mpeg');
+
+  return new Response(buffer.slice(start,end+1),{
+    status:206,
+    statusText:'Partial Content',
+    headers
+  });
 }
 
 self.addEventListener('fetch',event=>{
@@ -185,8 +246,10 @@ self.addEventListener('fetch',event=>{
 
   if(url.pathname.includes('/assets/audio/')&&url.pathname.endsWith('.mp3')){
     event.respondWith(
-      cacheFirst(event.request,AUDIO_CACHE)
-        .catch(()=>Response.error())
+      audioWithRangeSupport(event.request)
+        .catch(async()=>{
+          try{return await fetch(event.request)}catch{return Response.error()}
+        })
     );
     return;
   }
