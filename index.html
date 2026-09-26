@@ -12,7 +12,7 @@
   <meta name="format-detection" content="telephone=no">
   <link rel="manifest" href="manifest.webmanifest">
   <link rel="icon" type="image/webp" href="assets/images/lesson_list_icon.webp">
-  <link rel="apple-touch-icon" href="assets/images/lesson_list_icon.webp">
+  <link rel="apple-touch-icon" href="icons/icon-192.png">
   <script src="version.js"></script>
   
   <style>
@@ -1987,7 +1987,7 @@
         <div class="logo-text">
           <h1>القاعدة النورانية للأطفال 🎈</h1>
           <p>أصوات الحروف العربية ونطقها الصحيح · يدعم العمل دون إنترنت</p>
-          <span class="app-version-badge" id="app-version-badge">v1.0.0-alpha.4</span>
+          <span class="app-version-badge" id="app-version-badge">v1.0.0-alpha.5</span>
         </div>
       </div>
 
@@ -2077,8 +2077,7 @@
           <b id="offline-progress-percent">٠٪</b>
           <div class="offline-progress-meta">
             <span id="offline-progress-detail">الاستعداد للتحميل…</span>
-            <span id="offline-progress-count">٠ / ٠</span>
-          </div>
+</div>
         </div>
       </div>
 
@@ -2257,7 +2256,7 @@
     <footer class="app-footer">
       <div class="footer-badge">⚡ يعمل دون اتصال بعد تحميل محتوى الدرس</div>
       <p>وفّقكم الله يا براعم الإيمان 🌸 تعلّم نطق القرآن الكريم والقاعدة النورانية</p>
-      <button type="button" class="footer-version-button" id="footer-version-button">الإصدار <b id="footer-app-version">v1.0.0-alpha.4</b> · فحص التحديث</button>
+      <button type="button" class="footer-version-button" id="footer-version-button">الإصدار <b id="footer-app-version">v1.0.0-alpha.5</b> · فحص التحديث</button>
     </footer>
   </div>
 
@@ -2433,7 +2432,14 @@
       let currentFilterMode = 'all'; // 'all' | 'letters' | 'combos'
 
       // Playback State
+      const narrationAudio = document.createElement('audio');
+      narrationAudio.preload = 'auto';
+      narrationAudio.setAttribute('playsinline', '');
+      narrationAudio.setAttribute('webkit-playsinline', '');
+      narrationAudio.style.display = 'none';
+      document.body.appendChild(narrationAudio);
       let currentAudio = null;
+      let audioPlayToken = 0;
       let isPlayingAll = false;
       let isPaused = false;
       let playAllIndex = 0;
@@ -2558,17 +2564,19 @@
       }
 
       function stopAudio() {
-        if (currentAudio) {
-          currentAudio.pause();
-          currentAudio.onended = null;
-          currentAudio.onerror = null;
-          currentAudio = null;
-        }
+        audioPlayToken++;
+        narrationAudio.pause();
+        narrationAudio.onplay = null;
+        narrationAudio.onended = null;
+        narrationAudio.onerror = null;
+        try { narrationAudio.currentTime = 0; } catch {}
+        currentAudio = null;
         setVisualizerActive(false);
         clearAllHighlights();
       }
 
-      // Plays a sequence of audio files (e.g. ['f1-02.mp3', 'f1-03.mp3'])
+      // Persistent media element is more reliable on Android/PWA than creating
+      // a brand-new Audio object for every short clip.
       function playAudioFiles(audioFiles, onComplete, onStart) {
         if (!audioFiles || audioFiles.length === 0) {
           if (onComplete) onComplete();
@@ -2576,40 +2584,60 @@
         }
 
         stopAudio();
-        getAudioContext();
-
+        const token = audioPlayToken;
         let index = 0;
+
         function playNext() {
+          if (token !== audioPlayToken) return;
+
           if (index >= audioFiles.length) {
             setVisualizerActive(false);
+            currentAudio = null;
             if (onComplete) onComplete();
             return;
           }
 
+          const sequenceIndex = index;
           const file = audioFiles[index++];
-          const fullPath = 'assets/audio/' + file;
-          currentAudio = new Audio(fullPath);
-          currentAudio.playbackRate = currentSpeed;
+          const fullPath = new URL('assets/audio/' + file, window.location.href).href;
 
-          currentAudio.onplay = () => {
+          currentAudio = narrationAudio;
+          narrationAudio.pause();
+          narrationAudio.onplay = null;
+          narrationAudio.onended = null;
+          narrationAudio.onerror = null;
+          narrationAudio.src = fullPath;
+          narrationAudio.playbackRate = currentSpeed;
+          narrationAudio.defaultPlaybackRate = currentSpeed;
+          narrationAudio.load();
+
+          narrationAudio.onplay = () => {
+            if (token !== audioPlayToken) return;
             setVisualizerActive(true);
-            if (onStart && index === 1) onStart();
+            if (onStart && sequenceIndex === 0) onStart();
           };
 
-          currentAudio.onended = () => {
+          narrationAudio.onended = () => {
+            if (token !== audioPlayToken) return;
             playNext();
           };
 
-          currentAudio.onerror = (e) => {
-            console.warn("Could not play audio:", fullPath, e);
+          narrationAudio.onerror = (e) => {
+            if (token !== audioPlayToken) return;
+            console.warn('Could not play audio:', fullPath, e, narrationAudio.error);
             playNext();
           };
 
-          currentAudio.play().catch(err => {
-            console.warn("Autoplay / audio blocked:", err);
-            setVisualizerActive(false);
-            if (onComplete) onComplete();
-          });
+          const playPromise = narrationAudio.play();
+          if (playPromise && typeof playPromise.catch === 'function') {
+            playPromise.catch(err => {
+              if (token !== audioPlayToken) return;
+              console.warn('Audio playback blocked or failed:', fullPath, err);
+              setVisualizerActive(false);
+              currentAudio = null;
+              if (onComplete) onComplete();
+            });
+          }
         }
 
         playNext();
@@ -3456,7 +3484,6 @@
       const offlineProgressBar=document.getElementById('offline-progress-bar');
       const offlineProgressPercent=document.getElementById('offline-progress-percent');
       const offlineProgressDetail=document.getElementById('offline-progress-detail');
-      const offlineProgressCount=document.getElementById('offline-progress-count');
 
       function uniqueStrings(values){
         return [...new Set(values.filter(v=>typeof v==='string'&&v.trim()).map(v=>v.trim()))];
@@ -3567,7 +3594,7 @@
           state:'none',
           icon:'🔎',
           title:'فحص ملفات الدرس…',
-          text:audioCount.toLocaleString('ar-SA')+' ملفًا صوتيًا في هذا الدرس.'
+          text:'يتم التحقق من جاهزية محتوى الدرس للاستخدام دون إنترنت.'
         });
 
         const status=await countCachedAssets(assets);
@@ -3578,7 +3605,7 @@
             state:'complete',
             icon:'✅',
             title:'الدرس محفوظ للاستخدام دون إنترنت',
-            text:audioCount.toLocaleString('ar-SA')+' ملفًا صوتيًا + صور الدرس محفوظة على هذا الجهاز.'
+            text:'أصوات الدرس وصوره محفوظة على هذا الجهاز.'
           });
           downloadLessonBtn.textContent='✅ الدرس محمّل';
         }else if(status.cached>0){
@@ -3586,7 +3613,7 @@
             state:'partial',
             icon:'🟡',
             title:'الدرس محفوظ جزئيًا',
-            text:status.cached.toLocaleString('ar-SA')+' من '+status.total.toLocaleString('ar-SA')+' ملفًا متاح دون إنترنت.'
+            text:'بعض محتوى الدرس محفوظ. يمكنك إكمال التحميل الآن.'
           });
           downloadLessonBtn.textContent='⬇️ إكمال تحميل الدرس';
         }else{
@@ -3594,7 +3621,7 @@
             state:'none',
             icon:'☁️',
             title:'الدرس غير محمّل بعد',
-            text:audioCount.toLocaleString('ar-SA')+' ملفًا صوتيًا. حمّله مرة واحدة ليعمل دون إنترنت.'
+            text:'حمّل الدرس مرة واحدة ليعمل لاحقًا دون إنترنت.'
           });
           downloadLessonBtn.textContent='⬇️ تحميل هذا الدرس';
         }
@@ -3603,7 +3630,7 @@
         downloadAllBtn.disabled=false;
       }
 
-      function setOfflineDownloadUI({active=false,progress=0,detail='',completed=0,total=0}={}){
+      function setOfflineDownloadUI({active=false,progress=0,detail=''}={}){
         offlineDownloadBusy=active;
         if(downloadLessonBtn)downloadLessonBtn.disabled=active;
         if(downloadAllBtn)downloadAllBtn.disabled=active;
@@ -3613,9 +3640,7 @@
         const pct=Math.max(0,Math.min(100,Math.round(Number(progress)||0)));
         if(offlineProgressBar)offlineProgressBar.style.width=pct+'%';
         if(offlineProgressPercent)offlineProgressPercent.textContent=pct.toLocaleString('ar-SA')+'٪';
-        if(offlineProgressDetail)offlineProgressDetail.textContent=detail||'جارٍ تنزيل الملفات…';
-        if(offlineProgressCount)offlineProgressCount.textContent=
-          Number(completed||0).toLocaleString('ar-SA')+' / '+Number(total||0).toLocaleString('ar-SA');
+        if(offlineProgressDetail)offlineProgressDetail.textContent=detail||'جارٍ التنزيل…';
       }
 
       async function cacheOfflineAsset(asset,signal){
@@ -3657,9 +3682,7 @@
         setOfflineDownloadUI({
           active:true,
           progress:0,
-          detail:'بدء تنزيل الملفات…',
-          completed:0,
-          total
+          detail:'بدء تنزيل الملفات…'
         });
 
         async function worker(){
@@ -3681,9 +3704,7 @@
             setOfflineDownloadUI({
               active:true,
               progress:(completed/Math.max(1,total))*100,
-              detail:asset.kind==='audio'?'تنزيل الأصوات…':'تنزيل صور الدروس…',
-              completed,
-              total
+              detail:asset.kind==='audio'?'تنزيل الأصوات…':'تنزيل صور الدروس…'
             });
           }
         }
@@ -3704,7 +3725,7 @@
               state:'partial',
               icon:'🟡',
               title:'اكتمل التحميل مع بعض الملفات غير المتاحة',
-              text:'تمت معالجة '+completed.toLocaleString('ar-SA')+' ملفًا، وتعذر '+failed.toLocaleString('ar-SA')+'.'
+              text:'تعذر تنزيل جزء من المحتوى. يمكنك إعادة المحاولة لإكماله.'
             });
           }else{
             setOfflineStatus({
@@ -3754,7 +3775,7 @@
 
         await downloadOfflineAssets(
           assets,
-          'جميع الدروس ('+audioNames.length.toLocaleString('ar-SA')+' ملفًا صوتيًا)'
+          'جميع الدروس'
         );
       }
 
@@ -3765,7 +3786,7 @@
       /* ==========================================================================
          K. PWA UPDATE MANAGER — same update pattern used by Student Roster
          ========================================================================== */
-      const APP_VERSION = globalThis.APP_VERSION || '1.0.0-alpha.4';
+      const APP_VERSION = globalThis.APP_VERSION || '1.0.0-alpha.5';
       let swRegistration = null;
       let updateReloading = false;
       let updateBannerTimer = null;
