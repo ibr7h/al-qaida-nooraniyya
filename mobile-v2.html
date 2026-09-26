@@ -4368,6 +4368,19 @@
       // Startup
       loadLessonsData();
       // Experimental visual build: do not register/update the production PWA from here.
+      // If an already-installed production service worker controls this URL, its
+      // navigation strategy may temporarily cache this preview as index.html.
+      // Restore the canonical production index immediately so offline rollback
+      // remains guaranteed.
+      if ('caches' in window) {
+        fetch('./index.html', { cache: 'reload' })
+          .then(response => {
+            if (!response.ok) return;
+            return caches.open('nooraniyya-shell-v1.0.0-alpha.5')
+              .then(cache => cache.put(new URL('./index.html', location.href).href, response.clone()));
+          })
+          .catch(() => {});
+      }
 
     })();
   </script>
