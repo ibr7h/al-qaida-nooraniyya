@@ -1,7 +1,7 @@
 // Nooraniyya PWA — shell updates are independent from downloaded lesson audio.
 importScripts('./version.js');
 
-const VERSION=self.APP_VERSION||'1.0.0-alpha.2';
+const VERSION=self.APP_VERSION||'1.0.0-alpha.3';
 const SHELL_CACHE='nooraniyya-shell-v'+VERSION;
 const AUDIO_CACHE='nooraniyya-audio-v1';
 const MEDIA_CACHE='nooraniyya-media-v1';
