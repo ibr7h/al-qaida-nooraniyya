@@ -2,7 +2,7 @@
 <html lang="ar" dir="rtl">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=2.0, user-scalable=yes">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
   <title>القاعدة النورانية للأطفال 🎈 | تعلّم أصوات الحروف العربية</title>
   <meta name="description" content="تطبيق تفاعلي مبهج لتعليم الأطفال القاعدة النورانية وأصوات الحروف العربية بدون إنترنت">
   <meta name="theme-color" content="#FF8E53">
@@ -1357,6 +1357,587 @@
       .update-splash-card{padding:18px}
       .update-progress-meta{font-size:.72rem}
     }
+
+    /* ==========================================================================
+       11. MOBILE-FIRST PHONE SHELL
+       Dedicated phone layout: fixed to viewport width, vertical scroll only.
+       ========================================================================== */
+    html, body {
+      width: 100%;
+      max-width: 100%;
+      min-width: 0;
+      overflow-x: clip;
+      overscroll-behavior-x: none;
+    }
+
+    body {
+      -webkit-text-size-adjust: 100%;
+      text-size-adjust: 100%;
+    }
+
+    button, select, .letter-card, .page-interactive-box {
+      touch-action: manipulation;
+    }
+
+    @media (max-width: 767px) {
+      :root {
+        --radius-md: 16px;
+        --radius-lg: 20px;
+      }
+
+      html, body {
+        width: 100vw;
+        max-width: 100vw;
+        min-width: 0;
+        overflow-x: hidden;
+      }
+
+      body {
+        min-height: 100dvh;
+        touch-action: pan-y;
+        background:
+          radial-gradient(circle at 85% 5%, #FFF8E8 0, transparent 32%),
+          linear-gradient(180deg, #FFFDF8 0%, #F4FBF7 56%, #F3FAFF 100%);
+      }
+
+      .bg-doodles {
+        opacity: .18;
+      }
+
+      .app-wrapper {
+        width: 100%;
+        max-width: 100%;
+        min-width: 0;
+        margin: 0;
+        padding:
+          max(8px, env(safe-area-inset-top))
+          max(8px, env(safe-area-inset-right))
+          max(28px, env(safe-area-inset-bottom))
+          max(8px, env(safe-area-inset-left));
+        gap: 10px;
+        overflow-x: hidden;
+      }
+
+      header.main-header,
+      .control-board,
+      .quiz-panel,
+      .lesson-hero-banner,
+      .cards-grid-view,
+      .book-page-view,
+      footer.app-footer,
+      .update-banner {
+        width: 100%;
+        max-width: 100%;
+        min-width: 0;
+        margin-inline: 0;
+      }
+
+      /* Compact identity block */
+      header.main-header {
+        display: block;
+        padding: 10px;
+        border-width: 2px;
+        border-radius: 20px;
+      }
+
+      .logo-area {
+        width: 100%;
+        min-width: 0;
+        gap: 9px;
+        align-items: center;
+      }
+
+      .mascot-icon {
+        width: 46px;
+        height: 46px;
+        min-width: 46px;
+        border-width: 2px;
+      }
+
+      .logo-text {
+        flex: 1;
+        min-width: 0;
+      }
+
+      .logo-text h1 {
+        font-size: 1.05rem;
+        line-height: 1.35;
+        white-space: normal;
+      }
+
+      .logo-text p {
+        margin-top: 2px;
+        font-size: .73rem;
+        line-height: 1.45;
+        white-space: normal;
+      }
+
+      .app-version-badge {
+        margin-top: 3px;
+        padding: 1px 7px;
+        font-size: .62rem;
+      }
+
+      /* Four primary phone actions in a stable 2×2 grid */
+      .header-actions {
+        width: 100%;
+        min-width: 0;
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 6px;
+        margin-top: 9px;
+      }
+
+      .header-actions > * {
+        width: 100%;
+        min-width: 0;
+        max-width: 100%;
+      }
+
+      .header-actions .btn,
+      .header-actions .star-counter {
+        min-height: 42px;
+        padding: 7px 8px;
+        border-radius: 14px;
+        font-size: .78rem;
+        line-height: 1.2;
+        white-space: nowrap;
+      }
+
+      .header-actions .star-counter {
+        justify-content: center;
+        gap: 5px;
+      }
+
+      /* Fullscreen has little value in installed iPhone PWA and wastes a cell. */
+      header.main-header .btn-fs {
+        display: none !important;
+      }
+
+      /* Lesson picker becomes the first full-width row. */
+      .control-board {
+        padding: 10px;
+        border-radius: 20px;
+        gap: 10px;
+      }
+
+      .lesson-nav-row {
+        display: grid;
+        grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+        gap: 7px;
+        width: 100%;
+        min-width: 0;
+      }
+
+      .lesson-picker-container {
+        grid-column: 1 / -1;
+        grid-row: 1;
+        width: 100%;
+        min-width: 0;
+        display: grid;
+        grid-template-columns: auto minmax(0, 1fr);
+        gap: 6px;
+      }
+
+      .lesson-picker-container label {
+        font-size: .78rem !important;
+        white-space: nowrap;
+      }
+
+      .lesson-select {
+        width: 100%;
+        max-width: 100%;
+        min-width: 0;
+        height: 46px;
+        padding: 7px 10px;
+        font-size: .89rem;
+        border-radius: 14px;
+        text-overflow: ellipsis;
+      }
+
+      .nav-arrow-btn {
+        width: 100%;
+        min-width: 0;
+        min-height: 42px;
+        padding: 7px 10px;
+        justify-content: center;
+        font-size: .86rem;
+        border-radius: 14px;
+      }
+
+      /* Offline panel: status first, download controls second. */
+      .offline-panel {
+        padding: 10px;
+        gap: 8px;
+        border-radius: 16px;
+      }
+
+      .offline-summary {
+        width: 100%;
+        min-width: 0;
+        gap: 8px;
+      }
+
+      .offline-summary-icon {
+        width: 38px;
+        height: 38px;
+        min-width: 38px;
+        border-radius: 12px;
+        font-size: 1rem;
+      }
+
+      .offline-summary-copy {
+        min-width: 0;
+      }
+
+      .offline-summary-copy b {
+        font-size: .8rem;
+      }
+
+      .offline-summary-copy small {
+        font-size: .69rem;
+        line-height: 1.45;
+      }
+
+      .offline-actions {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0,1fr));
+        gap: 6px;
+      }
+
+      .offline-btn {
+        width: 100%;
+        min-width: 0;
+        min-height: 40px;
+        padding: 7px 7px;
+        font-size: .71rem;
+        justify-content: center;
+      }
+
+      .offline-btn.cancel {
+        grid-column: 1 / -1;
+      }
+
+      .offline-progress-meta {
+        font-size: .67rem;
+      }
+
+      /* Playback controls are stacked, never allowed to create page width. */
+      .playback-controls-row {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 8px;
+        padding-top: 9px;
+        min-width: 0;
+      }
+
+      .play-buttons-group {
+        width: 100%;
+        min-width: 0;
+        display: grid;
+        grid-template-columns: minmax(0, 1fr) auto auto;
+        gap: 6px;
+        align-items: center;
+      }
+
+      .btn-play-all {
+        width: 100%;
+        min-width: 0;
+        min-height: 42px;
+        padding: 8px 10px;
+        font-size: .86rem;
+      }
+
+      .btn-pause,
+      .btn-stop {
+        min-height: 42px;
+        padding: 8px 10px;
+        font-size: .76rem;
+      }
+
+      .audio-visualizer {
+        display: none;
+      }
+
+      .playback-settings {
+        width: 100%;
+        min-width: 0;
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0,1fr));
+        gap: 6px;
+      }
+
+      .setting-pill {
+        width: 100%;
+        min-width: 0;
+        justify-content: space-between;
+        padding: 6px 8px;
+        border-radius: 14px;
+        font-size: .7rem;
+        white-space: nowrap;
+      }
+
+      .setting-pill select {
+        min-width: 0;
+        max-width: 58%;
+        font-size: .7rem;
+        text-overflow: ellipsis;
+      }
+
+      /* Quiz and lesson title */
+      .quiz-panel {
+        padding: 10px;
+        border-radius: 18px;
+      }
+
+      .quiz-title {
+        font-size: .86rem;
+      }
+
+      .quiz-prompt {
+        font-size: .76rem;
+      }
+
+      .quiz-listen-btn {
+        min-height: 40px;
+        font-size: .76rem;
+      }
+
+      .lesson-hero-banner {
+        padding: 11px 8px;
+        border-width: 2px;
+        gap: 7px;
+        border-radius: 18px;
+      }
+
+      .basmala-button {
+        width: 100%;
+        max-width: 100%;
+        justify-content: center;
+        padding: 7px 8px;
+        font-size: clamp(1.05rem, 5vw, 1.35rem);
+        border-radius: 14px;
+      }
+
+      .lesson-title-display {
+        width: 100%;
+        justify-content: center;
+        padding: 4px 6px;
+        font-size: .95rem;
+        text-align: center;
+      }
+
+      .lesson-description-text {
+        font-size: .9rem;
+        text-align: center;
+      }
+
+      .lesson-filter-tabs {
+        width: 100%;
+        display: grid !important;
+        grid-template-columns: repeat(3, minmax(0,1fr));
+        gap: 5px;
+      }
+
+      .lesson-filter-tabs[style*="display: none"] {
+        display: none !important;
+      }
+
+      .filter-tab {
+        min-width: 0;
+        padding: 7px 4px;
+        font-size: .67rem;
+        line-height: 1.3;
+      }
+
+      /* Card mode: phone-native two-column learning grid. */
+      .cards-grid-view {
+        grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+        gap: 9px !important;
+      }
+
+      .letter-card {
+        width: 100%;
+        min-width: 0;
+        min-height: 142px;
+        padding: 13px 6px 8px;
+        border-width: 2px;
+        border-top-width: 5px;
+        border-radius: 18px;
+      }
+
+      .letter-card:hover {
+        transform: none;
+      }
+
+      .letter-glyph {
+        font-size: clamp(2.35rem, 13vw, 3.4rem);
+        padding-inline: 0;
+      }
+
+      .letter-name-tag {
+        max-width: 100%;
+        font-size: .7rem;
+        padding-inline: 6px;
+        text-align: center;
+      }
+
+      .card-footer-info {
+        width: 100%;
+        font-size: .68rem;
+      }
+
+      .card-action-btn {
+        width: 30px;
+        height: 30px;
+      }
+
+      /* Book mode fills the phone width; no desktop card inside a card. */
+      .book-page-view {
+        padding: 7px;
+        gap: 8px;
+        border-width: 2px;
+        border-radius: 18px;
+        overflow: hidden;
+      }
+
+      .book-page-controls {
+        width: 100%;
+        justify-content: space-between;
+        gap: 5px;
+        font-size: .78rem;
+      }
+
+      .book-page-controls .btn {
+        min-height: 38px;
+        padding: 6px 8px;
+        font-size: .7rem;
+      }
+
+      .book-page-container {
+        width: 100%;
+        max-width: 100%;
+        min-width: 0;
+        border-width: 2px;
+        border-radius: 13px;
+        box-shadow: 0 6px 18px rgba(15,23,42,.12);
+      }
+
+      .book-page-image {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+      }
+
+      .book-overlays-layer {
+        width: 100%;
+        max-width: 100%;
+      }
+
+      /* Modals respect the physical phone viewport. */
+      .spotlight-modal,
+      .explanation-modal {
+        padding:
+          max(8px, env(safe-area-inset-top))
+          max(8px, env(safe-area-inset-right))
+          max(8px, env(safe-area-inset-bottom))
+          max(8px, env(safe-area-inset-left));
+      }
+
+      .spotlight-card,
+      .explanation-container {
+        width: 100%;
+        max-width: 100%;
+        min-width: 0;
+        border-radius: 22px;
+      }
+
+      .spotlight-card {
+        padding: 24px 14px 16px;
+      }
+
+      .spotlight-letter {
+        font-size: clamp(4.6rem, 24vw, 7rem);
+      }
+
+      .spotlight-nav {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0,1fr));
+        gap: 6px;
+      }
+
+      .spotlight-nav .btn {
+        width: 100%;
+        min-width: 0;
+        padding: 8px 6px;
+        font-size: .72rem;
+      }
+
+      .explanation-container {
+        max-height: calc(100dvh - 16px);
+      }
+
+      .explanation-header {
+        padding: 12px;
+      }
+
+      .explanation-body {
+        padding: 10px;
+      }
+
+      footer.app-footer {
+        margin-top: 6px;
+        padding: 10px 4px 4px;
+        font-size: .74rem;
+      }
+
+      .footer-badge {
+        max-width: 100%;
+        text-align: center;
+        justify-content: center;
+        white-space: normal;
+        font-size: .7rem;
+      }
+
+      .update-banner {
+        top: max(6px, env(safe-area-inset-top));
+        padding: 8px 9px;
+        border-radius: 14px;
+      }
+
+      .update-banner-copy {
+        min-width: 0;
+      }
+
+      .update-banner-copy b {
+        font-size: .78rem;
+      }
+
+      .update-banner-copy span {
+        font-size: .68rem;
+      }
+
+      .update-banner button {
+        padding: 7px 8px;
+        font-size: .7rem;
+      }
+    }
+
+    /* Large phones / compact tablets: keep phone proportions but allow 3 cards. */
+    @media (min-width: 520px) and (max-width: 767px) {
+      .app-wrapper {
+        padding-inline:
+          max(12px, env(safe-area-inset-right))
+          max(12px, env(safe-area-inset-left));
+      }
+
+      .cards-grid-view {
+        grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
+      }
+    }
+
   </style>
 </head>
 <body>
@@ -1406,7 +1987,7 @@
         <div class="logo-text">
           <h1>القاعدة النورانية للأطفال 🎈</h1>
           <p>أصوات الحروف العربية ونطقها الصحيح · يدعم العمل دون إنترنت</p>
-          <span class="app-version-badge" id="app-version-badge">v1.0.0-alpha.3</span>
+          <span class="app-version-badge" id="app-version-badge">v1.0.0-alpha.4</span>
         </div>
       </div>
 
@@ -1676,7 +2257,7 @@
     <footer class="app-footer">
       <div class="footer-badge">⚡ يعمل دون اتصال بعد تحميل محتوى الدرس</div>
       <p>وفّقكم الله يا براعم الإيمان 🌸 تعلّم نطق القرآن الكريم والقاعدة النورانية</p>
-      <button type="button" class="footer-version-button" id="footer-version-button">الإصدار <b id="footer-app-version">v1.0.0-alpha.3</b> · فحص التحديث</button>
+      <button type="button" class="footer-version-button" id="footer-version-button">الإصدار <b id="footer-app-version">v1.0.0-alpha.4</b> · فحص التحديث</button>
     </footer>
   </div>
 
@@ -3184,7 +3765,7 @@
       /* ==========================================================================
          K. PWA UPDATE MANAGER — same update pattern used by Student Roster
          ========================================================================== */
-      const APP_VERSION = globalThis.APP_VERSION || '1.0.0-alpha.3';
+      const APP_VERSION = globalThis.APP_VERSION || '1.0.0-alpha.4';
       let swRegistration = null;
       let updateReloading = false;
       let updateBannerTimer = null;
