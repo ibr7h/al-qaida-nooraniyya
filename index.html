@@ -2860,6 +2860,327 @@
       });
 
 
+
+      /* ==========================================================================
+         J2. OFFLINE LESSON DOWNLOAD LOGIC
+         ========================================================================== */
+      const offlinePanel=document.getElementById('offline-panel');
+      const offlineStatusIcon=document.getElementById('offline-status-icon');
+      const offlineStatusTitle=document.getElementById('offline-status-title');
+      const offlineStatusText=document.getElementById('offline-status-text');
+      const downloadLessonBtn=document.getElementById('download-lesson-btn');
+      const downloadAllBtn=document.getElementById('download-all-btn');
+      const cancelDownloadBtn=document.getElementById('cancel-download-btn');
+      const offlineProgress=document.getElementById('offline-progress');
+      const offlineProgressBar=document.getElementById('offline-progress-bar');
+      const offlineProgressPercent=document.getElementById('offline-progress-percent');
+      const offlineProgressDetail=document.getElementById('offline-progress-detail');
+      const offlineProgressCount=document.getElementById('offline-progress-count');
+
+      function uniqueStrings(values){
+        return [...new Set(values.filter(v=>typeof v==='string'&&v.trim()).map(v=>v.trim()))];
+      }
+
+      function actualAudioSet(){
+        return audioManifest.length?new Set(audioManifest):null;
+      }
+
+      function lessonAudioFiles(lesson){
+        const valid=actualAudioSet();
+        const names=uniqueStrings(
+          (lesson?.items||[]).flatMap(item=>Array.isArray(item.a)?item.a:[])
+        );
+        return valid?names.filter(name=>valid.has(name)):names;
+      }
+
+      function lessonImageFiles(lesson){
+        return uniqueStrings((lesson?.images||[]).map(name=>'assets/images/'+name));
+      }
+
+      function lessonOfflineAssets(lesson){
+        return [
+          ...lessonAudioFiles(lesson).map(name=>({
+            path:'assets/audio/'+name,
+            cacheName:OFFLINE_AUDIO_CACHE,
+            kind:'audio'
+          })),
+          ...lessonImageFiles(lesson).map(path=>({
+            path,
+            cacheName:OFFLINE_MEDIA_CACHE,
+            kind:'image'
+          }))
+        ];
+      }
+
+      async function ensureAudioMetadata(){
+        if(!audioManifest.length){
+          try{
+            const response=await fetch('audio_manifest.json',{cache:'no-store'});
+            if(response.ok){
+              const data=await response.json();
+              if(Array.isArray(data))audioManifest=data;
+            }
+          }catch{}
+        }
+        if(!Object.keys(audioDurations).length){
+          try{
+            const response=await fetch('audio_durations.json',{cache:'no-store'});
+            if(response.ok){
+              const data=await response.json();
+              if(data&&typeof data==='object')audioDurations=data;
+            }
+          }catch{}
+        }
+      }
+
+      async function countCachedAssets(assets){
+        if(!('caches'in window))return {cached:0,total:assets.length};
+        const cacheMap=new Map();
+        let cached=0;
+
+        for(const asset of assets){
+          if(!cacheMap.has(asset.cacheName)){
+            cacheMap.set(asset.cacheName,await caches.open(asset.cacheName));
+          }
+          const cache=cacheMap.get(asset.cacheName);
+          const url=new URL(asset.path,location.href).href;
+          if(await cache.match(url))cached++;
+        }
+        return {cached,total:assets.length};
+      }
+
+      function setOfflineStatus({state='none',title='',text='',icon='☁️'}={}){
+        if(!offlinePanel)return;
+        offlinePanel.classList.remove('offline-status-complete','offline-status-partial');
+        if(state==='complete')offlinePanel.classList.add('offline-status-complete');
+        if(state==='partial')offlinePanel.classList.add('offline-status-partial');
+        if(offlineStatusIcon)offlineStatusIcon.textContent=icon;
+        if(offlineStatusTitle)offlineStatusTitle.textContent=title;
+        if(offlineStatusText)offlineStatusText.textContent=text;
+      }
+
+      async function refreshOfflineStatus(){
+        const token=++offlineStatusToken;
+        const lesson=allLessons[currentLessonIndex];
+        if(!lesson||offlineDownloadBusy)return;
+
+        await ensureAudioMetadata();
+        if(token!==offlineStatusToken)return;
+
+        const audioCount=lessonAudioFiles(lesson).length;
+        const assets=lessonOfflineAssets(lesson);
+
+        if(!('caches'in window)){
+          setOfflineStatus({
+            state:'none',
+            icon:'🌐',
+            title:'التخزين دون إنترنت غير متاح في هذا المتصفح',
+            text:'يمكن تشغيل الدرس أثناء الاتصال بالإنترنت.'
+          });
+          if(downloadLessonBtn)downloadLessonBtn.disabled=true;
+          if(downloadAllBtn)downloadAllBtn.disabled=true;
+          return;
+        }
+
+        setOfflineStatus({
+          state:'none',
+          icon:'🔎',
+          title:'فحص ملفات الدرس…',
+          text:audioCount.toLocaleString('ar-SA')+' ملفًا صوتيًا في هذا الدرس.'
+        });
+
+        const status=await countCachedAssets(assets);
+        if(token!==offlineStatusToken||offlineDownloadBusy)return;
+
+        if(status.total>0&&status.cached===status.total){
+          setOfflineStatus({
+            state:'complete',
+            icon:'✅',
+            title:'الدرس محفوظ للاستخدام دون إنترنت',
+            text:audioCount.toLocaleString('ar-SA')+' ملفًا صوتيًا + صور الدرس محفوظة على هذا الجهاز.'
+          });
+          downloadLessonBtn.textContent='✅ الدرس محمّل';
+        }else if(status.cached>0){
+          setOfflineStatus({
+            state:'partial',
+            icon:'🟡',
+            title:'الدرس محفوظ جزئيًا',
+            text:status.cached.toLocaleString('ar-SA')+' من '+status.total.toLocaleString('ar-SA')+' ملفًا متاح دون إنترنت.'
+          });
+          downloadLessonBtn.textContent='⬇️ إكمال تحميل الدرس';
+        }else{
+          setOfflineStatus({
+            state:'none',
+            icon:'☁️',
+            title:'الدرس غير محمّل بعد',
+            text:audioCount.toLocaleString('ar-SA')+' ملفًا صوتيًا. حمّله مرة واحدة ليعمل دون إنترنت.'
+          });
+          downloadLessonBtn.textContent='⬇️ تحميل هذا الدرس';
+        }
+
+        downloadLessonBtn.disabled=false;
+        downloadAllBtn.disabled=false;
+      }
+
+      function setOfflineDownloadUI({active=false,progress=0,detail='',completed=0,total=0}={}){
+        offlineDownloadBusy=active;
+        if(downloadLessonBtn)downloadLessonBtn.disabled=active;
+        if(downloadAllBtn)downloadAllBtn.disabled=active;
+        if(cancelDownloadBtn)cancelDownloadBtn.hidden=!active;
+        if(offlineProgress)offlineProgress.hidden=!active;
+
+        const pct=Math.max(0,Math.min(100,Math.round(Number(progress)||0)));
+        if(offlineProgressBar)offlineProgressBar.style.width=pct+'%';
+        if(offlineProgressPercent)offlineProgressPercent.textContent=pct.toLocaleString('ar-SA')+'٪';
+        if(offlineProgressDetail)offlineProgressDetail.textContent=detail||'جارٍ تنزيل الملفات…';
+        if(offlineProgressCount)offlineProgressCount.textContent=
+          Number(completed||0).toLocaleString('ar-SA')+' / '+Number(total||0).toLocaleString('ar-SA');
+      }
+
+      async function cacheOfflineAsset(asset,signal){
+        const cache=await caches.open(asset.cacheName);
+        const url=new URL(asset.path,location.href).href;
+
+        if(await cache.match(url))return;
+
+        const response=await fetch(new Request(url,{cache:'reload',signal}));
+        if(!response.ok)throw new Error('HTTP '+response.status+' '+asset.path);
+        await cache.put(url,response.clone());
+      }
+
+      async function downloadOfflineAssets(assets,label){
+        if(offlineDownloadBusy||!assets.length)return;
+        if(!navigator.onLine){
+          setOfflineStatus({
+            state:'partial',
+            icon:'📴',
+            title:'لا يوجد اتصال بالإنترنت',
+            text:'اتصل بالإنترنت مرة واحدة لتحميل '+label+'.'
+          });
+          return;
+        }
+
+        try{await navigator.storage?.persist?.();}catch{}
+
+        offlineDownloadController=new AbortController();
+        const signal=offlineDownloadController.signal;
+        let nextIndex=0,completed=0,failed=0;
+        const total=assets.length;
+
+        setOfflineStatus({
+          state:'partial',
+          icon:'⬇️',
+          title:'جارٍ تحميل '+label,
+          text:'يمكنك الاستمرار في استخدام التطبيق أثناء التحميل.'
+        });
+        setOfflineDownloadUI({
+          active:true,
+          progress:0,
+          detail:'بدء تنزيل الملفات…',
+          completed:0,
+          total
+        });
+
+        async function worker(){
+          while(true){
+            if(signal.aborted)return;
+            const index=nextIndex++;
+            if(index>=total)return;
+            const asset=assets[index];
+
+            try{
+              await cacheOfflineAsset(asset,signal);
+            }catch(err){
+              if(signal.aborted)return;
+              failed++;
+              console.warn('Offline asset failed:',asset.path,err);
+            }
+
+            completed++;
+            setOfflineDownloadUI({
+              active:true,
+              progress:(completed/Math.max(1,total))*100,
+              detail:asset.kind==='audio'?'تنزيل الأصوات…':'تنزيل صور الدروس…',
+              completed,
+              total
+            });
+          }
+        }
+
+        try{
+          const concurrency=Math.min(4,total);
+          await Promise.all(Array.from({length:concurrency},()=>worker()));
+
+          if(signal.aborted){
+            setOfflineStatus({
+              state:'partial',
+              icon:'⏸️',
+              title:'تم إيقاف التحميل',
+              text:'الملفات التي اكتمل تحميلها بقيت محفوظة ويمكن إكمال الباقي لاحقًا.'
+            });
+          }else if(failed){
+            setOfflineStatus({
+              state:'partial',
+              icon:'🟡',
+              title:'اكتمل التحميل مع بعض الملفات غير المتاحة',
+              text:'تمت معالجة '+completed.toLocaleString('ar-SA')+' ملفًا، وتعذر '+failed.toLocaleString('ar-SA')+'.'
+            });
+          }else{
+            setOfflineStatus({
+              state:'complete',
+              icon:'✅',
+              title:'اكتمل تحميل '+label,
+              text:'أصبح المحتوى المحمّل متاحًا دون اتصال بالإنترنت.'
+            });
+          }
+        }finally{
+          offlineDownloadController=null;
+          setOfflineDownloadUI({active:false});
+          setTimeout(()=>refreshOfflineStatus(),250);
+        }
+      }
+
+      async function downloadCurrentLesson(){
+        const lesson=allLessons[currentLessonIndex];
+        if(!lesson)return;
+        await ensureAudioMetadata();
+        await downloadOfflineAssets(lessonOfflineAssets(lesson),'هذا الدرس');
+      }
+
+      async function downloadAllLessons(){
+        await ensureAudioMetadata();
+
+        const audioNames=audioManifest.length
+          ? uniqueStrings(audioManifest)
+          : uniqueStrings(allLessons.flatMap(lesson=>lessonAudioFiles(lesson)));
+
+        const imagePaths=uniqueStrings(
+          allLessons.flatMap(lesson=>lessonImageFiles(lesson))
+        );
+
+        const assets=[
+          ...audioNames.map(name=>({
+            path:'assets/audio/'+name,
+            cacheName:OFFLINE_AUDIO_CACHE,
+            kind:'audio'
+          })),
+          ...imagePaths.map(path=>({
+            path,
+            cacheName:OFFLINE_MEDIA_CACHE,
+            kind:'image'
+          }))
+        ];
+
+        await downloadOfflineAssets(
+          assets,
+          'جميع الدروس ('+audioNames.length.toLocaleString('ar-SA')+' ملفًا صوتيًا)'
+        );
+      }
+
+      downloadLessonBtn?.addEventListener('click',downloadCurrentLesson);
+      downloadAllBtn?.addEventListener('click',downloadAllLessons);
+      cancelDownloadBtn?.addEventListener('click',()=>offlineDownloadController?.abort());
+
       /* ==========================================================================
          K. PWA UPDATE MANAGER — same update pattern used by Student Roster
          ========================================================================== */
