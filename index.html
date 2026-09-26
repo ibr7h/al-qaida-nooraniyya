@@ -6,8 +6,14 @@
   <title>القاعدة النورانية للأطفال 🎈 | تعلّم أصوات الحروف العربية</title>
   <meta name="description" content="تطبيق تفاعلي مبهج لتعليم الأطفال القاعدة النورانية وأصوات الحروف العربية بدون إنترنت">
   <meta name="theme-color" content="#FF8E53">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="apple-mobile-web-app-title" content="القاعدة النورانية">
+  <meta name="format-detection" content="telephone=no">
+  <link rel="manifest" href="manifest.webmanifest">
   <link rel="icon" type="image/webp" href="assets/images/lesson_list_icon.webp">
   <link rel="apple-touch-icon" href="assets/images/lesson_list_icon.webp">
+  <script src="version.js"></script>
   
   <style>
     /* ==========================================================================
@@ -201,11 +207,11 @@
       animation: starBump 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
     }
 
-    @keyframes starBump {{
+    @keyframes starBump {
       0% { transform: scale(1); }
       50% { transform: scale(1.3) rotate(15deg); }
       100% { transform: scale(1); }
-    }}
+    }
 
     /* Buttons */
     .btn {
@@ -1239,6 +1245,118 @@
         max-height: 94vh;
       }
     }
+
+    /* ==========================================================================
+       10. PWA VERSION & UPDATE EXPERIENCE
+       ========================================================================== */
+    .app-version-badge {
+      display: inline-flex;
+      align-items: center;
+      width: fit-content;
+      margin-top: 5px;
+      padding: 2px 9px;
+      border-radius: var(--radius-full);
+      background: #FFF7ED;
+      border: 1px solid #FDBA74;
+      color: #9A3412;
+      font-size: 0.72rem;
+      font-weight: 800;
+      direction: ltr;
+    }
+
+    .update-banner {
+      position: sticky;
+      top: 8px;
+      z-index: 1000;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      padding: 10px 14px;
+      border-radius: 18px;
+      background: linear-gradient(135deg,#FFF7ED,#FFFBEB);
+      border: 2px solid #FDBA74;
+      box-shadow: var(--shadow-md);
+      color: #7C2D12;
+    }
+    .update-banner[hidden]{display:none!important}
+    .update-banner-copy{display:flex;flex-direction:column;gap:1px}
+    .update-banner-copy b{font-size:.95rem}
+    .update-banner-copy span{font-size:.82rem;color:#9A3412}
+    .update-banner button{
+      flex:0 0 auto;
+      border:0;
+      border-radius:14px;
+      padding:8px 12px;
+      background:#F97316;
+      color:#fff;
+      font:700 .82rem var(--font-arabic);
+      cursor:pointer;
+    }
+
+    .update-splash {
+      position: fixed;
+      inset: 0;
+      z-index: 12000;
+      display: grid;
+      place-items: center;
+      padding: 22px;
+      background: rgba(15,23,42,.56);
+      backdrop-filter: blur(8px);
+      -webkit-backdrop-filter: blur(8px);
+    }
+    .update-splash[hidden]{display:none!important}
+    body.update-in-progress{overflow:hidden}
+    .update-splash-card{
+      width:min(92vw,520px);
+      background:#fff;
+      border-radius:28px;
+      border:3px solid #FFD166;
+      box-shadow:0 28px 70px rgba(15,23,42,.28);
+      padding:22px;
+      text-align:center;
+    }
+    .update-splash-logo img{
+      width:72px;height:72px;object-fit:cover;border-radius:22px;
+      border:3px solid #FFD166;box-shadow:0 8px 20px rgba(245,158,11,.2)
+    }
+    .update-splash-kicker{
+      display:inline-block;margin-top:8px;color:#D97706;font-weight:900;font-size:.8rem
+    }
+    .update-splash-card h2{margin:4px 0 2px;color:#9A3412}
+    .update-splash-card p{color:#64748B;font-weight:700}
+    .update-progress-wrap{margin-top:16px}
+    .update-progress-track{
+      height:13px;border-radius:999px;background:#F1F5F9;overflow:hidden;border:1px solid #E2E8F0
+    }
+    .update-progress-track span{
+      display:block;width:0;height:100%;border-radius:inherit;
+      background:linear-gradient(90deg,#FF8E53,#FFD166,#06D6A0);
+      transition:width .18s ease
+    }
+    .update-progress-meta{
+      margin-top:7px;display:flex;justify-content:space-between;gap:12px;
+      color:#64748B;font-size:.8rem
+    }
+    .update-progress-meta b{color:#D9480F}
+    .update-splash-version{
+      margin-top:14px;padding:9px 12px;border-radius:14px;background:#FFF7ED;
+      display:flex;align-items:center;justify-content:space-between;gap:12px;color:#9A3412
+    }
+    .update-splash-version b{direction:ltr}
+    .update-splash-note{display:block;margin-top:12px;color:#64748B;line-height:1.6}
+    .footer-version-button{
+      border:0;background:transparent;color:#64748B;font:700 .78rem var(--font-arabic);
+      cursor:pointer;padding:3px 8px;border-radius:999px
+    }
+    .footer-version-button:hover{background:#F8FAFC;color:#D9480F}
+    .footer-version-button b{direction:ltr;display:inline-block}
+
+    @media (max-width:640px){
+      .update-banner{align-items:flex-start}
+      .update-splash-card{padding:18px}
+      .update-progress-meta{font-size:.72rem}
+    }
   </style>
 </head>
 <body>
@@ -1255,6 +1373,29 @@
   <!-- Confetti Canvas -->
   <canvas id="confetti-canvas"></canvas>
 
+  <!-- Automatic PWA Update UI -->
+  <div id="update-splash" class="update-splash" hidden role="dialog" aria-modal="true" aria-labelledby="update-splash-title" aria-live="polite">
+    <div class="update-splash-card">
+      <div class="update-splash-logo"><img src="assets/images/lesson_list_icon.webp" alt=""></div>
+      <span class="update-splash-kicker">تحديث التطبيق</span>
+      <h2 id="update-splash-title">جارٍ تجهيز التحديث</h2>
+      <p id="update-splash-status">سيتم تثبيت الإصدار الجديد تلقائيًا.</p>
+      <div class="update-progress-wrap" aria-label="تقدم تحديث التطبيق">
+        <div class="update-progress-track"><span id="update-splash-progress"></span></div>
+        <div class="update-progress-meta">
+          <b id="update-splash-percent">٠٪</b>
+          <span id="update-splash-detail">التحقق من ملفات التحديث…</span>
+        </div>
+      </div>
+      <div class="update-splash-version">
+        <span>الإصدار الجديد</span>
+        <b id="update-splash-version">—</b>
+      </div>
+      <small class="update-splash-note">تحديث ملفات التطبيق لا يحذف الأصوات التي سبق تنزيلها للاستخدام دون إنترنت.</small>
+    </div>
+  </div>
+
+
   <div class="app-wrapper">
     <!-- Top Header -->
     <header class="main-header">
@@ -1264,7 +1405,8 @@
         </div>
         <div class="logo-text">
           <h1>القاعدة النورانية للأطفال 🎈</h1>
-          <p>أصوات الحروف العربية ونطقها الصحيح (بدون إنترنت)</p>
+          <p>أصوات الحروف العربية ونطقها الصحيح · يدعم العمل دون إنترنت</p>
+          <span class="app-version-badge" id="app-version-badge">v1.0.0-alpha.1</span>
         </div>
       </div>
 
@@ -1300,6 +1442,14 @@
         </button>
       </div>
     </header>
+
+    <div id="update-banner" class="update-banner" hidden role="status" aria-live="polite">
+      <div class="update-banner-copy">
+        <b id="update-banner-title">تحديث التطبيق</b>
+        <span id="update-banner-text">جارٍ التحقق من أحدث إصدار…</span>
+      </div>
+      <button type="button" id="check-update-btn">فحص الآن</button>
+    </div>
 
     <!-- Control & Lesson Toolbar -->
     <section class="control-board">
@@ -1499,8 +1649,9 @@
 
     <!-- App Footer -->
     <footer class="app-footer">
-      <div class="footer-badge">⚡ يعمل بالكامل بدون اتصال بالإنترنت (Offline 100%)</div>
+      <div class="footer-badge">⚡ يعمل دون اتصال بعد تحميل محتوى الدرس</div>
       <p>وفّقكم الله يا براعم الإيمان 🌸 تعلّم نطق القرآن الكريم والقاعدة النورانية</p>
+      <button type="button" class="footer-version-button" id="footer-version-button">الإصدار <b id="footer-app-version">v1.0.0-alpha.1</b> · فحص التحديث</button>
     </footer>
   </div>
 
@@ -1662,6 +1813,8 @@
          ========================================================================== */
       let allLessons = [];
       let allExplanations = {};
+      let audioManifest = [];
+      let audioDurations = {};
       let currentLessonIndex = 0;
       let currentView = 'cards'; // 'cards' | 'book'
       let currentBookPageIndex = 0;
@@ -1742,12 +1895,26 @@
             )
             .catch(() => {});
 
-          fetch('assets/content/lesson_explanations_ar.json')
+          fetch('lesson_explanations_ar.json')
             .then(res => res.json())
             .then(data => {
               if (data && typeof data === 'object') {
                 allExplanations = data;
               }
+            })
+            .catch(() => {});
+
+          fetch('audio_manifest.json')
+            .then(res => res.json())
+            .then(data => {
+              if (Array.isArray(data)) audioManifest = data;
+            })
+            .catch(() => {});
+
+          fetch('audio_durations.json')
+            .then(res => res.json())
+            .then(data => {
+              if (data && typeof data === 'object') audioDurations = data;
             })
             .catch(() => {});
         }
@@ -2658,8 +2825,304 @@
         }
       });
 
+
+      /* ==========================================================================
+         K. PWA UPDATE MANAGER — same update pattern used by Student Roster
+         ========================================================================== */
+      const APP_VERSION = globalThis.APP_VERSION || '1.0.0-alpha.1';
+      let swRegistration = null;
+      let updateReloading = false;
+      let updateBannerTimer = null;
+      let updateSplashActive = false;
+      let updateTargetVersion = '';
+      let updateProgressEligible = false;
+
+      function versionParts(v) {
+        const m = String(v).match(/^(\d+)\.(\d+)\.(\d+)(?:-alpha\.(\d+))?$/);
+        if (!m) return [0,0,0,0];
+        return [Number(m[1]), Number(m[2]), Number(m[3]), m[4] === undefined ? 999 : Number(m[4])];
+      }
+
+      function compareVersions(a,b) {
+        const A=versionParts(a), B=versionParts(b);
+        for (let i=0;i<A.length;i++) {
+          if (A[i]>B[i]) return 1;
+          if (A[i]<B[i]) return -1;
+        }
+        return 0;
+      }
+
+      function setVersionUI() {
+        const label='v'+APP_VERSION;
+        const top=document.getElementById('app-version-badge');
+        const footer=document.getElementById('footer-app-version');
+        if (top) top.textContent=label;
+        if (footer) footer.textContent=label;
+      }
+
+      function showUpdateBanner(title,text,timeout=0) {
+        const el=document.getElementById('update-banner');
+        if (!el) return;
+        clearTimeout(updateBannerTimer);
+        document.getElementById('update-banner-title').textContent=title;
+        document.getElementById('update-banner-text').textContent=text;
+        el.hidden=false;
+        if (timeout) updateBannerTimer=setTimeout(()=>{el.hidden=true;},timeout);
+      }
+
+      function showUpdateSplash({version='',title='جارٍ تحديث التطبيق',status='يتم تجهيز الإصدار الجديد…',progress=0,detail='جارٍ تجهيز ملفات التحديث…'}={}) {
+        const el=document.getElementById('update-splash');
+        if (!el) return;
+        updateSplashActive=true;
+        if (version) updateTargetVersion=version;
+        const p=Math.max(0,Math.min(100,Number(progress)||0));
+        el.hidden=false;
+        document.body.classList.add('update-in-progress');
+        document.getElementById('update-splash-title').textContent=title;
+        document.getElementById('update-splash-status').textContent=status;
+        document.getElementById('update-splash-version').textContent=updateTargetVersion?'v'+updateTargetVersion:'—';
+        document.getElementById('update-splash-progress').style.width=p+'%';
+        document.getElementById('update-splash-percent').textContent=Math.round(p).toLocaleString('ar-SA')+'٪';
+        document.getElementById('update-splash-detail').textContent=detail;
+      }
+
+      function updateAssetLabel(asset='') {
+        if (asset.includes('index.html')) return 'واجهة التطبيق';
+        if (asset.includes('all_lessons_data')) return 'بيانات الدروس';
+        if (asset.includes('lesson_explanations')) return 'شروحات الدروس';
+        if (asset.includes('audio_manifest')) return 'فهرس الأصوات';
+        if (asset.includes('audio_durations')) return 'بيانات مدد الأصوات';
+        if (asset.includes('manifest.webmanifest')) return 'إعدادات التثبيت';
+        if (asset.includes('version.js')) return 'بيانات الإصدار';
+        if (asset.includes('lesson_list_icon') || asset.includes('icon_option')) return 'أيقونات التطبيق';
+        return 'ملفات التطبيق';
+      }
+
+      function updateSplashFromWorker(data={}) {
+        const phase=data.phase||'';
+        const raw=Math.max(0,Math.min(100,Number(data.progress)||0));
+        const version=data.version||updateTargetVersion;
+
+        if (phase==='start') {
+          showUpdateSplash({
+            version,
+            title:'تم العثور على تحديث',
+            status:'جارٍ تجهيز ملفات الإصدار الجديد…',
+            progress:8,
+            detail:'بدء تنزيل ملفات التطبيق'
+          });
+          return;
+        }
+
+        if (phase==='downloading') {
+          const mapped=10+raw*.76;
+          const current=Math.min(Number(data.completed||0)+1,Number(data.total||0)||1);
+          const total=Number(data.total||0)||1;
+          showUpdateSplash({
+            version,
+            title:'جارٍ تنزيل التحديث',
+            status:'يتم تنزيل ملفات الإصدار الجديد بأمان…',
+            progress:mapped,
+            detail:updateAssetLabel(data.asset)+' · '+current.toLocaleString('ar-SA')+' من '+total.toLocaleString('ar-SA')
+          });
+          return;
+        }
+
+        if (phase==='installed') {
+          showUpdateSplash({
+            version,
+            title:'اكتمل التنزيل',
+            status:'جارٍ تفعيل الإصدار الجديد…',
+            progress:92,
+            detail:'تم التحقق من ملفات التحديث'
+          });
+          return;
+        }
+
+        if (phase==='activating') {
+          showUpdateSplash({
+            version,
+            title:'جارٍ تفعيل الإصدار',
+            status:'لحظات وسيُفتح التطبيق من جديد…',
+            progress:97,
+            detail:'تطبيق النسخة الجديدة'
+          });
+          return;
+        }
+
+        if (phase==='activated') {
+          showUpdateSplash({
+            version,
+            title:'اكتمل التحديث',
+            status:'سيُعاد فتح التطبيق على الإصدار الجديد.',
+            progress:100,
+            detail:'تم تثبيت التحديث بنجاح'
+          });
+          return;
+        }
+
+        if (phase==='error') {
+          showUpdateSplash({
+            version,
+            title:'تعذر إكمال التحديث',
+            status:'سيبقى الإصدار الحالي متاحًا وسنحاول مرة أخرى عند توفر اتصال مستقر.',
+            progress:raw||10,
+            detail:data.asset?updateAssetLabel(data.asset):'حدث خطأ أثناء تنزيل الملفات'
+          });
+        }
+      }
+
+      async function fetchPublishedVersion() {
+        try {
+          const r=await fetch('./version.js?check='+Date.now(),{
+            cache:'no-store',
+            headers:{'cache-control':'no-cache'}
+          });
+          if (!r.ok) return null;
+          const txt=await r.text();
+          return txt.match(/APP_VERSION\s*=\s*['"]([^'"]+)['"]/)?.[1]||null;
+        } catch {
+          return null;
+        }
+      }
+
+      async function checkForAppUpdate({manual=false}={}) {
+        if (!navigator.onLine) {
+          if (manual) showUpdateBanner('لا يوجد اتصال','سيتم فحص التحديث عند عودة الاتصال.',2600);
+          return;
+        }
+
+        if (manual) showUpdateBanner('فحص التحديثات','جارٍ التحقق من أحدث إصدار…');
+
+        const latest=await fetchPublishedVersion();
+        const newer=latest&&compareVersions(latest,APP_VERSION)>0;
+
+        if (newer) {
+          updateTargetVersion=latest;
+          updateProgressEligible=true;
+          showUpdateSplash({
+            version:latest,
+            title:'يوجد إصدار جديد',
+            status:'جارٍ بدء التحديث تلقائيًا…',
+            progress:5,
+            detail:'التحقق من ملفات الإصدار v'+latest
+          });
+        }
+
+        try { await swRegistration?.update(); } catch {}
+
+        if (swRegistration?.waiting) {
+          try { swRegistration.waiting.postMessage({type:'SKIP_WAITING'}); } catch {}
+        }
+
+        if (manual&&!newer) {
+          showUpdateBanner('التطبيق محدث','أنت تستخدم أحدث إصدار v'+APP_VERSION+'.',2400);
+        }
+      }
+
+      async function initAppUpdater() {
+        setVersionUI();
+
+        try {
+          const key='nooraniyya-app-version';
+          const prev=localStorage.getItem(key);
+          if (prev&&prev!==APP_VERSION) {
+            showUpdateBanner('تم تحديث التطبيق','تم تثبيت الإصدار v'+APP_VERSION+' بنجاح.',3200);
+          }
+          localStorage.setItem(key,APP_VERSION);
+        } catch {}
+
+        if (!('serviceWorker' in navigator)) return;
+
+        const hadController=!!navigator.serviceWorker.controller;
+        updateProgressEligible=hadController;
+
+        try {
+          navigator.serviceWorker.addEventListener('message',event=>{
+            const data=event.data||{};
+            if (data.type!=='UPDATE_PROGRESS') return;
+            if (!updateProgressEligible&&!updateSplashActive) return;
+            updateProgressEligible=true;
+            updateSplashFromWorker(data);
+          });
+
+          swRegistration=await navigator.serviceWorker.register('./sw.js',{updateViaCache:'none'});
+
+          swRegistration.addEventListener('updatefound',()=>{
+            const worker=swRegistration.installing;
+            if (!worker||!navigator.serviceWorker.controller) return;
+
+            updateProgressEligible=true;
+            showUpdateSplash({
+              version:updateTargetVersion,
+              title:'يوجد تحديث جديد',
+              status:'جارٍ تجهيز الإصدار الجديد…',
+              progress:7,
+              detail:'بدء تثبيت مكونات التحديث'
+            });
+
+            worker.addEventListener('statechange',()=>{
+              if (worker.state==='installed') {
+                showUpdateSplash({
+                  version:updateTargetVersion,
+                  title:'اكتمل التنزيل',
+                  status:'جارٍ تفعيل الإصدار الجديد…',
+                  progress:92,
+                  detail:'تم التحقق من ملفات التحديث'
+                });
+                if (swRegistration.waiting) {
+                  try { swRegistration.waiting.postMessage({type:'SKIP_WAITING'}); } catch {}
+                }
+              } else if (worker.state==='activating') {
+                showUpdateSplash({
+                  version:updateTargetVersion,
+                  title:'جارٍ تفعيل الإصدار',
+                  status:'لحظات وسيُفتح التطبيق من جديد…',
+                  progress:97,
+                  detail:'تطبيق النسخة الجديدة'
+                });
+              }
+            });
+          });
+
+          let canReload=hadController;
+          navigator.serviceWorker.addEventListener('controllerchange',()=>{
+            updateProgressEligible=true;
+            if (!canReload) {
+              canReload=true;
+              return;
+            }
+            if (updateReloading) return;
+            updateReloading=true;
+
+            showUpdateSplash({
+              version:updateTargetVersion||APP_VERSION,
+              title:'تم التحديث بنجاح',
+              status:'إعادة فتح التطبيق على الإصدار الجديد…',
+              progress:100,
+              detail:'اكتمل تثبيت جميع ملفات التطبيق'
+            });
+
+            setTimeout(()=>location.reload(),650);
+          });
+
+          await checkForAppUpdate();
+          setInterval(()=>checkForAppUpdate(),30*60*1000);
+          document.addEventListener('visibilitychange',()=>{
+            if (document.visibilityState==='visible') checkForAppUpdate();
+          });
+          window.addEventListener('online',()=>checkForAppUpdate());
+        } catch (err) {
+          console.warn('PWA updater unavailable:',err);
+        }
+      }
+
+      document.getElementById('check-update-btn')?.addEventListener('click',()=>checkForAppUpdate({manual:true}));
+      document.getElementById('footer-version-button')?.addEventListener('click',()=>checkForAppUpdate({manual:true}));
+
       // Startup
       loadLessonsData();
+      initAppUpdater();
 
     })();
   </script>
