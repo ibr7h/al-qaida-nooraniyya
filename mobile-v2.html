@@ -10,12 +10,23 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="default">
   <meta name="apple-mobile-web-app-title" content="القاعدة النورانية">
   <meta name="format-detection" content="telephone=no">
-  <!-- Experimental comparison build: canonical PWA manifest intentionally omitted -->
+  <link rel="manifest" href="manifest-mobile-v2.webmanifest">
   <link rel="icon" type="image/webp" href="assets/images/lesson_list_icon.webp">
   <link rel="apple-touch-icon" href="icons/icon-192.png">
   <script src="version.js"></script>
   
   <style>
+
+    /* Mobile V2.3 — local Arabic fonts. No network font dependency. */
+    @font-face{font-family:"NoorNaskh";src:url("fonts/NotoNaskhArabic.ttf") format("truetype");font-style:normal;font-weight:400;font-display:swap}
+    @font-face{font-family:"NoorUthmani";src:url("fonts/AmiriQuran.ttf") format("truetype");font-style:normal;font-weight:400;font-display:swap}
+    @font-face{font-family:"NoorRuqaa";src:url("fonts/ArefRuqaa-Regular.ttf") format("truetype");font-style:normal;font-weight:400;font-display:swap}
+    @font-face{font-family:"NoorThuluthDisplay";src:url("fonts/Katibeh-Regular.ttf") format("truetype");font-style:normal;font-weight:400;font-display:swap}
+    @font-face{font-family:"NoorKufi";src:url("fonts/NotoKufiArabic.ttf") format("truetype");font-style:normal;font-weight:400;font-display:swap}
+    @font-face{font-family:"NoorAmiri";src:url("fonts/Amiri-Regular.ttf") format("truetype");font-style:normal;font-weight:400;font-display:swap}
+    @font-face{font-family:"NoorScheherazade";src:url("fonts/ScheherazadeNew-Regular.ttf") format("truetype");font-style:normal;font-weight:400;font-display:swap}
+    @font-face{font-family:"NoorMada";src:url("fonts/Mada.ttf") format("truetype");font-style:normal;font-weight:400;font-display:swap}
+
     /* ==========================================================================
        1. VARIABLES & RESET
        ========================================================================== */
@@ -45,7 +56,7 @@
       --shadow-md: 0 10px 15px -3px rgba(0, 0, 0, 0.08), 0 4px 6px -2px rgba(0, 0, 0, 0.03);
       --shadow-lg: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
       
-      --font-arabic: 'Amiri', 'Scheherazade New', 'Traditional Arabic', 'Geeza Pro', 'Noto Sans Arabic', 'Segoe UI', system-ui, sans-serif;
+      --font-arabic: "NoorAmiri","NoorNaskh","NoorScheherazade","Geeza Pro","Segoe UI",system-ui,sans-serif;
     }
 
     * {
@@ -2311,6 +2322,73 @@
         padding-bottom:max(2px,env(safe-area-inset-bottom))!important;
       }
     }
+  
+    /* Mobile V2.3 — Focus View uses the full dynamic viewport on phones. */
+    body.spotlight-open{overflow:hidden!important;overscroll-behavior:none!important}
+    @media (max-width:767px){
+      .spotlight-modal{
+        inset:0!important;
+        width:100vw!important;
+        width:100dvw!important;
+        height:100vh!important;
+        height:100dvh!important;
+        padding:0!important;
+        align-items:stretch!important;
+        justify-content:stretch!important;
+        overflow:hidden!important;
+      }
+      .spotlight-card{
+        width:100%!important;
+        max-width:none!important;
+        height:100vh!important;
+        height:100dvh!important;
+        min-height:100svh!important;
+        max-height:none!important;
+        margin:0!important;
+        border:0!important;
+        border-radius:0!important;
+        padding:
+          max(62px,calc(env(safe-area-inset-top) + 46px))
+          16px
+          max(12px,env(safe-area-inset-bottom))
+          16px!important;
+        grid-template-rows:minmax(0,1fr) auto auto!important;
+        background:#FFFFFF!important;
+      }
+      .spotlight-learning-stage{
+        min-height:0!important;
+        max-height:100%!important;
+        overflow:hidden!important;
+      }
+      .spotlight-letter{
+        font-size:clamp(6rem,min(34vw,24dvh),11rem)!important;
+        line-height:1.12!important;
+        max-width:100%!important;
+      }
+      .spotlight-letter.is-combo{
+        font-size:clamp(3rem,min(15vw,12dvh),5.4rem)!important;
+        line-height:1.25!important;
+      }
+      .spotlight-name{
+        max-width:92vw!important;
+        overflow-wrap:anywhere!important;
+      }
+      .spotlight-close-btn{
+        top:max(12px,env(safe-area-inset-top))!important;
+        left:14px!important;
+        z-index:4!important;
+      }
+      .spotlight-nav{
+        display:grid!important;
+        grid-template-columns:1fr 1fr!important;
+        gap:10px!important;
+      }
+      .spotlight-nav .btn{
+        width:100%!important;
+        min-width:0!important;
+      }
+    }
+
   </style>
 </head>
 <body>
@@ -2360,7 +2438,7 @@
         <div class="logo-text">
           <h1>القاعدة النورانية للأطفال 🎈</h1>
           <p>أصوات الحروف العربية ونطقها الصحيح · يدعم العمل دون إنترنت</p>
-          <span class="app-version-badge" id="app-version-badge">v1.0.0-alpha.5</span><span class="mobile-v2-badge">Mobile V2 · نسخة تجريبية</span>
+          <span class="app-version-badge" id="app-version-badge">v1.0.0-alpha.6</span><span class="mobile-v2-badge">Mobile V2 · نسخة تجريبية</span>
         </div>
       </div>
 
@@ -2514,9 +2592,11 @@
               <option value="naskh" selected>النسخ</option>
               <option value="uthmani">العثماني</option>
               <option value="ruqaa">الرقعة</option>
-              <option value="thuluth">الثلث</option>
+              <option value="thuluth">الثلث (زخرفي)</option>
               <option value="kufi">الكوفي</option>
               <option value="amiri">الأميري</option>
+              <option value="scheherazade">شهرزاد</option>
+              <option value="mada">مدى</option>
               <option value="simple">مبسّط</option>
             </select>
             <span class="font-preview-sample" id="font-preview-sample" aria-hidden="true">أَبْجَد</span>
@@ -2850,13 +2930,15 @@
 
       // Arabic learning font — experimental Mobile V2 preference.
       const ARABIC_FONT_STACKS = {
-        naskh: '"Geeza Pro","Noto Naskh Arabic","Traditional Arabic","Arial",serif',
-        uthmani: '"KFGQPC Uthmanic Script HAFS","Amiri Quran","Amiri","Scheherazade New","Geeza Pro",serif',
-        ruqaa: '"Aref Ruqaa","Ruqaa","Al Bayan","Geeza Pro",cursive',
-        thuluth: '"Diwan Thuluth","DecoType Thuluth","Diwan Kufi","Geeza Pro",serif',
-        kufi: '"Diwan Kufi","Noto Kufi Arabic","KufiStandardGK","Damascus","Arial",sans-serif',
-        amiri: '"Amiri","Traditional Arabic","Geeza Pro",serif',
-        simple: '"Arial","Tahoma","Geeza Pro",sans-serif'
+        naskh: '"NoorNaskh","NoorAmiri",serif',
+        uthmani: '"NoorUthmani","NoorAmiri","NoorScheherazade",serif',
+        ruqaa: '"NoorRuqaa","NoorAmiri",cursive',
+        thuluth: '"NoorThuluthDisplay","NoorAmiri",serif',
+        kufi: '"NoorKufi","NoorMada",sans-serif',
+        amiri: '"NoorAmiri","NoorNaskh",serif',
+        scheherazade: '"NoorScheherazade","NoorNaskh",serif',
+        mada: '"NoorMada","NoorKufi",sans-serif',
+        simple: '"NoorMada","Arial","Tahoma",sans-serif'
       };
 
       function applyArabicLearningFont(key) {
@@ -3018,10 +3100,10 @@
           narrationAudio.onplay = null;
           narrationAudio.onended = null;
           narrationAudio.onerror = null;
-          narrationAudio.src = fullPath;
+          if (narrationAudio.src !== fullPath) narrationAudio.src = fullPath;
+          try { narrationAudio.currentTime = 0; } catch {}
           narrationAudio.playbackRate = currentSpeed;
           narrationAudio.defaultPlaybackRate = currentSpeed;
-          narrationAudio.load();
 
           narrationAudio.onplay = () => {
             if (token !== audioPlayToken) return;
@@ -3465,6 +3547,7 @@
         if (spotlightIndex === -1) spotlightIndex = 0;
         updateSpotlightCard();
         spotlightModal.classList.add('active');
+        document.body.classList.add('spotlight-open');
         playSpotlightCurrentAudio();
       }
 
@@ -3524,6 +3607,23 @@
       btnSpotlightClose.addEventListener('click', () => {
         playPopSound();
         spotlightModal.classList.remove('active');
+        document.body.classList.remove('spotlight-open');
+        clearSpotlightTracking();
+        stopAudio();
+      });
+
+      spotlightModal.addEventListener('click', (event) => {
+        if (event.target !== spotlightModal) return;
+        spotlightModal.classList.remove('active');
+        document.body.classList.remove('spotlight-open');
+        clearSpotlightTracking();
+        stopAudio();
+      });
+
+      document.addEventListener('keydown', (event) => {
+        if (event.key !== 'Escape' || !spotlightModal.classList.contains('active')) return;
+        spotlightModal.classList.remove('active');
+        document.body.classList.remove('spotlight-open');
         clearSpotlightTracking();
         stopAudio();
       });
@@ -4242,7 +4342,7 @@
       /* ==========================================================================
          K. PWA UPDATE MANAGER — same update pattern used by Student Roster
          ========================================================================== */
-      const APP_VERSION = globalThis.APP_VERSION || '1.0.0-alpha.5';
+      const APP_VERSION = globalThis.APP_VERSION || '1.0.0-alpha.6';
       let swRegistration = null;
       let updateReloading = false;
       let updateBannerTimer = null;
@@ -4305,7 +4405,9 @@
         if (asset.includes('lesson_explanations')) return 'شروحات الدروس';
         if (asset.includes('audio_manifest')) return 'فهرس الأصوات';
         if (asset.includes('audio_durations')) return 'بيانات مدد الأصوات';
-        if (asset.includes('manifest.webmanifest')) return 'إعدادات التثبيت';
+        if (asset.includes('manifest-mobile-v2.webmanifest') || asset.includes('manifest.webmanifest')) return 'إعدادات التثبيت';
+        if (asset.includes('/fonts/') || asset.includes('fonts/')) return 'الخطوط العربية';
+        if (asset.includes('mobile-v2.html')) return 'واجهة Mobile V2';
         if (asset.includes('version.js')) return 'بيانات الإصدار';
         if (asset.includes('lesson_list_icon') || asset.includes('icon_option')) return 'أيقونات التطبيق';
         return 'ملفات التطبيق';
@@ -4545,20 +4647,7 @@
 
       // Startup
       loadLessonsData();
-      // Experimental visual build: do not register/update the production PWA from here.
-      // If an already-installed production service worker controls this URL, its
-      // navigation strategy may temporarily cache this preview as index.html.
-      // Restore the canonical production index immediately so offline rollback
-      // remains guaranteed.
-      if ('caches' in window) {
-        fetch('./index.html', { cache: 'reload' })
-          .then(response => {
-            if (!response.ok) return;
-            return caches.open('nooraniyya-shell-v1.0.0-alpha.5')
-              .then(cache => cache.put(new URL('./index.html', location.href).href, response.clone()));
-          })
-          .catch(() => {});
-      }
+      initAppUpdater();
 
     })();
   </script>
