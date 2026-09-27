@@ -1,7 +1,7 @@
-// release 1.0.0-alpha.5 android-audio-and-install-fix
+// release 1.0.0-alpha.6 android-audio-and-install-fix
 importScripts('./version.js');
 
-const VERSION=self.APP_VERSION||'1.0.0-alpha.5';
+const VERSION=self.APP_VERSION||'1.0.0-alpha.6';
 const SHELL_CACHE='nooraniyya-shell-v'+VERSION;
 const AUDIO_CACHE='nooraniyya-audio-v1';
 const MEDIA_CACHE='nooraniyya-media-v1';
@@ -9,6 +9,8 @@ const MEDIA_CACHE='nooraniyya-media-v1';
 const SHELL_ASSETS=[
   './',
   './index.html',
+  './mobile-v2.html',
+  './manifest-mobile-v2.webmanifest',
   './version.js',
   './manifest.webmanifest',
   './audio_manifest.json',
@@ -19,7 +21,15 @@ const SHELL_ASSETS=[
   './assets/images/icon_option_1.webp',
   './icons/icon-192.png',
   './icons/icon-512.png',
-  './icons/icon-512-maskable.png'
+  './icons/icon-512-maskable.png',
+  './fonts/NotoNaskhArabic.ttf',
+  './fonts/AmiriQuran.ttf',
+  './fonts/ArefRuqaa-Regular.ttf',
+  './fonts/Katibeh-Regular.ttf',
+  './fonts/NotoKufiArabic.ttf',
+  './fonts/Amiri-Regular.ttf',
+  './fonts/ScheherazadeNew-Regular.ttf',
+  './fonts/Mada.ttf'
 ];
 
 async function broadcastUpdate(payload){
@@ -230,17 +240,31 @@ self.addEventListener('fetch',event=>{
   }
 
   if(event.request.mode==='navigate'){
-    event.respondWith(
-      fetch(event.request,{cache:'no-store'})
-        .then(response=>{
-          const copy=response.clone();
-          caches.open(SHELL_CACHE).then(cache=>
-            cache.put(new URL('./index.html',self.registration.scope).href,copy)
-          );
-          return response;
-        })
-        .catch(()=>caches.match(new URL('./index.html',self.registration.scope).href))
-    );
+    event.respondWith((async()=>{
+      const cache=await caches.open(SHELL_CACHE);
+      try{
+        const response=await fetch(event.request,{cache:'no-store'});
+        if(response.ok){
+          await cache.put(event.request,response.clone());
+          const pathname=new URL(event.request.url).pathname;
+          if(pathname.endsWith('/')||pathname.endsWith('/index.html')){
+            await cache.put(new URL('./index.html',self.registration.scope).href,response.clone());
+          }else if(pathname.endsWith('/mobile-v2.html')){
+            await cache.put(new URL('./mobile-v2.html',self.registration.scope).href,response.clone());
+          }
+        }
+        return response;
+      }catch{
+        const exact=await cache.match(event.request);
+        if(exact)return exact;
+        const pathname=new URL(event.request.url).pathname;
+        if(pathname.endsWith('/mobile-v2.html')){
+          const mobile=await cache.match(new URL('./mobile-v2.html',self.registration.scope).href);
+          if(mobile)return mobile;
+        }
+        return (await cache.match(new URL('./index.html',self.registration.scope).href))||Response.error();
+      }
+    })());
     return;
   }
 
