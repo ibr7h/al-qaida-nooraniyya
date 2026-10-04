@@ -2628,6 +2628,9 @@
           narrationAudio.onended = null;
           narrationAudio.onerror = null;
           if (narrationAudio.src !== fullPath) narrationAudio.src = fullPath;
+          // A failed resource keeps its MediaError even after connectivity returns.
+          // Reload only the failed same source, within the user's retry gesture.
+          else if (narrationAudio.error) narrationAudio.load();
           try { narrationAudio.currentTime = 0; } catch {}
           narrationAudio.playbackRate = currentSpeed;
           narrationAudio.defaultPlaybackRate = currentSpeed;

@@ -88,6 +88,31 @@ for(const file of ['index.html','mobile-v2.html']){
   p.run("playAudioFiles(['f1-01.mp3'],done)");await new Promise(r=>setImmediate(r));assert.equal(completed,0);assert.match(p.document.getElementById('audio-error-text').textContent,/للسماح/);
   reject=false;p.document.getElementById('audio-retry-btn').listeners.click();audio.onended();assert.equal(completed,1);
  });
+ for (const errorCode of [2, 4]) test(file+': retries the same source after media error '+errorCode,async()=>{
+  const p=pageContext(file),html=read(file);
+  let online=false,completed=0,loads=0,source='',started=0;
+  // Media errors persist until resource selection runs again; play() alone
+  // cannot recover MEDIA_ERR_SRC_NOT_SUPPORTED (HTML media play algorithm).
+  const audio={style:{},setAttribute(){},pause(){},currentTime:0,error:null,
+   get src(){return source},set src(value){source=value;this.error=null},
+   load(){loads++;this.error=null},
+   play(){if(!online)this.error={code:errorCode};if(this.error)return Promise.reject({name:'NotSupportedError'});started++;return Promise.resolve()}
+  };
+  p.document.createElement=tag=>tag==='audio'?audio:{...p.document.body,style:{}};
+  p.ctx.setVisualizerActive=()=>{};p.ctx.clearAllHighlights=()=>{};p.ctx.clearSpotlightTracking=()=>{};
+  const start=html.indexOf("      const narrationAudio = document.createElement('audio');"),end=html.indexOf('      // Spotlight Modal State',start);
+  vm.runInContext(html.slice(start,end),p.ctx);
+  const a=html.indexOf('      function stopAudio()');vm.runInContext(html.slice(a,html.indexOf('      // Plays an item with repeat support',a)),p.ctx);
+  p.run('function stopPlayAll(){isPlayingAll=false;stopAudio();}');p.ctx.done=()=>completed++;
+  p.run("playAudioFiles(['f1-01.mp3','f1-02.mp3'],done)");await new Promise(r=>setImmediate(r));
+  assert.equal(completed,0);assert.equal(started,0);assert.equal(p.run('audioErrorBox.hidden'),false);
+  online=true;p.document.getElementById('audio-retry-btn').listeners.click();await new Promise(r=>setImmediate(r));
+  assert.equal(audio.error,null,'retry must clear the persistent media error');
+  assert.equal(loads,1);assert.equal(started,1);assert(source.endsWith('/f1-01.mp3'));
+  assert.equal(p.run('audioErrorBox.hidden'),true);
+  audio.onended();assert(source.endsWith('/f1-02.mp3'));assert.equal(started,2);
+  audio.onended();assert.equal(completed,1);assert.equal(loads,1,'healthy clips must not be reloaded');
+ });
 }
 test('revision index and separate install identities are valid',()=>{
  const revisions=JSON.parse(read('asset-revisions.json'));for(const [file,h]of Object.entries(revisions))assert.equal(hash(fs.readFileSync(path.join(ROOT,file))),h,file);
