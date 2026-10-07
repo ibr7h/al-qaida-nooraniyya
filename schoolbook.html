@@ -52,6 +52,45 @@ button,a{font:inherit}button{cursor:pointer}button:disabled{cursor:default;opaci
 @media(max-width:430px){.brand small{display:none}.hero-copy h1{font-size:1.15rem}.stepbar{gap:4px}.step{padding:6px 2px}.step span{font-size:1rem}.sound-grid{grid-template-columns:repeat(3,1fr)}.option-grid{grid-template-columns:repeat(3,1fr)}.stage-actions button{min-width:0;flex:1}.word-card b{font-size:1.35rem}}
 @media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;animation:none!important;transition:none!important}}
 :focus-visible{outline:3px solid rgba(53,109,145,.30);outline-offset:2px}
+
+/* Child-friendly card system: large type, controlled color coding, low visual noise */
+body{font-size:19px}
+.star-chip{display:flex;align-items:center;gap:6px;min-height:46px;padding:7px 12px;border:1px solid #ead7a3;background:#fff8df;border-radius:14px;font-weight:900;color:#765719;white-space:nowrap}
+.star-chip b{font-size:1.15rem}
+.hero-letter{width:92px;height:92px;font-size:5rem;background:#fff2cf;border-color:#eed28e;color:#315f58}
+.hero-copy h1{font-size:1.65rem}.hero-copy p{font-size:1.05rem}
+.focus-badge{font-size:.92rem}
+.step{font-size:1rem;min-height:70px}.step span{font-size:1.35rem}
+.stage-title h2{font-size:1.65rem}.stage-title p{font-size:1.03rem;line-height:1.7}
+.task-card{padding:18px;border-radius:22px}.task-card h3{font-size:1.35rem}.task-note{font-size:1.02rem;line-height:1.7}
+.sound-grid{gap:12px}.sound-btn{min-height:112px;border-radius:20px;font-size:2.65rem;box-shadow:0 5px 13px rgba(23,32,42,.05)}
+.sound-btn:nth-child(1){background:#fff1e8;border-color:#f1c9ad}.sound-btn:nth-child(2){background:#eef7ff;border-color:#bad8ef}.sound-btn:nth-child(3){background:#f3f0ff;border-color:#d0c5ef}
+.sound-btn small{font-size:.88rem}.listen-main{min-height:165px;border-radius:22px;background:#f3fbf8}.listen-main .glyph{font-size:7rem}.play-big{font-size:1.2rem;min-height:64px}
+.word-grid{gap:12px}.word-card{min-height:112px;padding:16px;border-radius:20px;display:flex;flex-direction:column;justify-content:center}
+.word-card:nth-child(4n+1){background:#fff3e7;border-color:#f0cbaa}.word-card:nth-child(4n+2){background:#edf8ff;border-color:#bfdcec}.word-card:nth-child(4n+3){background:#f2f7e8;border-color:#cedfb0}.word-card:nth-child(4n){background:#f8efff;border-color:#dbc6ea}
+.word-card b{font-size:2.25rem}.word-card small{font-size:.95rem}.target-letter{color:#c53e4b}
+.reading-box{padding:18px;border-radius:22px;background:#fffdf7;border-color:#eadfbd}.reading-box h3{font-size:1.35rem}.reading-sentence{font-size:1.7rem;line-height:2.25}
+.movement p{font-size:1.05rem}.shape{font-size:2.5rem;min-height:96px;border-radius:18px}.shape small{font-size:.85rem}
+.quiz-prompt{font-size:1.45rem;text-align:center}.option-grid{gap:12px}.option{min-height:112px;border-radius:20px;font-size:2.8rem;background:#fff;box-shadow:0 5px 13px rgba(23,32,42,.05)}
+.option:nth-child(1){background:#fff2e8}.option:nth-child(2){background:#edf8ff}.option:nth-child(3){background:#f4f0ff}
+.quiz-listen{display:flex;justify-content:center;margin:10px 0 18px}.quiz-listen .play-big{min-width:190px;background:#356d91}
+.quiz-counter{text-align:center;color:#667085;font-weight:800;margin-bottom:10px;font-size:1rem}
+.quiz-result{text-align:center;padding:22px;border-radius:22px;background:#fff8df;border:1px solid #ead7a3}
+.quiz-result .big-star{font-size:3.4rem}.quiz-result h3{font-size:1.7rem;margin:6px 0}.quiz-result p{font-size:1.1rem;color:#5f5541}
+.feedback{font-size:1.12rem;text-align:center}
+.letter-pill{width:62px;height:62px;font-size:1.65rem;border-radius:16px}
+@media(max-width:720px){
+ body{font-size:18px}.hero-letter{width:78px;height:78px;font-size:4.2rem}.hero-copy h1{font-size:1.45rem}
+ .step{font-size:.88rem;min-height:64px}.stage-title h2{font-size:1.45rem}
+ .sound-btn{min-height:96px;font-size:2.25rem}.listen-main .glyph{font-size:5.6rem}
+ .word-card{min-height:96px}.word-card b{font-size:1.9rem}.reading-sentence{font-size:1.5rem}
+ .option{min-height:96px;font-size:2.35rem}.shape{font-size:2.15rem}
+}
+@media(max-width:430px){
+ .appbar{gap:7px}.star-chip{padding:6px 9px}.soft-btn{padding:8px 10px}
+ .step{font-size:.78rem}.sound-btn{font-size:2rem}.option{font-size:2.15rem}
+ .word-card b{font-size:1.75rem}.reading-sentence{font-size:1.38rem}
+}
 </style>
 </head>
 <body>
@@ -59,6 +98,7 @@ button,a{font:inherit}button{cursor:pointer}button:disabled{cursor:default;opaci
 <header class="appbar">
 <button class="icon-btn" id="menuBtn" type="button" aria-label="اختيار الوحدة والحرف">☰</button>
 <div class="brand"><b>الكتاب المدرسي · قراءة وكتابة</b><small>نشاط قصير وواضح، خطوة واحدة في كل مرة</small></div>
+<div class="star-chip" title="نجوم التشجيع">⭐ <b id="starCount">0</b></div>
 <a class="soft-btn" href="index.html">النورانية</a>
 </header>
 <section class="hero">
@@ -70,7 +110,7 @@ button,a{font:inherit}button{cursor:pointer}button:disabled{cursor:default;opaci
 <button class="step active" data-stage="0" type="button"><span>🔊</span>أسمع</button>
 <button class="step" data-stage="1" type="button"><span>📖</span>أقرأ</button>
 <button class="step" data-stage="2" type="button"><span>✍️</span>أكتب</button>
-<button class="step" data-stage="3" type="button"><span>✓</span>أتحقق</button>
+<button class="step" data-stage="3" type="button"><span>🏆</span>اختبار الوحدة 1</button>
 </nav>
 <div class="progressline"><i id="stageProgress"></i></div>
 <main class="stage" id="stage"></main>
@@ -91,7 +131,7 @@ var STAGES=[
 {name:"أسمع",hint:"اسمع اسم الحرف أولًا، ثم تدرب على أصواته القصيرة والطويلة."},
 {name:"أقرأ",hint:"اقرأ كلمات الكتاب، ثم جملة قصيرة فقط في كل مرة."},
 {name:"أكتب",hint:"شاهد الشكل ثم جرّب الكتابة بيدك."},
-{name:"أتحقق",hint:"ثلاثة أسئلة قصيرة مع تغذية راجعة مباشرة."}
+{name:"اختبار الوحدة الأولى",hint:"ستة أسئلة قصيرة لحروف: م، ب، ل، د، ن، ر."}
 ];
 var fallbackCurriculum={units:[
 {id:1,title:"أُسْرَتِي",letters:[{letter:"م",page:106},{letter:"ب",page:114},{letter:"ل",page:122},{letter:"د",page:130},{letter:"ن",page:138},{letter:"ر",page:146}]},
@@ -99,11 +139,15 @@ var fallbackCurriculum={units:[
 {id:3,title:"مَدِينَتِي",letters:[{letter:"أ",page:220},{letter:"ط",page:227},{letter:"ز",page:234},{letter:"و",page:242},{letter:"ج",page:250},{letter:"ش",page:257}]}
 ]};
 var curriculum=fallbackCurriculum,audioMap={letters:{}},bookContent={letters:{}};
-var currentUnit=0,currentLetter=0,currentStage=0,sentenceIndex=0,quizIndex=0;
-var activeAudio=null,rewardTimer=null,progress={};
+var currentUnit=0,currentLetter=0,currentStage=0,sentenceIndex=0;
+var unitQuizLetters=["م","ب","ل","د","ن","ر"],unitQuizIndex=0,unitQuizScore=0,unitQuizAnswered=false,unitQuizFinished=false;
+var activeAudio=null,rewardTimer=null,progress={},stars=0;
 try{progress=JSON.parse(localStorage.getItem("schoolbook_focus_progress_v2")||"{}")||{};}catch(e){progress={};}
+try{stars=Number(localStorage.getItem("schoolbook_stars_v1")||"0")||0;}catch(e){stars=0;}
 function esc(s){return String(s==null?"":s).replace(/[&<>"]/g,function(c){return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c];});}
 function save(){try{localStorage.setItem("schoolbook_focus_progress_v2",JSON.stringify(progress));}catch(e){}}
+function updateStars(){var el=document.getElementById("starCount");if(el)el.textContent=stars;}
+function awardStar(count,message){stars+=count||1;try{localStorage.setItem("schoolbook_stars_v1",String(stars));}catch(e){}updateStars();showReward(message||"⭐ رائع! حصلت على نجمة.");}
 function current(){var u=curriculum.units[currentUnit],l=u.letters[currentLetter];return{unit:u,letter:l,ch:l.letter};}
 function pkey(){var c=current();return"u"+c.unit.id+"_"+c.ch;}
 function state(){var k=pkey();progress[k]=progress[k]||{doneStages:{}};progress[k].doneStages=progress[k].doneStages||{};return progress[k];}
@@ -116,27 +160,81 @@ function playFile(file,button){if(!file)return;if(activeAudio){try{activeAudio.p
 function audioButton(label,obj,sub){var file=obj&&obj.file?obj.file:"";return'<button class="sound-btn" type="button" data-audio="'+esc(file)+'" '+(file?"":"disabled")+">"+esc(label)+"<small>"+(file?esc(sub||"اسمع"):"الصوت غير متاح")+"</small></button>";}
 function bindAudio(){Array.prototype.forEach.call(document.querySelectorAll("[data-audio]"),function(b){b.onclick=function(){playFile(b.getAttribute("data-audio"),b);};});}
 function renderHeader(){var c=current();document.getElementById("heroLetter").textContent=c.ch;document.getElementById("heroTitle").textContent="حرف "+c.ch;document.getElementById("heroMeta").textContent="الوحدة "+c.unit.id+" · "+c.unit.title+" · صفحة "+c.letter.page;}
-function renderSteps(){var st=state();Array.prototype.forEach.call(document.querySelectorAll(".step"),function(b,i){b.classList.toggle("active",i===currentStage);b.classList.toggle("done",!!st.doneStages[String(i)]);});document.getElementById("stageProgress").style.width=((currentStage+1)/STAGES.length*100)+"%";}
+function renderSteps(){var st=state();Array.prototype.forEach.call(document.querySelectorAll(".step"),function(b,i){b.classList.toggle("active",i===currentStage);var done=i===3?!!(progress.unit1Quiz&&progress.unit1Quiz.completed):!!st.doneStages[String(i)];b.classList.toggle("done",done);});document.getElementById("stageProgress").style.width=((currentStage+1)/STAGES.length*100)+"%";}
 function stageHead(n){return'<div class="stage-head"><div class="stage-no">'+(n+1)+'</div><div class="stage-title"><h2>'+STAGES[n].name+"</h2><p>"+STAGES[n].hint+"</p></div></div>";}
 function navButtons(){return'<div class="stage-actions"><button class="soft-btn" id="prevStageBtn" type="button" '+(currentStage===0?"disabled":"")+'>السابق</button><button class="primary-btn" id="nextStageBtn" type="button">'+(currentStage===STAGES.length-1?"إنهاء الحرف":"التالي")+"</button></div>";}
 function bindStageNav(){var prev=document.getElementById("prevStageBtn"),next=document.getElementById("nextStageBtn");if(prev)prev.onclick=function(){if(currentStage>0){currentStage--;renderStage();}};if(next)next.onclick=function(){setDone(currentStage);if(currentStage<STAGES.length-1){currentStage++;showReward("أحسنت. ننتقل للخطوة التالية.");renderStage();}else{state().mastered=true;save();showReward("أحسنت. أكملت حرف "+current().ch+".");renderDrawer();}};}
 function renderListen(){var c=current(),m=audioMap.letters[c.ch]||{},sounds=genericSounds(c.ch),shortObjs=m.short||[],longObjs=m.long||[],h=stageHead(0);h+='<div class="listen-main"><div class="glyph">'+esc(c.ch)+'</div><button class="play-big" id="mainAudioBtn" type="button">▶ اسم الحرف</button></div>';h+='<div class="task-card"><h3>الأصوات القصيرة</h3><p class="task-note">اسمع صوتًا واحدًا، ثم ردده مرة واحدة.</p><div class="sound-grid">';sounds.short.forEach(function(x,i){h+=audioButton(x,shortObjs[i],"قصير");});h+='</div></div><div class="task-card"><h3>الأصوات الطويلة</h3><p class="task-note">مدّ الصوت بهدوء.</p><div class="sound-grid">';sounds.long.forEach(function(x,i){h+=audioButton(x,longObjs[i],"طويل");});h+='</div></div><div class="source-note">الأصوات من ملفات القاعدة النورانية الموجودة داخل المشروع.</div>'+navButtons();document.getElementById("stage").innerHTML=h;bindAudio();var main=document.getElementById("mainAudioBtn");main.onclick=function(){playFile(m.isolated&&m.isolated.file?m.isolated.file:"",main);};bindStageNav();}
 function renderRead(){var c=current(),content=bookContent.letters[c.ch]||null,h=stageHead(1);if(content&&content.words&&content.words.length){h+='<div class="task-card"><h3>كلمات من درس الكتاب</h3><p class="task-note">اقرأ كلمة واحدة في كل مرة وابحث عن حرف '+esc(c.ch)+'.</p><div class="word-grid">';content.words.forEach(function(w){h+='<div class="word-card"><b>'+highlightLetter(w.text,c.ch)+'</b><small>'+esc(w.position||"")+"</small></div>";});h+="</div></div>";}else{h+='<div class="empty">أصوات الحرف جاهزة، لكن كلمات هذا الدرس ستضاف بعد توفير صفحات الحرف من الكتاب حتى لا نضع كلمات غير منهجية.</div>';}if(content&&content.reading&&content.reading.sentences&&content.reading.sentences.length){var arr=content.reading.sentences;if(sentenceIndex>=arr.length)sentenceIndex=0;h+='<div class="reading-box"><h3>'+esc(content.reading.title)+'</h3><p class="reading-sentence">'+highlightLetter(arr[sentenceIndex],c.ch)+'</p><div class="sentence-nav"><button class="soft-btn" id="prevSentenceBtn" type="button" '+(sentenceIndex===0?"disabled":"")+'>السابق</button><b>جملة '+(sentenceIndex+1)+" من "+arr.length+'</b><button class="soft-btn" id="nextSentenceBtn" type="button" '+(sentenceIndex===arr.length-1?"disabled":"")+">التالي</button></div></div>";h+='<div class="movement"><span class="move-icon">↟</span><p>'+esc(content.movementPrompt||"خذ استراحة حركة قصيرة.")+'</p><button class="soft-btn" id="moveDoneBtn" type="button">تم</button></div>';}h+=navButtons();document.getElementById("stage").innerHTML=h;var ps=document.getElementById("prevSentenceBtn"),ns=document.getElementById("nextSentenceBtn");if(ps)ps.onclick=function(){if(sentenceIndex>0){sentenceIndex--;renderRead();}};if(ns)ns.onclick=function(){var a=bookContent.letters[c.ch].reading.sentences||[];if(sentenceIndex<a.length-1){sentenceIndex++;renderRead();}};var md=document.getElementById("moveDoneBtn");if(md)md.onclick=function(){md.textContent="✓";md.disabled=true;};bindStageNav();}
 function renderWrite(){var c=current(),content=bookContent.letters[c.ch]||{},shapes=(content.focus&&content.focus.shapes)||shapesFor(c.ch),labels=["مفرد","أول","وسط","آخر"],h=stageHead(2);h+='<div class="task-card"><h3>أشكال الحرف</h3><p class="task-note">شاهد الشكل ثم انتقل للكتابة.</p><div class="shape-row">';shapes.forEach(function(x,i){h+='<div class="shape">'+esc(x)+"<small>"+labels[i]+"</small></div>";});h+='</div></div><div class="task-card"><h3>أتتبع وأكتب</h3><p class="task-note">ابدأ فوق النموذج، ثم أخفِه عندما تصبح جاهزًا.</p><div class="write-wrap"><div class="write-lines"></div><div class="guide-letter" id="guideLetter">'+esc(c.ch)+'</div><canvas id="writeCanvas"></canvas></div><div class="write-tools"><button class="soft-btn" id="guideBtn" type="button">إخفاء النموذج</button><button class="soft-btn" id="clearBtn" type="button">مسح</button></div></div>';h+=navButtons();document.getElementById("stage").innerHTML=h;setupCanvas();bindStageNav();}
-function quizSet(){var c=current(),u=c.unit,sounds=genericSounds(c.ch),content=bookContent.letters[c.ch]||{},distractors=u.letters.map(function(x){return x.letter;}).filter(function(x){return x!==c.ch;}),opts1=[c.ch].concat(distractors.slice(0,2)),q=[{prompt:"أين حرف "+c.ch+"؟",answer:c.ch,options:opts1},{prompt:"اختر الصوت القصير بالفتحة.",answer:sounds.short[0],options:sounds.short.slice()},{prompt:"اختر الصوت الطويل بالألف.",answer:sounds.long[0],options:sounds.long.slice()}];if(content.words&&content.words.length>=3)q[2]={prompt:"أي كلمة تبدأ بحرف "+c.ch+"؟",answer:content.words[0].text,options:[content.words[0].text,content.words[1].text,content.words[2].text]};return q;}
-function renderQuiz(){var qs=quizSet();if(quizIndex>=qs.length)quizIndex=0;var q=qs[quizIndex],h=stageHead(3);h+='<div class="task-card"><div class="quiz-prompt">'+esc(q.prompt)+'</div><div class="option-grid">';q.options.forEach(function(x){h+='<button class="option" type="button" data-answer="'+esc(x)+'">'+esc(x)+"</button>";});h+='</div><div class="feedback" id="feedback">اختر إجابة واحدة.</div></div><div class="stage-actions"><button class="soft-btn" id="prevStageBtn" type="button">العودة للكتابة</button><button class="primary-btn" id="nextQuestionBtn" type="button">'+(quizIndex===qs.length-1?"إنهاء الحرف":"السؤال التالي")+"</button></div>";document.getElementById("stage").innerHTML=h;Array.prototype.forEach.call(document.querySelectorAll(".option"),function(b){b.onclick=function(){var chosen=b.getAttribute("data-answer");Array.prototype.forEach.call(document.querySelectorAll(".option"),function(x){x.disabled=true;if(x.getAttribute("data-answer")===q.answer)x.classList.add("good");});if(chosen===q.answer){document.getElementById("feedback").textContent="صحيح. عمل جيد.";state().correct=(state().correct||0)+1;}else{b.classList.add("bad");document.getElementById("feedback").textContent="ليست هذه. انظر إلى الإجابة الصحيحة ثم جرّب في السؤال التالي.";}save();};});document.getElementById("prevStageBtn").onclick=function(){currentStage=2;renderStage();};document.getElementById("nextQuestionBtn").onclick=function(){if(quizIndex<qs.length-1){quizIndex++;renderQuiz();}else{setDone(3);state().mastered=true;save();showReward("أحسنت. أكملت حرف "+current().ch+".");renderDrawer();}};}
+function unitQuizQuestion(){
+  var target=unitQuizLetters[unitQuizIndex],map=audioMap.letters[target]||{},others=unitQuizLetters.filter(function(x){return x!==target;});
+  var d1=others[(unitQuizIndex*2)%others.length],d2=others[(unitQuizIndex*2+1)%others.length];
+  var options=[target,d1,d2];
+  if(unitQuizIndex%2===1)options=[d1,target,d2];
+  if(unitQuizIndex%3===2)options=[d2,d1,target];
+  return{target:target,file:map.isolated&&map.isolated.file?map.isolated.file:"",options:options};
+}
+function renderQuizResult(){
+  var best=progress.unit1Quiz&&progress.unit1Quiz.best||0;
+  if(unitQuizScore>best)best=unitQuizScore;
+  progress.unit1Quiz={completed:true,score:unitQuizScore,best:best};
+  save();renderSteps();
+  var msg=unitQuizScore===6?"ممتاز جدًا! عرفت حروف الوحدة كلها.":unitQuizScore>=4?"أحسنت! بقيت مراجعة بسيطة لبعض الحروف.":"بداية جميلة. راجع البطاقات الصوتية ثم جرّب مرة أخرى.";
+  var h=stageHead(3)+'<div class="quiz-result"><div class="big-star">⭐</div><h3>'+unitQuizScore+' / 6</h3><p>'+msg+'</p><button class="primary-btn" id="retryQuizBtn" type="button">أعيد الاختبار</button></div><div class="stage-actions"><button class="soft-btn" id="prevStageBtn" type="button">العودة للكتابة</button><button class="soft-btn" id="backToMeemBtn" type="button">العودة للتعلم</button></div>';
+  document.getElementById("stage").innerHTML=h;
+  document.getElementById("retryQuizBtn").onclick=function(){unitQuizIndex=0;unitQuizScore=0;unitQuizAnswered=false;unitQuizFinished=false;renderQuiz();};
+  document.getElementById("prevStageBtn").onclick=function(){currentStage=2;renderStage();};
+  document.getElementById("backToMeemBtn").onclick=function(){currentUnit=0;currentLetter=0;currentStage=0;renderStage();};
+}
+function renderQuiz(){
+  if(unitQuizFinished){renderQuizResult();return;}
+  var q=unitQuizQuestion(),h=stageHead(3);
+  h+='<div class="quiz-counter">السؤال '+(unitQuizIndex+1)+' من 6 · النتيجة الحالية '+unitQuizScore+'</div>';
+  h+='<div class="task-card"><div class="quiz-prompt">استمع إلى اسم الحرف، ثم اختر بطاقته.</div><div class="quiz-listen"><button class="play-big" id="quizAudioBtn" type="button">🔊 اسمع</button></div><div class="option-grid">';
+  q.options.forEach(function(x){h+='<button class="option" type="button" data-answer="'+esc(x)+'">'+esc(x)+'</button>';});
+  h+='</div><div class="feedback" id="feedback">اختر بطاقة واحدة.</div></div>';
+  h+='<div class="stage-actions"><button class="soft-btn" id="prevStageBtn" type="button">العودة للكتابة</button><button class="primary-btn" id="nextQuestionBtn" type="button" disabled>'+(unitQuizIndex===5?"النتيجة":"السؤال التالي")+'</button></div>';
+  document.getElementById("stage").innerHTML=h;
+  var audioBtn=document.getElementById("quizAudioBtn");
+  audioBtn.onclick=function(){playFile(q.file,audioBtn);};
+  Array.prototype.forEach.call(document.querySelectorAll(".option"),function(b){
+    b.onclick=function(){
+      if(unitQuizAnswered)return;
+      unitQuizAnswered=true;
+      var chosen=b.getAttribute("data-answer");
+      Array.prototype.forEach.call(document.querySelectorAll(".option"),function(x){x.disabled=true;if(x.getAttribute("data-answer")===q.target)x.classList.add("good");});
+      if(chosen===q.target){
+        unitQuizScore++;
+        b.classList.add("good");
+        document.getElementById("feedback").textContent="⭐ رائع! عرفت الحرف.";
+        awardStar(1,"⭐ رائع! إجابة صحيحة.");
+      }else{
+        b.classList.add("bad");
+        document.getElementById("feedback").textContent="محاولة جيدة. الحرف الصحيح هو "+q.target+".";
+      }
+      document.getElementById("nextQuestionBtn").disabled=false;
+    };
+  });
+  document.getElementById("prevStageBtn").onclick=function(){currentStage=2;renderStage();};
+  document.getElementById("nextQuestionBtn").onclick=function(){
+    if(!unitQuizAnswered)return;
+    if(unitQuizIndex<5){unitQuizIndex++;unitQuizAnswered=false;renderQuiz();}
+    else{unitQuizFinished=true;renderQuizResult();}
+  };
+}
 function renderStage(){renderHeader();renderSteps();if(activeAudio){try{activeAudio.pause();}catch(e){}activeAudio=null;}if(currentStage===0)renderListen();else if(currentStage===1)renderRead();else if(currentStage===2)renderWrite();else renderQuiz();window.scrollTo(0,0);}
 function setupCanvas(){var canvas=document.getElementById("writeCanvas");if(!canvas)return;var ctx=canvas.getContext("2d"),drawing=false,lx=0,ly=0;function resize(){var r=canvas.getBoundingClientRect(),ratio=window.devicePixelRatio||1,w=Math.round(r.width*ratio),h=Math.round(r.height*ratio);if(canvas.width!==w||canvas.height!==h){canvas.width=w;canvas.height=h;ctx.setTransform(ratio,0,0,ratio,0,0);ctx.lineWidth=5;ctx.lineCap="round";ctx.lineJoin="round";ctx.strokeStyle="#193f3a";}}function point(e){var r=canvas.getBoundingClientRect(),t=e.touches&&e.touches[0]?e.touches[0]:e;return{x:t.clientX-r.left,y:t.clientY-r.top};}function down(e){resize();drawing=true;var p=point(e);lx=p.x;ly=p.y;e.preventDefault();}function move(e){if(!drawing)return;var p=point(e);ctx.beginPath();ctx.moveTo(lx,ly);ctx.lineTo(p.x,p.y);ctx.stroke();lx=p.x;ly=p.y;e.preventDefault();}function up(e){drawing=false;if(e)e.preventDefault();}resize();canvas.addEventListener("mousedown",down);canvas.addEventListener("mousemove",move);window.addEventListener("mouseup",up);canvas.addEventListener("touchstart",down,{passive:false});canvas.addEventListener("touchmove",move,{passive:false});canvas.addEventListener("touchend",up,{passive:false});document.getElementById("clearBtn").onclick=function(){resize();ctx.clearRect(0,0,canvas.width,canvas.height);};document.getElementById("guideBtn").onclick=function(){var g=document.getElementById("guideLetter"),show=g.style.display==="none";g.style.display=show?"flex":"none";this.textContent=show?"إخفاء النموذج":"إظهار النموذج";};}
-function renderDrawer(){var box=document.getElementById("curriculumList");box.innerHTML="";curriculum.units.forEach(function(u,ui){var div=document.createElement("div");div.className="unit-block";div.innerHTML="<h3>الوحدة "+u.id+" · "+esc(u.title)+"</h3>";var row=document.createElement("div");row.className="letter-pills";u.letters.forEach(function(l,li){var b=document.createElement("button"),k="u"+u.id+"_"+l.letter,st=progress[k]||{};b.type="button";b.className="letter-pill"+(ui===currentUnit&&li===currentLetter?" active":"")+(st.mastered?" done":"");b.textContent=l.letter;b.title="حرف "+l.letter+" · ص "+l.page;b.onclick=function(){currentUnit=ui;currentLetter=li;currentStage=0;sentenceIndex=0;quizIndex=0;closeDrawer();renderStage();};row.appendChild(b);});div.appendChild(row);box.appendChild(div);});}
+function renderDrawer(){var box=document.getElementById("curriculumList");box.innerHTML="";curriculum.units.forEach(function(u,ui){var div=document.createElement("div");div.className="unit-block";div.innerHTML="<h3>الوحدة "+u.id+" · "+esc(u.title)+"</h3>";var row=document.createElement("div");row.className="letter-pills";u.letters.forEach(function(l,li){var b=document.createElement("button"),k="u"+u.id+"_"+l.letter,st=progress[k]||{};b.type="button";b.className="letter-pill"+(ui===currentUnit&&li===currentLetter?" active":"")+(st.mastered?" done":"");b.textContent=l.letter;b.title="حرف "+l.letter+" · ص "+l.page;b.onclick=function(){currentUnit=ui;currentLetter=li;currentStage=0;sentenceIndex=0;unitQuizIndex=0;unitQuizScore=0;unitQuizAnswered=false;unitQuizFinished=false;closeDrawer();renderStage();};row.appendChild(b);});div.appendChild(row);box.appendChild(div);});}
 function openDrawer(){renderDrawer();document.getElementById("drawer").classList.add("open");document.getElementById("drawer").setAttribute("aria-hidden","false");}
 function closeDrawer(){document.getElementById("drawer").classList.remove("open");document.getElementById("drawer").setAttribute("aria-hidden","true");}
-document.getElementById("menuBtn").onclick=openDrawer;document.getElementById("closeDrawerBtn").onclick=closeDrawer;document.getElementById("drawer").onclick=function(e){if(e.target===this)closeDrawer();};document.getElementById("resetBtn").onclick=function(){if(confirm("تصفير تقدم وضع الكتاب المدرسي؟")){progress={};save();renderDrawer();renderSteps();}};
+document.getElementById("menuBtn").onclick=openDrawer;document.getElementById("closeDrawerBtn").onclick=closeDrawer;document.getElementById("drawer").onclick=function(e){if(e.target===this)closeDrawer();};document.getElementById("resetBtn").onclick=function(){if(confirm("تصفير تقدم وضع الكتاب المدرسي ونجوم التشجيع؟")){progress={};stars=0;try{localStorage.setItem("schoolbook_stars_v1","0");}catch(e){}save();updateStars();renderDrawer();renderSteps();}};
 Array.prototype.forEach.call(document.querySelectorAll(".step"),function(b){b.onclick=function(){currentStage=Number(b.getAttribute("data-stage"))||0;renderStage();};});
 Promise.all([
 fetch("schoolbook_curriculum.json",{cache:"no-store"}).then(function(r){return r.ok?r.json():fallbackCurriculum;}).catch(function(){return fallbackCurriculum;}),
 fetch("schoolbook_audio_map.json",{cache:"no-store"}).then(function(r){return r.ok?r.json():{letters:{}};}).catch(function(){return{letters:{}};}),
 fetch("schoolbook_content.json",{cache:"no-store"}).then(function(r){return r.ok?r.json():{letters:{}};}).catch(function(){return{letters:{}};})
-]).then(function(res){curriculum=res[0]&&res[0].units?res[0]:fallbackCurriculum;audioMap=res[1]||{letters:{}};bookContent=res[2]||{letters:{}};renderDrawer();renderStage();});
+]).then(function(res){curriculum=res[0]&&res[0].units?res[0]:fallbackCurriculum;audioMap=res[1]||{letters:{}};bookContent=res[2]||{letters:{}};updateStars();renderDrawer();renderStage();});
 })();
 </script>
 </body>
