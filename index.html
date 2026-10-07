@@ -1939,6 +1939,14 @@
     }
 
   </style>
+  <script>
+    (function () {
+      var ua = navigator.userAgent || '';
+      if (/Web0S|webOS|SmartTV/i.test(ua) && location.pathname.indexOf('/webos-tv.html') === -1) {
+        location.replace('webos-tv.html' + location.search + location.hash);
+      }
+    })();
+  </script>
 </head>
 <body>
 
