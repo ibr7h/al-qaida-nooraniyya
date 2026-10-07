@@ -13,6 +13,8 @@ const SHELL_ASSETS=[
   './webos-tv.html',
   './schoolbook.html',
   './schoolbook_curriculum.json',
+  './schoolbook_audio_map.json',
+  './schoolbook_content.json',
   './manifest-mobile-v2.webmanifest',
   './version.js',
   './manifest.webmanifest',
