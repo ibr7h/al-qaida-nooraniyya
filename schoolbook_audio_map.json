@@ -1,0 +1,793 @@
+{
+  "source": "assets/all_lessons_data.json",
+  "note": "Audio references reuse the existing Al-Qaida Al-Nooraniyya recordings.",
+  "letters": {
+    "م": {
+      "isolated": {
+        "text": "م",
+        "file": "f1-27.mp3",
+        "lesson": 1
+      },
+      "short": [
+        {
+          "text": "مَ",
+          "file": "f4-137.mp3",
+          "lesson": 4
+        },
+        {
+          "text": "مِ",
+          "file": "f4-138.mp3",
+          "lesson": 4
+        },
+        {
+          "text": "مُ",
+          "file": "f4-140.mp3",
+          "lesson": 4
+        }
+      ],
+      "long": [
+        {
+          "label": "مَا",
+          "qaidaText": "مَا",
+          "file": "f8-127.mp3",
+          "lesson": 8
+        },
+        {
+          "label": "مِي",
+          "qaidaText": "مِي",
+          "file": "f8-130.mp3",
+          "lesson": 8
+        },
+        {
+          "label": "مُو",
+          "qaidaText": "مُوا",
+          "file": "f8-128.mp3",
+          "lesson": 8
+        }
+      ]
+    },
+    "ب": {
+      "isolated": {
+        "text": "ب",
+        "file": "f1-05.mp3",
+        "lesson": 1
+      },
+      "short": [
+        {
+          "text": "بَ",
+          "file": "f4-131.mp3",
+          "lesson": 4
+        },
+        {
+          "text": "بِ",
+          "file": "f4-133.mp3",
+          "lesson": 4
+        },
+        {
+          "text": "بُ",
+          "file": "f4-135.mp3",
+          "lesson": 4
+        }
+      ],
+      "long": [
+        {
+          "label": "بَا",
+          "qaidaText": "بَا",
+          "file": "f8-02.mp3",
+          "lesson": 8
+        },
+        {
+          "label": "بِي",
+          "qaidaText": "بِي",
+          "file": "f8-05.mp3",
+          "lesson": 8
+        },
+        {
+          "label": "بُو",
+          "qaidaText": "بُوا",
+          "file": "f8-03.mp3",
+          "lesson": 8
+        }
+      ]
+    },
+    "ل": {
+      "isolated": {
+        "text": "ل",
+        "file": "f1-26.mp3",
+        "lesson": 1
+      },
+      "short": [
+        {
+          "text": "لَ",
+          "file": "f4-62.mp3",
+          "lesson": 4
+        },
+        {
+          "text": "لِ",
+          "file": "f4-63.mp3",
+          "lesson": 4
+        },
+        {
+          "text": "لُ",
+          "file": "f4-65.mp3",
+          "lesson": 4
+        }
+      ],
+      "long": [
+        {
+          "label": "لَا",
+          "qaidaText": "لَا",
+          "file": "f8-122.mp3",
+          "lesson": 8
+        },
+        {
+          "label": "لِي",
+          "qaidaText": "لِي",
+          "file": "f8-125.mp3",
+          "lesson": 8
+        },
+        {
+          "label": "لُو",
+          "qaidaText": "لُوا",
+          "file": "f8-123.mp3",
+          "lesson": 8
+        }
+      ]
+    },
+    "د": {
+      "isolated": {
+        "text": "د",
+        "file": "f1-11.mp3",
+        "lesson": 1
+      },
+      "short": [
+        {
+          "text": "دَ",
+          "file": "f4-82.mp3",
+          "lesson": 4
+        },
+        {
+          "text": "دِ",
+          "file": "f4-83.mp3",
+          "lesson": 4
+        },
+        {
+          "text": "دُ",
+          "file": "f4-85.mp3",
+          "lesson": 4
+        }
+      ],
+      "long": [
+        {
+          "label": "دَا",
+          "qaidaText": "دَا",
+          "file": "f8-72.mp3",
+          "lesson": 8
+        },
+        {
+          "label": "دِي",
+          "qaidaText": "دِي",
+          "file": "f8-75.mp3",
+          "lesson": 8
+        },
+        {
+          "label": "دُو",
+          "qaidaText": "دُوا",
+          "file": "f8-73.mp3",
+          "lesson": 8
+        }
+      ]
+    },
+    "ن": {
+      "isolated": {
+        "text": "ن",
+        "file": "f1-28.mp3",
+        "lesson": 1
+      },
+      "short": [
+        {
+          "text": "نَ",
+          "file": "f4-67.mp3",
+          "lesson": 4
+        },
+        {
+          "text": "نِ",
+          "file": "f4-68.mp3",
+          "lesson": 4
+        },
+        {
+          "text": "نُ",
+          "file": "f4-70.mp3",
+          "lesson": 4
+        }
+      ],
+      "long": [
+        {
+          "label": "نَا",
+          "qaidaText": "نَا",
+          "file": "f8-132.mp3",
+          "lesson": 8
+        },
+        {
+          "label": "نِي",
+          "qaidaText": "نِي",
+          "file": "f8-135.mp3",
+          "lesson": 8
+        },
+        {
+          "label": "نُو",
+          "qaidaText": "نُوا",
+          "file": "f8-133.mp3",
+          "lesson": 8
+        }
+      ]
+    },
+    "ر": {
+      "isolated": {
+        "text": "ر",
+        "file": "f1-13.mp3",
+        "lesson": 1
+      },
+      "short": [
+        {
+          "text": "رَ",
+          "file": "f4-72.mp3",
+          "lesson": 4
+        },
+        {
+          "text": "رِ",
+          "file": "f4-73.mp3",
+          "lesson": 4
+        },
+        {
+          "text": "رُ",
+          "file": "f4-75.mp3",
+          "lesson": 4
+        }
+      ],
+      "long": [
+        {
+          "label": "رَا",
+          "qaidaText": "رَا",
+          "file": "f8-27.mp3",
+          "lesson": 8
+        },
+        {
+          "label": "رِي",
+          "qaidaText": "رِي",
+          "file": "f8-30.mp3",
+          "lesson": 8
+        },
+        {
+          "label": "رُو",
+          "qaidaText": "رُوا",
+          "file": "f8-28.mp3",
+          "lesson": 8
+        }
+      ]
+    },
+    "ص": {
+      "isolated": {
+        "text": "ص",
+        "file": "f1-17.mp3",
+        "lesson": 1
+      },
+      "short": [
+        {
+          "text": "صَ",
+          "file": "f4-92.mp3",
+          "lesson": 4
+        },
+        {
+          "text": "صِ",
+          "file": "f4-93.mp3",
+          "lesson": 4
+        },
+        {
+          "text": "صُ",
+          "file": "f4-95.mp3",
+          "lesson": 4
+        }
+      ],
+      "long": [
+        {
+          "label": "صَا",
+          "qaidaText": "صَا",
+          "file": "f8-92.mp3",
+          "lesson": 8
+        },
+        {
+          "label": "صِي",
+          "qaidaText": "صِي",
+          "file": "f8-95.mp3",
+          "lesson": 8
+        },
+        {
+          "label": "صُو",
+          "qaidaText": "صُوا",
+          "file": "f8-93.mp3",
+          "lesson": 8
+        }
+      ]
+    },
+    "ف": {
+      "isolated": {
+        "text": "ف",
+        "file": "f1-23.mp3",
+        "lesson": 1
+      },
+      "short": [
+        {
+          "text": "فَ",
+          "file": "f4-122.mp3",
+          "lesson": 4
+        },
+        {
+          "text": "فِ",
+          "file": "f4-123.mp3",
+          "lesson": 4
+        },
+        {
+          "text": "فُ",
+          "file": "f4-125.mp3",
+          "lesson": 4
+        }
+      ],
+      "long": [
+        {
+          "label": "فَا",
+          "qaidaText": "فَا",
+          "file": "f8-47.mp3",
+          "lesson": 8
+        },
+        {
+          "label": "فِي",
+          "qaidaText": "فِي",
+          "file": "f8-50.mp3",
+          "lesson": 8
+        },
+        {
+          "label": "فُو",
+          "qaidaText": "فُوا",
+          "file": "f8-48.mp3",
+          "lesson": 8
+        }
+      ]
+    },
+    "س": {
+      "isolated": {
+        "text": "س",
+        "file": "f1-15.mp3",
+        "lesson": 1
+      },
+      "short": [
+        {
+          "text": "سَ",
+          "file": "f4-97.mp3",
+          "lesson": 4
+        },
+        {
+          "text": "سِ",
+          "file": "f4-98.mp3",
+          "lesson": 4
+        },
+        {
+          "text": "سُ",
+          "file": "f4-100.mp3",
+          "lesson": 4
+        }
+      ],
+      "long": [
+        {
+          "label": "سَا",
+          "qaidaText": "سَا",
+          "file": "f8-82.mp3",
+          "lesson": 8
+        },
+        {
+          "label": "سِي",
+          "qaidaText": "سِي",
+          "file": "f8-85.mp3",
+          "lesson": 8
+        },
+        {
+          "label": "سُو",
+          "qaidaText": "سُوا",
+          "file": "f8-83.mp3",
+          "lesson": 8
+        }
+      ]
+    },
+    "ق": {
+      "isolated": {
+        "text": "ق",
+        "file": "f1-24.mp3",
+        "lesson": 1
+      },
+      "short": [
+        {
+          "text": "قَ",
+          "file": "f4-32.mp3",
+          "lesson": 4
+        },
+        {
+          "text": "قِ",
+          "file": "f4-33.mp3",
+          "lesson": 4
+        },
+        {
+          "text": "قُ",
+          "file": "f4-35.mp3",
+          "lesson": 4
+        }
+      ],
+      "long": [
+        {
+          "label": "قَا",
+          "qaidaText": "قَا",
+          "file": "f8-112.mp3",
+          "lesson": 8
+        },
+        {
+          "label": "قِي",
+          "qaidaText": "قِي",
+          "file": "f8-115.mp3",
+          "lesson": 8
+        },
+        {
+          "label": "قُو",
+          "qaidaText": "قُوا",
+          "file": "f8-113.mp3",
+          "lesson": 8
+        }
+      ]
+    },
+    "ت": {
+      "isolated": {
+        "text": "ت",
+        "file": "f1-06.mp3",
+        "lesson": 1
+      },
+      "short": [
+        {
+          "text": "تَ",
+          "file": "f4-87.mp3",
+          "lesson": 4
+        },
+        {
+          "text": "تِ",
+          "file": "f4-88.mp3",
+          "lesson": 4
+        },
+        {
+          "text": "تُ",
+          "file": "f4-90.mp3",
+          "lesson": 4
+        }
+      ],
+      "long": [
+        {
+          "label": "تَا",
+          "qaidaText": "تَا",
+          "file": "f8-07.mp3",
+          "lesson": 8
+        },
+        {
+          "label": "تِي",
+          "qaidaText": "تِي",
+          "file": "f8-10.mp3",
+          "lesson": 8
+        },
+        {
+          "label": "تُو",
+          "qaidaText": "تُوا",
+          "file": "f8-08.mp3",
+          "lesson": 8
+        }
+      ]
+    },
+    "ح": {
+      "isolated": {
+        "text": "ح",
+        "file": "f1-09.mp3",
+        "lesson": 1
+      },
+      "short": [
+        {
+          "text": "حَ",
+          "file": "f4-17.mp3",
+          "lesson": 4
+        },
+        {
+          "text": "حِ",
+          "file": "f4-18.mp3",
+          "lesson": 4
+        },
+        {
+          "text": "حُ",
+          "file": "f4-20.mp3",
+          "lesson": 4
+        }
+      ],
+      "long": [
+        {
+          "label": "حَا",
+          "qaidaText": "حَا",
+          "file": "f8-17.mp3",
+          "lesson": 8
+        },
+        {
+          "label": "حِي",
+          "qaidaText": "حِي",
+          "file": "f8-20.mp3",
+          "lesson": 8
+        },
+        {
+          "label": "حُو",
+          "qaidaText": "حُوا",
+          "file": "f8-18.mp3",
+          "lesson": 8
+        }
+      ]
+    },
+    "أ": {
+      "isolated": {
+        "text": "أ",
+        "file": "f2-113.mp3",
+        "lesson": 2
+      },
+      "short": [
+        {
+          "text": "أَ",
+          "file": "f4-02.mp3",
+          "lesson": 4
+        },
+        {
+          "text": "إِ",
+          "file": "f4-03.mp3",
+          "lesson": 4
+        },
+        {
+          "text": "أُ",
+          "file": "f4-05.mp3",
+          "lesson": 4
+        }
+      ],
+      "long": [
+        null,
+        {
+          "label": "إِي",
+          "qaidaText": "إِي",
+          "file": "f8-65.mp3",
+          "lesson": 8
+        },
+        {
+          "label": "أُو",
+          "qaidaText": "أُوا",
+          "file": "f8-63.mp3",
+          "lesson": 8
+        }
+      ]
+    },
+    "ط": {
+      "isolated": {
+        "text": "ط",
+        "file": "f1-19.mp3",
+        "lesson": 1
+      },
+      "short": [
+        {
+          "text": "طَ",
+          "file": "f4-77.mp3",
+          "lesson": 4
+        },
+        {
+          "text": "طِ",
+          "file": "f4-78.mp3",
+          "lesson": 4
+        },
+        {
+          "text": "طُ",
+          "file": "f4-80.mp3",
+          "lesson": 4
+        }
+      ],
+      "long": [
+        {
+          "label": "طَا",
+          "qaidaText": "طَا",
+          "file": "f8-37.mp3",
+          "lesson": 8
+        },
+        {
+          "label": "طِي",
+          "qaidaText": "طِي",
+          "file": "f8-40.mp3",
+          "lesson": 8
+        },
+        {
+          "label": "طُو",
+          "qaidaText": "طُوا",
+          "file": "f8-38.mp3",
+          "lesson": 8
+        }
+      ]
+    },
+    "ز": {
+      "isolated": {
+        "text": "ز",
+        "file": "f1-14.mp3",
+        "lesson": 1
+      },
+      "short": [
+        {
+          "text": "زَ",
+          "file": "f4-102.mp3",
+          "lesson": 4
+        },
+        {
+          "text": "زِ",
+          "file": "f4-103.mp3",
+          "lesson": 4
+        },
+        {
+          "text": "زُ",
+          "file": "f4-105.mp3",
+          "lesson": 4
+        }
+      ],
+      "long": [
+        {
+          "label": "زَا",
+          "qaidaText": "زَا",
+          "file": "f8-32.mp3",
+          "lesson": 8
+        },
+        {
+          "label": "زِي",
+          "qaidaText": "زِي",
+          "file": "f8-35.mp3",
+          "lesson": 8
+        },
+        {
+          "label": "زُو",
+          "qaidaText": "زُوا",
+          "file": "f8-33.mp3",
+          "lesson": 8
+        }
+      ]
+    },
+    "و": {
+      "isolated": {
+        "text": "و",
+        "file": "f1-29.mp3",
+        "lesson": 1
+      },
+      "short": [
+        {
+          "text": "وَ",
+          "file": "f4-127.mp3",
+          "lesson": 4
+        },
+        {
+          "text": "وِ",
+          "file": "f4-128.mp3",
+          "lesson": 4
+        },
+        {
+          "text": "وُ",
+          "file": "f4-130.mp3",
+          "lesson": 4
+        }
+      ],
+      "long": [
+        {
+          "label": "وَا",
+          "qaidaText": "وَا",
+          "file": "f8-137.mp3",
+          "lesson": 8
+        },
+        {
+          "label": "وِي",
+          "qaidaText": "وِي",
+          "file": "f8-140.mp3",
+          "lesson": 8
+        },
+        {
+          "label": "وُو",
+          "qaidaText": "وُوا",
+          "file": "f8-138.mp3",
+          "lesson": 8
+        }
+      ]
+    },
+    "ج": {
+      "isolated": {
+        "text": "ج",
+        "file": "f1-08.mp3",
+        "lesson": 1
+      },
+      "short": [
+        {
+          "text": "جَ",
+          "file": "f4-42.mp3",
+          "lesson": 4
+        },
+        {
+          "text": "جِ",
+          "file": "f4-43.mp3",
+          "lesson": 4
+        },
+        {
+          "text": "جُ",
+          "file": "f4-45.mp3",
+          "lesson": 4
+        }
+      ],
+      "long": [
+        {
+          "label": "جَا",
+          "qaidaText": "جَا",
+          "file": "f8-67.mp3",
+          "lesson": 8
+        },
+        {
+          "label": "جِي",
+          "qaidaText": "جِي",
+          "file": "f8-70.mp3",
+          "lesson": 8
+        },
+        {
+          "label": "جُو",
+          "qaidaText": "جُوا",
+          "file": "f8-68.mp3",
+          "lesson": 8
+        }
+      ]
+    },
+    "ش": {
+      "isolated": {
+        "text": "ش",
+        "file": "f1-16.mp3",
+        "lesson": 1
+      },
+      "short": [
+        {
+          "text": "شَ",
+          "file": "f4-47.mp3",
+          "lesson": 4
+        },
+        {
+          "text": "شِ",
+          "file": "f4-48.mp3",
+          "lesson": 4
+        },
+        {
+          "text": "شُ",
+          "file": "f4-50.mp3",
+          "lesson": 4
+        }
+      ],
+      "long": [
+        {
+          "label": "شَا",
+          "qaidaText": "شَا",
+          "file": "f8-87.mp3",
+          "lesson": 8
+        },
+        {
+          "label": "شِي",
+          "qaidaText": "شِي",
+          "file": "f8-90.mp3",
+          "lesson": 8
+        },
+        {
+          "label": "شُو",
+          "qaidaText": "شُوا",
+          "file": "f8-88.mp3",
+          "lesson": 8
+        }
+      ]
+    }
+  }
+}
