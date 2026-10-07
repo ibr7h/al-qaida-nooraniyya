@@ -10,6 +10,7 @@ const SHELL_ASSETS=[
   './',
   './index.html',
   './mobile-v2.html',
+  './webos-tv.html',
   './manifest-mobile-v2.webmanifest',
   './version.js',
   './manifest.webmanifest',
@@ -125,7 +126,7 @@ self.addEventListener('install',event=>{
     }catch(error){
       await broadcastUpdate({
         phase:'error',
-        asset:String(error?.message||''),
+        asset:String((error&&error.message)||''),
         completed:0,
         total:SHELL_ASSETS.length,
         progress:0
@@ -154,7 +155,7 @@ self.addEventListener('activate',event=>{
 });
 
 self.addEventListener('message',event=>{
-  if(event.data?.type==='SKIP_WAITING')self.skipWaiting();
+  if(event.data&&event.data.type==='SKIP_WAITING')self.skipWaiting();
 });
 
 async function cacheFirst(request,cacheName){
@@ -251,6 +252,8 @@ self.addEventListener('fetch',event=>{
             await cache.put(new URL('./index.html',self.registration.scope).href,response.clone());
           }else if(pathname.endsWith('/mobile-v2.html')){
             await cache.put(new URL('./mobile-v2.html',self.registration.scope).href,response.clone());
+          }else if(pathname.endsWith('/webos-tv.html')){
+            await cache.put(new URL('./webos-tv.html',self.registration.scope).href,response.clone());
           }
         }
         return response;
@@ -261,6 +264,10 @@ self.addEventListener('fetch',event=>{
         if(pathname.endsWith('/mobile-v2.html')){
           const mobile=await cache.match(new URL('./mobile-v2.html',self.registration.scope).href);
           if(mobile)return mobile;
+        }
+        if(pathname.endsWith('/webos-tv.html')){
+          const tv=await cache.match(new URL('./webos-tv.html',self.registration.scope).href);
+          if(tv)return tv;
         }
         return (await cache.match(new URL('./index.html',self.registration.scope).href))||Response.error();
       }
