@@ -11,6 +11,8 @@ const SHELL_ASSETS=[
   './index.html',
   './mobile-v2.html',
   './webos-tv.html',
+  './schoolbook.html',
+  './schoolbook_curriculum.json',
   './manifest-mobile-v2.webmanifest',
   './version.js',
   './manifest.webmanifest',
@@ -254,6 +256,8 @@ self.addEventListener('fetch',event=>{
             await cache.put(new URL('./mobile-v2.html',self.registration.scope).href,response.clone());
           }else if(pathname.endsWith('/webos-tv.html')){
             await cache.put(new URL('./webos-tv.html',self.registration.scope).href,response.clone());
+          }else if(pathname.endsWith('/schoolbook.html')){
+            await cache.put(new URL('./schoolbook.html',self.registration.scope).href,response.clone());
           }
         }
         return response;
@@ -268,6 +272,10 @@ self.addEventListener('fetch',event=>{
         if(pathname.endsWith('/webos-tv.html')){
           const tv=await cache.match(new URL('./webos-tv.html',self.registration.scope).href);
           if(tv)return tv;
+        }
+        if(pathname.endsWith('/schoolbook.html')){
+          const schoolbook=await cache.match(new URL('./schoolbook.html',self.registration.scope).href);
+          if(schoolbook)return schoolbook;
         }
         return (await cache.match(new URL('./index.html',self.registration.scope).href))||Response.error();
       }
