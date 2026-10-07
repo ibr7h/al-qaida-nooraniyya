@@ -2522,8 +2522,8 @@
         <div class="offline-summary">
           <span class="offline-summary-icon" id="offline-status-icon">☁️</span>
           <div class="offline-summary-copy">
-            <b id="offline-status-title">فحص جاهزية الدرس دون إنترنت…</b>
-            <small id="offline-status-text">يتم التحقق من الملفات المحفوظة على هذا الجهاز.</small>
+            <b id="offline-status-title">فحص جاهزية التحميل على webOS TV…</b>
+            <small id="offline-status-text">يمكن تحميل الدرس أثناء جلسة التلفزيون. قد لا يحتفظ webOS بالملفات بعد إغلاق المتصفح.</small>
           </div>
         </div>
         <div class="offline-actions">
@@ -4142,20 +4142,6 @@
         const audioCount=lessonAudioFiles(lesson).length;
         const assets=lessonOfflineAssets(lesson);
 
-        if(IS_WEBOS_TV){
-          setOfflineStatus({
-            state:'none',
-            icon:'📺',
-            title:'وضع webOS TV — تشغيل مباشر',
-            text:'على تلفاز LG يتم تشغيل الأصوات والصور مباشرة من الإنترنت. الحفظ الدائم للملفات دون إنترنت غير مدعوم بشكل موثوق.'
-          });
-          if(downloadLessonBtn)downloadLessonBtn.style.display='none';
-          if(downloadAllBtn)downloadAllBtn.style.display='none';
-          if(cancelDownloadBtn)cancelDownloadBtn.style.display='none';
-          if(offlineProgress)offlineProgress.hidden=true;
-          return;
-        }
-
         if(!('caches'in window)){
           setOfflineStatus({
             state:'none',
@@ -4227,7 +4213,11 @@
 
         if(await cache.match(url))return;
 
-        const response=await fetch(new Request(url,{cache:'reload',signal}));
+        const requestOptions={cache:'reload'};
+        if(typeof AbortController!=='undefined'&&signal&&typeof signal.addEventListener==='function'){
+          requestOptions.signal=signal;
+        }
+        const response=await fetch(new Request(url,requestOptions));
         if(!response.ok)throw new Error('HTTP '+response.status+' '+asset.path);
         await cache.put(url,response.clone());
       }
@@ -4246,7 +4236,10 @@
 
         try{if(navigator.storage&&navigator.storage.persist)await navigator.storage.persist();}catch{}
 
-        offlineDownloadController=new AbortController();
+        const nativeAbortController=typeof AbortController!=='undefined';
+        offlineDownloadController=nativeAbortController
+          ? new AbortController()
+          : {signal:{aborted:false},abort:function(){this.signal.aborted=true;}};
         const signal=offlineDownloadController.signal;
         let nextIndex=0,completed=0,failed=0;
         const total=assets.length;
@@ -4288,7 +4281,7 @@
         }
 
         try{
-          const concurrency=Math.min(4,total);
+          const concurrency=IS_WEBOS_TV?1:Math.min(4,total);
           await Promise.all(Array.from({length:concurrency},()=>worker()));
 
           if(signal.aborted){
@@ -4310,7 +4303,9 @@
               state:'complete',
               icon:'✅',
               title:'اكتمل تحميل '+label,
-              text:'أصبح المحتوى المحمّل متاحًا دون اتصال بالإنترنت.'
+              text:IS_WEBOS_TV
+                ? 'اكتمل التحميل لهذه الجلسة. قد يحتاج التلفزيون إلى إعادة تنزيل الملفات بعد إغلاق المتصفح أو التطبيق.'
+                : 'أصبح المحتوى المحمّل متاحًا دون اتصال بالإنترنت.'
             });
           }
         }finally{
@@ -4583,7 +4578,7 @@
             updateSplashFromWorker(data);
           });
 
-          swRegistration=await navigator.serviceWorker.register('./sw.js',{updateViaCache:'none'});
+          swRegistration=await navigator.serviceWorker.register('./sw.js');
 
           swRegistration.addEventListener('updatefound',()=>{
             const worker=swRegistration.installing;
