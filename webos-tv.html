@@ -2395,8 +2395,13 @@
 
   
     html.webos-tv body { cursor: default; }
-    html.webos-tv .offline-actions { display:none !important; }
-    html.webos-tv #offline-progress { display:none !important; }
+    html.webos-tv .offline-actions { display:grid !important; }
+    html.webos-tv #offline-progress:not([hidden]) { display:block !important; }
+    html.webos-tv .offline-btn {
+      min-height: 52px;
+      font-size: 1rem;
+      padding: 10px 14px;
+    }
   </style>
 </head>
 <body>
@@ -2528,7 +2533,7 @@
         </div>
         <div class="offline-actions">
           <button type="button" class="offline-btn primary" id="download-lesson-btn">⬇️ تحميل هذا الدرس</button>
-          <button type="button" class="offline-btn secondary" id="download-all-btn">📚 تحميل جميع الأصوات</button>
+          <button type="button" class="offline-btn secondary" id="download-all-btn">📚 تحميل جميع الأصوات (1321)</button>
           <button type="button" class="offline-btn cancel" id="cancel-download-btn" hidden>إلغاء</button>
         </div>
         <div class="offline-progress" id="offline-progress" hidden>
@@ -4329,26 +4334,15 @@
           ? uniqueStrings(audioManifest)
           : uniqueStrings(allLessons.reduce((acc,lesson)=>acc.concat(lessonAudioFiles(lesson)),[]));
 
-        const imagePaths=uniqueStrings(
-          allLessons.reduce((acc,lesson)=>acc.concat(lessonImageFiles(lesson)),[])
-        );
-
-        const assets=[
-          ...audioNames.map(name=>({
-            path:'assets/audio/'+name,
-            cacheName:OFFLINE_AUDIO_CACHE,
-            kind:'audio'
-          })),
-          ...imagePaths.map(path=>({
-            path,
-            cacheName:OFFLINE_MEDIA_CACHE,
-            kind:'image'
-          }))
-        ];
+        const assets=audioNames.map(name=>({
+          path:'assets/audio/'+name,
+          cacheName:OFFLINE_AUDIO_CACHE,
+          kind:'audio'
+        }));
 
         await downloadOfflineAssets(
           assets,
-          'جميع الدروس'
+          'جميع الأصوات ('+assets.length+' ملف)'
         );
       }
 
